@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Beacon is an open standard for genomics data discovery, developed by members of the Global Alliance for Genomics & Health">
+    <meta name="keywords" content="genomics, cloud, Beacon, DNA, sharing">
+    <meta name="application-name" content="Beacon">
+    <meta property="og:title" content="Beacon">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/social/og_image.png">
+    <meta property="og:description" content="Beacon is an open standard for genomics data discovery, developed by members of the Global Alliance for Genomics & Health">
+    <meta name="twitter:image" content="https://dnastack.com/assets/images/twitter-image.png">
+    <meta name="twitter:image:alt" content="Beacon is an open standard for genomics data discovery, developed by members of the Global Alliance for Genomics & Health">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@BeaconOfBeacons">
+    <meta name="twitter:title" content="Beacon website">
+    <meta name="twitter:description" content="Beacon is an open standard for genomics data discovery, developed by members of the Global Alliance for Genomics & Health">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/toast.css">
+
+</head>
+
+<body>
+    <div ds-scroll="">
+        {% include header.html %}
+        <div ui-view="" class="container-fluid">
+          <div class="mx-width clearfix p-v-xxl">
+          {{ content }}
+        </div>
+        </div>
+        {% include footer.html %}
+    </div>
+    <script src="scripts/vendor-f5a2baf215.js"></script>
+    <script src="scripts/app-84e0ff76f9.js"></script>
+</body>
+
+</html>

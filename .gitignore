@@ -1,0 +1,7 @@
+.DS_Store
+.jekyll-metadata
+.ruby-gemset
+.ruby-version
+.sass-cache
+_site/
+tmp/*
