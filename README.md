@@ -8,7 +8,7 @@ For more information see the [ELIXIR website](https://www.elixir-europe.org/abou
 - [ ] Make .md pages for rest of site and import content
 - [ ] Review Javascript - remove the angular js file?
 - [ ] Create SASS files and directory?
-- [ ] Check fontawesome integration
+- [x] Check fontawesome integration
 - [ ] Check for errors in the console
 - [ ] Check responsiveness, including mobile menu
 - [ ] Use posts for news?
