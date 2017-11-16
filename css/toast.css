@@ -5286,4 +5286,31 @@ div.rn-carousel-indicator span.active {
 .rn-carousel-control.rn-carousel-control-next:before {
     content: ">"
 }
+
+.tiles {
+  padding-left: 0;
+  margin-left: 0;
+  overflow: hidden;
+}
+.tiles li {
+  list-style-type: none;
+  display: block;
+  padding-left: 0;
+  margin-bottom: 1em;
+}
+.tiles img {
+  border: 1px solid #d6d6d6;
+}
+
+@media only screen and (min-width: 500px) {
+  .tiles {
+    overflow: hidden;
+  }
+  .tiles li {
+    float: left;
+    width: 25%;
+  }
+}
+
+
 /*# sourceMappingURL=../maps/styles/vendor-a7c4e69c06.css.map */

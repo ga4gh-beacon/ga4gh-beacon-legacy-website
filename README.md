@@ -12,3 +12,4 @@ For more information see the [ELIXIR website](https://www.elixir-europe.org/abou
 - [ ] Check for errors in the console
 - [ ] Check responsiveness, including mobile menu
 - [ ] Use posts for news?
+- [ ] Create JSON file for Chairs (find out who they are)
