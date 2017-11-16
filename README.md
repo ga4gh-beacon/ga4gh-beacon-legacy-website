@@ -13,3 +13,4 @@ For more information see the [ELIXIR website](https://www.elixir-europe.org/abou
 - [ ] Check responsiveness, including mobile menu
 - [ ] Use posts for news?
 - [ ] Create JSON file for Chairs (find out who they are)
+- [ ] Add developers (as JSON in _data)
