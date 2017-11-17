@@ -6,7 +6,7 @@ For more information see the [ELIXIR website](https://www.elixir-europe.org/abou
 
 ## To do
 - [x] Make .md pages for rest of site and import content
-- [ ] Review Javascript - remove the angular js file?
+- [ ] Review Javascript - remove unnecessary js
 - [ ] Create SASS files and directory?
 - [x] Check fontawesome integration
 - [ ] Use Font Awesome CDN instead?
