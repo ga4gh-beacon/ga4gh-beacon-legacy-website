@@ -5,12 +5,14 @@ This is the working code for the ELIXIR Beacon Project website. ELIXIR Beacons p
 For more information see the [ELIXIR website](https://www.elixir-europe.org/about-us/implementation-studies/beacons).
 
 ## To do
-- [ ] Make .md pages for rest of site and import content
+- [x] Make .md pages for rest of site and import content
 - [ ] Review Javascript - remove the angular js file?
 - [ ] Create SASS files and directory?
 - [x] Check fontawesome integration
-- [ ] Check for errors in the console
+- [ ] Use Font Awesome CDN instead?
+- [x] Check for errors in the console
 - [ ] Check responsiveness, including mobile menu
-- [ ] Use posts for news?
+- [ ] Use posts for news and events?
 - [ ] Create JSON file for Chairs (find out who they are)
 - [ ] Do we need a 'Developers' page? (There is `developers.json` in `_data` in case.)
+- [ ] Rename 'News' 'News & Events'?
