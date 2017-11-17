@@ -16,3 +16,4 @@ For more information see the [ELIXIR website](https://www.elixir-europe.org/abou
 - [ ] Create JSON file for Chairs (find out who they are)
 - [ ] Do we need a 'Developers' page? (There is `developers.json` in `_data` in case.)
 - [ ] Rename 'News' 'News & Events'?
+- [ ] Add footer contact and Twitter info
