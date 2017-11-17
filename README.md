@@ -10,7 +10,7 @@ For more information see the [ELIXIR website](https://www.elixir-europe.org/abou
 - [ ] Create SASS files and directory?
 - [x] Check fontawesome integration
 - [ ] Use Font Awesome CDN instead?
-- [x] Check for errors in the console
+- [ ] Check for errors in the console and terminal (on file generation)
 - [ ] Check responsiveness, including mobile menu
 - [ ] Use posts for news and events?
 - [ ] Create JSON file for Chairs (find out who they are)
