@@ -1,3 +1,4 @@
-name: Beacon website
+name: Beacon
+type: website
 description: Beacon is an open standard for genomics data discovery, developed by members of the Global Alliance for Genomics & Health
 keywords: genomics, cloud, Beacon, DNA, sharing, ELIXIR, GA4GH
