@@ -1,217 +1,260 @@
- [
-      {
-        "id": "member-nr",
-        "name": "Rishi Nag",
-        "credentials": "PhD.",
-        "imageSrc": "assets/images/team/rnag.jpg",
-        "title": "",
-        "description" :
-          [
-            "bla bla bla",
+[
+  {
+    "id": "member-ss",
+    "name": "Serena Scollen",
+    "credentials": "PhD.",
+    "imageSrc": "assets/images/team/sscollen.jpg",
+    "title": "",
+    "description" :
+      [
+        "bla bla bla",
 
-            "bla bla bla"
-          ],
-        "node": "assets/images/UK.png",
-        "linkedIn" : "",
-        "iscoordinator": 1
+        "bla bla bla"
+      ],
+    "node": "assets/images/UK.png",
+    "linkedIn" : "",
+    "ischair": 1
 
-      }, 
-      {
-        "id": "member-ss",
-        "name": "Serena Scollen",
-        "credentials": "PhD.",
-        "imageSrc": "assets/images/team/sscollen.jpg",
-        "title": "",
-        "description" :
-          [
-            "bla bla bla",
+  },
+  {
+    "id": "member-sv",
+    "name": "Susheel Varma",
+    "credentials": "PhD.",
+    "imageSrc": "assets/images/team/login.jpg",
+    "title": "",
+    "description" :
+      [
+        "bla bla bla",
 
-            "bla bla bla"
-          ],
-        "node": "assets/images/UK.png",
-        "linkedIn" : "",
-        "ischair": 1
+        "bla bla bla"
+      ],
+    "node": "assets/images/UK.png",
+    "linkedIn" : "",
+    "iscoordinator": 1
 
-      },
-      {
-        "id": "member-mf",
-        "name": "Marc Fiume",
-        "credentials": "PhD.",
-        "imageSrc": "assets/images/team/mfiume.jpg",
-        "title": "",
-        "description" :
-          [
-            "bla bla bla",
+  },
+  { 
+    "id": "member-mb",
+    "name": "Michael Baudis",
+    "credentials": "PhD.",
+    "imageSrc": "assets/images/team/mbaudis.jpg",
+    "title": "",
+    "description" :
+      [
+        "bla bla bla",
 
-            "bla bla bla"
-          ],
-        "node": "assets/images/Canada.png",
-        "linkedIn" : "",
-        "ischair": 1
-      },     
-      { 
-        "id": "member-il",
-        "name": "Ilkka Lappalainen",
-        "credentials": "PhD.",
-        "imageSrc": "assets/images/team/ilappalainen.jpg",
-        "title": "",
-        "description" :
-          [
-            "bla bla bla",
+        "bla bla bla"
+      ],
+    "node": "assets/images/Switzerland.png",
+    "linkedIn" : "",
+    "ischair": 1
+  }, 
+  {
+    "id": "member-mf",
+    "name": "Marc Fiume",
+    "credentials": "PhD.",
+    "imageSrc": "assets/images/team/mfiume.jpg",
+    "title": "",
+    "description" :
+      [
+        "bla bla bla",
 
-            "bla bla bla"
-          ],
-        "linkedIn" : "",
-        "node": "assets/images/UK.png"
-      }, 
-      { 
-        "id": "member-jr",
-        "name": "Jordi Rambla",
-        "credentials": "PhD.",
-        "imageSrc": "assets/images/team/jrambla.jpg",
-        "title": "",
-        "description" :
-          [
-            "bla bla bla",
+        "bla bla bla"
+      ],
+    "node": "assets/images/Canada.png",
+    "linkedIn" : "",
+    "ischair": 1
+  },     
+  { 
+    "id": "member-il",
+    "name": "Ilkka Lappalainen",
+    "credentials": "PhD.",
+    "imageSrc": "assets/images/team/ilappalainen.jpg",
+    "title": "",
+    "description" :
+      [
+        "bla bla bla",
 
-            "bla bla bla"
-          ],
-        "node": "assets/images/Spain.png",
-        "linkedIn" : ""
-      },
-      { 
-        "id": "member-bp",
-        "name": "Bengt Persson",
-        "credentials": "PhD.",
-        "imageSrc": "assets/images/team/bpersson.jpg",
-        "title": "",
-        "description" :
-          [
-            "bla bla bla",
+        "bla bla bla"
+      ],
+    "linkedIn" : "",
+    "node": "assets/images/Finlang.png",
+    "ischair": 1
+  }, 
+  { 
+    "id": "member-jr",
+    "name": "Jordi Rambla",
+    "credentials": "PhD.",
+    "imageSrc": "assets/images/team/jrambla.jpg",
+    "title": "",
+    "description" :
+      [
+        "bla bla bla",
 
-            "bla bla bla"
-          ],
-          "node": "assets/images/Sweden.png",
-        "linkedIn" : ""
-      },
-      { 
-        "id": "member-ds",
-        "name": "Dylan Spalding",
-        "credentials": "PhD.",
-        "imageSrc": "assets/images/team/dspalding.jpg",
-        "title": "",
-        "description" :
-          [
-            "bla bla bla",
+        "bla bla bla"
+      ],
+    "node": "assets/images/Spain.png",
+    "linkedIn" : "",
+    "ischair": 1
+  },
+  {
+    "id": "member-dl",
+    "name": "David Lloyd",
+    "credentials": "",
+    "imageSrc": "assets/images/team/login.jpg",
+    "title": "",
+    "description" :
+      [
+        "bla bla bla",
 
-            "bla bla bla"
-          ],
-        "node": "assets/images/UK.png",
-        "linkedIn" : ""
-      },
-      { 
-        "id": "member-nj",
-        "name": "Niclas Jareborg",
-        "credentials": "PhD.",
-        "imageSrc": "assets/images/team/njareborg.jpg",
-        "title": "",
-        "description" :
-          [
-            "bla bla bla",
+        "bla bla bla"
+      ],
+    "node": "assets/images/UK.png",
+    "linkedIn" : "",
+    "iscoordinator": 1
 
-            "bla bla bla"
-          ],
-        "node": "assets/images/Sweden.png",
-        "linkedIn" : ""
-      },
-      { 
-        "id": "member-ml",
-        "name": "Mikael Linden",
-        "credentials": "PhD.",
-        "imageSrc": "assets/images/team/mlinden.jpg",
-        "title": "",
-        "description" :
-          [
-            "bla bla bla",
+  },
+  { 
+    "id": "member-bp",
+    "name": "Dylan Spalding",
+    "credentials": "PhD.",
+    "imageSrc": "assets/images/team/dspalding.jpg",
+    "title": "",
+    "description" :
+      [
+        "bla bla bla",
 
-            "bla bla bla"
-          ],
-        "node": "assets/images/Finland.png",
-        "linkedIn" : ""
-      },
-      { 
-        "id": "member-tn",
-        "name": "Tommi Nyrönen",
-        "credentials": "PhD.",
-        "imageSrc": "assets/images/team/tnyronen.jpg",
-        "title": "",
-        "description" :
-          [
-            "bla bla bla",
+        "bla bla bla"
+      ],
+    "linkedIn" : "",
+    "node": "assets/images/UK.png"
+  },
+  { 
+    "id": "member-bp",
+    "name": "Knox Carey",
+    "credentials": "PhD.",
+    "imageSrc": "assets/images/team/login.jpg",
+    "title": "",
+    "description" :
+      [
+        "bla bla bla",
 
-            "bla bla bla"
-          ],
-        "node": "assets/images/Finland.png", 
-        "linkedIn" : ""
-      },
-      { 
-        "id": "member-mb",
-        "name": "Michael Baudis",
-        "credentials": "PhD.",
-        "imageSrc": "assets/images/team/mbaudis.jpg",
-        "title": "",
-        "description" :
-          [
-            "bla bla bla",
+        "bla bla bla"
+      ],
+    "linkedIn" : ""
+  },
+  { 
+    "id": "member-bp",
+    "name": "Anthony Brookes",
+    "credentials": "PhD.",
+    "imageSrc": "assets/images/team/login.jpg",
+    "title": "",
+    "description" :
+      [
+        "bla bla bla",
 
-            "bla bla bla"
-          ],
-        "node": "assets/images/Switzerland.png",
-        "linkedIn" : ""
-      },
-      { 
-        "id": "member-ms",
-        "name": "Morris Swertz",
-        "credentials": "PhD.",
-        "imageSrc": "assets/images/team/mswertz.jpg",
-        "title": "",
-        "description" :
-          [
-            "bla bla bla",
+        "bla bla bla"
+      ],
+    "linkedIn" : "",
+    "node": "assets/images/UK.png"
+  },
+  { 
+    "id": "member-bp",
+    "name": "Stephanie Dyke",
+    "credentials": "PhD.",
+    "imageSrc": "assets/images/team/login.jpg",
+    "title": "",
+    "description" :
+      [
+        "bla bla bla",
 
-            "bla bla bla"
-          ],
-        "node": "assets/images/Switzerland.png",
-        "linkedIn" : ""
-      },
-      { 
-        "id": "member-jl",
-        "name": "Jarno Laitinen",
-        "credentials": "PhD.",
-        "imageSrc": "assets/images/team/login.jpg",
-        "title": "",
-        "description" :
-          [
-            "bla bla bla",
+        "bla bla bla"
+      ],
+    "linkedIn" : ""
+  },
+  { 
+    "id": "member-bp",
+    "name": "Aurélien Barré",
+    "credentials": "PhD.",
+    "imageSrc": "assets/images/team/login.jpg",
+    "title": "",
+    "description" :
+      [
+        "bla bla bla",
 
-            "bla bla bla"
-          ],
-        "node": "assets/images/Finland.png", 
-        "linkedIn" : ""
-      },
-       { 
-        "id": "member-mn",
-        "name": "Macha Nikolski",
-        "credentials": "PhD.",
-        "imageSrc": "assets/images/team/login.jpg",
-        "title": "",
-        "description" :
-          [
-            "bla bla bla",
+        "bla bla bla"
+      ],
+    "linkedIn" : ""
+  },
+  {
+    "id": "member-nr",
+    "name": "Rishi Nag",
+    "credentials": "PhD.",
+    "imageSrc": "assets/images/team/rnag.jpg",
+    "title": "",
+    "description" :
+      [
+        "bla bla bla",
 
-            "bla bla bla"
-          ],
-        "node": "assets/images/France.png",
-        "linkedIn" : ""
-      }
-    ]
+        "bla bla bla"
+      ],
+    "node": "assets/images/UK.png",
+    "linkedIn" : "",
+    "iscoordinator": 1
+  },
+  {
+		"id": "member-mc",
+		"name": "Miro Cupak",
+		"credentials": "MSc.",
+		"title": "Senior Engineer",
+		"imageSrc": "assets/images/team/mcupak.jpg",
+		"description": [
+			"Miroslav received his Master's in Informatics from Masaryk University, where he developed           a massively scalable, distributed database for genetic mutations. His expertise includes           distributed systems, middleware, and quality assurance. Miroslav is a senior engineer at           DNAstack and leads technical initiatives for the Beacon Project as part of the Global           Alliance for Genomics & Health."
+		],
+		"linkedIn": "https://ca.linkedin.com/in/miro-cupak-958ba0103"
+	},
+	{
+		"id": "member-jt",
+		"name": "Juha Törnroos",
+		"credentials": "MSc.",
+		"imageSrc": "assets/images/team/login.jpg",
+		"title": "Senior Software Developer",
+		"description": [
+
+		],
+		"linkedIn": ""
+	},
+	{
+		"id": "member-sdt",
+		"name": "Sabela de la Torre",
+		"credentials": "MSc.",
+		"imageSrc": "assets/images/team/login.jpg",
+		"title": "Technical Developer",
+		"description": [
+
+		],
+		"linkedIn": ""
+	},
+	{
+		"id": "member-md",
+		"name": "Marc Duby",
+		"credentials": "",
+		"imageSrc": "assets/images/team/login.jpg",
+		"title": "Technical Developer",
+		"description": [
+
+		],
+		"linkedIn": ""
+	},
+	{
+		"id": "member-sur",
+		"name": "Saif Ur-Rehman",
+		"credentials": "",
+		"imageSrc": "assets/images/team/login.jpg",
+		"title": "Technical Developer",
+		"description": [
+
+		],
+		"linkedIn": ""
+	}
+]

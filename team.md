@@ -5,22 +5,8 @@ layout: default
 <img src="assets/images/PeopleNetwork.jpg" width="400" height="200" alt="Illustration of a network of people" />
 The Beacon Project involves...
 
-# ELIXIR Nodes
-
-<!-- If you want to add or edit a Node, go to _data/nodes.json -->
-<ul class="tiles">
-{% for node in site.data.nodes %}
-  <li>
-    <a href="{{ node.url }}">
-      <img src="{{ node.imageSrc }}" alt="{{ node.id }}" width="150"/>
-    </a><br />
-    <a href="{{ node.url }}">{{ node.id }}</a>
-  </li>
-{% endfor %}
-</ul>
-
 # Chairs
-Who are they?
+Who are they? What do they want from us? :)
 
 # Members
 <!-- If you want to add or edit a member, go to _data/nodes.json -->
