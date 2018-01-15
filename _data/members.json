@@ -20,7 +20,7 @@
     "id": "member-sv",
     "name": "Susheel Varma",
     "credentials": "PhD.",
-    "imageSrc": "assets/images/team/login.jpg",
+    "imageSrc": "assets/images/team/svarma.jpg",
     "title": "",
     "description" :
       [
@@ -101,7 +101,7 @@
     "id": "member-dl",
     "name": "David Lloyd",
     "credentials": "",
-    "imageSrc": "assets/images/team/login.jpg",
+    "imageSrc": "assets/images/team/dlloyd.jpg",
     "title": "",
     "description" :
       [
@@ -133,7 +133,7 @@
     "id": "member-bp",
     "name": "Knox Carey",
     "credentials": "PhD.",
-    "imageSrc": "assets/images/team/login.jpg",
+    "imageSrc": "assets/images/team/kcarey.jpg",
     "title": "",
     "description" :
       [
@@ -147,7 +147,7 @@
     "id": "member-bp",
     "name": "Anthony Brookes",
     "credentials": "PhD.",
-    "imageSrc": "assets/images/team/login.jpg",
+    "imageSrc": "assets/images/team/abrookes.jpg",
     "title": "",
     "description" :
       [
@@ -162,7 +162,7 @@
     "id": "member-bp",
     "name": "Stephanie Dyke",
     "credentials": "PhD.",
-    "imageSrc": "assets/images/team/login.jpg",
+    "imageSrc": "assets/images/team/sdyke.jpg",
     "title": "",
     "description" :
       [
@@ -217,7 +217,7 @@
 		"id": "member-jt",
 		"name": "Juha Törnroos",
 		"credentials": "MSc.",
-		"imageSrc": "assets/images/team/login.jpg",
+		"imageSrc": "assets/images/team/jtornroos.jpg",
 		"title": "Senior Software Developer",
 		"description": [
 
@@ -228,7 +228,7 @@
 		"id": "member-sdt",
 		"name": "Sabela de la Torre",
 		"credentials": "MSc.",
-		"imageSrc": "assets/images/team/login.jpg",
+		"imageSrc": "assets/images/team/sdelatorre.jpg",
 		"title": "Technical Developer",
 		"description": [
 
@@ -250,7 +250,7 @@
 		"id": "member-sur",
 		"name": "Saif Ur-Rehman",
 		"credentials": "",
-		"imageSrc": "assets/images/team/login.jpg",
+		"imageSrc": "assets/images/team/surrehman.jpg",
 		"title": "Technical Developer",
 		"description": [
 

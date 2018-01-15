@@ -14,7 +14,7 @@
 		"id": "member-jt",
 		"name": "Juha Törnroos",
 		"credentials": "MSc.",
-		"imageSrc": "assets/images/team/login.jpg",
+		"imageSrc": "assets/images/team/jtornroos.jpg",
 		"title": "Senior Software Developer",
 		"description": [
 
@@ -25,11 +25,20 @@
 		"id": "member-sdt",
 		"name": "Sabela de la Torre",
 		"credentials": "MSc.",
-		"imageSrc": "assets/images/team/login.jpg",
+		"imageSrc": "assets/images/team/sdelatorre.jpg",
 		"title": "Technical Developer",
 		"description": [
 
 		],
+		"linkedIn": ""
+	},
+	{
+		"id": "member-sur",
+		"name": "Saif Ur-Rehman",
+		"credentials": "",
+		"imageSrc": "assets/images/team/surrehman.jpg",
+		"title": "Technical Developer",
+		"description": [],
 		"linkedIn": ""
 	},
 	{
@@ -42,16 +51,5 @@
 
 		],
 		"linkedIn": ""
-	},
-	{
-		"id": "member-sur",
-		"name": "Saif Ur-Rehman",
-		"credentials": "",
-		"imageSrc": "assets/images/team/login.jpg",
-		"title": "Technical Developer",
-		"description": [
-
-		],
-		"linkedIn": ""
-	},
+	}
 ]
