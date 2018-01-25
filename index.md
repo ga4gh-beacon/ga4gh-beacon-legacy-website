@@ -3,21 +3,28 @@ title: Home | Beacon Project
 layout: home
 ---
 
-Beacon is an open standard for genomics data discovery, developed by members of the [Global Alliance for Genomics &amp; Health](http://genomicsandhealth.org).
+The _Beacon_ protocol provides an open standard for genomics data discovery, developed by members of the [Global Alliance for Genomics &amp; Health](http://genomicsandhealth.org). It represents a protocol for simple public web services, reponding to queries against aggregated, anonymous genome data, for instance from population based or disease specific genome repositories.
 
-The Beacon project is a project to test the willingness of international sites to share genetic data in the simplest of all technical contexts. It is defined as a simple public web service that any institution can implement as a service.
-
-The service is designed merely to accept a query of the form "Do you have any genomes with an 'A' at position 100,735 on chromosome 3" (or similar data) and responds with one of "Yes" or "No." A site offering this service is called a "beacon".
-
-This open web service is designed to be technically simple, easy to implement, and to not return privacy violating information.
-
-The Beacon protocol was designed to be :
+The beacon protocol has been designed to be:
 
 * Simple
-* Federated : maintained by individual organizations and assembled into a network.
-* General-purpose : used to distribute any allelic dataset.
-* Aggregative : provide a boolean answer to whether an allele was observed.
+  * focus on robustness and easy implementation
+* Federated
+  * maintained by individual organizations and assembled into a network
+* General-purpose
+  * used to distribute any allelic dataset
+* Aggregative
+  * provide a boolean answer to whether an allele was observed
+* Privacy protecting
+  * queries do not return information about individual datasets
 
+The initial version of the _Beacon_ protocol had been developed to test the willingness and ability of international genome resources to share genomic data in a highly simplistic context. The service was designed to accept specific queries in the form "Do you have any genomes with an 'A' at position 100735 on chromosome 3" and responds with "Yes" or "No."
+
+A site offering this service is called a _beacon_. Such sites can scale through aggregation in the [Beacon Network](http://becon-netwotk.org), which distributes single genome queries a large number of international _beacons_ and assembles their responses.
+
+ Recent and future versions of the _Beacon_ protocol expand the original concept by providing a framework for querying other types of genome variation data and also options for quantitative responses.
+
+ Since 2016, a substantial part of the development of the _Beacon_ protocol has been provided through the _ELIXIR Beacon_ project, a (GA4GH driver project)[https://www.ga4gh.org/howwework/driver-projects.html], with ongoing partizipation from the  (DNAstack)[https://dnastack.com] team.
 
 <!--
 You can use HTML elements in Markdown, such as the comment element, and they won't be affected by a markdown parser. However, if you create an HTML element in your markdown file, you cannot use markdown syntax within that element's contents.

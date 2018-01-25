@@ -4,7 +4,7 @@
     "name": "Serena Scollen",
     "credentials": "PhD.",
     "imageSrc": "assets/images/team/sscollen.jpg",
-    "title": "",
+    "title": "Co-lead Elixir Beacon project",
     "description" :
       [
         "bla bla bla",
@@ -33,12 +33,12 @@
     "iscoordinator": 1
 
   },
-  { 
+  {
     "id": "member-mb",
     "name": "Michael Baudis",
-    "credentials": "PhD.",
+    "credentials": "Dr. med.",
     "imageSrc": "assets/images/team/mbaudis.jpg",
-    "title": "",
+    "title": "Co-lead Elixir Beacon project",
     "description" :
       [
         "bla bla bla",
@@ -48,7 +48,7 @@
     "node": "assets/images/Switzerland.png",
     "linkedIn" : "",
     "ischair": 1
-  }, 
+  },
   {
     "id": "member-mf",
     "name": "Marc Fiume",
@@ -64,13 +64,13 @@
     "node": "assets/images/Canada.png",
     "linkedIn" : "",
     "ischair": 1
-  },     
-  { 
+  },
+  {
     "id": "member-il",
     "name": "Ilkka Lappalainen",
     "credentials": "PhD.",
     "imageSrc": "assets/images/team/ilappalainen.jpg",
-    "title": "",
+    "title": "Co-lead Elixir Beacon project",
     "description" :
       [
         "bla bla bla",
@@ -78,10 +78,10 @@
         "bla bla bla"
       ],
     "linkedIn" : "",
-    "node": "assets/images/Finlang.png",
+    "node": "assets/images/Finland.png",
     "ischair": 1
-  }, 
-  { 
+  },
+  {
     "id": "member-jr",
     "name": "Jordi Rambla",
     "credentials": "PhD.",
@@ -114,7 +114,7 @@
     "iscoordinator": 1
 
   },
-  { 
+  {
     "id": "member-bp",
     "name": "Dylan Spalding",
     "credentials": "PhD.",
@@ -129,7 +129,7 @@
     "linkedIn" : "",
     "node": "assets/images/UK.png"
   },
-  { 
+  {
     "id": "member-bp",
     "name": "Knox Carey",
     "credentials": "PhD.",
@@ -143,7 +143,7 @@
       ],
     "linkedIn" : ""
   },
-  { 
+  {
     "id": "member-bp",
     "name": "Anthony Brookes",
     "credentials": "PhD.",
@@ -158,7 +158,7 @@
     "linkedIn" : "",
     "node": "assets/images/UK.png"
   },
-  { 
+  {
     "id": "member-bp",
     "name": "Stephanie Dyke",
     "credentials": "PhD.",
@@ -172,7 +172,7 @@
       ],
     "linkedIn" : ""
   },
-  { 
+  {
     "id": "member-bp",
     "name": "Aurélien Barré",
     "credentials": "PhD.",
