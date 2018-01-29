@@ -5,8 +5,8 @@ layout: default
 
 # Releases
 
-* Beacon (v0.4.0 release)[https://github.com/ga4gh/beacon-team/releases/tag/v0.4.0] (2018-01-24)
-* Beacon (v0.3.0 release)[https://github.com/ga4gh/beacon-team/releases/tag/v0.3.0] (2016-05-31)
+* Beacon [v0.4.0 release](https://github.com/ga4gh/beacon-team/releases/tag/v0.4.0) (2018-01-24)
+* Beacon [v0.3.0 release](https://github.com/ga4gh/beacon-team/releases/tag/v0.3.0) (2016-05-31)
 
 # Beacon FAQs
 
