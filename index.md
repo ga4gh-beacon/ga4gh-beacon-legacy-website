@@ -24,7 +24,7 @@ A site offering this service is called a _beacon_. Such sites can scale through 
 
  Recent and future versions of the _Beacon_ protocol expand the original concept by providing a framework for querying other types of genome variation data and also options for quantitative responses.
 
- Since 2016, a substantial part of the development of the _Beacon_ protocol has been provided through the _ELIXIR Beacon_ project, a (GA4GH driver project)[https://www.ga4gh.org/howwework/driver-projects.html], with ongoing participation from the  (DNAstack)[https://dnastack.com] team.
+ Since 2016, a substantial part of the development of the _Beacon_ protocol has been provided through the _ELIXIR Beacon_ project, a [GA4GH driver project](https://www.ga4gh.org/howwework/driver-projects.html), with ongoing participation from the  [DNAstack](https://dnastack.com) team.
 
 <!--
 You can use HTML elements in Markdown, such as the comment element, and they won't be affected by a markdown parser. However, if you create an HTML element in your markdown file, you cannot use markdown syntax within that element's contents.
