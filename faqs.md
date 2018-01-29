@@ -3,6 +3,11 @@ title: Developers | Beacon Project
 layout: default
 ---
 
+# Releases
+
+* Beacon (v0.4.0 release)[https://github.com/ga4gh/beacon-team/releases/tag/v0.4.0] (2018-01-24)
+* Beacon (v0.3.0 release)[https://github.com/ga4gh/beacon-team/releases/tag/v0.3.0] (2016-05-31)
+
 # Beacon FAQs
 
 ## What is a “Beacon” and what type of personal information does it contain?
@@ -27,7 +32,7 @@ In current medical practice, doctors commonly share basic, de-identified informa
 
 Since much of that information is currently collected and held in silos, researchers lack the broad-scale ability to know whether similar data exist that could provide important learning when combined with their own data.
 
-The Beacon Project was created both to test the willingness of organizations to share at the most basic, yes/no level, and also to allow researchers to understand if a specific allele exists in other data sets. Now that a Beacon Network has been created, researchers have the ability to discover valuable information within organizations that have lit Beacons. This is often a needed first step to aggregate and learn from large scale genomic data. 
+The Beacon Project was created both to test the willingness of organizations to share at the most basic, yes/no level, and also to allow researchers to understand if a specific allele exists in other data sets. Now that a Beacon Network has been created, researchers have the ability to discover valuable information within organizations that have lit Beacons. This is often a needed first step to aggregate and learn from large scale genomic data.
 
 <!--
 You can use HTML elements in Markdown, such as the comment element, and they won't be affected by a markdown parser. However, if you create an HTML element in your markdown file, you cannot use markdown syntax within that element's contents.
