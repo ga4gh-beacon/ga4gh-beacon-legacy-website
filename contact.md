@@ -19,7 +19,6 @@ University of Zurich &<br/>
 Swiss Institute of Bioinformatics<br/>
 <a itemprop="email" href="mailto:mbaudis@progenetix.org">mbaudis@progenetix.org</a>
 
-
 <br/><br/>
 
 <div class="ds-member" style="float:left"><img src="assets/images/team/ilappalainen.jpg" class="member-photo hidden-xs"></div>
