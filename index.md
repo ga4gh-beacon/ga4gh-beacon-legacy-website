@@ -3,7 +3,7 @@ title: Home | Beacon Project
 layout: home
 ---
 
-The _Beacon_ protocol provides an open standard for genomics data discovery, developed by members of the [Global Alliance for Genomics &amp; Health](http://genomicsandhealth.org). It represents a protocol for simple public web services, reponding to queries against aggregated, anonymous genome data, for instance from population based or disease specific genome repositories.
+The _Beacon_ protocol defines an open standard for genomics data discovery, developed by members of the [Global Alliance for Genomics &amp; Health](http://genomicsandhealth.org). It provides a framework for public web services responding to queries against genomic data collections, for instance from population based or disease specific genome repositories.
 
 The beacon protocol has been designed to be:
 
@@ -16,9 +16,9 @@ The beacon protocol has been designed to be:
 * Aggregative
   * provide a boolean answer to whether an allele was observed
 * Privacy protecting
-  * queries do not return information about individual datasets
+  * queries do not return information about single individuals
 
-The initial version of the _Beacon_ protocol had been developed to test the willingness and ability of international genome resources to share genomic data in a highly simplistic context. The service was designed to accept specific queries in the form "Do you have any genomes with an 'A' at position 100735 on chromosome 3" and responds with "Yes" or "No."
+The initial version of the _Beacon_ protocol had been developed to test the willingness and ability of international genome resources to share genomic data in a highly simplified context. The service was designed to accept specific queries in the form "Do you have any genomes with an 'A' at position 100735 on chromosome 3" and responds with "Yes" or "No."
 
 A site offering this service is called a _beacon_. Such sites can scale through aggregation in the [Beacon Network](http://beacon-network.org), which distributes single genome queries a large number of international _beacons_ and assembles their responses.
 
