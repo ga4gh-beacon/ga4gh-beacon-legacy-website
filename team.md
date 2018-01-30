@@ -6,9 +6,6 @@ layout: default
 
 The Beacon project enables discovery of research consented sensitive human genetic data stored in databases affiliated with ELIXIR Nodes and in the European Genome-phenome Archive (EGA). Building on the GA4GH Beacon technology, the project is developing common interface to streamline and simplify access to these resources using ELIXIR Authentication and Authorization Infrastructure. ELIXIR Beacon involves partners from eight ELIXIR Nodes: EMBL-EBI, Belgium, Finland, France, Netherlands, Spain, Sweden and Switzerland.
 
-# Chairs
-Who are they? What do they want from us? :)
-
 # Members
 <!-- If you want to add or edit a member, go to _data/nodes.json -->
 <ul class="tiles">
