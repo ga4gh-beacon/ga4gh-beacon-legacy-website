@@ -29,6 +29,8 @@ Beacons present an easy-to-implement strategy for determining whether an institu
 ## What do institutions commit to when they join the Beacon Network?
 When an institution “lights” a Beacon, it demonstrates its willingness and ability to share data. The organizations in the Beacon Network have created online search functions that let anyone in the world know if a certain allele exists in their datasets ― but only to find a particular kind of information that was carefully chosen not to overly expose genomic data to privacy or security risks. The rapid growth of the Beacon Project shows that many institutions across the globe are interested in working together to break down silos and share genomic information in innovative and responsible ways.
 
+<img src="assets/images/beacon-adoption.png" alt="Beacon Adoption" />
+
 ## How is sharing data through Beacon different from traditional medical practice?
 In current medical practice, doctors commonly share basic, de-identified information about patients’ conditions and genetic variations in the hopes of matching a second case that could be therapeutically transformative. This practice is a long-standing tradition in the medical community but it is neither standardized nor optimized. The Beacon Project turns that informal transaction into a more efficient and effective search that can be a key initial step for learning from valuable genomic information.
 
