@@ -38,6 +38,8 @@ Since much of that information is currently collected and held in silos, researc
 
 The Beacon Project was created both to test the willingness of organizations to share at the most basic, yes/no level, and also to allow researchers to understand if a specific allele exists in other data sets. Now that a Beacon Network has been created, researchers have the ability to discover valuable information within organizations that have lit Beacons. This is often a needed first step to aggregate and learn from large scale genomic data.
 
+<img src="assets/images/beacon-access-levels.gif" alt="Beacon Access Levels" />
+
 <!--
 You can use HTML elements in Markdown, such as the comment element, and they won't be affected by a markdown parser. However, if you create an HTML element in your markdown file, you cannot use markdown syntax within that element's contents.
 -->
