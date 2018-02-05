@@ -14,6 +14,8 @@ The beacon protocol has been designed to be:
 * **Aggregative:** provide a boolean answer to whether an allele was observed
 * **Privacy protecting:** queries do not return information about single individuals
 
+<img src="assets/images/beacon-discovery.png" width="500" alt="Beacon Discovery" />
+
 The initial version of the _Beacon_ protocol had been developed to test the willingness and ability of international genome resources to share genomic data in a highly simplified context. The service was designed to accept specific queries in the form "Do you have any genomes with an 'A' at position 100735 on chromosome 3" and responds with "Yes" or "No."
 
 A site offering this service is called a _beacon_. Such sites can scale through aggregation in the [Beacon Network](http://beacon-network.org), which distributes single genome queries a large number of international _beacons_ and assembles their responses.
