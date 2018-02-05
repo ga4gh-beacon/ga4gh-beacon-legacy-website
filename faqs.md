@@ -13,6 +13,8 @@ layout: default
 ## What is a “Beacon” and what type of personal information does it contain?
 A Beacon is an online web service that allows users to query an institution’s databases to determine whether they contain a genetic variant of interest. The query is structured as a yes/no question of the form: "Do you have any genomes with an 'X' at position Y on chromosome Z?" Currently 19 organizations are sharing yes/no information about the existence of genetic variants as part of the GA4GH Beacon Network. Supporting the Beacon API on top of an existing database takes only minutes to implement.
 
+<img src="assets/images/beacon-discovery.gif" alt="Beacon Discovery" />
+
 ## What is the Beacon Project doing to mitigate the possibility and likelihood of reidentification through Beacons?
 Since its inception, the Beacon Project has been actively working with experts in GA4GH’s membership to mitigate any potential privacy concerns.
 
