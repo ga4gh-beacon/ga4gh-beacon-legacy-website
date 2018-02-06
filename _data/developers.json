@@ -6,7 +6,7 @@
 		"title": "Senior Engineer",
 		"imageSrc": "assets/images/team/mcupak.jpg",
 		"description": [
-			"Miroslav received his Master's in Informatics from Masaryk University, where he developed           a massively scalable, distributed database for genetic mutations. His expertise includes           distributed systems, middleware, and quality assurance. Miroslav is a senior engineer at           DNAstack and leads technical initiatives for the Beacon Project as part of the Global           Alliance for Genomics & Health."
+			"Miroslav received his Master's in Informatics from Masaryk University, where he developed a massively scalable, distributed database for genetic mutations. His expertise includes distributed systems, middleware, and quality assurance. Miroslav is a senior engineer at DNAstack and leads technical initiatives for the Beacon Project as part of the Global Alliance for Genomics & Health."
 		],
 		"linkedIn": "https://ca.linkedin.com/in/miro-cupak-958ba0103"
 	},
@@ -49,6 +49,17 @@
 		"title": "Technical Developer",
 		"description": [
 
+		],
+		"linkedIn": ""
+	}
+	{
+		"id": "member-bg",
+		"name": "Bo Gao",
+		"credentials": "M.Sc.",
+		"imageSrc": "assets/images/team/bo_gao.jpg",
+		"title": "",
+		"description": [
+			"As part of the Theoretical Oncogenomics group at the University of Zurich (UZH) and Swiss Institute of Bioinformatics (SIB), Bo is working on the analysis of cancer genome data collections with computational tools. In the context of the ELIXIR Beacon project, Bo is implementing datasets for the forward looking Beacon+ project (beacon.progenetix.org)."
 		],
 		"linkedIn": ""
 	}

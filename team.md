@@ -17,14 +17,6 @@ The Beacon project enables discovery of research consented sensitive human genet
 {% endfor %}
 </ul>
 
-
-### [Beacon Strategic Calls](https://docs.google.com/document/d/1Is4vcMBgtu_XatfKCityV5NpZ7FCthGifuuMnNrJb3Y)
-**Frequency:** Alternate Tuesdays 3.30pm CET / 2.30pm GMT / 9.30am EST / 6.30am PST
-
-
-### [Beacon Technical Calls](https://docs.google.com/document/d/13c5-c2WsQTRysl0QQEMmap__0jh3OstuM8YwzE-3AlQ)
-**Frequency:** Alternate Tuesdays 3.30pm CET / 2.30pm GMT / 9.30am EST / 6.30am PST
-
 <!--
 You can use HTML elements in Markdown, such as the comment element, and they won't be affected by a markdown parser. However, if you create an HTML element in your markdown file, you cannot use markdown syntax within that element's contents.
 -->
