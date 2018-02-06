@@ -28,6 +28,7 @@ Ilkka Lappalainen<br>Co-chair ELIXIR Beacon<br/>
 CSC-IT Center for Science<br/>
 <a itemprop="email" href="mailto:ilkka.lappalainen@csc.fi">ilkka.lappalainen@csc.fi</a>
 
+<br/><br/>
 
 # Contact:Developers
 

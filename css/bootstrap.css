@@ -193,6 +193,10 @@ td,
 th {
     padding: 0
 }
+
+li {
+  padding-bottom: 5px;
+}
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
@@ -297,7 +301,7 @@ th {
 }
 .img-thumbnail,
 body {
-    background-color: #fff
+    background-color: #fff;
 }
 @font-face {
     font-family: 'Glyphicons Halflings';
@@ -6516,7 +6520,8 @@ html {
     margin: 0
 }
 .navbar .navbar-collapse ul li {
-    -border-bottom: 1px solid #202020
+    -border-bottom: 1px solid #202020;
+    padding: 0;
 }
 .navbar .navbar-brand {
     height: auto;
@@ -6589,7 +6594,8 @@ body {
     font-size: 16px;
     font-weight: 300;
     -webkit-font-smoothing: antialiased;
-    color: #878787
+    color: #555;
+    line-height: 1.5;
 }
 table.noborder {
     border: 0 solid grey

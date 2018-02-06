@@ -13,6 +13,8 @@ layout: default
 ## What is a “Beacon” and what type of personal information does it contain?
 A Beacon is an online web service that allows users to query an institution’s databases to determine whether they contain a genetic variant of interest. The query is structured as a yes/no question of the form: "Do you have any genomes with an 'X' at position Y on chromosome Z?" Currently 19 organizations are sharing yes/no information about the existence of genetic variants as part of the GA4GH Beacon Network. Supporting the Beacon API on top of an existing database takes only minutes to implement.
 
+<img src="assets/images/beacon-discovery.gif" alt="Beacon Discovery" />
+
 ## What is the Beacon Project doing to mitigate the possibility and likelihood of reidentification through Beacons?
 Since its inception, the Beacon Project has been actively working with experts in GA4GH’s membership to mitigate any potential privacy concerns.
 
@@ -27,12 +29,16 @@ Beacons present an easy-to-implement strategy for determining whether an institu
 ## What do institutions commit to when they join the Beacon Network?
 When an institution “lights” a Beacon, it demonstrates its willingness and ability to share data. The organizations in the Beacon Network have created online search functions that let anyone in the world know if a certain allele exists in their datasets ― but only to find a particular kind of information that was carefully chosen not to overly expose genomic data to privacy or security risks. The rapid growth of the Beacon Project shows that many institutions across the globe are interested in working together to break down silos and share genomic information in innovative and responsible ways.
 
+<img src="assets/images/beacon-adoption.png" alt="Beacon Adoption" />
+
 ## How is sharing data through Beacon different from traditional medical practice?
 In current medical practice, doctors commonly share basic, de-identified information about patients’ conditions and genetic variations in the hopes of matching a second case that could be therapeutically transformative. This practice is a long-standing tradition in the medical community but it is neither standardized nor optimized. The Beacon Project turns that informal transaction into a more efficient and effective search that can be a key initial step for learning from valuable genomic information.
 
 Since much of that information is currently collected and held in silos, researchers lack the broad-scale ability to know whether similar data exist that could provide important learning when combined with their own data.
 
 The Beacon Project was created both to test the willingness of organizations to share at the most basic, yes/no level, and also to allow researchers to understand if a specific allele exists in other data sets. Now that a Beacon Network has been created, researchers have the ability to discover valuable information within organizations that have lit Beacons. This is often a needed first step to aggregate and learn from large scale genomic data.
+
+<img src="assets/images/beacon-access-levels.gif" alt="Beacon Access Levels" />
 
 <!--
 You can use HTML elements in Markdown, such as the comment element, and they won't be affected by a markdown parser. However, if you create an HTML element in your markdown file, you cannot use markdown syntax within that element's contents.

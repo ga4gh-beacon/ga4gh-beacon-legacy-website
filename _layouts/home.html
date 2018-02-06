@@ -30,14 +30,21 @@
         {% include header.html %}
         <div ui-view="" class="container-fluid">
           <div class="mx-width clearfix">
-            <div class="col-md-3 hidden-sm hidden-xs p-v-xl">
-              <a href="http://beacon-project.io"><img style="max-height:400px; position:absolute; top:130px; left: 60px;" class="pull-left" src="assets/images/beacon-logo.png"></a>
+            <div class="col-md-2 hidden-sm hidden-xs p-v-xl">
+              <a href="http://beacon-project.io"><img style="max-height:300px; position:absolute; top:130px; left: 0;" class="pull-left" src="assets/images/beacon-logo.png"></a>
             </div>
-            <div class="col-xs-12 col-md-9">
-              <div class="p-v-xxl text-dark">
-                <div class="h4 font-thin m-t-l">
+            <div class="col-md-6" style="padding-left: 0;">
+              <div class="p-v-xxl">
+                <div class="m-t-l">
           {{ content }}
                 </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="p-v-xxl">
+                <div style="background: #f9f9f9; border: 1px solid #eee; border-radius: 6px;">
+                <a class="twitter-timeline" data-lang="en" data-chrome="transparent" data-border-color="#777" data-theme="light" data-height="600" href="https://twitter.com/BeaconOfBeacons?ref_src=twsrc%5Etfw">Tweets by BeaconOfBeacons</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              </div>
               </div>
             </div>
           </div>
