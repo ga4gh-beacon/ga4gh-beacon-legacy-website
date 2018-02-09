@@ -17,7 +17,7 @@ layout: default
 ## What is a “Beacon” and what type of personal information does it contain?
 A Beacon is an online web service that allows users to query an institution’s databases to determine whether they contain a genetic variant of interest. The query is structured as a yes/no question of the form: "Do you have any genomes with an 'X' at position Y on chromosome Z?" Currently 19 organizations are sharing yes/no information about the existence of genetic variants as part of the GA4GH Beacon Network. Supporting the Beacon API on top of an existing database takes only minutes to implement.
 
-<img src="assets/images/beacon-discovery.gif" alt="Beacon Discovery" />
+<img data-gifffer="assets/images/beacon-discovery.gif" data-gifffer-alt="Map showing the adoption of Beacons" />
 
 {:.m-t-xl}
 ## What is the Beacon Project doing to mitigate the possibility and likelihood of reidentification through Beacons?
@@ -43,8 +43,13 @@ Since much of that information is currently collected and held in silos, researc
 
 The Beacon Project was created both to test the willingness of organizations to share at the most basic, yes/no level, and also to allow researchers to understand if a specific allele exists in other data sets. Now that a Beacon Network has been created, researchers have the ability to discover valuable information within organizations that have lit Beacons. This is often a needed first step to aggregate and learn from large scale genomic data.
 
-<img src="assets/images/beacon-access-levels.gif" alt="Beacon Access Levels" />
+<img data-gifffer="assets/images/beacon-access-levels.gif" data-gifffer-alt="Beacon Access Levels" />
 
+<script>
+  window.onload = function() {
+    Gifffer();
+  }
+</script>
 <!--
 You can use HTML elements in Markdown, such as the comment element, and they won't be affected by a markdown parser. However, if you create an HTML element in your markdown file, you cannot use markdown syntax within that element's contents.
 -->

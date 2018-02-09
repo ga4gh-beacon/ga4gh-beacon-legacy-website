@@ -7231,4 +7231,8 @@ a:hover {
 #videoList>li:last-child {
     margin-bottom: 0
 }
+
+button:focus {
+  outline: 0;
+}
 /*# sourceMappingURL=../maps/styles/app-a3978d7a12.css.map */
