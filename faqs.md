@@ -5,9 +5,13 @@ layout: default
 
 # Releases
 
-* Beacon [v0.4.0 release](https://github.com/ga4gh/beacon-team/releases/tag/v0.4.0) (2018-01-24)
-* Beacon [v0.3.0 release](https://github.com/ga4gh/beacon-team/releases/tag/v0.3.0) (2016-05-31)
+{:.table .table-bordered .table-condensed}
+| Date | Tag | Title |
+|---|---|---|
+| 2018-01-24  | [v0.4.0](https://github.com/ga4gh/beacon-team/releases/tag/v0.4.0)  | Beacon |  
+| 2016-05-31  | [v0.3.0](https://github.com/ga4gh/beacon-team/releases/tag/v0.3.0)  | Beacon |  
 
+{:.m-t-xl}
 # Beacon FAQs
 
 ## What is a “Beacon” and what type of personal information does it contain?
@@ -15,6 +19,7 @@ A Beacon is an online web service that allows users to query an institution’s 
 
 <img src="assets/images/beacon-discovery.gif" alt="Beacon Discovery" />
 
+{:.m-t-xl}
 ## What is the Beacon Project doing to mitigate the possibility and likelihood of reidentification through Beacons?
 Since its inception, the Beacon Project has been actively working with experts in GA4GH’s membership to mitigate any potential privacy concerns.
 
@@ -29,7 +34,7 @@ Beacons present an easy-to-implement strategy for determining whether an institu
 ## What do institutions commit to when they join the Beacon Network?
 When an institution “lights” a Beacon, it demonstrates its willingness and ability to share data. The organizations in the Beacon Network have created online search functions that let anyone in the world know if a certain allele exists in their datasets ― but only to find a particular kind of information that was carefully chosen not to overly expose genomic data to privacy or security risks. The rapid growth of the Beacon Project shows that many institutions across the globe are interested in working together to break down silos and share genomic information in innovative and responsible ways.
 
-<img src="assets/images/beacon-adoption.png" alt="Beacon Adoption" />
+<img src="assets/images/beacon-adoption.png" alt="Beacon Adoption" class="center-block" />
 
 ## How is sharing data through Beacon different from traditional medical practice?
 In current medical practice, doctors commonly share basic, de-identified information about patients’ conditions and genetic variations in the hopes of matching a second case that could be therapeutically transformative. This practice is a long-standing tradition in the medical community but it is neither standardized nor optimized. The Beacon Project turns that informal transaction into a more efficient and effective search that can be a key initial step for learning from valuable genomic information.
