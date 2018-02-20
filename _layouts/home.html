@@ -51,6 +51,14 @@
     </div>
     <script src="scripts/vendor-f5a2baf215.js"></script>
     <script src="scripts/app-84e0ff76f9.js"></script>
+    <script>
+      // Menu toggle script
+      var navButton = document.querySelector('.navbar-toggle');
+      var mainNav = document.querySelector('.navbar-collapse');
+      navButton.addEventListener('click', function(event) {
+          mainNav.classList.toggle('collapse');
+      });
+    </script>
 </body>
 
 </html>
