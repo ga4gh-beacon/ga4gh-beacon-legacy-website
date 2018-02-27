@@ -6,10 +6,10 @@ layout: default
 # Releases
 
 {:.table .table-bordered .table-condensed}
-| Date | Tag | Title |
+| Date | Tag | Release Name |
 |---|---|---|
-| 2018-01-24  | [v0.4.0](https://github.com/ga4gh/beacon-team/releases/tag/v0.4.0)  | Beacon |  
-| 2016-05-31  | [v0.3.0](https://github.com/ga4gh/beacon-team/releases/tag/v0.3.0)  | Beacon |  
+| 2018-01-24  | [v0.4.0](https://github.com/ga4gh/beacon-team/releases/tag/v0.4.0)  | Beacon v0.4.0 Release (OpenAPI)|  
+| 2016-05-31  | [v0.3.0](https://github.com/ga4gh/beacon-team/releases/tag/v0.3.0)  | Beacon v0.3.0 Release |  
 
 {:.m-t-xl}
 # Beacon FAQs
