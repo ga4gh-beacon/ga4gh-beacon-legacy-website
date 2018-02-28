@@ -17,6 +17,18 @@
 
   },
   {
+    "id": "member-gs",
+    "name": "Gary Saunders",
+    "credentials": "",
+    "imageSrc": "assets/images/team/garys.jpg",
+    "title": "",
+    "description": [],
+    "node": "assets/images/UK.png",
+    "linkedIn": "",
+    "iscoordinator": 1
+
+  },
+  {
     "id": "member-sv",
     "name": "Susheel Varma",
     "credentials": "PhD.",
