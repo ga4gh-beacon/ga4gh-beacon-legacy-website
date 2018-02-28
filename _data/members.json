@@ -5,44 +5,10 @@
     "credentials": "PhD.",
     "imageSrc": "assets/images/team/sscollen.jpg",
     "title": "Co-lead Elixir Beacon project",
-    "description" :
-      [
-        "bla bla bla",
-
-        "bla bla bla"
-      ],
+    "description" :[],
     "node": "assets/images/UK.png",
     "linkedIn" : "",
     "ischair": 1
-
-  },
-  {
-    "id": "member-gs",
-    "name": "Gary Saunders",
-    "credentials": "",
-    "imageSrc": "assets/images/team/garys.jpg",
-    "title": "",
-    "description": [],
-    "node": "assets/images/UK.png",
-    "linkedIn": "",
-    "iscoordinator": 1
-
-  },
-  {
-    "id": "member-sv",
-    "name": "Susheel Varma",
-    "credentials": "PhD.",
-    "imageSrc": "assets/images/team/svarma.jpg",
-    "title": "",
-    "description" :
-      [
-        "bla bla bla",
-
-        "bla bla bla"
-      ],
-    "node": "assets/images/UK.png",
-    "linkedIn" : "",
-    "iscoordinator": 1
 
   },
   {
@@ -51,30 +17,9 @@
     "credentials": "Dr. med.",
     "imageSrc": "assets/images/team/mbaudis.jpg",
     "title": "Co-lead Elixir Beacon project",
-    "description" :
-      [
-        "bla bla bla",
-
-        "bla bla bla"
-      ],
+    "description": [],
     "node": "assets/images/Switzerland.png",
-    "linkedIn" : "",
-    "ischair": 1
-  },
-  {
-    "id": "member-mf",
-    "name": "Marc Fiume",
-    "credentials": "PhD.",
-    "imageSrc": "assets/images/team/mfiume.jpg",
-    "title": "",
-    "description" :
-      [
-        "bla bla bla",
-
-        "bla bla bla"
-      ],
-    "node": "assets/images/Canada.png",
-    "linkedIn" : "",
+    "linkedIn": "",
     "ischair": 1
   },
   {
@@ -83,13 +28,8 @@
     "credentials": "PhD.",
     "imageSrc": "assets/images/team/ilappalainen.jpg",
     "title": "Co-lead Elixir Beacon project",
-    "description" :
-      [
-        "bla bla bla",
-
-        "bla bla bla"
-      ],
-    "linkedIn" : "",
+    "description": [],
+    "linkedIn": "",
     "node": "assets/images/Finland.png",
     "ischair": 1
   },
@@ -99,32 +39,84 @@
     "credentials": "PhD.",
     "imageSrc": "assets/images/team/jrambla.jpg",
     "title": "",
-    "description" :
-      [
-        "bla bla bla",
-
-        "bla bla bla"
-      ],
+    "description": [],
     "node": "assets/images/Spain.png",
-    "linkedIn" : "",
+    "linkedIn": "",
     "ischair": 1
+  },
+  {
+    "id": "member-gs",
+    "name": "Gary Saunders",
+    "credentials": "",
+    "imageSrc": "assets/images/team/garys.jpg",
+    "title": "Technical Coordinator",
+    "description": [],
+    "node": "assets/images/UK.png",
+    "linkedIn": "",
+    "iscoordinator": 1
+
   },
   {
     "id": "member-dl",
     "name": "David Lloyd",
     "credentials": "",
     "imageSrc": "assets/images/team/dlloyd.jpg",
-    "title": "",
-    "description" :
-      [
-        "bla bla bla",
-
-        "bla bla bla"
-      ],
+    "title": "Project Coordinator",
+    "description": [],
     "node": "assets/images/UK.png",
-    "linkedIn" : "",
+    "linkedIn": "",
     "iscoordinator": 1
-
+  },
+  {
+    "id": "member-sv",
+    "name": "Susheel Varma",
+    "credentials": "PhD.",
+    "imageSrc": "assets/images/team/svarma.jpg",
+    "title": "",
+    "description" :[],
+    "node": "assets/images/UK.png",
+    "linkedIn" : "https://www.linkedin.com/in/susheelvarma/",
+    "iscoordinator": 1
+  },
+  {
+    "id": "member-mf",
+    "name": "Marc Fiume",
+    "credentials": "PhD.",
+    "imageSrc": "assets/images/team/mfiume.jpg",
+    "title": "",
+    "description" :[],
+    "node": "assets/images/Canada.png",
+    "linkedIn" : "",
+    "ischair": 1
+  },
+  {
+    "id": "member-mc",
+    "name": "Miro Cupak",
+    "credentials": "MSc.",
+    "title": "Senior Engineer",
+    "imageSrc": "assets/images/team/mcupak.jpg",
+    "description": [
+      "Miroslav received his Master's in Informatics from Masaryk University, where he developed           a massively scalable, distributed database for genetic mutations. His expertise includes           distributed systems, middleware, and quality assurance. Miroslav is a senior engineer at           DNAstack and leads technical initiatives for the Beacon Project as part of the Global           Alliance for Genomics & Health."
+    ],
+    "linkedIn": "https://ca.linkedin.com/in/miro-cupak-958ba0103"
+  },
+  {
+    "id": "member-jt",
+    "name": "Juha Törnroos",
+    "credentials": "MSc.",
+    "imageSrc": "assets/images/team/jtornroos.jpg",
+    "title": "Senior Software Developer",
+    "description": [],
+    "linkedIn": ""
+  },
+  {
+    "id": "member-sdt",
+    "name": "Sabela de la Torre",
+    "credentials": "MSc.",
+    "imageSrc": "assets/images/team/sdelatorre.jpg",
+    "title": "Technical Developer",
+    "description": [],
+    "linkedIn": ""
   },
   {
     "id": "member-bp",
@@ -132,14 +124,18 @@
     "credentials": "PhD.",
     "imageSrc": "assets/images/team/dspalding.jpg",
     "title": "",
-    "description" :
-      [
-        "bla bla bla",
-
-        "bla bla bla"
-      ],
+    "description" :[],
     "linkedIn" : "",
     "node": "assets/images/UK.png"
+  },
+  {
+    "id": "member-sur",
+    "name": "Saif Ur-Rehman",
+    "credentials": "",
+    "imageSrc": "assets/images/team/surrehman.jpg",
+    "title": "Technical Developer",
+    "description": [],
+    "linkedIn": ""
   },
   {
     "id": "member-bp",
@@ -147,12 +143,7 @@
     "credentials": "PhD.",
     "imageSrc": "assets/images/team/kcarey.jpg",
     "title": "",
-    "description" :
-      [
-        "bla bla bla",
-
-        "bla bla bla"
-      ],
+    "description" :[],
     "linkedIn" : ""
   },
   {
@@ -161,12 +152,7 @@
     "credentials": "PhD.",
     "imageSrc": "assets/images/team/abrookes.jpg",
     "title": "",
-    "description" :
-      [
-        "bla bla bla",
-
-        "bla bla bla"
-      ],
+    "description" :[],
     "linkedIn" : "",
     "node": "assets/images/UK.png"
   },
@@ -176,12 +162,7 @@
     "credentials": "PhD.",
     "imageSrc": "assets/images/team/sdyke.jpg",
     "title": "",
-    "description" :
-      [
-        "bla bla bla",
-
-        "bla bla bla"
-      ],
+    "description" :[],
     "linkedIn" : ""
   },
   {
@@ -190,12 +171,7 @@
     "credentials": "PhD.",
     "imageSrc": "assets/images/team/login.jpg",
     "title": "",
-    "description" :
-      [
-        "bla bla bla",
-
-        "bla bla bla"
-      ],
+    "description" :[],
     "linkedIn" : ""
   },
   {
@@ -204,71 +180,11 @@
     "credentials": "PhD.",
     "imageSrc": "assets/images/team/rnag.jpg",
     "title": "",
-    "description" :
-      [
-        "bla bla bla",
-
-        "bla bla bla"
-      ],
+    "description" :[],
     "node": "assets/images/UK.png",
     "linkedIn" : "",
     "iscoordinator": 1
   },
-  {
-		"id": "member-mc",
-		"name": "Miro Cupak",
-		"credentials": "MSc.",
-		"title": "Senior Engineer",
-		"imageSrc": "assets/images/team/mcupak.jpg",
-		"description": [
-			"Miroslav received his Master's in Informatics from Masaryk University, where he developed           a massively scalable, distributed database for genetic mutations. His expertise includes           distributed systems, middleware, and quality assurance. Miroslav is a senior engineer at           DNAstack and leads technical initiatives for the Beacon Project as part of the Global           Alliance for Genomics & Health."
-		],
-		"linkedIn": "https://ca.linkedin.com/in/miro-cupak-958ba0103"
-	},
-	{
-		"id": "member-jt",
-		"name": "Juha Törnroos",
-		"credentials": "MSc.",
-		"imageSrc": "assets/images/team/jtornroos.jpg",
-		"title": "Senior Software Developer",
-		"description": [
-
-		],
-		"linkedIn": ""
-	},
-	{
-		"id": "member-sdt",
-		"name": "Sabela de la Torre",
-		"credentials": "MSc.",
-		"imageSrc": "assets/images/team/sdelatorre.jpg",
-		"title": "Technical Developer",
-		"description": [
-
-		],
-		"linkedIn": ""
-	},
-	{
-		"id": "member-md",
-		"name": "Marc Duby",
-		"credentials": "",
-		"imageSrc": "assets/images/team/login.jpg",
-		"title": "Technical Developer",
-		"description": [
-
-		],
-		"linkedIn": ""
-	},
-	{
-		"id": "member-sur",
-		"name": "Saif Ur-Rehman",
-		"credentials": "",
-		"imageSrc": "assets/images/team/surrehman.jpg",
-		"title": "Technical Developer",
-		"description": [
-
-		],
-		"linkedIn": ""
-	},
 	{
 		"id": "member-bg",
 		"name": "Bo Gao",
@@ -279,6 +195,15 @@
 			"As part of the Theoretical Oncogenomics group at the University of Zurich (UZH) and Swiss Institute of Bioinformatics (SIB), Bo is working on the analysis of cancer genome data collections with computational tools. In the context of the ELIXIR Beacon project, Bo is implementing datasets for the forward looking Beacon+ project (beacon.progenetix.org)."
 		],
 		"linkedIn": ""
-	}
+  },
+  {
+    "id": "member-md",
+    "name": "Marc Duby",
+    "credentials": "",
+    "imageSrc": "assets/images/team/login.jpg",
+    "title": "Technical Developer",
+    "description": [],
+    "linkedIn": ""
+  }
 
 ]
