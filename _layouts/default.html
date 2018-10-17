@@ -1,50 +1,218 @@
 <!doctype html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{{ site.description }}">
-    <meta name="keywords" content="{{ site.keywords }}">
-    <meta name="application-name" content="{{ site.name }}">
-    <meta property="og:title" content="{{ site.name }}">
-    <meta property="og:type" content="{{ site.type }}">
-    <meta property="og:image" content="assets/images/social/og_image.png">
-    <meta property="og:description" content="{{ site.description }}">
-    <!-- <meta name="twitter:image" content="/assets/images/twitter-image.png">
-    <meta name="twitter:image:alt" content="{{ site.description }}">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@BeaconOfBeacons">
-    <meta name="twitter:title" content="{{ site.name }} {{ site.type }}"> -->
-    <script src="https://use.fontawesome.com/6d04cd987c.js"></script>
-    <!-- <meta name="twitter:description" content="{{ site.description }}"> -->
-    <link rel="stylesheet" href="/css/bootstrap.css">
-    <link rel="stylesheet" href="/css/toast.css">
-    <link rel="shortcut icon" type="image/png" href="{{ "/assets/images/favicon-32x32.png" | prepend: site.baseurl }}" sizes="32x32" />
-    <link rel="shortcut icon" type="image/png" href="{{ "/assets/images/favicon-16x16.png" | prepend: site.baseurl }}" sizes="16x16" />
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+{% seo %}
+
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/site_style.css">
+
+<!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
 </head>
 
 <body>
-    <div ds-scroll="">
-        {% include header.html %}
-        <div ui-view="" class="container-fluid">
-          <div class="mx-width clearfix p-v-xxl">
-          {{ content }}
-        </div>
-        </div>
-        {% include footer.html %}
-    </div>
-    <script src="scripts/vendor-f5a2baf215.js"></script>
-    <script src="scripts/app-84e0ff76f9.js"></script>
-    <script src="scripts/gifffer.min.js"></script>
-    <script>
-      var navButton = document.querySelector('.navbar-toggle');
-      var mainNav = document.querySelector('.navbar-collapse');
-      navButton.addEventListener('click', function(event) {
-          mainNav.classList.toggle("collapse");
-      });
-    </script>
-</body>
+  <div class="wrapper">
+    <header id="header">
 
+{{ site.site_header }}
+
+      <div class="navboxleft" style="margin-top: 20px;">
+
+<!-- ######################################################################  -->
+<!--         navigation_categories from _config.yaml                         -->
+<!-- ######################################################################  -->
+
+{% assign nav_itemno = 5 %}
+{% if site.navigation_max_items %}
+  {% assign nav_itemno = site.navigation_max_items %}
+{% endif %}
+
+{% for this_category in site.navigation_categories %}
+  {% assign cat_label = this_category[1] %}
+  {% assign cat_key = this_category[0] %}
+        <h4><a href="/{{ cat_key }}/index.html">{{ cat_label }}</a></h4>
+<!-- posts are listed if same category as current page -->
+  {% if page.category contains cat_key %}
+    {% assign cat_posts = site.posts | where: 'category', cat_key %}
+    {% for post in cat_posts %}
+<!-- first sticky/featured posts -->
+      {% if post.tags contains 'featured' %} 
+        <div class="sublink" >
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </div>
+<!-- those are subtracted from the nav_itemno count ... -->
+        {% assign nav_itemno = nav_itemno | minus: 1 %}     
+      {% endif %}
+    {% endfor %}
+    {% for post in cat_posts limit: nav_itemno %}
+<!-- others than the sticky/featured posts -->
+      {% unless post.tags contains 'featured' or post.tags contains 'sticky' %} 
+        <div class="sublink" >
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </div>
+      {% endunless %}
+    {% endfor %}
+<!-- link to the category collecting page, if more -->
+    {% if cat_posts.size > nav_itemno %}
+        <div class="sublink" >
+          <a href="/{{ cat_key }}/index.html">all ...</a>
+        </div>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+<!-- ######################################################################  -->
+<!--        / navigation_categories from _config.yaml                        -->
+<!-- ######################################################################  -->
+
+      </div>
+
+<!-- ######################################################################  -->
+<!--          Static Links from _config_common.yml                           -->
+<!-- ######################################################################  -->
+
+{% if site.related_sites %}
+      <div class="navboxleft">
+        <h4>Related Sites</h4>
+  {% for this_link in site.related_sites %}
+    {% assign link_label = this_link[0] %}
+    {% assign link_link = this_link[1] %}
+      {% unless site.site_domain_name == link_link %} 
+       <div class="sublink">
+          <a href="http://{{ link_link }}">{{ link_label }}</a>
+        </div>
+    {% endunless %}        
+  {% endfor %}
+      </div>
+{% endif %}
+
+{% if site.github_projects %}
+      <div class="navboxleft">
+        <h4>Github</h4>
+  {% for this_link in site.github_projects %}
+    {% assign link_label = this_link[0] %}
+    {% assign link_link = this_link[1] %}
+      {% unless site.site_domain_name == link_link %} 
+       <div class="sublink">
+          <a href="http://{{ link_link }}">{{ link_label }}</a>
+        </div>
+    {% endunless %}        
+  {% endfor %}
+      </div>
+{% endif %}
+
+<!-- ######################################################################  -->
+<!--                          / Static Links                                 -->
+<!-- ######################################################################  -->
+
+<!-- ############################    Tags   ###############################  -->
+
+      <div class="navboxleft" style="text-align:center;">
+
+{% assign tags = site.tags | sort %}
+{% for tag in tags %}
+        <div class="site-tag">
+          <a href="/tags/{{ tag | first }}/index.html" style="font-size: {{ tag | last | size | times: 2 | plus: 60 }}%">{{ tag[0] | replace: "--", "::" }}</a>
+        </div>
+{% endfor %}
+<!-- collection tags are not auto generated -->
+      </div>
+
+<!-- ##########################    / Tags   ###############################  -->
+
+      <div class="navboxleft small" style="padding-top: 20px;">
+<p>
+<a href="{{site.github.repository_url}}/blob/gh-pages/{{page.path}}" color="#666" >Edit this page</a>
+</p>
+      </div>
+
+    </header>
+
+<!-- ######################################################################  -->
+<!--                          Page Content                                   -->
+<!-- ######################################################################  -->
+
+    <section>
+
+{{ content }}
+
+<!-- Links based on front matter -->
+
+{% if page.pdf_file_name or page.www_link or page.www_links_formatted %}
+
+      <h4>Links</h4>
+
+      <ul>
+  {% if page.pdf_file_name %}
+    {% for this_file in site.static_files %}
+      {% if this_file.name == page.pdf_file_name %}
+        <li><a href="{{this_file.path}}" target="_blank">[PDF]</a>
+        {% if page.pdf_file_type %}
+   ({{ page.pdf_file_type }})
+        {% endif %}
+      {% endif %}</li>
+    {% endfor %}
+  {% endif %}
+  {% if page.www_link %}
+        <li><a href="{{ page.www_link }}" target="_blank">[www]</a></li>
+  {% endif %}
+  {% if page.www_links_formatted %}
+    {% for this_link in page.www_links_formatted %}
+        <li>{{ this_link }}</li>
+    {% endfor %}
+  {% endif %}
+      </ul>
+{% endif %}
+
+<!-- Date and author based on front matter -->
+
+{% if page.date %}
+
+      <div class="pagestamp">
+        <hr />
+  {% if page.author %}
+    {{page.author}},
+  {% endif %}
+  {{ page.date | date: "%Y-%m-%d" }}
+      </div>
+
+{% endif %}
+
+    </section>
+
+<!-- ######################################################################  -->
+<!--                         / Page Content                                  -->
+<!-- ######################################################################  -->
+
+    <footer>
+      <a href="{{ site.site_parent_link }}">
+        <img style="margin-top:15px; float: left;" src="/assets/img/logo_{{ site.site_domain_name }}.png" />
+      </a>
+    </footer>
+
+<!-- next </div> closes the wrapper -->
+
+  </div>
+
+<script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+
+{% if site.google_analytics %}
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', '{{ site.google_analytics }}', 'auto');
+  ga('send', 'pageview');
+</script>
+{% endif %}
+
+</body>
 </html>

@@ -1,4 +1,28 @@
+title: 'ELIXIR Genome Beacons'
+label: 'ELIXIR Genome Beacons'
 name: Beacon
+site_header: |
+  <h2><a href="/index.html">
+  <span style="color: #ee9933;">ELIXIR</span> Beacon Project</a>
+  </h2>
+  <div>A Driver Project of the Global Alliance for Genomics and Health</div>
+site_domain_name: beacon-project.io
+site_download_link: 'http://beacon-project.io/assets'
+site_parent_link: 'https://www.elixir-europe.org/about-us/implementation-studies/beacons'
+github_organisation: ga4gh-beacon
+show_downloads: true
+future: true
+highlighter: none
+plugins:
+ - jekyll-seo-tag
 type: website
 description: Beacon is an open standard for genomics data discovery, developed by members of the Global Alliance for Genomics & Health
 keywords: genomics, cloud, Beacon, DNA, sharing, ELIXIR, GA4GH
+navigation_categories:
+  news: News
+  team: Team members
+  howto: 'Examples & Guides'
+  specification: Specification
+  faq: 'About & FAQ'
+  contact: Contacts
+navigation_max_items: 4

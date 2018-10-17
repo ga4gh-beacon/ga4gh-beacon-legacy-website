@@ -3,10 +3,10 @@
     "id": "member-ss",
     "name": "Serena Scollen",
     "credentials": "PhD.",
-    "imageSrc": "assets/images/team/sscollen.jpg",
+    "imageSrc": "/assets/images/team/sscollen.jpg",
     "title": "Co-lead Elixir Beacon project",
     "description" :[],
-    "node": "assets/images/UK.png",
+    "node": "/assets/images/UK.png",
     "linkedIn" : "",
     "ischair": 1
 
@@ -14,11 +14,11 @@
   {
     "id": "member-mb",
     "name": "Michael Baudis",
-    "credentials": "Dr. med.",
-    "imageSrc": "assets/images/team/mbaudis.jpg",
+    "credentials": "Prof. Dr. med.",
+    "imageSrc": "/assets/images/team/mbaudis.jpg",
     "title": "Co-lead Elixir Beacon project",
     "description": [],
-    "node": "assets/images/Switzerland.png",
+    "node": "/assets/images/Switzerland.png",
     "linkedIn": "",
     "ischair": 1
   },
@@ -26,21 +26,21 @@
     "id": "member-il",
     "name": "Ilkka Lappalainen",
     "credentials": "PhD.",
-    "imageSrc": "assets/images/team/ilappalainen.jpg",
+    "imageSrc": "/assets/images/team/ilappalainen.jpg",
     "title": "Co-lead Elixir Beacon project",
     "description": [],
     "linkedIn": "",
-    "node": "assets/images/Finland.png",
+    "node": "/assets/images/Finland.png",
     "ischair": 1
   },
   {
     "id": "member-jr",
     "name": "Jordi Rambla",
     "credentials": "PhD.",
-    "imageSrc": "assets/images/team/jrambla.jpg",
+    "imageSrc": "/assets/images/team/jrambla.jpg",
     "title": "",
     "description": [],
-    "node": "assets/images/Spain.png",
+    "node": "/assets/images/Spain.png",
     "linkedIn": "",
     "ischair": 1
   },
@@ -48,10 +48,10 @@
     "id": "member-gs",
     "name": "Gary Saunders",
     "credentials": "",
-    "imageSrc": "assets/images/team/garys.jpg",
+    "imageSrc": "/assets/images/team/garys.jpg",
     "title": "Technical Coordinator",
     "description": [],
-    "node": "assets/images/UK.png",
+    "node": "/assets/images/UK.png",
     "linkedIn": "",
     "iscoordinator": 1
 
@@ -60,32 +60,21 @@
     "id": "member-dl",
     "name": "David Lloyd",
     "credentials": "",
-    "imageSrc": "assets/images/team/dlloyd.jpg",
+    "imageSrc": "/assets/images/team/dlloyd.jpg",
     "title": "Project Coordinator",
     "description": [],
-    "node": "assets/images/UK.png",
+    "node": "/assets/images/UK.png",
     "linkedIn": "",
-    "iscoordinator": 1
-  },
-  {
-    "id": "member-sv",
-    "name": "Susheel Varma",
-    "credentials": "PhD.",
-    "imageSrc": "assets/images/team/svarma.jpg",
-    "title": "",
-    "description" :[],
-    "node": "assets/images/UK.png",
-    "linkedIn" : "https://www.linkedin.com/in/susheelvarma/",
     "iscoordinator": 1
   },
   {
     "id": "member-mf",
     "name": "Marc Fiume",
     "credentials": "PhD.",
-    "imageSrc": "assets/images/team/mfiume.jpg",
+    "imageSrc": "/assets/images/team/mfiume.jpg",
     "title": "",
     "description" :[],
-    "node": "assets/images/Canada.png",
+    "node": "/assets/images/Canada.png",
     "linkedIn" : "",
     "ischair": 1
   },
@@ -94,7 +83,7 @@
     "name": "Miro Cupak",
     "credentials": "MSc.",
     "title": "Senior Engineer",
-    "imageSrc": "assets/images/team/mcupak.jpg",
+    "imageSrc": "/assets/images/team/mcupak.jpg",
     "description": [
       "Miroslav received his Master's in Informatics from Masaryk University, where he developed           a massively scalable, distributed database for genetic mutations. His expertise includes           distributed systems, middleware, and quality assurance. Miroslav is a senior engineer at           DNAstack and leads technical initiatives for the Beacon Project as part of the Global           Alliance for Genomics & Health."
     ],
@@ -104,7 +93,7 @@
     "id": "member-jt",
     "name": "Juha Törnroos",
     "credentials": "MSc.",
-    "imageSrc": "assets/images/team/jtornroos.jpg",
+    "imageSrc": "/assets/images/team/jtornroos.jpg",
     "title": "Senior Software Developer",
     "description": [],
     "linkedIn": ""
@@ -113,7 +102,7 @@
     "id": "member-sdt",
     "name": "Sabela de la Torre",
     "credentials": "MSc.",
-    "imageSrc": "assets/images/team/sdelatorre.jpg",
+    "imageSrc": "/assets/images/team/sdelatorre.jpg",
     "title": "Technical Developer",
     "description": [],
     "linkedIn": ""
@@ -122,45 +111,27 @@
     "id": "member-bp",
     "name": "Dylan Spalding",
     "credentials": "PhD.",
-    "imageSrc": "assets/images/team/dspalding.jpg",
+    "imageSrc": "/assets/images/team/dspalding.jpg",
     "title": "",
     "description" :[],
     "linkedIn" : "",
-    "node": "assets/images/UK.png"
-  },
-  {
-    "id": "member-sur",
-    "name": "Saif Ur-Rehman",
-    "credentials": "",
-    "imageSrc": "assets/images/team/surrehman.jpg",
-    "title": "Technical Developer",
-    "description": [],
-    "linkedIn": ""
-  },
-  {
-    "id": "member-bp",
-    "name": "Knox Carey",
-    "credentials": "PhD.",
-    "imageSrc": "assets/images/team/kcarey.jpg",
-    "title": "",
-    "description" :[],
-    "linkedIn" : ""
+    "node": "/assets/images/UK.png"
   },
   {
     "id": "member-bp",
     "name": "Anthony Brookes",
     "credentials": "PhD.",
-    "imageSrc": "assets/images/team/abrookes.jpg",
+    "imageSrc": "/assets/images/team/abrookes.jpg",
     "title": "",
     "description" :[],
     "linkedIn" : "",
-    "node": "assets/images/UK.png"
+    "node": "/assets/images/UK.png"
   },
   {
     "id": "member-bp",
     "name": "Stephanie Dyke",
     "credentials": "PhD.",
-    "imageSrc": "assets/images/team/sdyke.jpg",
+    "imageSrc": "/assets/images/team/sdyke.jpg",
     "title": "",
     "description" :[],
     "linkedIn" : ""
@@ -169,27 +140,16 @@
     "id": "member-bp",
     "name": "Aurélien Barré",
     "credentials": "PhD.",
-    "imageSrc": "assets/images/team/login.jpg",
+    "imageSrc": "/assets/images/team/login.jpg",
     "title": "",
     "description" :[],
     "linkedIn" : ""
-  },
-  {
-    "id": "member-nr",
-    "name": "Rishi Nag",
-    "credentials": "PhD.",
-    "imageSrc": "assets/images/team/rnag.jpg",
-    "title": "",
-    "description" :[],
-    "node": "assets/images/UK.png",
-    "linkedIn" : "",
-    "iscoordinator": 1
   },
 	{
 		"id": "member-bg",
 		"name": "Bo Gao",
 		"credentials": "M.Sc.",
-		"imageSrc": "assets/images/team/bogao.png",
+		"imageSrc": "/assets/images/team/bogao.png",
 		"title": "",
 		"description": [
 			"As part of the Theoretical Oncogenomics group at the University of Zurich (UZH) and Swiss Institute of Bioinformatics (SIB), Bo is working on the analysis of cancer genome data collections with computational tools. In the context of the ELIXIR Beacon project, Bo is implementing datasets for the forward looking Beacon+ project (beacon.progenetix.org)."
@@ -200,7 +160,7 @@
     "id": "member-md",
     "name": "Marc Duby",
     "credentials": "",
-    "imageSrc": "assets/images/team/login.jpg",
+    "imageSrc": "/assets/images/team/login.jpg",
     "title": "Technical Developer",
     "description": [],
     "linkedIn": ""

@@ -1,4 +1,12 @@
-# Beacon Project website
+---
+title: About | Beacon Project
+layout: default
+permalink: /about.html
+categories:
+  - faq
+---
+
+## Beacon Project website
 
 This is the working code for the Beacon Project website. Beacons provide discovery services for genomic data in ELIXIR and the global [Beacon network](http://beacon-network.org), using the Beacon technology developed by the [Global Alliance for Genomics and Health](https://www.ga4gh.org/) (GA4GH).
 
