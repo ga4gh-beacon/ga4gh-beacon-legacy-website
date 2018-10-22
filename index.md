@@ -1,7 +1,7 @@
 ---
 title: Home | ELIXIR Beacon Project
 layout: default
-date: 2018-10-16
+date: 2018-10-18
 permalink: /index.html
 ---
 
