@@ -1,18 +1,4 @@
-## ELIXIR Beacon Project website
-
-The main information site for the ELIXIR Beacon Project - i.e. the formatted content of this repository - can be accessed as [Beacon website](http://beacon-project.io/).
-
-For more information about the project you may also consult the corresponding [ELIXIR website](https://www.elixir-europe.org/about-us/implementation-studies/beacons).
-
-### Website Technology
-
-The website is built from this repository using the Github-provided support for the Jekyll build system, using a combination of HTML and Markdown files and embedded Liquid markup. After adding or editing a post in the `master` branch, the corresponding website is auto-updated using Github's built-in Jekyll engine.
-
-Apart from special setup and modification procedures (adding collation pages for new categories or tags; layout modifications), most site management consists of adding Markdown pages to the `_posts` directory - see below.
-
-Note: One can easily test the site locally using the instructions provided [here](https://info.baudisgroup.org/howto/jekyllinstructions/). These can also be used to move the site project to a local built system with transfer of the generated pages to a standard webserver, independent of Github (see e.g. [info.baudisgroup.org](http://info.baudisgroup.org)).
-
-### Managing posts
+## Managing posts
 
 => The easiest way to create a new post is to copy and modify an old one from the same category. <=
 
@@ -30,7 +16,7 @@ These pages have to fulfil 2 conditions:
   
 Posts can be arranged into sub-directories (e.g. `/_posts/news/2018-10-19-news-weather-is-nice.md`); this has no impact at all and can be used for keeping some order.
 
-#### Front Matter
+### Front Matter
 
 A typical `YAML` front matter looks like this:
 

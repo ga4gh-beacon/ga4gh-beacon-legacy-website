@@ -18,12 +18,13 @@
 </head>
 
 <body>
+    <div style="display: block; background-color: #023453; position: fixed; top: 0; left: 0; width: 100%; height: 25px;"><img src="/assets/img/logo-ELIXIR-white-orange.png" style="float: right; width: 40px; margin-top: 4px; margin-right: 10px; clear: both;" /></div>
   <div class="wrapper">
     <header id="header">
 
 {{ site.site_header }}
 
-      <div class="navboxleft" style="margin-top: 20px;">
+      <div class="navboxleft" style="margin-top: 10px;">
 
 <!-- ######################################################################  -->
 <!--         navigation_categories from _config.yaml                         -->
@@ -37,9 +38,15 @@
 {% for this_category in site.navigation_categories %}
   {% assign cat_label = this_category[1] %}
   {% assign cat_key = this_category[0] %}
-        <h4><a href="/{{ cat_key }}/index.html">{{ cat_label }}</a></h4>
-<!-- posts are listed if same category as current page -->
-  {% if page.category contains cat_key %}
+        <h4><a href="/{{ cat_key }}.html">{{ cat_label }}</a></h4>
+<!--
+  * posts are listed if same category as current page
+  * the "this_name" fix is for the category collection pages - e.g. /howto.md
+    which are identical in content (i.e. no "category" in front matter) & only 
+    differ in their name (=> category)
+-->
+  {% assign this_name = page.name | split: "." %}
+  {% if page.category contains cat_key or this_name[0] == cat_key %}
     {% assign cat_posts = site.posts | where: 'category', cat_key %}
     {% for post in cat_posts %}
 <!-- first sticky/featured posts -->
@@ -62,7 +69,7 @@
 <!-- link to the category collecting page, if more -->
     {% if cat_posts.size > nav_itemno %}
         <div class="sublink" >
-          <a href="/{{ cat_key }}/index.html">all ...</a>
+          <a href="/{{ cat_key }}.html">all ...</a>
         </div>
     {% endif %}
   {% endif %}
@@ -112,26 +119,38 @@
 <!--                          / Static Links                                 -->
 <!-- ######################################################################  -->
 
+<!-- ######################################################################  -->
 <!-- ############################    Tags   ###############################  -->
+<!-- ######################################################################  -->
 
       <div class="navboxleft" style="text-align:center;">
 
 {% assign tags = site.tags | sort %}
 {% for tag in tags %}
         <div class="site-tag">
-          <a href="/tags/{{ tag | first }}/index.html" style="font-size: {{ tag | last | size | times: 2 | plus: 60 }}%">{{ tag[0] | replace: "--", "::" }}</a>
+          <a href="/tags/{{ tag | first }}/index.html" style="font-size: {{ tag | last | size | times: 3 | plus: 60 }}%">{{ tag[0] | replace: "--", "::" }}</a>
         </div>
 {% endfor %}
 <!-- collection tags are not auto generated -->
       </div>
 
+<!-- ######################################################################  -->
 <!-- ##########################    / Tags   ###############################  -->
+<!-- ######################################################################  -->
 
-      <div class="navboxleft small" style="padding-top: 20px;">
-<p>
-<a href="{{site.github.repository_url}}/blob/gh-pages/{{page.path}}" color="#666" >Edit this page</a>
-</p>
+<!-- ######################################################################  -->
+<!--                            Github Edit                                  -->
+<!-- ######################################################################  -->
+
+    <div class="navboxleft">
+      <div class="header_sublink" style="margin-left: 0px; margin-top: 10px; color: #ccc; ">
+        <a href="{{site.github.repository_url}}/blob/master/{{page.path}}" style="text-decoration: none; color: #ccc;">Edit this page</a>
       </div>
+    </div>
+
+<!-- ######################################################################  -->
+<!--                           / Github Edit                                 -->
+<!-- ######################################################################  -->
 
     </header>
 

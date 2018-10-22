@@ -2,11 +2,7 @@
 title: Home | ELIXIR Beacon Project
 layout: default
 date: 2018-10-16
-excerpt_separator: <!--more-->
-category:
-  - about
-tags:
-  - featured
+permalink: /index.html
 ---
 
 ## ELIXIR Beacon Project website
@@ -15,7 +11,6 @@ This is the main project information site for the ELIXIR Beacon Project.
 
 "Beacons" provide discovery services for genomic data in ELIXIR and the  [Beacon network](http://beacon-network.org), using the Beacon technology developed for the __Global Alliance for Genomics and Health__ ([GA4GH](https://www.ga4gh.org/)).
 
-<!--more-->
 
 For more information please see the main [Beacon website](http://beacon-project.io/) and the corresponding [ELIXIR website](https://www.elixir-europe.org/about-us/implementation-studies/beacons).
 
@@ -43,3 +38,4 @@ Recent and future versions of the _Beacon_ protocol expand the original concept 
 
 Since 2016, the development of the _Beacon_ protocol has been provided through the _ELIXIR Beacon_ project, a [GA4GH driver project](https://www.ga4gh.org/howwework/driver-projects.html), with ongoing participation from the  [DNAstack](https://dnastack.com) team.
 
+<!--more-->

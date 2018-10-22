@@ -3,7 +3,7 @@ label: 'ELIXIR Genome Beacons'
 name: Beacon
 site_header: |
   <h2><a href="/index.html">
-  <span style="color: #ee9933;">ELIXIR</span> Beacon Project</a>
+  <span style="color: #F47D1F;">ELIXIR</span> Beacon Project</a>
   </h2>
   <div>A Driver Project of the Global Alliance for Genomics and Health</div>
 site_domain_name: beacon-project.io
@@ -12,17 +12,23 @@ site_parent_link: 'https://www.elixir-europe.org/about-us/implementation-studies
 github_organisation: ga4gh-beacon
 show_downloads: true
 future: true
-highlighter: none
 plugins:
  - jekyll-seo-tag
 type: website
 description: Beacon is an open standard for genomics data discovery, developed by members of the Global Alliance for Genomics & Health
 keywords: genomics, cloud, Beacon, DNA, sharing, ELIXIR, GA4GH
 navigation_categories:
+  about: 'About...'
   news: News
   team: Team members
-  howto: 'Examples & Guides'
+  howto: 'Examples, Guides & FAQ'
   specification: Specification
-  faq: 'About & FAQ'
+  roadmap: Roadmap
+  network: 'Beacon Networks'
   contact: Contacts
 navigation_max_items: 4
+related_sites:
+  'ELIXIR': 'www.elixir-europe.org/about-us/implementation-studies/beacons'
+  GA4GH: 'ga4gh.org'
+  'Beacon<span style="vertical-align: super; color: red; font-weight: 800;">+</span>': 'beacon.progenetix.org'
+  'beacon-network.org': 'beacon-network.org'

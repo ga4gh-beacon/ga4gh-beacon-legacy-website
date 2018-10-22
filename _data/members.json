@@ -9,7 +9,6 @@
     "node": "/assets/images/UK.png",
     "linkedIn" : "",
     "ischair": 1
-
   },
   {
     "id": "member-mb",
@@ -42,7 +41,7 @@
     "description": [],
     "node": "/assets/images/Spain.png",
     "linkedIn": "",
-    "ischair": 1
+    "ischair": 0
   },
   {
     "id": "member-gs",
@@ -54,7 +53,6 @@
     "node": "/assets/images/UK.png",
     "linkedIn": "",
     "iscoordinator": 1
-
   },
   {
     "id": "member-dl",
@@ -76,18 +74,7 @@
     "description" :[],
     "node": "/assets/images/Canada.png",
     "linkedIn" : "",
-    "ischair": 1
-  },
-  {
-    "id": "member-mc",
-    "name": "Miro Cupak",
-    "credentials": "MSc.",
-    "title": "Senior Engineer",
-    "imageSrc": "/assets/images/team/mcupak.jpg",
-    "description": [
-      "Miroslav received his Master's in Informatics from Masaryk University, where he developed           a massively scalable, distributed database for genetic mutations. His expertise includes           distributed systems, middleware, and quality assurance. Miroslav is a senior engineer at           DNAstack and leads technical initiatives for the Beacon Project as part of the Global           Alliance for Genomics & Health."
-    ],
-    "linkedIn": "https://ca.linkedin.com/in/miro-cupak-958ba0103"
+    "ischair": 0
   },
   {
     "id": "member-jt",
@@ -96,7 +83,7 @@
     "imageSrc": "/assets/images/team/jtornroos.jpg",
     "title": "Senior Software Developer",
     "description": [],
-    "linkedIn": ""
+    "isdeveloper": 1
   },
   {
     "id": "member-sdt",
@@ -105,7 +92,7 @@
     "imageSrc": "/assets/images/team/sdelatorre.jpg",
     "title": "Technical Developer",
     "description": [],
-    "linkedIn": ""
+    "isdeveloper": 1
   },
   {
     "id": "member-bp",
@@ -115,7 +102,7 @@
     "title": "",
     "description" :[],
     "linkedIn" : "",
-    "node": "/assets/images/UK.png"
+    "isdeveloper": 1
   },
   {
     "id": "member-bp",
@@ -143,7 +130,7 @@
     "imageSrc": "/assets/images/team/login.jpg",
     "title": "",
     "description" :[],
-    "linkedIn" : ""
+    "isdeveloper": 1
   },
 	{
 		"id": "member-bg",
@@ -154,7 +141,7 @@
 		"description": [
 			"As part of the Theoretical Oncogenomics group at the University of Zurich (UZH) and Swiss Institute of Bioinformatics (SIB), Bo is working on the analysis of cancer genome data collections with computational tools. In the context of the ELIXIR Beacon project, Bo is implementing datasets for the forward looking Beacon+ project (beacon.progenetix.org)."
 		],
-		"linkedIn": ""
+    "isdeveloper": 1
   },
   {
     "id": "member-md",
@@ -163,7 +150,18 @@
     "imageSrc": "/assets/images/team/login.jpg",
     "title": "Technical Developer",
     "description": [],
-    "linkedIn": ""
+    "isdeveloper": 1
+  },
+  {
+    "id": "member-mc",
+    "name": "Miro Cupak",
+    "credentials": "MSc.",
+    "title": "Senior Engineer",
+    "imageSrc": "/assets/images/team/mcupak.jpg",
+    "description": [
+      "Miroslav received his Master's in Informatics from Masaryk University, where he developed           a massively scalable, distributed database for genetic mutations. His expertise includes           distributed systems, middleware, and quality assurance. Miroslav is a senior engineer at           DNAstack and leads technical initiatives for the Beacon Project as part of the Global           Alliance for Genomics & Health."
+    ],
+    "isdeveloper": 1
   }
 
 ]
