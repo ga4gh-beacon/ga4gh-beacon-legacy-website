@@ -8,4 +8,13 @@ a {
   text-decoration: none;
 }
 
+td ul {
+    padding: 0px;
+    list-style: inside;
 
+}
+
+td li {
+    margin-left: 0px;
+    padding: 0px;
+}
