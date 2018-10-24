@@ -29,6 +29,6 @@ Beacon implementations can also be classified by their potential for data delive
   - no sample/callset/individual ... resolution is possible by design
   - re-identification attacks possible through querying of multiple, usually rare, alleles corresponding to the _known_ genome of an individual
 * clinical Beacon
-  - any Beacon which contains non-aggregate data (variants and metadata)
+  - any Beacon which contains non-aggregate data (variants and/or metadata)
   - potential of data exposure through standard security breaches
   - additional security risk through non-aggregate responses, where implemented
