@@ -3,6 +3,7 @@ title: 'Beacon Flavours'
 date: 2018-10-24
 layout: default
 author: mbaudis
+permalink: /roadmap/beacon-flavours.html
 excerpt_separator: <!--more-->
 www_link:
 category:
