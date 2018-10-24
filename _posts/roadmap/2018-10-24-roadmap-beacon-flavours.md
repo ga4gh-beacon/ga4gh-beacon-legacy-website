@@ -57,8 +57,8 @@ Beacons may be able to increase their functionality through the development of d
   </td>
   <td>
     <ul>
-      <li>VICC</li>
-      <li>BRCA</li>
+      <li><a href="http://cancervariants.org" target="_blank">VICC</a></li>
+      <li><a href="https://brcaexchange.org" target="_blank">BRCA Exchange</a></li>
       <li>...</li>
     </ul></td>
   <td> </td>
@@ -73,7 +73,7 @@ Beacons may be able to increase their functionality through the development of d
   </td>
   <td>
     <ul>
-      <li>Data (variants, callsets, individual/clinical records) through "handover" scenarios</li>
+      <li>Data (variants, callsets, individual/clinical records) through <a href="/roadmap/handover.html"><i><b>handover</b></i></a> scenarios</li>
       <li>versions with direct data delivery in response in secure environments (?)</li>
     </ul>
   </td>

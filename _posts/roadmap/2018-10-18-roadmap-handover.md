@@ -3,8 +3,9 @@ title: 'Beacon Handover for Data Delivery'
 date: 2018-10-18
 layout: default
 author: mbaudis
+permalink: /roadmap/handover.html
 excerpt_separator: <!--more-->
-www_link: 
+www_link:
 category:
   - roadmap
 tags:
