@@ -3,7 +3,6 @@ layout: default
 ---
 
 {% assign this_name = page.name | split: "." %}
-
 {% assign this_category = this_name[0] %}
 
 ## {{ this_category | capitalize }}
@@ -22,7 +21,7 @@ layout: default
     {{ post.excerpt }}
 <p class="footnote">
     {%if post.author %}
-      {{post.author}}, 
+      {{post.author}},
     {% endif %}
   {{ post.date | date: "%Y-%m-%d" }}: <a href="{{ post.url | relative_url }}">more ...</a>
   </p>
@@ -31,12 +30,12 @@ layout: default
 {% endfor %}
 
 {% for post in site.categories[this_category] %}
-  {% unless post.tags contains 'featured' or post.tags contains 'sticky' %} 
+  {% unless post.tags contains 'featured' or post.tags contains 'sticky' %}
 <div class="excerpt">
     {{ post.excerpt }}
     {%if post.author %}
 <p class="footnote">
-      {{post.author}}, 
+      {{post.author}},
     {% endif %}
   {{ post.date | date: "%Y-%m-%d" }}: <a href="{{ post.url | relative_url }}">more ...</a>
   </p>

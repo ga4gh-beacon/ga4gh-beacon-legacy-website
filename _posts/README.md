@@ -13,7 +13,7 @@ These pages have to fulfil 2 conditions:
     * when this date is reached, or
     * if the `future: true` flag is set in `_config.yml`
   * the leading date has to be followed by a dash `-` sign (e.g. `2018-10-19-news-weather-is-nice.md`)
-  
+
 Posts can be arranged into sub-directories (e.g. `/_posts/news/2018-10-19-news-weather-is-nice.md`); this has no impact at all and can be used for keeping some order.
 
 ### Front Matter
@@ -25,7 +25,7 @@ A typical `YAML` front matter looks like this:
 title: Coordinate use for Beacon Queries
 date: 2018-10-17
 layout: default
-author: mbaudis
+author: '@github_user_name'
 excerpt_separator: <!--more-->
 www_link: 'beacon.progenetix.org'
 category:
@@ -48,6 +48,16 @@ With the attributes:
   * ISO8601 date (see example)
   * will override the date in the filename
   * not strictly needed (since the Jekyll `page.date` variable can be derived from the filename)
+* `author`
+  - optional, recommended
+  - the Github user name of the page's creator
+  - will auto-link to the `https://github.com/github_user_name/` page, if starting with an "@"
+  - __@github_user_name__ has to be quoted or the page won't build!
+  - names w/o "@" won't link
+* `author_link`:
+  - add this to provide a full, quoted address for e.g. the author's home page
+    * `author_link: 'https://info.baudisgroup.org/group/Michael_Baudis/'`
+  - only works for non-"@" author names (otherwise -> Github)
 * `layout: default`
   * needed for processing the page into the html template
   * `default` can be replaced with another value from `/layouts/`
