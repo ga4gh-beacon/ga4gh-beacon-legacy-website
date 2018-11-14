@@ -16,12 +16,10 @@ tags:
 
 ## {{ page.title }}
 
-ELIXIR Beacon Coordinator 
+ELIXIR Beacon Coordinator
 
 ELIXIR Hub
 
-email [gary.saunders@elixir-europe.org](mailto:elixir-europe.org) 
+email [gary.saunders@elixir-europe.org](mailto:elixir-europe.org)
 
 <!--more-->
-
-

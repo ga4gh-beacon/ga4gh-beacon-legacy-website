@@ -13,19 +13,15 @@ tags:
 
 <img style="float: right; width: 120px;" src="/assets/img/team/sscollen.jpg" />
 
-## {{ page.title }}
+## Serena Scollen, PhD
 
-Co-chair ELIXIR Beacon 
+Co-chair ELIXIR Beacon
 
-ELIXIR Hub 
+ELIXIR Hub
 
-email [serena.scollen@elixir-europe.org](mailto:serena.scollen@elixir-europe.org) 
+email [serena.scollen@elixir-europe.org](mailto:serena.scollen@elixir-europe.org)
 
-web [ELIXIR](https://www.elixir-europe.org/about-us/who-we-are/hub) 
+web [ELIXIR](https://www.elixir-europe.org/about-us/who-we-are/hub)
 
 
 <!--more-->
-
-
-
-

@@ -14,25 +14,22 @@ tags:
 
 <img style="float: right; width: 120px;" src="/assets/img/team/mbaudis.jpg" />
 
-## {{ page.title }}
+## Prof. Dr. Michael Baudis
 
-Co-chair ELIXIR Beacon 
+Co-chair ELIXIR Beacon
 
-Representative GA4GH 
+Representative GA4GH
 
-University of Zurich 
+University of Zurich
 
-Swiss Institute of Bioinformatics 
+Swiss Institute of Bioinformatics
 
-email [mbaudis@progenetix.org](mailto:mbaudis@progenetix.org) 
+email [mbaudis@progenetix.org](mailto:mbaudis@progenetix.org)
 
-web [UZH](https://www.imls.uzh.ch/en/research/baudis.html) 
+web [UZH](https://www.imls.uzh.ch/en/research/baudis.html)
 
-web [SIB](https://www.sib.swiss/michael-baudis-group) 
+web [SIB](https://www.sib.swiss/michael-baudis-group)
 
-web [group](https://info.baudisgroup.org) 
+web [group](https://info.baudisgroup.org)
 
 <!--more-->
-
-
-
