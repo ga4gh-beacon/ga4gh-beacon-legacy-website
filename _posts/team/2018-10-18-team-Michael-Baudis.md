@@ -18,7 +18,7 @@ tags:
 
 Co-chair ELIXIR Beacon
 
-Representative GA4GH
+Professor of Bioinformatics
 
 University of Zurich
 

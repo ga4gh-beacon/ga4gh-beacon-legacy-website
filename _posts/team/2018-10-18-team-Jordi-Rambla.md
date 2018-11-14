@@ -24,7 +24,7 @@ European Genome-Phenome Archive
 
 email [jordi.rambla@crg.eu](mailto:jordi.rambla@crg.eu)
 
-web [EGA](https://www.crg.eu/en/programmes-groups/ega-team)
+web [CRG](https://www.crg.eu/en/programmes-groups/ega-team)
 
 web [EGA](https://ega-archive.org/about/team)
 
