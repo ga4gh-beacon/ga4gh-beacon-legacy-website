@@ -13,7 +13,7 @@ tags:
   - development
 ---
 
-## {{ page.title }}
+## [H-&gt;O] {{ page.title }}
 
 While the Beacon response should be restricted to aggregate data (yes/no, counts, frequencies ...), the usage of the protocol could be greatly expanded by providing an access method to data elements matched by a Beacon query.
 
