@@ -4,6 +4,7 @@ layout: default
 excerpt_separator: <!--more-->
 categories:
   - team
+  - developers
 tags:
   - team
   - developers
