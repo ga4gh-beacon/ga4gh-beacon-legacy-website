@@ -3,10 +3,8 @@ title: "Sabela de la Torre Pernas"
 layout: default
 excerpt_separator: <!--more-->
 categories:
-  - team
   - developers
 tags:
-  - team
   - developers
 ---
 
