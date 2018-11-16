@@ -18,3 +18,7 @@ td li {
     margin-left: 0px;
     padding: 0px;
 }
+
+code {
+  font-size: 11px;
+}
