@@ -1,5 +1,5 @@
 ---
-title: 'Beacon Handover for Data Delivery'
+title: '[H—>O] Beacon Handover for Data Delivery'
 date: 2018-10-18
 layout: default
 author: mbaudis
@@ -13,7 +13,7 @@ tags:
   - development
 ---
 
-## [H-&gt;O] {{ page.title }}
+## {{ page.title }}
 
 While the Beacon response should be restricted to aggregate data (yes/no, counts, frequencies ...), the usage of the protocol could be greatly expanded by providing an access method to data elements matched by a Beacon query.
 
