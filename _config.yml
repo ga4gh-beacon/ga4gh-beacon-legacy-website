@@ -31,5 +31,6 @@ related_sites:
   'ELIXIR': 'www.elixir-europe.org/about-us/implementation-studies/beacons'
   GA4GH: 'ga4gh.org'
   'Beacon<span style="vertical-align: super; color: red; font-weight: 800;">+</span>': 'beacon.progenetix.org'
+  SchemaBlocks: 'ga4gh-metadata.github.io/schemas/'
   'beacon-network.org': 'beacon-network.org'
   'GA4GH SchemaBlocks': 'schemablocks.org'
