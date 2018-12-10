@@ -4,7 +4,7 @@ date: 2018-10-18
 layout: default
 author: mbaudis
 excerpt_separator: <!--more-->
-www_link: 
+www_link:
 category:
   - roadmap
 tags:
@@ -21,11 +21,11 @@ Future Beacon API versions will support querying for additional, non-sequence re
 <figure style="display: block; float: right; width: 250px; margin-right: 0px; margin-top: -25px;">
   <img src="https://ga4gh-metadata.github.io/schemas/rsrc/img/ga4gh-object-model.png" style="width: 140px; margin-left: 55px " />
   <figcaption style="font-size: 0.8em; color: #03c; background-color: #eee; padding: 5px;">
-Proposed basic objects and their relationships, derived from the GA4GH Metadata Schema with some placeholder attributes. Such a model can serve as the basis for consistently scoped Beacon queries, beyond variant detection. 
+Proposed basic objects and their relationships, derived from the GA4GH Metadata Schema with some placeholder attributes. Such a model can serve as the basis for consistently scoped Beacon queries, beyond variant detection.
   </figcaption>
 </figure>
 
-One of the first implementations will be towards ontology term based phenotype and disease classifications, based on concepts from the `Biocharacteristic` and `OntologyTerm` objects from the GA4GH metadata model and its [__SchemaBlocks__](https://ga4gh-metadata.github.io/schemas/) descendant.
+One of the first implementations will be towards ontology term based phenotype and disease classifications, based on concepts from the `Biocharacteristic` and `OntologyTerm` objects from the GA4GH metadata model and its [__SchemaBlocks__](http://schemablocks.org/) descendant.
 
 Development of these query extensions will require a basic, but consistent, object model for scoping such queries.
 
@@ -56,6 +56,3 @@ db.biosamples.find( { "biocharacteristics.type.id" : "ncit:C27676" } )
 ```
 https://beacon-server.example.org/api/?collection=biosamples&qfield=biocharacteristics.type.id&qtext=ncit:C27676
 ```
-
- 
-
