@@ -14,7 +14,7 @@ tags:
 
 <img style="float: right; width: 120px;" src="/assets/img/team/garys.jpg" />
 
-## {{ page.title }}
+## {{ page.title }}, PhD
 
 ELIXIR Beacon Coordinator
 

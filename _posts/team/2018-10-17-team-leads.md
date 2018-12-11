@@ -1,13 +1,24 @@
 ---
+title: "Project Leads"
 layout: default
+excerpt_separator: <!--more-->
+category:
+  - team
+  - contact
+tags:
+  - contacts
+  - team
+  - leads
 ---
 
-<h2 class="post_title">Pages tagged "{{ page.title }}"</h2>
+## {{ page.title }}
 
-<!-- Split into future and past, based on date versus today -->
+Within a shallow and flexible hierarchy, the Beacon project leads are the primary points of contact for establishing collaborations or when seeking general project support, beyond specific technical questions (but possibly including those).
+
+<!--more-->
 
 {% assign today = site.time | date: '%Y%m%d' %}
-{% assign page_tag = page.tag | downcase %}
+{% assign page_tag = 'leads' %}
 
 {% for post in site.posts %}
   {% assign post_tags = post.tags | sort %}

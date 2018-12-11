@@ -9,7 +9,6 @@ tags:
   - contacts
   - team
   - leads
-  - developers
 ---
 
 <img style="float: right; width: 120px;" src="/assets/img/team/jrambla.jpg" />

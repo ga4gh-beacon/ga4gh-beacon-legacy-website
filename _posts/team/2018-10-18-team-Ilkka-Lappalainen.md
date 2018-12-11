@@ -16,12 +16,10 @@ tags:
 
 ## {{ page.title }}
 
-Co-chair ELIXIR Beacon 
+Co-chair ELIXIR Beacon
 
-CSC - IT Center for Science 
+CSC - IT Center for Science
 
-email [ilkka.lappalainen@csc.fi](mailto:ilkka.lappalainen@csc.fi) 
+email [ilkka.lappalainen@csc.fi](mailto:ilkka.lappalainen@csc.fi)
 
 <!--more-->
-
-
