@@ -27,3 +27,37 @@ As of 2018-11-13, the __handover__ concept has become part of the [ongoing code 
 </figure>
 
 <!--more-->
+
+In the latest version of the __handover__ draft, data pointers can now be delivered for the Beacon itself (`beaconHandover`) and datasets (`datasetHandover`). An example of `datasetHandover` use is shown below, from the [Beacon+](http://beacon.progenetix.org) implementation.
+
+```
+"datasetAlleleResponses": [
+  {
+    "datasetHandover": [
+      {
+        "handoverType": {
+          "id": "pgx:handover:biosamplesdata",
+          "label": "Biosamples"
+        },
+        "description": "retrieve data of the biosamples matched by the query",
+        "url": "http://beacon.progenetix.org/beaconplus-server/beacondeliver.cgi?do=biosamplesdata&accessid=5327fe14-0375-11e9-87ab-f392226922dd"
+      },
+      {
+        "url": "http://beacon.progenetix.org/beaconplus-server/beacondeliver.cgi?do=individualsdata&accessid=53283c62-0375-11e9-87ab-f0c3824efc45",
+        "description": "retrieve data of the individuals matched by the query",
+        "handoverType": {
+          "label": "Individuals",
+          "id": "pgx:handover:individualsdata"
+        }
+      },
+      {
+        "description": "retrieve data of the variants matched by the query",
+        "url": "http://beacon.progenetix.org/beaconplus-server/beacondeliver.cgi?do=variantsdata&accessid=53273f2d-0375-11e9-87ab-958a9c7ac1d4",
+        "handoverType": {
+          "id": "pgx:handover:variantsdata",
+          "label": "Variants"
+        }
+      }
+    ],
+ ...
+```
