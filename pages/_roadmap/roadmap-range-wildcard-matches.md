@@ -66,3 +66,5 @@ Below is an excerpt of the variant [H->O] object, returned from the combination 
 ...
 ]
 ```
+
+This type of query can be tested in the [Beacon<span style="color: red; font-weight: 800;">+</span>](https://beacon.progenetix.org) installation using the "SNV Range Example".
