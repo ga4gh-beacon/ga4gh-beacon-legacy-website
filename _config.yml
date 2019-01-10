@@ -62,12 +62,15 @@ related_sites:
   GA4GH: 'http://ga4gh.org'
   'Beacon<span style="color: red; font-weight: 800;">+</span>': 'http://beacon.progenetix.org'
   'GA4GH::SchemaBlocks': 'http://schemablocks.org'
-  'GA4GH::Discovery': 'http://ga4gh-discovery.github.io'
   'beacon-network.org': 'http://beacon-network.org'
-  
+  'GA4GH::Discovery': 'http://ga4gh-discovery.github.io'
+  'GA4GH::CLP': 'http://ga4gh-cp.github.io'
+  'GA4GH::GKS': 'http://ga4gh-gks.github.io'
+
 # tag_cloud items
 
 cloud_tags:
+  - admin
   - code
   - contacts
   - definitions

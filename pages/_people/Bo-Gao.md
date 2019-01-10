@@ -1,15 +1,12 @@
 ---
-title: "Ion Tichy, ST"
+title: "Bo Gao"
 layout: default
-date: 1967-11-11
 excerpt_separator: <!--more-->
-image_file: 'Ion_Tichy.png'
+image_file: bgao.png
 category:
   - people
-tags: # please delete unneeded options
-  - contacts
+tags:
   - contributors
-  - leads
   - developers
 ---
 
@@ -21,18 +18,17 @@ tags: # please delete unneeded options
 
 ## {{ page.title }}
 
-Beacon Explorer  
-Arkturius Space University  
+Developer, Beacon project  
+PhD candidate in Bioinformatics  
+University of Zurich  
 
 <!--more-->
 
-email [itichy@cc.arsu.arkturius](mailto:itichy@cc.arkturius)  
-web [ARSU](https://sww.arsu.arkturius)  
+#### Developer:
 
+* Beacon
+* data compatibility & integration
 
-Ion Tichy is a character in the works of Stanislaw Lem.
-
-
-
-
+email [bo@progenetix.org](mailto:bo@progenetix.org)  
+web [Bo Gao @ UZH](http://info.baudisgroup.org/group/Bo_Gao/)  
 

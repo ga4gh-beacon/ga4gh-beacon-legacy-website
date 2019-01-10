@@ -1,15 +1,12 @@
 ---
-title: "Ion Tichy, ST"
+title: "Juha Törnroos"
 layout: default
-date: 1967-11-11
 excerpt_separator: <!--more-->
-image_file: 'Ion_Tichy.png'
+image_file: 'jtornroos.jpg'
 category:
   - people
-tags: # please delete unneeded options
-  - contacts
+tags:
   - contributors
-  - leads
   - developers
 ---
 
@@ -21,18 +18,12 @@ tags: # please delete unneeded options
 
 ## {{ page.title }}
 
-Beacon Explorer  
-Arkturius Space University  
+Developer  
+ELIXIR Finland  
+CSC
 
 <!--more-->
 
-email [itichy@cc.arsu.arkturius](mailto:itichy@cc.arkturius)  
-web [ARSU](https://sww.arsu.arkturius)  
-
-
-Ion Tichy is a character in the works of Stanislaw Lem.
-
-
-
+email [juha.tornroos@csc.fi](mailto:juha.tornroos@csc.fi)  
 
 

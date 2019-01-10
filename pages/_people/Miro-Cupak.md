@@ -1,16 +1,14 @@
 ---
-title: "Ion Tichy, ST"
+title: "Miro Cupak"
 layout: default
-date: 1967-11-11
 excerpt_separator: <!--more-->
-image_file: 'Ion_Tichy.png'
+image_file: mcupak.jpg
 category:
   - people
-tags: # please delete unneeded options
-  - contacts
+tags:
   - contributors
-  - leads
   - developers
+  - Discovery
 ---
 
 {% for static_file in site.static_files %}
@@ -21,18 +19,11 @@ tags: # please delete unneeded options
 
 ## {{ page.title }}
 
-Beacon Explorer  
-Arkturius Space University  
+Developer  
+DNAstack  
 
 <!--more-->
 
-email [itichy@cc.arsu.arkturius](mailto:itichy@cc.arkturius)  
-web [ARSU](https://sww.arsu.arkturius)  
-
-
-Ion Tichy is a character in the works of Stanislaw Lem.
-
-
-
-
+email []()  
+web [DNAstack](http://dnastack.com)  
 
