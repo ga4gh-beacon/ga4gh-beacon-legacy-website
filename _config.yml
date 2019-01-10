@@ -1,35 +1,99 @@
-title: 'ELIXIR Genome Beacons'
 label: 'ELIXIR Genome Beacons'
-name: Beacon
-site_header: |
-  <h2><a href="/index.html">
-  <span style="color: #F47D1F;">ELIXIR</span> Beacon Project</a>
-  </h2>
-  <div>A Driver Project of the Global Alliance for Genomics and Health</div>
+tagline: 'A Driver Project of the Global Alliance for Genomics and Health'
+description: |
+  Beacon is an open standard for genomics data discovery, developed by members of the Global Alliance for Genomics & Health
+keywords: genomics, cloud, Beacon, DNA, sharing, ELIXIR, GA4GH
 site_domain_name: beacon-project.io
-site_download_link: 'http://beacon-project.io/assets'
+url: 'https://schemablocks.org'
+baseurl: ""
 site_parent_link: 'https://www.elixir-europe.org/about-us/implementation-studies/beacons'
 github_organisation: ga4gh-beacon
 show_downloads: true
 future: true
-plugins:
- - jekyll-seo-tag
-type: website
-description: Beacon is an open standard for genomics data discovery, developed by members of the Global Alliance for Genomics & Health
-keywords: genomics, cloud, Beacon, DNA, sharing, ELIXIR, GA4GH
-navigation_categories:
+
+# instructions for processing specific directories
+
+include:
+  - categories  # contains landing pages for each category
+  - tags        # contains landing pages for each tag
+collections_dir: pages
+collections:
+  about:
+    output: true
+    permalink: /about/:path/
+  news:
+    output: true
+    permalink: /news/:path/
+  people:
+    output: true
+    permalink: /people/:path/
+  howto:
+    output: true
+    permalink: /howto/:path/
+  specification:
+    output: true
+    permalink: /specification/:path/
+  roadmap:
+    output: true
+    permalink: /roadmap/:path/
+  network:
+    output: true
+    permalink: /network/:path/
+  minutes:
+    output: true
+    permalink: /minutes/:path/
+
+# navigation blocks can be used to separate different categories and add e.g. 
+# external link block(s), in combination with a properly modified layout
+
+nav_cat_blocks:
+  General: 'General,categories,hide'
+  related_sites: 'Related Sites,related_sites,show'
+
+General:
   about: 'About...'
   news: News
-  team: Team members
+  people: Contributors
   howto: 'Examples, Guides & FAQ'
   specification: Specification
   roadmap: Roadmap
   network: 'Beacon Networks'
+  minutes: Meeting Minutes
   contact: Contacts
-navigation_max_items: 4
+
 related_sites:
-  'ELIXIR': 'www.elixir-europe.org/about-us/implementation-studies/beacons'
-  GA4GH: 'ga4gh.org'
-  'Beacon<span style="vertical-align: super; color: red; font-weight: 800;">+</span>': 'beacon.progenetix.org'
-  'GA4GH SchemaBlocks': 'schemablocks.org'
-  'beacon-network.org': 'beacon-network.org'
+  'ELIXIR': 'http://www.elixir-europe.org/about-us/implementation-studies/beacons'
+  GA4GH: 'http://ga4gh.org'
+  'Beacon<span style="vertical-align: super; color: red; font-weight: 800;">+</span>': 'http://beacon.progenetix.org'
+  'GA4GH SchemaBlocks': 'http://schemablocks.org'
+  'beacon-network.org': 'http://beacon-network.org'
+  
+# tag_cloud items
+
+cloud_tags:
+  - code
+  - contacts
+  - definitions
+  - developers
+  - development
+  - faq
+  - leads
+  - network
+  - .prepend
+  - press
+  - proposal
+  - queries
+  - releases
+  - specification
+  - team
+  - versions
+
+# additional Jekyll instructions
+
+plugins:
+ - jekyll-seo-tag
+type: website
+navigation_max_items: 4 # number of shown links in current category
+emptyArray: []          # dummy element for array initialisation
+
+
