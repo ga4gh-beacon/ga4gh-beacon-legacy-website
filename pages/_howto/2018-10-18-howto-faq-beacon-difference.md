@@ -18,4 +18,4 @@ Since much of that information is currently collected and held in silos, researc
 
 The Beacon Project was created both to test the willingness of organizations to share at the most basic, yes/no level, and also to allow researchers to understand if a specific allele exists in other data sets. Now that a Beacon Network has been created, researchers have the ability to discover valuable information within organizations that have lit Beacons. This is often a needed first step to aggregate and learn from large scale genomic data.
 
-<img src="/assets/images/beacon-access-levels.gif" data-gifffer-alt="Beacon Access Levels" />
+<img src="/assets/img/beacon-access-levels.gif" data-gifffer-alt="Beacon Access Levels" />
