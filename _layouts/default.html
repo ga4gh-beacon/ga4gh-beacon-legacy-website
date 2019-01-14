@@ -8,6 +8,7 @@
 {% seo %}
 
   <meta name="viewport" content="width=device-width">
+  <link rel="shortcut icon" href="{{ 'assets' | relative_url }}/img/site-specific/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="{{ 'assets/css/style.css' | relative_url }}">
   <link rel="stylesheet" href="{{ 'assets/css/site_style.css' | relative_url }}">
 
@@ -15,8 +16,8 @@
 
 <body>
   <div id="headband">
-    <img src="{{ 'assets/img' | relative_url }}/logo_topleft_{{ site.site_domain_name }}.png" id="logo_topleft" />
-    <img src="{{ 'assets/img' | relative_url }}/logo_topright_{{ site.site_domain_name }}.png" id="logo_topright" />
+    <img src="{{ 'assets' | relative_url }}/img/site-specific/site-logo-topleft.png" id="logo_topleft" />
+    <img src="{{ 'assets' | relative_url }}/img/site-specific/site-logo-topright.png" id="logo_topright" />
   </div>
   <div class="wrapper" style="margin-top: 20px">
     <header id="header">
@@ -222,7 +223,7 @@
 
     <footer>
       <a href="{{ site.site_parent_link }}">
-        <img style="margin-top:15px; float: left;" src="{{ 'assets/img' | relative_url }}/logo_{{ site.site_domain_name }}.png" />
+        <img style="margin-top:15px; float: left;" src="{{ 'assets' | relative_url }}/img/site-specific/site-logo-main.png" />
       </a>
     </footer>
 
