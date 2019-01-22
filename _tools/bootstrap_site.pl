@@ -1,9 +1,6 @@
 #!/usr/bin/perl
 
-use diagnostics;
 =pod
-
-TODO: Fix the Boolean etc. value type 2 string bug.
 
 =cut
 
@@ -28,17 +25,26 @@ foreach my $type (qw(tags categories)) {
   
   if ($type eq 'tags') {
     @items      =   @{ $config->{cloud_tags} } }
-  else {
-    foreach $cat_block (@cat_blocks) {
-      push(
-       @items,
-       keys %{ $config->{$cat_block} },
-      );
+  elsif  ($type eq 'categories') {
+    foreach $cat_block (keys %{ $config->{nav_cat_blocks} }) {
+      if ($config->{nav_cat_blocks}->{$cat_block} =~ /\,$type\,/) {
+        push(
+         @items,
+         keys %{ $config->{$cat_block} },
+        );
+      }
     }
   }
+  
   mkdir $type_path;
   foreach (@items) { copy($template, $type_path.'/'.$_.'.md') }
   foreach (@items) { print $type_path.'/'.$_.'.md'."\n" }
 
+}
+
+mkdir $base_path.'/'.$config->{collections_dir};
+foreach my $coll (keys %{ $config->{collections} }) {
+  mkdir $base_path.'/'.$config->{collections_dir}.'/_'.$coll;
+  print $base_path.'/'.$config->{collections_dir}.'/_'.$coll."\n";
 }
 
