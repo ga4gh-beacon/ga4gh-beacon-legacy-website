@@ -49,6 +49,7 @@ nav_cat_blocks:
 
 General:
   about: 'About...'
+  news: 'News & Press'
   people: Contributors
   howto: 'Examples, Guides & FAQ'
   specification: Specification
@@ -79,7 +80,6 @@ cloud_tags:
   - faq
   - leads
   - network
-  - .prepend
   - press
   - proposal
   - queries
