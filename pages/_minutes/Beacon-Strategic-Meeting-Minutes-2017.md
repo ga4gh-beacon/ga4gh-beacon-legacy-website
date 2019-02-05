@@ -1,5 +1,5 @@
 ---
-title: 'Beacon Strategig Meeting Minutes 2017'
+title: 'Beacon Strategic TC Minutes 2017'
 date: 2017-12-31
 layout: default
 author: "@mbaudis"
@@ -13,6 +13,6 @@ tags: # please adjust
 
 ## {{ page.title }}
 
-The meeting minutes archive of the 2017 "strategic Beacon calls" have been archived and can be accessed through this PDF.
+The meeting minutes archive of the 2017 "Strategic Beacon calls" have been archived and can be accessed through this PDF.
 
 <!--more-->
