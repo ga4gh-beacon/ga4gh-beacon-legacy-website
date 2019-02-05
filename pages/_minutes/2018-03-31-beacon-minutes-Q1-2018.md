@@ -1,5 +1,5 @@
 ---
-title: 'Beacon Strategic Meeting Minutes Q1 2018'
+title: 'Beacon Strategic TC Minutes Q1 2018'
 date: 2018-03-31
 layout: default
 author: "@deermell"
@@ -13,6 +13,6 @@ tags: # please adjust
 
 ## {{ page.title }}
 
-The meeting minutes archive of the forst quarter of 2018 "Strategic Beacon calls" have been archived and can be accessed through this PDF.
+The meeting minutes archive of the first quarter of 2018 "Strategic Beacon calls" have been archived and can be accessed through this PDF.
 
 <!--more-->
