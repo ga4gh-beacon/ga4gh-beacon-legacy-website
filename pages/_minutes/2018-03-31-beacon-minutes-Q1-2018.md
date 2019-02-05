@@ -13,6 +13,6 @@ tags: # please adjust
 
 ## {{ page.title }}
 
-The meeting minutes archive of the first quarter of 2018 "Strategic Beacon calls" have been archived and can be accessed through this PDF.
+The meeting minutes of the first quarter of 2018 "Strategic Beacon calls" have been archived and can be accessed through this PDF.
 
 <!--more-->
