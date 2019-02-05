@@ -1,5 +1,5 @@
 ---
-title: 'Beacon Strategic TC Minutes Q1 2018'
+title: 'Beacon Strategic TC Minutes Q4 2018'
 date: 2018-12-31
 layout: default
 author: "@deermell"
