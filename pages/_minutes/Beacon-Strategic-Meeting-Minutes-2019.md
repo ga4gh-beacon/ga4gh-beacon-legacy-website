@@ -1,5 +1,5 @@
 ---
-title: 'Beacon Strategig Meeting Minutes 2019'
+title: 'Beacon Strategic TC Minutes 2019'
 date: 2019-01-09
 layout: default
 author: "@mbaudis"
@@ -20,6 +20,6 @@ tags: # please adjust
 
 ## {{ page.title }}
 
-The meeting minutes archive of the 2019 "strategic Beacon calls" can be accessed below.
+The meeting minutes archive of the 2019 "Strategic Beacon calls" can be accessed below.
 
 <!--more-->
