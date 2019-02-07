@@ -4,7 +4,7 @@ date: 2018-09-30
 layout: default
 author: "@deermell"
 excerpt_separator: <!--more-->
-pdf_file_name: GA4GH-Beacon-Strategic-Meeting-Minutes-Q3.-2018.pdf
+pdf_file_name: GA4GH-Beacon-Strategic-Meeting-Minutes-Q3-2018.pdf
 category: # please adjust
   - minutes
 tags: # please adjust
