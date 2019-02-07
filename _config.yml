@@ -58,6 +58,10 @@ General:
   minutes: Meeting Minutes
   contact: Contacts
 
+categories_year_sorted:
+  - news
+  - minutes
+
 related_sites:
   'ELIXIR': 'http://www.elixir-europe.org/about-us/implementation-studies/beacons'
   GA4GH: 'http://ga4gh.org'
@@ -79,6 +83,7 @@ cloud_tags:
   - development
   - faq
   - leads
+  - minutes
   - network
   - press
   - proposal
