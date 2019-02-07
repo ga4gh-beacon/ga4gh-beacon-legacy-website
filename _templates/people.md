@@ -24,11 +24,10 @@ tags: # please delete unneeded options
 Beacon Explorer  
 Arkturius Space University  
 
-<!--more-->
-
 email [itichy@cc.arsu.arkturius](mailto:itichy@cc.arkturius)  
 web [ARSU](https://sww.arsu.arkturius)  
 
+<!--more-->
 
 Ion Tichy is a character in the works of Stanislaw Lem.
 
