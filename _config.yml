@@ -21,6 +21,9 @@ collections:
   about:
     output: true
     permalink: /about/:path/
+  events:
+    output: true
+    permalink: /events/:path/
   people:
     output: true
     permalink: /people/:path/
@@ -51,6 +54,7 @@ General:
   about: 'About...'
   news: 'News & Press'
   people: Contributors
+  events: Events
   howto: 'Examples, Guides & FAQ'
   specification: Specification
   roadmap: Roadmap
@@ -61,6 +65,7 @@ General:
 categories_year_sorted:
   - news
   - minutes
+  - events
 
 related_sites:
   'ELIXIR': 'http://www.elixir-europe.org/about-us/implementation-studies/beacons'
