@@ -34,8 +34,8 @@ layout: default
         {% endif %}
       {{ post.excerpt }}
   <p class="footnote">
-      {%if post.author %}{{post.author}}, {% endif %}
-      {%if post.date %}{{ post.date | date: "%Y-%m-%d" }}: {% endif %}
+      {%- if post.author -%}{{ post.author | join: " | " }}&nbsp;{%- endif -%}
+      {% if post.date %}{{ post.date | date: "%Y-%m-%d" }}: {% endif %}
       <a href="{{ post.url | relative_url }}">more ...</a>
   </p>
 </div>

@@ -42,7 +42,7 @@ layout: default
 <div class="excerpt">
     {{ post.excerpt }}
   <p class="footnote">
-    {% if post.author %}{{ post.author | remove: "@" }}, {% endif %}
+    {%- if post.author -%}{{ post.author | join: " | " }}&nbsp;{%- endif -%}
     {% if post.date %}{{ post.date | date: "%Y-%m-%d" }}: {% endif %}
     <a href="{{ post.url | relative_url }}">more ...</a>
   </p>
@@ -59,7 +59,7 @@ layout: default
 <div class="excerpt">
     {{ post.excerpt }}
   <p class="footnote">
-    {% if post.author %}{{ post.author | remove: "@" }}, {% endif %}
+    {%- if post.author -%}{{ post.author | join: " | " }}&nbsp;{%- endif -%}
     {% if post.date %}{{ post.date | date: "%Y-%m-%d" }}: {% endif %}
     <a href="{{ post.url | relative_url }}">more ...</a>
   </p>
