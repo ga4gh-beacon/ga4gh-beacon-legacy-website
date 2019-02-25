@@ -53,6 +53,10 @@
       {%- assign cat_label = this_category[1] -%}
       {%- assign cat_key = this_category[0] -%}
       {%- assign cat_page = cat_key | append: '.html' -%}
+      {%- assign cat_visibility = 'none' -%}
+      {%- if page.category contains cat_key or this_name[0] == cat_key -%}
+        {%- assign cat_visibility = 'block' -%}
+      {%- endif -%}
 
   <h4 class="catlink"><a href="{{ 'categories' | relative_url }}/{{cat_page}}">{{ cat_label }}</a></h4>
         
@@ -71,7 +75,7 @@
 {%- endcomment -%}
         {%- for post in cat_posts -%}{%- if post.tags contains '.featured' -%}
 
-    <div class="sublink">
+    <div class="sublink" style="display: {{cat_visibility}};">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </div>
 
@@ -81,7 +85,7 @@
   * others than the featured posts
 {%- endcomment -%}
 
-    <div class="sublink" >
+    <div class="sublink" style="display: {{cat_visibility}};">
       <a href="{{ post.url  | relative_url }}">{{ post.title }}</a>
     </div>
  
@@ -91,7 +95,7 @@
 {%- endcomment -%}
         {%- if cat_posts.size > nav_itemno -%}
 
-    <div class="sublink" >
+    <div class="sublink" style="display: {{cat_visibility}};">
       <a href="{{ 'categories' | relative_url }}/{{cat_page}}">all ...</a>
     </div>
 
