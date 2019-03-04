@@ -1,5 +1,5 @@
 ---
-title: 'OICR News - The buzz about Beacon'
+title: 'Beacon publication at Nature Biotechnology'
 layout: default
 author: "@mbaudis"
 excerpt_separator: <!--more-->
