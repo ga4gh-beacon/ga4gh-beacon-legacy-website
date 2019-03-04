@@ -1,5 +1,5 @@
 ---
-title: 'Beacons Hackaton Bordeaux'
+title: 'Plant Beacons Hackathon Bordeaux'
 date: 2019-02-28
 layout: default
 author: "@mbaudis"
