@@ -5,7 +5,7 @@ layout: default
 {%- assign this_name = page.name | split: "." -%}
 {%- assign this_category = this_name[0] -%}
 
-<h2 class="page_title">{{ this_category | capitalize }}</h2>
+<h2 class="page_title"><a href="{{ post.url | relative_url }}">{{ this_category | capitalize }}</a></h2>
 
 {%- comment -%}
   * collecting the pages
@@ -40,7 +40,7 @@ layout: default
 {%- for post in cat_posts -%}
   {%- if post.tags contains '.featured' -%}
 <div class="excerpt">
-    {{ post.excerpt }}
+<a href="{{ post.url | relative_url }}">{{ post.excerpt }}</a>
   <p class="footnote">
     {%- if post.author -%}{{ post.author | join: " | " }}&nbsp;{%- endif -%}
     {% if post.date %}{{ post.date | date: "%Y-%m-%d" }}: {% endif %}
@@ -57,7 +57,7 @@ layout: default
 {%- for post in cat_posts -%}
   {%- unless post.tags contains '.featured' or post.tags contains '.prepend' or post.tags contains '.append' -%} 
 <div class="excerpt">
-    {{ post.excerpt }}
+<a href="{{ post.url | relative_url }}">{{ post.excerpt }}</a>
   <p class="footnote">
     {%- if post.author -%}{{ post.author | join: " | " }}&nbsp;{%- endif -%}
     {% if post.date %}{{ post.date | date: "%Y-%m-%d" }}: {% endif %}

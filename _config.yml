@@ -79,7 +79,7 @@ related_sites:
   'GA4GH::GKS': 'http://ga4gh-gks.github.io'
 
 github_projects:
-  'ELIXIR Beacon': 'http://github.com/beacon-project/'
+  'ELIXIR Beacon': 'http://github.com/ga4gh-beacon/'
   'SchemaBlocks': 'http://github.com/ga4gh-schemablocks/'
   
 # tag_cloud items

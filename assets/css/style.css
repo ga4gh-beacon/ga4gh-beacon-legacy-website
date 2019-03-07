@@ -42,14 +42,9 @@ h3, h4, h5, h6 { color: #494949; }
   clear: both;
 }
 
-
 a { color: #267CB9; text-decoration: none; }
-
-a:hover, a:focus { color: #069; font-weight: bold; }
-
+a:hover, a:focus {  text-decoration: underline ; }
 a small { font-size: 11px; color: #777; margin-top: -0.3em; display: block; }
-
-a:hover small { color: #777; }
 
 .wrapper { width: 825px; margin: 0 auto; }
 
@@ -137,11 +132,19 @@ section div.excerpt {
   border: 1px solid #e5e5e5;
 }
 
+section div.excerpt > a {
+  display:block;
+  text-decoration: none;
+}
+
+section div.excerpt:hover { box-shadow: 2px 2px 5px 0 #999; }
+
 /* Tag Cloud */
 
 .site-tag a {
   display: inline-block;
   color: #e63;
+  text-decoration: none;
 }
 
 .site-tag {
@@ -153,6 +156,8 @@ section div.excerpt {
   border-radius: 5px;
   border: 1px solid #e5e5e5;
 }
+
+.site-tag:hover { box-shadow: 1px 1px 3px 0 #999; }
 
 /* LaTex */
 
