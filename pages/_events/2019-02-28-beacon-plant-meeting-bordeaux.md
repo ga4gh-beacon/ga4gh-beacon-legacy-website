@@ -1,5 +1,5 @@
 ---
-title: 'Beacons Hackaton Bordeaux'
+title: 'Plant Beacons Hackathon Bordeaux'
 date: 2019-02-28
 layout: default
 author: "@mbaudis"
@@ -13,7 +13,7 @@ tags: # please adjust
 
 ## {{ page.title }}
 
-The hackaton will take place the 28/02/2019 in the center of Bordeaux in the room "RE" of the former Law Faculty of the University of Bordeaux.
+The hackaton will take place the 2019-02-28 in the center of Bordeaux in the room "RE" of the former Law Faculty of the University of Bordeaux.
 
 <!--more-->
 
