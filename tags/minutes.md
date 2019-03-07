@@ -32,7 +32,7 @@ layout: default
         {% if post_day > today %}
   <h3 style="color: red">{{ post.date | date: "%Y-%m-%d" }}</h3>
         {% endif %}
-      {{ post.excerpt }}
+<a href="{{ post.url | relative_url }}">{{ post.excerpt }}</a>
   <p class="footnote">
       {%- if post.author -%}{{ post.author | join: " | " }}&nbsp;{%- endif -%}
       {% if post.date %}{{ post.date | date: "%Y-%m-%d" }}: {% endif %}
