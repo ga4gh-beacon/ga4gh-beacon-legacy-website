@@ -248,7 +248,7 @@
 <footer>
 {%- for static_file in site.static_files -%}{%- if static_file.path contains 'site-specific/site-logo-main.png' -%}
   <a href="{{ site.site_parent_link }}">
-    <img style="margin-top:15px; float: left;" src="{{ 'assets' | relative_url }}/img/site-specific/site-logo-main.png" />
+    <img style="margin-top:15px; float: left; z-index: -1;" src="{{ 'assets' | relative_url }}/img/site-specific/site-logo-main.png" />
   </a>
 {%- endif -%}{%- endfor -%}
 </footer>
@@ -273,7 +273,7 @@
   <a href="{{github_link}}{{page.path}}" style="text-decoration: none; color: #ccc;"><img src="{{ 'assets/img/icons8-edit-file-26.png' | relative_url }}" alt="Edit on Github..."  style="position: absolute; bottom: 15px; right: 15px;" /></a>
   {%- endunless -%}
 {%- elsif site.source_path contains '/' -%}
-
+  {%- unless page.path contains 'categories/' or page.path contains 'tags/' -%}
 <!-- Code from https://clipboardjs.com -->
   <button style="position: absolute; bottom: 15px; right: 15px;" class="btn" data-clipboard-text="open {{site.source_path}}/{{ page.path }}">
     <img src="{{ 'assets/img/clippy.svg' | relative_url }}" width="15px" alt="Copy local path to clipboard for pasting into terminal - only works for site editors...">
@@ -289,7 +289,7 @@
   });
 </script>
 <!-- / clipboardjs -->
-
+  {%- endunless -%}
 {%- endif -%}
 
 {%- comment -%}
