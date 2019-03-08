@@ -4,8 +4,9 @@ layout: default
 
 {%- assign this_name = page.name | split: "." -%}
 {%- assign this_category = this_name[0] -%}
+{%- assign this_pagetitle = this_category  | capitalize | replace: '_', ' ' -%}
 
-<h2 class="page_title"><a href="{{ post.url | relative_url }}">{{ this_category | replace: "_", " " | capitalize }}</a></h2>
+<h2 class="page_title">{{ this_pagetitle }}</h2>
 
 {%- comment -%}
   * collecting the pages

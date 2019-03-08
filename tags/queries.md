@@ -2,21 +2,21 @@
 layout: default
 ---
 
-{% assign this_name = page.name | split: "." %}
-{% assign this_tag = this_name[0] | downcase %}
-{% assign this_pagetitle = this_tag  | capitalize | replace: '_', ' ' %}
+{%- assign this_name = page.name | split: "." -%}
+{%- assign this_tag = this_name[0] | downcase -%}
+{%- assign this_pagetitle = this_tag  | capitalize | replace: '_', ' ' -%}
 
 <h2 class="page_title">Pages tagged "{{ this_pagetitle  }}"</h2>
 
-{% assign today = site.time | date: '%Y%m%d' %}
-{% assign page_tag = this_tag | downcase %}
-{% assign posts_all = site.documents | sort: 'date' | reverse %}
+{%- assign today = site.time | date: '%Y%m%d' -%}
+{%- assign page_tag = this_tag | downcase -%}
+{%- assign posts_all = site.documents | sort: 'date' | reverse -%}
 
-{% for post in posts_all %}
+{%- for post in posts_all -%}
   {% if post.tags %}
-    {% assign post_tags = post.tags | sort %}
-    {% assign post_author = post.author | downcase %}
-    {% for tag in post_tags %}
+    {%- assign post_tags = post.tags | sort -%}
+    {%- assign post_author = post.author | downcase -%}
+    {%- for tag in post_tags -%}
       {% assign tag_lower = tag | downcase %}
       {% if tag_lower == page_tag %}
         {% assign post_day = post.date | date: '%Y%m%d' %}
@@ -39,8 +39,8 @@ layout: default
       <a href="{{ post.url | relative_url }}">more ...</a>
   </p>
 </div>
-        {% break %}
-      {% endif %}
-    {% endfor %}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
   {% endif %}
-{% endfor %}
+{%- endfor -%}
