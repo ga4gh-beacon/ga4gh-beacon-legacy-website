@@ -4,6 +4,7 @@ date: 2019-01-01
 layout: default
 author: # quoted "@Github" shortname recommended
 excerpt_separator: <!--more-->
+excerpt_link: # an optional link to different page when clicking the excerpt
 www_link: # a simple web address related to the post, e.g. https://www.ga4gh.org
 www_links_formatted:  # one or multiple complete links
 #  - '<a href="https://www.biorxiv.org" target="_blank">[biorXiv]</a>'
