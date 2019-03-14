@@ -1,6 +1,6 @@
 ---
 title: Coordinate use for Beacon Queries
-date: 2018-10-17
+date: 2019-03-14
 layout: default
 author: "@mbaudis"
 excerpt_separator: <!--more-->
@@ -16,7 +16,7 @@ tags:
 
 ## {{ page.title }}
 
-The coordinate system that should be used throughout GA4GH standards is __0-based half open__.
+The coordinate system that should be used throughout [GA4GH standards](https://schemablocks.org/categories/formats.html) is __0-based half open__.
 
 <!--more-->
 
@@ -32,3 +32,5 @@ start: 4,
 end: 7
 ```
 ... due to interbase coordinates.
+
+A detailed documentation of the standard can be found on the [SchemaBlocks site](https://schemablocks.org/categories/formats/genome-coordinates.html).
