@@ -39,13 +39,20 @@ layout: default
 {%- endcomment -%}
 
 {%- for post in cat_posts -%}
+
   {%- if post.tags contains '.featured' -%}
+    {%- assign excerpt_link = post.url | relative_url -%}
+    {%- if post.excerpt_link contains '/' -%}
+      {%- assign excerpt_link = post.excerpt_link -%}
+    {%- endif -%}
 <div class="excerpt">
-<a href="{{ post.url | relative_url }}">{{ post.excerpt }}</a>
+<a href="{{ excerpt_link }}">
+{{ post.excerpt }}
+</a>
   <p class="footnote">
     {%- if post.author -%}{{ post.author | join: " | " }}&nbsp;{%- endif -%}
     {% if post.date %}{{ post.date | date: "%Y-%m-%d" }}: {% endif %}
-    <a href="{{ post.url | relative_url }}">more ...</a>
+    <a href="{{ excerpt_link }}">more ...</a>
   </p>
 </div>
   {%- endif -%}
@@ -56,16 +63,22 @@ layout: default
 {%- endcomment -%}
 
 {%- for post in cat_posts -%}
-  {%- unless post.tags contains '.featured' or post.tags contains '.prepend' or post.tags contains '.append' -%} 
+  {% unless post.tags contains '.featured' or post.tags contains '.prepend' or post.tags contains '.append' %} 
+    {%- assign excerpt_link = post.url | relative_url -%}
+    {%- if post.excerpt_link contains '/' -%}
+      {%- assign excerpt_link = post.excerpt_link -%}
+    {%- endif -%}
 <div class="excerpt">
-<a href="{{ post.url | relative_url }}">{{ post.excerpt }}</a>
+<a href="{{ excerpt_link }}">
+{{ post.excerpt }}
+</a>
   <p class="footnote">
     {%- if post.author -%}{{ post.author | join: " | " }}&nbsp;{%- endif -%}
     {% if post.date %}{{ post.date | date: "%Y-%m-%d" }}: {% endif %}
-    <a href="{{ post.url | relative_url }}">more ...</a>
+    <a href="{{ excerpt_link }}">more ...</a>
   </p>
 </div>
-  {%- endunless -%}
+  {% endunless %}
 {%- endfor -%}
 
 {%- comment -%}

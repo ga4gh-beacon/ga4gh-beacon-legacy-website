@@ -16,6 +16,10 @@ layout: default
   {% if post.tags %}
     {%- assign post_tags = post.tags | sort -%}
     {%- assign post_author = post.author | downcase -%}
+    {%- assign excerpt_link = post.url | relative_url -%}
+    {%- if post.excerpt_link contains '/' -%}
+      {%- assign excerpt_link = post.excerpt_link -%}
+    {%- endif -%}
     {%- for tag in post_tags -%}
       {% assign tag_lower = tag | downcase %}
       {% if tag_lower == page_tag %}
@@ -32,11 +36,11 @@ layout: default
         {% if post_day > today %}
   <h3 style="color: red">{{ post.date | date: "%Y-%m-%d" }}</h3>
         {% endif %}
-<a href="{{ post.url | relative_url }}">{{ post.excerpt }}</a>
+<a href="{{ excerpt_link }}">{{ post.excerpt }}</a>
   <p class="footnote">
       {%- if post.author -%}{{ post.author | join: " | " }}&nbsp;{%- endif -%}
       {% if post.date %}{{ post.date | date: "%Y-%m-%d" }}: {% endif %}
-      <a href="{{ post.url | relative_url }}">more ...</a>
+      <a href="{{ excerpt_link }}">more ...</a>
   </p>
 </div>
         {%- break -%}
