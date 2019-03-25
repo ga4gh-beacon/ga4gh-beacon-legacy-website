@@ -2,6 +2,7 @@
 title: "Michael Baudis"
 layout: default
 image_file: 'mbaudis.png'
+excerpt_link: 'https://info.baudisgroup.org/group/Michael_Baudis/'
 excerpt_separator: <!--more-->
 categories:
   - people
@@ -23,7 +24,7 @@ tags:
 ## {{page.title}}
 
 Co-chair ELIXIR Beacon  
-Co-chair GA4GH Discovery  
+Co-chair GA4GH Discovery Work Stream  
 Professor of Bioinformatics  
 University of Zurich  
 Swiss Institute of Bioinformatics
