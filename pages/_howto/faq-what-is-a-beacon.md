@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 category:
   - howto
 tags:
-  - faq
+  - FAQ
 ---
 
 ## {{ page.title }}

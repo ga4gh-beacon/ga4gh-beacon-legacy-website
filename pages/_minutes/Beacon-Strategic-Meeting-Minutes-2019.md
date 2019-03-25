@@ -13,7 +13,7 @@ category: # please adjust
   - minutes
 tags: # please adjust
 #  - press
-#  - faq
+#  - FAQ
 #  - contacts
   - minutes
 ---

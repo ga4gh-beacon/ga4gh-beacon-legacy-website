@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 category:
   - howto
 tags:
-  - faq
+  - FAQ
 ---
 
 ## Why are Beacons important to global genomic data sharing and why is global genomic data sharing important in the first place?

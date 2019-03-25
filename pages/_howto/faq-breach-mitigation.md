@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 category:
   - howto
 tags:
-  - faq
+  - FAQ
 ---
 
 ## What is the Beacon Project doing to mitigate the possibility and likelihood of reidentification through Beacons?

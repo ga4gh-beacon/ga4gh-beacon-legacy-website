@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 category:
   - howto
 tags:
-  - faq
+  - FAQ
 ---
 
 ## What do institutions commit to when they join the Beacon Network?

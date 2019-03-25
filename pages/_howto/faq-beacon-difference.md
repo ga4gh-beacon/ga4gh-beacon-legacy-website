@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 category:
   - howto
 tags:
-  - faq
+  - FAQ
 ---
 
 ## How is sharing data through Beacon different from traditional medical practice?
