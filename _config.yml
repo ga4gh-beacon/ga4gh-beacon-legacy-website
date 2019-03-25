@@ -16,6 +16,7 @@ future: true
 include:
   - categories  # contains landing pages for each category
   - tags        # contains landing pages for each tag
+
 collections_dir: pages
 collections:
   about:
@@ -68,6 +69,11 @@ categories_year_sorted:
   - minutes
   - events
 
+tags_year_sorted:
+  - releases
+  - press
+  - versions
+
 related_sites:
   'Beacon @ ELIXIR': 'http://www.elixir-europe.org/about-us/implementation-studies/beacons'
   GA4GH: 'http://ga4gh.org'
@@ -91,7 +97,7 @@ cloud_tags:
   - definitions
   - developers
   - development
-  - faq
+  - FAQ
   - leads
   - minutes
   - network
@@ -102,6 +108,7 @@ cloud_tags:
   - specification
   - team
   - versions
+  - website
 
 # additional Jekyll instructions
 

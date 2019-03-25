@@ -1,5 +1,5 @@
 ---
-title:  "Howto: Local Jekyll site creation"
+title:  "Website - Non-Github Hosting"
 permalink: /howto/jekyllinstallation/
 layout: default
 date:   2019-03-14
@@ -11,6 +11,8 @@ category:
 tags:
   - Jekyll
   - documentation
+  - website
+  - FAQ
 ---
 
 ## Local Jekyll based website generation
@@ -51,7 +53,7 @@ jekyll serve --incremental
 ... to run a server. Which should then answer with (more stuff) and
 
 ```bash
-Server address: http://127.0.0.1:4000
+Server address: https://127.0.0.1:4000
 ```
 
 #### Notes
