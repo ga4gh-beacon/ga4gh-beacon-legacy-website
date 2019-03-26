@@ -38,4 +38,7 @@ Recent and future versions of the _Beacon_ protocol expand the original concept 
 
 Since 2016, the development of the _Beacon_ protocol has been provided through the _ELIXIR Beacon_ project, a [GA4GH driver project](https://www.ga4gh.org/howwework/driver-projects.html), with ongoing participation from the  [DNAstack](https://dnastack.com) team.
 
+## How to install and deploy Beacon
+
+An open-access online tutorial **How to install and deploy Beacon** has been launched on the [ELIXIR-SI eLearning Platform (EeLP)](https://elixir.mf.uni-lj.si/course/view.php?id=35) with learning materials provided by ELIXIR Beacon project contributors from Finland and Spain. The tutorial is registered on **ELIXIR Training eSupport System** ([TeSS](https://tess.elixir-europe.org/materials/how-to-install-and-deploy-beacon)) and contains instructions for Beacon installation and deployment, both as instruction manual and tutorial video. **No username and password is required to access the tutorial**.
 <!--more-->
