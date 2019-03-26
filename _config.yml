@@ -34,9 +34,6 @@ collections:
   specification:
     output: true
     permalink: /specification/:path/
-  roadmap:
-    output: true
-    permalink: /roadmap/:path/
   network:
     output: true
     permalink: /network/:path/
