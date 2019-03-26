@@ -4,8 +4,9 @@ layout: default
 image_file: "sdelatorre.jpg"
 excerpt_separator: <!--more-->
 categories:
-  - developers
+  - people
 tags:
+  - contributors
   - developers
 ---
 
