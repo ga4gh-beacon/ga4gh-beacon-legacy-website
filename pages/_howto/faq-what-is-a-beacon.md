@@ -1,5 +1,5 @@
 ---
-title: What is a Beacon?
+title: "What is a Beacon?"
 date: 2018-10-17
 layout: default
 author: "@mbaudis"
@@ -16,9 +16,9 @@ A Beacon is an online web service that allows users to query an institution’s 
 
 <!--more-->
 
-Over time, the Beacon protocol is being expanded to provide "richer" query options, which may - or will - include:
+Over time, the Beacon protocol is being expanded to provide "richer" query options, which may include:
 
-* extensive support for different types of genomic variants, e.g.  copy number variations (CNVs; part of the v1.0 specification) or fusion events
+* extensive support for different types of genomic variants, e.g. copy number variations (CNVs; part of the v1.0 specification) or fusion events
 * flexible variant queries (e.g. genomic "range queries")
 * providing an interface for clinical and other biological parameters (e.g. phenotypes, diagnoses, time related data, geodata)
 

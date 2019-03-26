@@ -1,5 +1,5 @@
 ---
-title:  "Website: Directories and Files"
+title:  "Website - Directories and Files"
 permalink: /howto/templatefiles/
 layout: default
 date:   2019-03-14

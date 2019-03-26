@@ -1,5 +1,5 @@
 ---
-title: Mitigation of Reidentification 
+title: "Mitigation of Re-identification Attacks" 
 date: 2018-10-17
 layout: default
 author: "@mbaudis"

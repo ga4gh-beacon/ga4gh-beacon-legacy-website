@@ -1,5 +1,5 @@
 ---
-title: Coordinate use for Beacon Queries
+title: "Genome Coordinate use for Beacon Queries"
 date: 2019-03-14
 layout: default
 author: "@mbaudis"

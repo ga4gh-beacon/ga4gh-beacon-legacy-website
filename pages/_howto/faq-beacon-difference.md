@@ -1,5 +1,5 @@
 ---
-title: "What is different about Beacons?" 
+title: "How are Beacons different?" 
 date: 2018-10-18
 layout: default
 author: "@mbaudis"

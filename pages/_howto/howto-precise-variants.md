@@ -1,5 +1,5 @@
 ---
-title: Precise Variants
+title: "FAQ - Precise Variants"
 date: 2018-10-17
 layout: default
 author: "@mbaudis"

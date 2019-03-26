@@ -1,5 +1,5 @@
 ---
-title:  "Website: Add and Edit Pages"
+title:  "Website - Add and Edit Pages"
 permalink: "/howto/add-pages/"
 layout: default
 date:   2019-03-25

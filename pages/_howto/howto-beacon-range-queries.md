@@ -1,5 +1,5 @@
 ---
-title: Range Queries and Structural Variants
+title: "Range Queries and Structural Variants"
 date: 2018-10-17
 layout: default
 author: "@mbaudis"

@@ -1,5 +1,5 @@
 ---
-title: Why are Beacons important? 
+title: "Beacon - Role in Data Sharing"
 date: 2018-10-18
 layout: default
 author: "@mbaudis"
