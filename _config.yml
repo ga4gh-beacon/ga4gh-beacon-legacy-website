@@ -19,9 +19,9 @@ include:
 
 collections_dir: pages
 collections:
-  about:
+  general:
     output: true
-    permalink: /about/:path/
+    permalink: /general/:path/
   events:
     output: true
     permalink: /events/:path/
@@ -34,9 +34,6 @@ collections:
   specification:
     output: true
     permalink: /specification/:path/
-  network:
-    output: true
-    permalink: /network/:path/
   minutes:
     output: true
     permalink: /minutes/:path/

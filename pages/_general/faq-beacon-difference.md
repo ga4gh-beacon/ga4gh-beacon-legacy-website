@@ -5,7 +5,7 @@ layout: default
 author: "@mbaudis"
 excerpt_separator: <!--more-->
 category:
-  - howto
+  - about
 tags:
   - FAQ
 ---
@@ -13,6 +13,8 @@ tags:
 ## How is sharing data through Beacon different from traditional medical practice?
 
 In current medical practice, doctors commonly share basic, de-identified information about patients’ conditions and genetic variations in the hopes of matching a second case that could be therapeutically transformative. This practice is a long-standing tradition in the medical community but it is neither standardized nor optimized. The Beacon Project turns that informal transaction into a more efficient and effective search that can be a key initial step for learning from valuable genomic information.
+
+<!--more-->
 
 Since much of that information is currently collected and held in silos, researchers lack the broad-scale ability to know whether similar data exist that could provide important learning when combined with their own data.
 

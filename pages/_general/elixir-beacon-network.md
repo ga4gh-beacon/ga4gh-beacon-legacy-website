@@ -7,7 +7,6 @@ excerpt_separator: <!--more-->
 category:
   - network
 tags:
-  - .featured
   - network
 ---
 

@@ -5,12 +5,12 @@ layout: default
 author: "@mbaudis"
 excerpt_separator: <!--more-->
 category:
-  - howto
+  - about
 tags:
   - FAQ
 ---
 
-## Why are Beacons important to global genomic data sharing and why is global genomic data sharing important in the first place?
+## Beacons & the importance of global genomic data sharing
 
 Beacons present an easy-to-implement strategy for determining whether an institution has genomic data in its data set that would be useful to share. 
 
