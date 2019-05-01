@@ -46,7 +46,7 @@ Beacons may be able to increase their functionality through the development of d
   <td>This is main Beacons development line, representing the gradual & continuous extension of the protocol while staying with the <i><b>queries do not return information about single individuals</b></i> paradigm.</td>
 </tr>
 <tr>
-  <td><i><b>EvidenceBeacon</b></i></td>
+  <td><i><b>EvidenceBeacon {E!}[B&nearr;]</b></i></td>
   <td>
     <ul>
       <li>Variant knowledge resources</li>
@@ -63,7 +63,7 @@ Beacons may be able to increase their functionality through the development of d
       <li><a href="https://brcaexchange.org" target="_blank">BRCA Exchange</a></li>
       <li>...</li>
     </ul></td>
-  <td> </td>
+  <td>under active development (May 2019)</td>
 </tr>
 <tr>
   <td><i><b>Data</b></i> Beacon</td>
