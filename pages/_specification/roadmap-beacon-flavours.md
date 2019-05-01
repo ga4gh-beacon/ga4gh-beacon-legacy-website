@@ -3,7 +3,6 @@ title: 'Beacon Flavours'
 date: 2018-10-24
 layout: default
 author: "@mbaudis"
-author_link: 'https://info.baudisgroup.org/group/Michael_Baudis/'
 permalink: /roadmap/beacon-flavours.html
 excerpt_separator: <!--more-->
 www_link:
@@ -47,7 +46,7 @@ Beacons may be able to increase their functionality through the development of d
   <td>This is main Beacons development line, representing the gradual & continuous extension of the protocol while staying with the <i><b>queries do not return information about single individuals</b></i> paradigm.</td>
 </tr>
 <tr>
-  <td><i><b>Evidence</b></i> Beacon</td>
+  <td><i><b>EvidenceBeacon</b></i></td>
   <td>
     <ul>
       <li>Variant knowledge resources</li>
