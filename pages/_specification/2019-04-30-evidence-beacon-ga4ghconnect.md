@@ -20,7 +20,7 @@ The topic of "EvidenceBeacon" was discussed with many different attendants durin
 
 #### Discussion Partner's Comments & Topics
 
-* Christina (EVA)
+* Christina Y. Gonzalez (EVA)
     - EVA needs to identify if a given sequence variant has an rsid
     - this is in the realm of EB, since
         * it requires an "annotation response"
