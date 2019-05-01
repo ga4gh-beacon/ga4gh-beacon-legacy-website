@@ -7,10 +7,7 @@ categories:
   - people
   - contact
 tags:
-  - contacts
   - people
-  - leads
-  - .featured
 ---
 
 {% for static_file in site.static_files %}
@@ -21,7 +18,8 @@ tags:
 
 ## {{ page.title }}
 
-Co-chair ELIXIR Beacon  
+ELIXIR Human Data  
+ELIXIR-GA4GH partnership    
 CSC - IT Center for Science  
 
 <!--more-->

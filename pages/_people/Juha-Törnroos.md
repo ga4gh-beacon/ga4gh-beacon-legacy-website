@@ -6,8 +6,11 @@ image_file: 'jtornroos.jpg'
 category:
   - people
 tags:
-  - contributors
+  - contacts
+  - people
+  - leads
   - developers
+  - .featured
 ---
 
 {% for static_file in site.static_files %}
@@ -18,7 +21,7 @@ tags:
 
 ## {{ page.title }}
 
-Developer  
+Champion ELIXIR Beacon Driver project (Network lead)
 ELIXIR Finland  
 CSC
 
