@@ -1,12 +1,12 @@
 ---
-title: "Juha Törnroos"
+title: "Juha Törnroos"
 layout: default
 excerpt_separator: <!--more-->
 image_file: 'jtornroos.jpg'
 category:
   - people
+  - contact
 tags:
-  - contacts
   - people
   - leads
   - developers
@@ -21,9 +21,9 @@ tags:
 
 ## {{ page.title }}
 
-Champion ELIXIR Beacon Driver project (Network lead)
+Champion ELIXIR Beacon Driver project (Network lead)  
 ELIXIR Finland  
-CSC
+CSC  
 
 <!--more-->
 
