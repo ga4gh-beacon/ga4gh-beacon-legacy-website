@@ -8,7 +8,6 @@ categories:
   - contact
 tags:
   - people
-  - leads
 ---
 
 {% for static_file in site.static_files %}

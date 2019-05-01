@@ -8,7 +8,6 @@ category:
   - contact
 tags:
   - people
-  - leads
   - developers
   - .featured
 ---

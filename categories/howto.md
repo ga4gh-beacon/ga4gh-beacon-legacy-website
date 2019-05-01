@@ -38,6 +38,7 @@ layout: default
   * featured posts on top, so new loop
 {%- endcomment -%}
 
+{%- assign cat_posts = cat_posts | sort: 'title' -%}
 {%- for post in cat_posts -%}
 
   {%- if post.tags contains '.featured' -%}
@@ -62,6 +63,7 @@ layout: default
   * remaining normal posts, again new loop
 {%- endcomment -%}
 
+{%- assign cat_posts = cat_posts | sort: 'title' -%}
 {%- for post in cat_posts -%}
   {% unless post.tags contains '.featured' or post.tags contains '.prepend' or post.tags contains '.append' %} 
     {%- assign excerpt_link = post.url | relative_url -%}
@@ -86,6 +88,7 @@ layout: default
   * they are processed last, so again a separate loop is needed  
 {%- endcomment -%}
 
+{%- assign cat_posts = cat_posts | sort: 'title' -%}
 {%- for post in cat_posts -%}
   {%- if post.tags contains '.append' -%}
 <div style="margin-top: 20px;">

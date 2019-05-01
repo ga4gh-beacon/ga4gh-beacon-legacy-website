@@ -10,7 +10,6 @@ categories:
 tags:
   - contacts
   - people
-  - leads
   - developers
   - .featured
 ---
