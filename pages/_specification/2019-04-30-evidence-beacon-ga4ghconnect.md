@@ -1,5 +1,5 @@
 ---
-title: 'Evidence Beacon Notes from GA4GHconnect 2019'
+title: 'EvidenceBeacon Notes - GA4GHconnect 2019'
 layout: default
 author: "@mbaudis"
 date: 2019-04-30
@@ -7,9 +7,12 @@ excerpt_separator: <!--more-->
 www_links_formatted:
 category:
   - roadmap
+  - news
 tags:
   - specification
   - development
+  - events
+  - EvidenceBeacon
 ---
 
 ## {{ page.title }}
