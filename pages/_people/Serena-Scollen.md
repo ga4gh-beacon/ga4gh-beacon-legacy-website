@@ -7,10 +7,8 @@ categories:
   - people
   - contact
 tags:
-  - contacts
   - people
   - leads
-  - .featured
 ---
 
 {% for static_file in site.static_files %}
@@ -22,6 +20,7 @@ tags:
 ## Serena Scollen, PhD
 
 Lead, ELIXIR Human Data    
+Lead, ELIXIR-GA4GH partnership    
 ELIXIR Hub  
 
 <!--more-->

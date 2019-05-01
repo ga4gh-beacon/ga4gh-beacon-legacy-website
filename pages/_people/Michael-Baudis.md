@@ -23,8 +23,7 @@ tags:
 
 ## {{page.title}}
 
-Co-chair ELIXIR Beacon  
-Co-chair GA4GH Discovery Work Stream  
+Co-chair GA4GH Discovery Work Stream (Beacon & SchemaBlocks)
 Professor of Bioinformatics  
 University of Zurich  
 Swiss Institute of Bioinformatics

@@ -22,7 +22,7 @@ tags:
 
 ## {{ page.title }}
 
-Co-lead ELIXIR Beacon Project  
+Champion ELIXIR Beacon Driver project (API lead)
 Center for Genome Regulation Barcelona  
 European Genome-Phenome Archive  
 
