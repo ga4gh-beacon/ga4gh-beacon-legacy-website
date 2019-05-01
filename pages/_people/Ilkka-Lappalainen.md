@@ -5,7 +5,6 @@ image_file: "ilappalainen.jpg"
 excerpt_separator: <!--more-->
 categories:
   - people
-  - contact
 tags:
   - people
 ---
