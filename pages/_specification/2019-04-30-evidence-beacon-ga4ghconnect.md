@@ -12,7 +12,7 @@ tags:
   - specification
   - development
   - events
-  - EvidenceBeacon
+  - EB
 ---
 
 ## {{ page.title }}
