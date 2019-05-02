@@ -6,7 +6,7 @@ excerpt_link: 'https://info.baudisgroup.org/group/Michael_Baudis/'
 excerpt_separator: <!--more-->
 categories:
   - people
-  - contact
+  - contacts
 tags:
   - contacts
   - people
