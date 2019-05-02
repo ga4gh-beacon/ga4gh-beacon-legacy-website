@@ -5,7 +5,7 @@ image_file: "sscollen.jpg"
 excerpt_separator: <!--more-->
 categories:
   - people
-  - contact
+  - contacts
 tags:
   - people
 ---
