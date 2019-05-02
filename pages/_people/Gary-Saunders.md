@@ -5,7 +5,7 @@ image_file: "garys.jpg"
 excerpt_separator: <!--more-->
 categories:
   - people
-  - contact
+  - contacts
 tags:
   - contacts
   - people
