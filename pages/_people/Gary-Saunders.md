@@ -3,13 +3,12 @@ title: "Gary Saunders"
 layout: default
 image_file: "garys.jpg"
 excerpt_separator: <!--more-->
-categories:
+category:
+  - contact
   - people
-  - contacts
 tags:
   - contacts
   - people
-  - admin
 ---
 
 

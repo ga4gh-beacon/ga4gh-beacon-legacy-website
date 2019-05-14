@@ -3,9 +3,9 @@ title: "Jordi Rambla De Argila"
 layout: default
 image_file: "jrambla.jpg"
 excerpt_separator: <!--more-->
-categories:
+category:
+  - contact
   - people
-  - contacts
 tags:
   - contacts
   - people
@@ -30,4 +30,3 @@ European Genome-Phenome Archive
 email [jordi.rambla@crg.eu](mailto:jordi.rambla@crg.eu)  
 web [CRG](https://www.crg.eu/en/programmes-groups/ega-team)  
 web [EGA](https://ega-archive.org/about/people)
-

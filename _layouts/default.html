@@ -58,56 +58,60 @@
         
 {%- comment -%}
   * posts are listed if same category as current page
+  * this is only done if it is a temporally sorted category
   * the "this_name" fix is for the category collection pages - e.g. /howto.md
     which are identical in content (i.e. no "category" in front matter) & only
     differ in their name (=> category)
 {%- endcomment -%}
 
-      {%- assign this_name = page.name | split: "." -%}
-      {%- if page.category contains cat_key or this_name[0] == cat_key -%}
-        {%- assign cat_posts = site.documents | where: 'category', cat_key | sort: 'date' | reverse -%}
+			{%- if site.categories_year_sorted contains cat_key -%}
+      	{%- assign this_name = page.name | split: "." -%}
+      	{%- if page.categories contains cat_key or this_name[0] == cat_key -%}
+        	{%- assign cat_posts = site.documents | where: 'category', cat_key | sort: 'date' | reverse -%}
+
 {%- comment -%}
   * first featured posts
   * those are subtracted from the nav_itemno count ...
 {%- endcomment -%}
 
-        {%- for post in cat_posts -%}{%- if post.tags contains '.featured' -%}
-          {%- assign post_link = post.url | relative_url -%}
-          {%- assign post_label = post.title -%}
-          {%- if post.excerpt_link contains 'http://' or post.excerpt_link contains 'https://' -%}
-            {%- assign post_link = post.excerpt_link -%}
-            {%- assign post_label = post_label | append: ' &#8599;' -%}
-          {%- endif -%}
+					{%- for post in cat_posts -%}{%- if post.tags contains '.featured' -%}
+						{%- assign post_link = post.url | relative_url -%}
+						{%- assign post_label = post.title -%}
+						{%- if post.excerpt_link contains 'http://' or post.excerpt_link contains 'https://' -%}
+							{%- assign post_link = post.excerpt_link -%}
+							{%- assign post_label = post_label | append: ' &#8599;' -%}
+						{%- endif -%}
     <div class="sublink">
       <a href="{{ post_link }}">{{ post_label }}</a>
     </div>
-          {%- assign nav_itemno = nav_itemno | minus: 1 -%}
-        {%- endif -%}{%- endfor -%}
-        {%- for post in cat_posts limit: nav_itemno -%}{%- unless post.tags contains '.featured' or post.tags contains '.prepend' or post.tags contains '.append' -%}
+						{%- assign nav_itemno = nav_itemno | minus: 1 -%}
+					{%- endif -%}{%- endfor -%}
+					{%- for post in cat_posts limit: nav_itemno -%}{%- unless post.tags contains '.featured' or post.tags contains '.prepend' or post.tags contains '.append' -%}
 {%- comment -%}
   * others than the featured posts
 {%- endcomment -%}
-          {%- assign post_link = post.url | relative_url -%}
-          {%- assign post_label = post.title -%}
-          {%- if post.excerpt_link contains 'http://' or post.excerpt_link contains 'https://' -%}
-            {%- assign post_link = post.excerpt_link -%}
-            {%- assign post_label = post_label | append: " &#8599;" -%}
-          {%- endif -%}
+						{%- assign post_link = post.url | relative_url -%}
+						{%- assign post_label = post.title -%}
+						{%- if post.excerpt_link contains 'http://' or post.excerpt_link contains 'https://' -%}
+							{%- assign post_link = post.excerpt_link -%}
+							{%- assign post_label = post_label | append: ' &#8599;' -%}
+						{%- endif -%}
     <div class="sublink">
       <a href="{{ post_link }}">{{ post_label }}</a>
     </div>
  
-        {%- endunless -%}{%- endfor -%}
+					{%- endunless -%}{%- endfor -%}
 {%- comment -%}
   * link to the category collecting page, if more than nav_itemno
 {%- endcomment -%}
-        {%- if cat_posts.size > nav_itemno -%}
+					{%- if cat_posts.size > nav_itemno -%}
 
     <div class="sublink" >
       <a href="{{ 'categories' | relative_url }}/{{cat_page}}">all ...</a>
     </div>
 
-        {%- endif -%}
+					{%- endif -%}
+				{%- endif -%}
       {%- endif -%}
     {%- endfor -%}
   {%- endif -%}

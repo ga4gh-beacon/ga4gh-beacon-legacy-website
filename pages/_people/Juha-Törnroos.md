@@ -4,9 +4,10 @@ layout: default
 excerpt_separator: <!--more-->
 image_file: 'jtornroos.jpg'
 category:
-  - people
   - contact
+  - people
 tags:
+  - contacts
   - people
   - developers
   - .featured

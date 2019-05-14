@@ -4,9 +4,9 @@ layout: default
 image_file: 'mbaudis.png'
 excerpt_link: 'https://info.baudisgroup.org/group/Michael_Baudis/'
 excerpt_separator: <!--more-->
-categories:
+category:
+  - contact
   - people
-  - contacts
 tags:
   - contacts
   - people

@@ -4,8 +4,8 @@ layout: default
 image_file: "sscollen.jpg"
 excerpt_separator: <!--more-->
 categories:
+  - contact
   - people
-  - contacts
 tags:
   - people
 ---
