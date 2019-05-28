@@ -201,10 +201,12 @@ footer { width:24%; float: left; position: fixed; bottom: 20px; }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px){
-	.container{width:100%}
+	.container{ width:100% }
 	header, footer { text-align: center; margin: 0 auto; }
 	header h4 { padding: 10px; display: inline-block;}
-	header .sublink { display: none; }
+	header h4.sublink { display: none; }
 	header h5 { display: none; }
-	header, section, footer { float: none; position: static; width: 100%; }
+	header, section, footer { float: none; position: static; width: 100%; max-width: 100%; }
+	header, section, #catlinks, #sitelogo  { border-bottom: 1px solid var(--site-color); }
+	#tagcloud {padding: 8px;}
 }
