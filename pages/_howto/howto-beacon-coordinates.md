@@ -28,8 +28,8 @@ ACCGTCGA
 ... the exact match for GTC would be
 
 ```
-start: 4,
-end: 7
+start: 3,
+end: 6
 ```
 ... due to interbase coordinates.
 
