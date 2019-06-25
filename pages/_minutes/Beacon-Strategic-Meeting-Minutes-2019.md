@@ -6,7 +6,8 @@ author: "@mbaudis"
 excerpt_separator: <!--more-->
 www_link: # a simple web address related to the post, e.g. https://www.ga4gh.org
 www_links_formatted:  # one or multiple complete links
-  - '<a href="https://docs.google.com/document/d/1Is4vcMBgtu_XatfKCityV5NpZ7FCthGifuuMnNrJb3Y/edit#" target="_blank">[2019  minutes rolling document]</a>'
+	- '< a href="https://docs.google.com/document/d/1QMlMauLEDMaD5rlh-oRPpz3-UNyBzSgtKSEegW3TKys/edit#" target="_blank">[2019  minutes rolling document - from 2016-06-25]</a>'
+  - '<a href="https://docs.google.com/document/d/1Is4vcMBgtu_XatfKCityV5NpZ7FCthGifuuMnNrJb3Y/edit#" target="_blank">[2019  minutes rolling document - pre June 2019]</a>'
 pdf_file_name: 
 category: # please adjust
 #  - news
