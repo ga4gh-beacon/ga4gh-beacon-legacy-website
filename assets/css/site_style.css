@@ -24,7 +24,11 @@ ELIXIR colors:
   width: 40px; 
 }
 
-a {
-  color: var(--site-color);
-  text-decoration: none;
-}
+
+#sitelogo {}
+
+#outlinks {}
+
+#catlinks {}
+
+#tagcloud {}
