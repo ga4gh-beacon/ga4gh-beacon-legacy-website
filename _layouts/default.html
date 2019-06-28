@@ -7,9 +7,17 @@
   <meta name="viewport" content="width=device-width">
 {%- for static_file in site.static_files -%}{% if static_file.path contains 'site-specific/favicon.ico' %}
   <link rel="shortcut icon" href="{{ 'assets' | relative_url }}/img/site-specific/favicon.ico" type="image/x-icon" />
-{% endif-%}{%- endfor -%}
+{% endif %}{%- endfor -%}
   <link rel="stylesheet" href="{{ 'assets/css/style.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ 'assets/css/site_style.css' | relative_url }}">
+{%- for static_file in site.static_files -%}
+	{%- if static_file.path contains '/preload/' -%}
+		{% if static_file.extname contains 'css' %}
+  <link rel="stylesheet" href="{{ static_file.path | relative_url }}">
+		{% elsif static_file.extname contains 'js' %}
+	<script src="{{ static_file.path | relative_url }}"></script>
+		{%- endif -%}
+	{%- endif -%}
+{%- endfor -%}
 
 </head>
 
@@ -23,6 +31,8 @@
     <img src="{{ 'assets' | relative_url }}/img/site-specific/site-logo-topright.png" id="logo_topright" />
 {%- endif -%}{%- endfor -%}
 </div>
+
+<div id="nav_r"> </div>
 
 <div class="container" style="margin-top: 20px">
 
@@ -259,8 +269,9 @@
 {%- endcomment -%}
 
 {%- if page.date or page.author -%}
+
   <div class="pagestamp">
-  <hr />
+
   {%- if page.author -%}
     {%- for this_author in page.author -%}
       {%- if this_author contains "@" -%}
@@ -281,6 +292,7 @@
   {%- endif -%}
 {%- endif -%}
 </section>
+
 
 {%- comment -%}
   * / page content
@@ -325,17 +337,16 @@
     {%- if page.path contains '/' -%}
       {%- assign github_link = github_link | append: site.collections_dir  | append: '/' -%}
     {%- endif -%}
-  <a href="{{github_link}}{{page.path}}" style="text-decoration: none; color: #ccc;"><img src="{{ 'assets/img/icons8-edit-file-26.png' | relative_url }}" alt="Edit on Github..."  style="position: absolute; bottom: 15px; right: 15px;" /></a>
+  <a href="{{github_link}}{{page.path}}" style="text-decoration: none; color: #ccc;"><img src="{{ 'assets/img/icons8-edit-file-26.png' | relative_url }}" alt="Edit on Github..." id="pageediticn" /></a>
   {%- endunless -%}
 {%- elsif site.source_path contains '/' -%}
 
 <!-- Code from https://clipboardjs.com -->
-  <button style="position: absolute; bottom: 15px; right: 15px;" class="btn" data-clipboard-text="open {{site.source_path}}/{{ page.path }}">
+  <button  id="pageediticn" data-clipboard-text="open {{site.source_path}}/{{ page.path }}">
     <img src="{{ 'assets/img/clippy.svg' | relative_url }}" width="15px" alt="Copy local path to clipboard for pasting into terminal - only works for site editors...">
   </button>
-<script src="{{ 'assets/js/clipboard.min.js' | relative_url }}"></script>
 <script>
-  var clipboard = new ClipboardJS('.btn');
+  var clipboard = new ClipboardJS('#pageediticn');
   clipboard.on('success', function(e) {
       console.log(e);
   });
@@ -350,8 +361,6 @@
 {%- comment -%}
   * / editing
 {%- endcomment -%}
-
-<script src="{{ 'assets/js/scale.fix.js' | relative_url }}"></script>
 
 {%- if site.google_analytics -%}
 <script>

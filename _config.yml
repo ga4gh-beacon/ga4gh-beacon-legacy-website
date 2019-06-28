@@ -4,7 +4,7 @@ description: |
   Beacon is an open standard for genomics data discovery, developed by members of the Global Alliance for Genomics & Health
 keywords: genomics, cloud, Beacon, DNA, sharing, ELIXIR, GA4GH
 site_domain_name: beacon-project.io
-url: 'https://schemablocks.org'
+url: 'https://beacon-project.io'
 baseurl: ""
 site_parent_link: 'https://www.elixir-europe.org/about-us/implementation-studies/beacons'
 github_organisation: ga4gh-beacon
