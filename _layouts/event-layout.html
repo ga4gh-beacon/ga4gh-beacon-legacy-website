@@ -30,12 +30,12 @@ layout: default
 
 <hr />
 
-{%- if page.start_date != undefined and page.start_date != undefined -%}
+{%- if page.start_date != nil and page.start_date != nil -%}
 <h4>When?</h4>
 <div style="padding-left: 12px;">
   {{ page.start_date | date: "%e"}} - {{ page.end_date | date: "%e %B %Y"}}
 </div>
-{%- elsif page.start_date != undefined -%}
+{%- elsif page.start_date != nil -%}
 <h4>When?</h4>
 <div style="padding-left: 12px;">
   {{ page.start_date | date: "%e %B %Y"}}
@@ -45,21 +45,22 @@ layout: default
 {%- comment -%}
   First capture the location fields into one variable (location_array).
 {%- endcomment -%}
+{%- capture city_code -%}{{ page.postcode }}::{{ page.city }}{%- endcapture -%}
+{%- assign city_code = city_code | split: "::" | join: " " -%}
+
 {%- capture location_array -%}
-  {{ page.venue }}
-  {{ page.street }}
-  {{ page.city }}
-  {{ page.country }}
-  {{ page.postcode }}
+{{ page.venue }}::{{ page.street }}::{{ city_code }}::{{ page.country }}
 {%- endcapture -%}
 
-{%- assign location_array = location_array | strip | newline_to_br | strip_newlines  | compact -%}
+{%- assign location_array = location_array | split: "::" -%}
 
-{% if location_array != "" %}
+{% if location_array.size > 0 %}
 <h4>Where?</h4>
-<div style="padding-left: 12px;">
+<div class="address" style="padding-left: 12px;">
   {%- for item in location_array -%}
-    {{item}}
+    {% if item != "" %}
+      <div>{{ item }}</div>
+    {%- endif -%}
   {%- endfor -%}
 </div>
 {%- endif -%}

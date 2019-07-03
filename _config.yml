@@ -19,6 +19,9 @@ include:
 
 collections_dir: pages
 collections:
+  doc:
+    output: true
+    permalink: /doc/:path/
   general:
     output: true
     permalink: /general/:path/
@@ -38,7 +41,7 @@ collections:
     output: true
     permalink: /minutes/:path/
 
-# navigation blocks can be used to separate different categories and add e.g. 
+# navigation blocks can be used to separate different categories and add e.g.
 # external link block(s), in combination with a properly modified layout
 
 nav_cat_blocks:
@@ -81,7 +84,7 @@ related_sites:
 github_projects:
   'ELIXIR Beacon': 'http://github.com/ga4gh-beacon/'
   'SchemaBlocks': 'http://github.com/ga4gh-schemablocks/'
-  
+
 # tag_cloud items
 
 cloud_tags:
@@ -110,5 +113,3 @@ plugins:
 type: website
 navigation_max_items: 4 # number of shown links in current category
 emptyArray: []          # dummy element for array initialisation
-
-
