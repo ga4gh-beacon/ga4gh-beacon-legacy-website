@@ -8,6 +8,7 @@ category:
   - howto
 tags:
   - FAQ
+  - .featured
 ---
 
 ## {{page.title}}
