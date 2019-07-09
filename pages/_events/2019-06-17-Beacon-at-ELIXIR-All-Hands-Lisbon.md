@@ -7,7 +7,7 @@ venue: Marriott Hotel Lisbon
 city: Lisbon
 country: Portugal
 event_type: Meetings and conferences
-date: 2019-07-09
+date: 2019-06-17
 author: "@mbaudis"
 www_link: "https://docs.google.com/document/d/1E55l-K8OHi5FQbFutivH3UoO7hkrGoG6qsBjr5rhDlk/edit#"
 categories:
