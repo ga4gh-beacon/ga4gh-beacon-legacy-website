@@ -1,7 +1,6 @@
 ---
 layout: event-layout
-title: ELIXIR Beacons
-ELIXIR All Hands 2019 Workshop
+title: ELIXIR Beacons at ELIXIR All Hands 2019 Workshop
 start_date: 2019-06-17T16:00:00
 end_date: 2019-06-17T17:30:00
 venue: Marriott Hotel Lisbon
