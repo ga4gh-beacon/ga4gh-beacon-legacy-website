@@ -27,6 +27,7 @@ tags:
 #### Presentations
 
 * Michael Baudis: [ELIXIR and GA4GH in Beacon development](/assets/pdf/2019-06-17___Michael-Baudis__Beacon-session-ELIXIR-and-GA4GH__ELIXIR-Lisbon-2019.pdf)
+* Juha Törnroos: [ELIXIR Beacon Network](/assets/pdf/2019-06-17___Juha-Törnroos__ELIXIR-Beacon-Network__Beacon-WS-slides.pdf)
 * Mikael Linden and Dominik F. Bucik: [AAI and Affiliation Assignment](/assets/pdf/2019-06-17___Mikael-Linden__AAI-Manual-assignment-of-affiliation__Beacon-WS-slides.pdf)
 
 
