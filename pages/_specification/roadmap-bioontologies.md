@@ -19,7 +19,7 @@ Future Beacon API versions will support querying for additional, non-sequence re
 <!--more-->
 
 <figure style="display: block; float: right; width: 250px; margin-right: 0px; margin-top: -25px;">
-  <img src="https://ga4gh-metadata.github.io/schemas/rsrc/img/ga4gh-object-model.png" style="width: 140px; margin-left: 55px " />
+  <img src="https://schemablocks.org/assets/img/ga4gh-core-object-model.png" style="width: 250px; margin-right: -40px " />
   <figcaption style="font-size: 0.8em; color: #03c; background-color: #eee; padding: 5px;">
 Proposed basic objects and their relationships, derived from the GA4GH Metadata Schema with some placeholder attributes. Such a model can serve as the basis for consistently scoped Beacon queries, beyond variant detection.
   </figcaption>
