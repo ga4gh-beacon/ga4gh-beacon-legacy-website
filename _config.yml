@@ -70,6 +70,7 @@ tags-date-sorted:
   - releases
   - press
   - versions
+  - events
 
 related_sites:
   'Beacon @ ELIXIR': 'http://www.elixir-europe.org/about-us/implementation-studies/beacons'
@@ -95,6 +96,7 @@ cloud_tags:
   - developers
   - development
   - EB
+  - events
   - FAQ
   - minutes
   - network
