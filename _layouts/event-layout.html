@@ -44,14 +44,16 @@ layout: default
 
 {%- comment -%}
   First capture the location fields into one variable (location_array).
+  But before that prepend the City w/ the code (sorry U.K.). Done w/ "join" to
+  avoid whitespace if missing entry.
 {%- endcomment -%}
+
 {%- capture city_code -%}{{ page.postcode }}::{{ page.city }}{%- endcapture -%}
 {%- assign city_code = city_code | split: "::" | join: " " -%}
 
 {%- capture location_array -%}
 {{ page.venue }}::{{ page.street }}::{{ city_code }}::{{ page.country }}
 {%- endcapture -%}
-
 {%- assign location_array = location_array | split: "::" -%}
 
 {% if location_array.size > 0 %}

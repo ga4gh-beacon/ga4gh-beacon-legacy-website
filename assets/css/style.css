@@ -77,6 +77,28 @@ header h5  {
 	right: 15px;
 }
 
+#listpage_headline_wrapper {
+	width: 100%;
+}
+
+#listpage_headline_wrapper:after {
+  clear: both;
+}
+
+#listpage_sortmarker {
+	width: 10%;
+	padding-top: 10px;
+	float: right;
+	font-size: 0.8em;
+	text-align: right;
+}
+
+#listpage_headline {
+	width: 85%;
+	float: left;
+	clear: none;
+}
+
 a { text-decoration: none; color: var(--site-color); }
 a:hover, a:focus {  text-decoration: underline ; }
 a small { font-size: 11px; margin-top: -0.3em; display: block; }

@@ -3,10 +3,17 @@ layout: default
 ---
 
 {%- assign this_name = page.name | split: "." -%}
-{%- assign this_category = this_name[0] -%}
+{%- assign this_category = this_name[0] | replace: '-alpha-sorted', '' -%}
 {%- assign this_pagetitle = this_category  | capitalize | replace: '_', ' ' -%}
 
-<h2 class="page_title">{{ this_pagetitle }}</h2>
+<div id="listpage_headline_wrapper">
+	<div id="listpage_sortmarker">
+		<a href="{{this_category}}-date-sorted.html">[date &darr;]</a>
+	</div>
+	<div id="listpage_headline">
+		<h2 class="page_title">{{ this_pagetitle }}</h2>
+	</div>
+</div>
 
 {%- comment -%}
   * collecting the pages
@@ -38,7 +45,6 @@ layout: default
   * featured posts on top, so new loop
 {%- endcomment -%}
 
-{%- assign cat_posts = cat_posts | sort: 'title' -%}
 {%- for post in cat_posts -%}
 
   {%- if post.tags contains '.featured' -%}
@@ -63,7 +69,6 @@ layout: default
   * remaining normal posts, again new loop
 {%- endcomment -%}
 
-{%- assign cat_posts = cat_posts | sort: 'title' -%}
 {%- for post in cat_posts -%}
   {% unless post.tags contains '.featured' or post.tags contains '.prepend' or post.tags contains '.append' %} 
     {%- assign excerpt_link = post.url | relative_url -%}
@@ -88,7 +93,6 @@ layout: default
   * they are processed last, so again a separate loop is needed  
 {%- endcomment -%}
 
-{%- assign cat_posts = cat_posts | sort: 'title' -%}
 {%- for post in cat_posts -%}
   {%- if post.tags contains '.append' -%}
 <div style="margin-top: 20px;">

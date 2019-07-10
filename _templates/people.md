@@ -13,6 +13,7 @@ category:
 tags: # please delete unneeded options
   - contacts
   - contributors
+  - leads
   - developers
 ---
 

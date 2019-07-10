@@ -61,12 +61,12 @@ General:
   minutes: Meeting Minutes
   contact: Contacts
 
-categories_year_sorted:
+categories-date-sorted:
   - news
   - minutes
   - events
 
-tags_year_sorted:
+tags-date-sorted:
   - releases
   - press
   - versions
