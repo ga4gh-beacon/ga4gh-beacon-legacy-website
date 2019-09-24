@@ -17,6 +17,14 @@ tags:
 
 ## {{ page.title }}
 
+This page provides some more detailed description of the "4 positions match any 
+continuous region" concept. General examples for variant queries can be found in the 
+["Example Queries"](/howto/query-examples.html) documentation.
+
+<!--more-->
+
+### Introduction
+
 The adoption of
 
 * ```variantType```
@@ -29,18 +37,25 @@ into the Beacon v0.4 release enabled the execution of
 * fuzzy position matching
 * arbitrary sequence variants (though limited through supported & documented vocabularies)
 
-<!--more-->
 
-### Introduction
+For precise variants (e.g. SNVs), base specific genome variations 
+can be described by a combination of a single genome position together with 
+reference and alternate base(s). In contrast, structural genome variants 
+(e.g. CNV) are described through the coordinates of the variants’ start and 
+(depending on type) end positions, together with the variants’ types.
 
-While, based on reference genome coordinates, base specific genome variations can be described by a combination of a single genome position together with reference and alternate base(s), structural genome variants are described through the coordinates of the variants’ start and end positions, together with the variants’ types.
+Additionally to their description by start and end positions and omitting of 
+reporting the interspersed sequence (which in the case of CNVs may be of considerable length, up to a complete reference/chromosome), functionally equivalent structural variants usually vary with respect to their exact positions. In contrast to specific & recurring SNVs (think BRAF V600E), structural variants (think TP53 deletions in cancer) tend to be selected due to their functional effect (think all deletions rendering TP53 non-functional) rather than at events of a base-specific size. Therefore, Query Ranges are needed allow a “fuzzy” matching of all variants with a specific type, but varying genomic extent.
 
-Additionally to their description by start and end positions and omitting of reporting the interspersed sequence (which in the case of CNVs may be of considerable length, up to a complete reference/chromosome), functionally equivalent structural variants usually vary with respect to their exact positions. In contrast to specific & recurring SNVs (think BRAF V600E), structural variants (think TP53 deletions in cancer) tend to be selected due to their functional effect (think all deletions rendering TP53 non-functional) rather than at events of a base-specific size. Therefore, Query Ranges are needed allow a “fuzzy” matching of all variants with a specific type, but varying genomic extent.
+To summarise, the concept of using intervals for querying variant start and 
+end positions is based on two main scenarios:
 
-To summarise, the concept of using intervals for querying variant start and end positions is based on two main scenarios:
-
-* When the start and end positions of a given genomic variant cannot be established exactly (i.e. involving DNA repeats; incomplete coverage/resolution of the use method)
-* In the case of a range query which tries to identify variants with possible differences in their exact start and end positions, e.g. all deletions somehow affecting the CDR of a gene
+* When the start and end positions of a given genomic variant cannot be 
+established exactly (i.e. involving DNA repeats; incomplete coverage/resolution 
+of the use method)
+* In the case of a range query which tries to identify variants with possible 
+differences in their exact start and end positions, e.g. all deletions somehow 
+affecting the CDR of a gene
 
 
 ### Genome Range Matches

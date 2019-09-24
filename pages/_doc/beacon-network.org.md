@@ -13,6 +13,4 @@ tags:
 
 ## {{ page.title }}
 
-(TBD)
-
 <!--more-->

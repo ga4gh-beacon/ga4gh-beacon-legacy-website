@@ -83,6 +83,7 @@ cloud_tags:
   - admin
   - code
   - contacts
+  - CNV
   - definitions
   - developers
   - development
@@ -96,6 +97,7 @@ cloud_tags:
   - queries
   - releases
   - specification
+  - VCF
   - versions
   - website
 

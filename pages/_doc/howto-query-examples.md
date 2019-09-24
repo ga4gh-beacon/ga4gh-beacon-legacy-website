@@ -4,7 +4,7 @@ date: 2019-09-24
 layout: default
 author: "@mbaudis"
 excerpt_separator: <!--more-->
-permalink: /howto/range-queries.html
+permalink: /howto/query-examples.html
 www_link: 
 category:
   - howto
@@ -12,6 +12,8 @@ tags:
   - queries
   - definitions
   - FAQ
+  - CNV
+  - VCF
 ---
 
 ## {{ page.title }}
