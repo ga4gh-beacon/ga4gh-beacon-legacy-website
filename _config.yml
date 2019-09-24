@@ -22,18 +22,9 @@ collections:
   doc:
     output: true
     permalink: /doc/:path/
-  general:
-    output: true
-    permalink: /general/:path/
-  events:
-    output: true
-    permalink: /events/:path/
   people:
     output: true
     permalink: /people/:path/
-  howto:
-    output: true
-    permalink: /howto/:path/
   specification:
     output: true
     permalink: /specification/:path/

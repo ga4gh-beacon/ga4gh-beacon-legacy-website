@@ -8,6 +8,11 @@
 {%- for static_file in site.static_files -%}{% if static_file.path contains 'site-specific/favicon.ico' %}
   <link rel="shortcut icon" href="{{ 'assets' | relative_url }}/img/site-specific/favicon.ico" type="image/x-icon" />
 {% endif %}{%- endfor -%}
+
+{%- comment -%}
+  * the base "style.css" file is loaded first
+  * after that, .css and .js files from the /assets/preload directory are loaded
+{%- endcomment -%}
   <link rel="stylesheet" href="{{ 'assets/css/style.css' | relative_url }}">
 {%- for static_file in site.static_files -%}
 	{%- if static_file.path contains '/preload/' -%}
@@ -76,7 +81,7 @@
       {%- assign cat_label = this_category[1] -%}
       {%- assign cat_key = this_category[0] -%}
       {%- assign cat_page = cat_key | append: '.html' -%}
-      {%- assign cat_posts = site.documents | where: 'category', cat_key | sort: 'date' | reverse -%}
+      {%- assign cat_posts = site.documents | where: 'categories', cat_key | sort: 'date' | reverse -%}
 
 			{%- if cat_posts.size >= 1 -%}
 
@@ -86,7 +91,7 @@
   * posts are listed if same category as current page
   * this is only done if it is a temporally sorted category
   * the "this_name" fix is for the category collection pages - e.g. /howto.md
-    which are identical in content (i.e. no "category" in front matter) & only
+    which are identical in content (i.e. no "categories" in front matter) & only
     differ in their name (=> category)
 {%- endcomment -%}
 
@@ -301,7 +306,7 @@
 
 <footer>
 
-{%- if page.name contains 'news' or page.category contains 'news' or page.category contains 'events' -%}
+{%- if page.name contains 'news' or page.categories contains 'news' or page.categories contains 'events' -%}
   {% if site.tweetfeed contains 'twitter' %}  
   <div id="tweetfeed" style="display: block; margin-top: 25px;">
  <a class="twitter-timeline" data-width="100%" data-height="200" data-theme="light"  data-chrome="noheader nofooter" href="{{site.tweetfeed}}"></a>
@@ -329,17 +334,17 @@
 
 {%- comment -%}
   * editing links with icons, for either Github or local path based editing
+  * no icons are shown for generated or list pages
 {%- endcomment -%}
 
-{%- if site.github.repository_url contains '/' -%}
-  {%- unless page.path contains 'categories/' or page.path contains 'tags/' -%}  
-    {%- assign github_link = site.github.repository_url | append: '/blob/master/' -%}
+{%- unless page.path contains 'categories/' or page.path contains 'tags/' or page.path contains 'generated' -%}  
+	{%- if site.github.repository_url contains '/' -%}
+    {%- assign github_link = site.github.repository_url | append: '/edit/master/' -%}
     {%- if page.path contains '/' -%}
       {%- assign github_link = github_link | append: site.collections_dir  | append: '/' -%}
     {%- endif -%}
   <a href="{{github_link}}{{page.path}}" style="text-decoration: none; color: #ccc;"><img src="{{ 'assets/img/icons8-edit-file-26.png' | relative_url }}" alt="Edit on Github..." id="pageediticn" /></a>
-  {%- endunless -%}
-{%- elsif site.source_path contains '/' -%}
+	{%- elsif site.source_path contains '/' -%}
 
 <!-- Code from https://clipboardjs.com -->
   <button  id="pageediticn" data-clipboard-text="open {{site.source_path}}/{{ page.path }}">
@@ -356,7 +361,8 @@
 </script>
 <!-- / clipboardjs -->
 
-{%- endif -%}
+	{%- endif -%}
+{%- endunless -%}
 
 {%- comment -%}
   * / editing
