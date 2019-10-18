@@ -16,6 +16,11 @@ tags:
   - VCF
 ---
 
+<style type="text/css">
+  td,th { font-size: 0.8em; }
+</style>
+
+
 ## {{ page.title }}
 
 This page gives examples for query strings against Beacon implementations. This 
@@ -50,11 +55,11 @@ The complete query example includes the required `datasetIds` and `assemblyId`
 parameters:
 
 ```
-datasetIds=dipg&referenceName=17&assemblyId=GRCh38&start=7577120&referenceBases=G&alternateBases=A
+referenceName=17&assemblyId=GRCh38&start=7577120&referenceBases=G&alternateBases=A
 ```
 
 
-#### CNV Queries - Fuzzy matching
+#### CNV Queries
 
 The Beacon specification from 0.4 onwards allows the use of precise and "fuzzy" matches for CNV regions. However:
 
@@ -63,8 +68,10 @@ The Beacon specification from 0.4 onwards allows the use of precise and "fuzzy" 
 
 | referenceName | referenceBases | alternateBases | variantType | start | end | startMin | startMax | endMin | endMax |
 |---------------|----------------|----------------|-------------|-------|-----|----------|----------|--------|--------|
-| required      | -              | -              | required    | -     | -   | required | required |required |required |
-| 9             |                |                | DEL         |       |     | 18000000 | 21975098 | 21967753 | 26000000 |    
+| required      | required*      | -              | required    | -     | -   | required | required |required |required |
+| 9             | N              |                | DEL         |       |     | 18000000 | 21975098 | 21967753 | 26000000 | 
+
+(* as of v1.1.0, the specification still requires a value in `referenceBases`. This can be skirted by using the `N` value.)
 
 The example here shows a CNV query as implemented in [Beacon+](https://beacon.progenetix.org/ui/). It queries for CNVs (DEL) with __any__ overlap of the CDKN2A CDR. 
 
