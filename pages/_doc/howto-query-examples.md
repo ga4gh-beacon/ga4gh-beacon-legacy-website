@@ -34,7 +34,7 @@ Standard "BeaconAlleleRequest" queries use a `start` position parameter
 
 | referenceName | referenceBases | alternateBases | variantType | start | end | startMin | startMax | endMin | endMax |
 |---------------|----------------|----------------|-------------|-------|-----|----------|----------|--------|--------|
-| required      | required       | required       | not used    | required | not used | not used | not used | not used | not used |
+| required      | required       | required       | -    | required | - | - | - | - | - |
 | 17            | G              | A              |             | 7577120 |   |          |          |        |        |    
 
 The example is against a variant observed in the _EIF4A1_ gene, as somatic 
@@ -54,11 +54,19 @@ datasetIds=dipg&referenceName=17&assemblyId=GRCh38&start=7577120&referenceBases=
 ```
 
 
-#### CNV Queries
+#### CNV Queries - Fuzzy matching
 
-The following example shows a CNV query as implemented in 
-[Beacon+](https://beacon.progenetix.org/ui/). It queries for CNVs (DEL) with 
-any overlap of the CDKN2A CDR. Briefly: 
+The Beacon specification from 0.4 onwards allows the use of precise and "fuzzy" matches for CNV regions. However:
+
+* most CNV are non-recurrent in their exact base positions or have been identified using imprecise measurements
+* the interval matching method ussing `startMin`,`startMax` and `endMin`,`endMax` bracketing also can be used for arbitrarily precise matches (e.g. using `startMax = startMin + 1` for a single base interval).
+
+| referenceName | referenceBases | alternateBases | variantType | start | end | startMin | startMax | endMin | endMax |
+|---------------|----------------|----------------|-------------|-------|-----|----------|----------|--------|--------|
+| required      | -              | -              | required    | -     | -   | required | required |required |required |
+| 9             |                |                | DEL         |       |     | 18000000 | 21975098 | 21967753 | 26000000 |    
+
+The example here shows a CNV query as implemented in [Beacon+](https://beacon.progenetix.org/ui/). It queries for CNVs (DEL) with __any__ overlap of the CDKN2A CDR. 
 
 ```
 variantType=DEL&referenceName=9&startMin=18000000&startMax=21975098&endMin=21967753&endMax=26000000&referenceBases=N
@@ -71,15 +79,6 @@ end (i.e. VCF `INFO:END`) of the CNV maps
 * `referenceBases` is only given to support compatibility with implementations 
 which require this parameter, using an "unspecified" value
 * no `alternateBases` is needed
-
-The complete query example includes the required `datasetIds` and `assemblyId` 
-parameters. Additionally, here we use a `filters` parameter (which is not yet 
-part of the 1.1 specification):
-
-
-```
-https://beacon.progenetix.org/cgi-bin/beaconresponse.cgi?datasetIds=arraymap&referenceName=9&assemblyId=GRCh38&variantType=DEL&startMin=18000000&startMax=21975098&endMin=21967753&endMax=26000000&referenceBases=N&filters=icdom-94403
-```
 
 More about the construction of such region overlap queries can be found in the 
 ["range queries"](/howto/range-queries.html) document.
