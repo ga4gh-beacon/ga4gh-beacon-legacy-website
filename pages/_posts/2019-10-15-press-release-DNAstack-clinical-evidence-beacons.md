@@ -7,6 +7,7 @@ excerpt_link: 'https://blog.dnastack.com/dnastack-launches-clinical-evidence-bea
 www_links_formatted:
 category:
   - news
+  - network
 tags:
   - press
   - Beacon
