@@ -31,19 +31,26 @@ expanding protocol options.
 Standard "BeaconAlleleRequest" queries use a `start` position parameter 
 (corresponding to VCF `POS`), corresponding `referenceBases` and the variant's 
 `alternateBases`. 
+
+| referenceName | referenceBases | alternateBases | variantType | start | end | startMin | startMax | endMin | endMax |
+|---------------|----------------|----------------|-------------|-------|-----|----------|----------|--------|--------|
+| required      | required       | required       | not used    | required | not used | not used | not used | not used | not used |
+| 17            | G              | A              |             | 7577120 |   |          |          |        |        |    
+
 The example is against a variant observed in the _EIF4A1_ gene, as somatic 
 mutation e.g. in childhood brain tumors.
 
+Please be aware of the use of [_interbase coordinates_](https://beacon-project.io/doc/howto-beacon-coordinates/) in Beacon queries; i.e. the "human readable" 1-based position (chr17:7577121) is shifted to chr17:7577120.
 
 ```
-referenceName=17&start=7577121&referenceBases=G&alternateBases=A
+referenceName=17&start=7577120&referenceBases=G&alternateBases=A
 ```
 
 The complete query example includes the required `datasetIds` and `assemblyId` 
 parameters:
 
 ```
-datasetIds=dipg&referenceName=17&assemblyId=GRCh38&start=7577121&referenceBases=G&alternateBases=A
+datasetIds=dipg&referenceName=17&assemblyId=GRCh38&start=7577120&referenceBases=G&alternateBases=A
 ```
 
 
