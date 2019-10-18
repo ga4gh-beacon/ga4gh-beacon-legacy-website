@@ -17,7 +17,7 @@ tags:
 ---
 
 <style type="text/css">
-  td,th { font-size: 0.8em; }
+  td,th { font-size: 0.7em;, padding: 1px; }
 </style>
 
 
@@ -38,7 +38,7 @@ Standard "BeaconAlleleRequest" queries use a `start` position parameter
 `alternateBases`. 
 
 | referenceName | referenceBases | alternateBases | variantType | start | end | startMin | startMax | endMin | endMax |
-|---------------|----------------|----------------|-------------|-------|-----|----------|----------|--------|--------|
+|:-------------:|:--------------:|:--------------:|:-----------:|:-----:|:---:|:--------:|:--------:|:------:|:------:|
 | required      | required       | required       | -    | required | - | - | - | - | - |
 | 17            | G              | A              |             | 7577120 |   |          |          |        |        |    
 
@@ -67,7 +67,7 @@ The Beacon specification from 0.4 onwards allows the use of precise and "fuzzy" 
 * the interval matching method ussing `startMin`,`startMax` and `endMin`,`endMax` bracketing also can be used for arbitrarily precise matches (e.g. using `startMax = startMin + 1` for a single base interval).
 
 | referenceName | referenceBases | alternateBases | variantType | start | end | startMin | startMax | endMin | endMax |
-|---------------|----------------|----------------|-------------|-------|-----|----------|----------|--------|--------|
+|:-------------:|:--------------:|:--------------:|:-----------:|:-----:|:---:|:--------:|:--------:|:------:|:------:|
 | required      | required*      | -              | required    | -     | -   | required | required |required |required |
 | 9             | N              |                | DEL         |       |     | 18000000 | 21975098 | 21967753 | 26000000 | 
 
