@@ -28,9 +28,15 @@ ACCGTCGA
 ... the exact match for GTC would be
 
 ```
-start: 4,
-end: 7
+start: 3,
+end: 6
 ```
-... due to interbase coordinates.
+... due to interbase coordinates:
+
+```
+ A C C G T C G A
+| | | | | | | | |
+0 1 2 3 4 5 6 7 8
+```
 
 A detailed documentation of the standard can be found on the [SchemaBlocks site](https://schemablocks.org/standards/genome-coordinates.html).
