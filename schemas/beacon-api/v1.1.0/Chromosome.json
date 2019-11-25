@@ -1,0 +1,92 @@
+{
+   "$id" : "https://schemablocks.org/schemas/beacon-api/Chromosome/v1.1.0",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "description" : "Chromosome as used by Beacon e.g. for instances of `referenceName`\n",
+   "examples" : [
+      "1",
+      "Y"
+   ],
+   "meta" : {
+      "contributors" : [
+         {
+            "description" : "Marc Fiume",
+            "id" : "orcid:0000-0002-9769-375X"
+         },
+         {
+            "description" : "Michael Baudis",
+            "id" : "orcid:0000-0002-9903-4248"
+         },
+         {
+            "description" : "Sabela de la Torre Pernas",
+            "id" : "orcid:0000-0002-5129-2248"
+         },
+         {
+            "description" : "Jordi Rambla",
+            "id" : "orcid:0000-0001-9091-257X"
+         },
+         {
+            "description" : "Beacon developers..."
+         }
+      ],
+      "provenance" : [
+         {
+            "description" : "Beacon API",
+            "id" : "https://github.com/ga4gh-beacon/specification/"
+         }
+      ],
+      "sb_status" : "implemented",
+      "used_by" : [
+         {
+            "description" : "Beacon",
+            "id" : "https://github.com/ga4gh-beacon/specification/blob/master/beacon.yaml"
+         },
+         {
+            "description" : "Progenetix database schema (Beacon+ backend)",
+            "id" : "https://github.com/progenetix/schemas/tree/master/main/yaml"
+         }
+      ]
+   },
+   "properties" : {
+      "chromosome" : {
+         "description" : "Reference name (chromosome). Accepting values 1-22, X, Y, MT.\n",
+         "enum" : [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "X",
+            "Y",
+            "MT"
+         ],
+         "examples" : [
+            "9",
+            "22"
+         ],
+         "type" : "string"
+      }
+   },
+   "required" : [
+      "chromosome"
+   ],
+   "title" : "Chromosome",
+   "type" : "object"
+}
+

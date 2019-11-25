@@ -1,0 +1,121 @@
+{
+   "$id" : "https://schemablocks.org/schemas/beacon-api/BeaconSnvRequest/v1.1.0",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "description" : "The precise SNV query subtype of the `BeaconAlleleRequest`.",
+   "examples" : [
+      {
+         "alternateBases" : "A",
+         "assemblyId" : "GRCh38",
+         "datasetIds" : [
+            "dipg",
+            "progenetix"
+         ],
+         "includeDatasetResponses" : "HIT",
+         "referenceBases" : "G",
+         "referenceName" : "17",
+         "start" : "7577121"
+      }
+   ],
+   "meta" : {
+      "contributors" : [
+         {
+            "description" : "Michael Baudis",
+            "id" : "orcid:0000-0002-9903-4248"
+         },
+         {
+            "description" : "Beacon developers..."
+         }
+      ],
+      "provenance" : [
+         {
+            "description" : "Beacon API",
+            "id" : "https://github.com/ga4gh-beacon/specification/"
+         }
+      ],
+      "sb_status" : "proposed",
+      "used_by" : [
+         {
+            "description" : "Beacon",
+            "id" : "https://github.com/ga4gh-beacon/specification/blob/master/beacon.yaml"
+         },
+         {
+            "description" : "Progenetix database schema (Beacon+ backend)",
+            "id" : "https://github.com/progenetix/schemas/tree/master/main/yaml"
+         }
+      ]
+   },
+   "properties" : {
+      "alternateBases" : {
+         "description" : "The bases that appear instead of the reference bases, as described for \n`referenceBases`.\n\nSymbolic ALT alleles (DEL, INS, DUP, INV, CNV, DUP:TANDEM, DEL:ME,\nINS:ME) cannot be represented in `alternateBases`.\n",
+         "pattern" : "^([ACGTN]+)$",
+         "type" : "string"
+      },
+      "assemblyId" : {
+         "description" : "Assembly identifier (GRC notation, e.g. `GRCh37`).",
+         "examples" : [
+            "GRCh38"
+         ],
+         "type" : "string"
+      },
+      "datasetIds" : {
+         "description" : "Identifiers of datasets, as defined in `BeaconDataset`. If this\nfield is null/not specified, all datasets should be queried.\n",
+         "examples" : [
+            [
+               "arraymap",
+               "TCGA"
+            ]
+         ],
+         "items" : "string",
+         "type" : "array"
+      },
+      "includeDatasetResponses" : {
+         "description" : "Indicator of whether responses for individual datasets\n(datasetAlleleResponses) should be included in the response\n(BeaconAlleleResponse) to this request or not. If null (not\nspecified), the default value of NONE is assumed.\n",
+         "enum" : [
+            "ALL",
+            "HIT",
+            "MISS",
+            "NONE"
+         ],
+         "type" : "string"
+      },
+      "referenceBases" : {
+         "description" : "Reference bases for this variant (starting from `start`).\nAccepted values: [ACGTN]*. N is a wildcard, that denotes the position of \nany base, and can be used as a standalone base of any type or within a \npartially known sequence. For example a sequence where the first and \nlast bases are known, but the middle portion can exhibit countless \nvariations of [ACGT], or the bases are unknown: ANNT the Ns can take \ntake any form of [ACGT], which makes both ACCT and ATGT (or any other \ncombination) viable sequences.\n",
+         "pattern" : "^([ACGTN]+)$",
+         "type" : "string"
+      },
+      "referenceName" : {
+         "allof" : [
+            {
+               "$ref" : "https://schemablocks.org/schemas/beacon-api/v1.1.0/Chromosome.json"
+            },
+            {
+               "description" : "Chromosome as string\n",
+               "examples" : [
+                  "22",
+                  "Y"
+               ]
+            }
+         ]
+      },
+      "start" : {
+         "description" : "Precise start coordinate position, allele locus (0-based, inclusive).\nFor the _precise_ `BeaconSnvRequest`, only the `start` parameter is being\nused.\n",
+         "examples" : [
+            "0",
+            "6298005"
+         ],
+         "format" : "int64",
+         "minimum" : "0",
+         "type" : "integer"
+      }
+   },
+   "required" : [
+      "referenceName",
+      "referenceBases",
+      "alternateBases",
+      "start",
+      "assemblyId"
+   ],
+   "title" : "BeaconSnvRequest",
+   "type" : "object"
+}
+

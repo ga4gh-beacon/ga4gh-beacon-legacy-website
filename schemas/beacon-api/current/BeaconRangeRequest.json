@@ -1,0 +1,144 @@
+{
+   "$id" : "https://schemablocks.org/schemas/beacon-api/BeaconRangeRequest/v1.1.0",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "description" : "A `BeaconAlleleRequest` flavour for matching variants in a genomic range.\n",
+   "examples" : [
+      {
+         "alternateBases" : "N",
+         "assemblyId" : "GRCh38",
+         "datasetIds" : [
+            "dipg"
+         ],
+         "end" : "7579005",
+         "referenceBases" : "N",
+         "referenceName" : "17",
+         "start" : "7572826"
+      }
+   ],
+   "meta" : {
+      "contributors" : [
+         {
+            "description" : "Michael Baudis",
+            "id" : "orcid:0000-0002-9903-4248"
+         },
+         {
+            "description" : "Beacon developers..."
+         }
+      ],
+      "provenance" : [
+         {
+            "description" : "Beacon API",
+            "id" : "https://github.com/ga4gh-beacon/specification/"
+         }
+      ],
+      "sb_status" : "proposal",
+      "used_by" : [
+         {
+            "description" : "Beacon",
+            "id" : "https://github.com/ga4gh-beacon/specification/blob/master/beacon.yaml"
+         },
+         {
+            "description" : "Progenetix database schema (Beacon+ backend)",
+            "id" : "https://github.com/progenetix/schemas/tree/master/main/yaml"
+         }
+      ]
+   },
+   "properties" : {
+      "alternateBases" : {
+         "description" : "The bases that appear instead of the reference bases.   \n* Accepted values: [ACGTN]*. N is a wildcard, that denotes the position \nof any base, and can be used as a standalone base of any type or within \na partially known sequence. For example a sequence where the first and \nlast bases are known, but the middle portion can exhibit countless \nvariations of [ACGT], or the bases are unknown: ANNT the Ns can take any \nform of [ACGT], which makes both ACCT and ATGT (or any other combination)\nviable sequences.\n\nSymbolic ALT alleles (DEL, INS, DUP, INV, CNV, DUP:TANDEM, DEL:ME,\nINS:ME) are be represented in `variantType`.\n\nEither `alternateBases` or `variantType` is required.\n",
+         "pattern" : "^([ACGTN]+)$",
+         "type" : "string"
+      },
+      "assemblyId" : {
+         "description" : "Assembly identifier (GRC notation, e.g. `GRCh37`).",
+         "examples" : [
+            "GRCh38"
+         ],
+         "type" : "string"
+      },
+      "datasetIds" : {
+         "description" : "Identifiers of datasets, as defined in `BeaconDataset`. If this\nfield is null/not specified, all datasets should be queried.\n",
+         "examples" : [
+            [
+               "arraymap",
+               "TCGA"
+            ]
+         ],
+         "items" : "string",
+         "type" : "array"
+      },
+      "end" : {
+         "description" : "Start position of the range in which to match overlapping variants.\nSee start.\n",
+         "examples" : [
+            "5556"
+         ],
+         "type" : "integer"
+      },
+      "mateName" : {
+         "allof" : [
+            {
+               "$ref" : "https://schemablocks.org/schemas/beacon-api/v1.1.0/Chromosome.json"
+            },
+            {
+               "description" : "Second chromosome in fusion events, as string\n",
+               "examples" : [
+                  "22",
+                  "Y"
+               ]
+            }
+         ]
+      },
+      "referenceBases" : {
+         "description" : "Reference bases for this variant (starting from `start`).\nAccepted values: [ACGTN]*. N is a wildcard, that denotes the position of \nany base, and can be used as a standalone base of any type or within a \npartially known sequence. For example a sequence where the first and \nlast bases are known, but the middle portion can exhibit countless \nvariations of [ACGT], or the bases are unknown: ANNT the Ns can take \ntake any form of [ACGT], which makes both ACCT and ATGT (or any other \ncombination) viable sequences.\n",
+         "pattern" : "^([ACGTN]+)$",
+         "type" : "string"
+      },
+      "referenceName" : {
+         "allof" : [
+            {
+               "$ref" : "https://schemablocks.org/schemas/beacon-api/v1.1.0/Chromosome.json"
+            },
+            {
+               "description" : "Chromosome as string\n",
+               "examples" : [
+                  "22",
+                  "Y"
+               ]
+            }
+         ]
+      },
+      "start" : {
+         "description" : "Start position of the range in which to match overlapping variants    \n* 0-based, inclusive\n",
+         "examples" : [
+            "0",
+            "6298005"
+         ],
+         "format" : "int64",
+         "minimum" : "0",
+         "type" : "integer"
+      },
+      "variantType" : {
+         "description" : "The `variantType` is used to denote e.g. structural variants.\n\nExamples:\n* DUP: duplication of sequence following `start`; not necessarily in\nsitu\n* DEL: deletion of sequence following `start`\n* BND: breakend, i.e. termination of the allele at position\n     `start` or in the `startMin` => `startMax` interval, or fusion\n     of the sequence to distant partner\n\n\nEither `alternateBases` or `variantType` is required.\n",
+         "examples" : [
+            "DUP",
+            "DEL"
+         ],
+         "type" : "string"
+      }
+   },
+   "required" : [
+      "referenceName",
+      "assemblyId",
+      "start",
+      "end",
+      {
+         "oneOf" : [
+            "alternateBases",
+            "variantType"
+         ]
+      }
+   ],
+   "title" : "BeaconRangeRequest",
+   "type" : "object"
+}
+

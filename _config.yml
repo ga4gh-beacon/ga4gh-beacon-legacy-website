@@ -25,9 +25,9 @@ collections:
   people:
     output: true
     permalink: /people/:path/
-  specification:
+  schemas:
     output: true
-    permalink: /specification/:path/
+    permalink: /schemas/:path/
   minutes:
     output: true
     permalink: /minutes/:path/
@@ -101,6 +101,7 @@ cloud_tags:
   - VCF
   - versions
   - website
+  - beacon-api
 
 # additional Jekyll instructions
 
