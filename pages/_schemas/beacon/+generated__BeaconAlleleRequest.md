@@ -1,7 +1,7 @@
 ---
 title: BeaconAlleleRequest
 layout: default
-permalink: "/schemas/beacon-api/BeaconAlleleRequest.html"
+permalink: "/schemas/beacon/BeaconAlleleRequest.html"
 sb_status: "implemented"
 excerpt_separator: <!--more-->
 categories:
@@ -9,7 +9,7 @@ categories:
   - queries
   - schemas
 tags:
-  - beacon-api
+  - beacon
   - beacon-query-types
   - code
   - implemented
@@ -19,7 +19,7 @@ tags:
 
 
 <div id="schema-header-title">
-  <h2>BeaconAlleleRequest <span id="schema-header-title-project">[beacon-api <a href="https://github.com/ga4gh-beacon/beacon-query-types" target="_BLANK">&nearr;</a>]</span> </h2>
+  <h2>BeaconAlleleRequest <span id="schema-header-title-project">[beacon <a href="https://github.com/ga4gh-beacon/beacon-query-types" target="_BLANK">&nearr;</a>]</span> </h2>
 </div>
 
 <table id="schema-header-table">
@@ -111,7 +111,7 @@ __Description:__ Allele request as interpreted by the beacon.
   </tr>
   <tr>
     <th>mateName</th>
-    <td>https://schemablocks.org/schemas/beacon-api/v1.1.0/Chromosome.json [<a href="https://schemablocks.org/schemas/beacon-api/v1.1.0/Chromosome.json" target="_BLANK">SRC</a>] [<a href="https://schemablocks.org/schemas/beacon-api/Chromosome.html" target="_BLANK">HTML</a>]</td>
+    <td>https://beacon-project.io/schemas/beacon/v1.1.0/Chromosome.json [<a href="https://beacon-project.io/schemas/beacon/v1.1.0/Chromosome.json" target="_BLANK">SRC</a>] [<a href="https://beacon-project.io/schemas/beacon/Chromosome.html" target="_BLANK">HTML</a>]</td>
   </tr>
   <tr>
     <th>referenceBases</th>
@@ -119,7 +119,7 @@ __Description:__ Allele request as interpreted by the beacon.
   </tr>
   <tr>
     <th>referenceName</th>
-    <td>https://schemablocks.org/schemas/beacon-api/v1.1.0/Chromosome.json [<a href="https://schemablocks.org/schemas/beacon-api/v1.1.0/Chromosome.json" target="_BLANK">SRC</a>] [<a href="https://schemablocks.org/schemas/beacon-api/Chromosome.html" target="_BLANK">HTML</a>]</td>
+    <td>https://beacon-project.io/schemas/beacon/v1.1.0/Chromosome.json [<a href="https://beacon-project.io/schemas/beacon/v1.1.0/Chromosome.json" target="_BLANK">SRC</a>] [<a href="https://beacon-project.io/schemas/beacon/Chromosome.html" target="_BLANK">HTML</a>]</td>
   </tr>
   <tr>
     <th>start</th>
@@ -230,7 +230,7 @@ Minimum end coordinate. See startMin.
 
 #### mateName
 
-* type: https://schemablocks.org/schemas/beacon-api/v1.1.0/Chromosome.json [<a href="https://schemablocks.org/schemas/beacon-api/v1.1.0/Chromosome.json" target="_BLANK">SRC</a>] [<a href="https://schemablocks.org/schemas/beacon-api/Chromosome.html" target="_BLANK">HTML</a>]
+* type: https://beacon-project.io/schemas/beacon/v1.1.0/Chromosome.json [<a href="https://beacon-project.io/schemas/beacon/v1.1.0/Chromosome.json" target="_BLANK">SRC</a>] [<a href="https://beacon-project.io/schemas/beacon/Chromosome.html" target="_BLANK">HTML</a>]
 
 Second chromosome in fuion events, as string
 
@@ -263,7 +263,7 @@ combination) viable sequences.
 
 #### referenceName
 
-* type: https://schemablocks.org/schemas/beacon-api/v1.1.0/Chromosome.json [<a href="https://schemablocks.org/schemas/beacon-api/v1.1.0/Chromosome.json" target="_BLANK">SRC</a>] [<a href="https://schemablocks.org/schemas/beacon-api/Chromosome.html" target="_BLANK">HTML</a>]
+* type: https://beacon-project.io/schemas/beacon/v1.1.0/Chromosome.json [<a href="https://beacon-project.io/schemas/beacon/v1.1.0/Chromosome.json" target="_BLANK">SRC</a>] [<a href="https://beacon-project.io/schemas/beacon/Chromosome.html" target="_BLANK">HTML</a>]
 
 Chromosome as string
 

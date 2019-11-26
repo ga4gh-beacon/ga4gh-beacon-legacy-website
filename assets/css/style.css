@@ -253,7 +253,7 @@ http://andhart.github.io/bijou/
 .container{ width:1000px; margin:0 auto }
 .container:after{content:"\0020"; display:block; height:0; clear:both; visibility:hidden}
 
-header {width:24%; max-width: 270px; float: left; z-index: 8; background-color: transparent; }
+header {width:24%; max-width: 270px; float: left; z-index: 8; background-color: transparent; position: fixed; }
 section { width:72%; float: right; background: none; }
 footer { width:24%; float: left; position: fixed; bottom: 20px; }
 

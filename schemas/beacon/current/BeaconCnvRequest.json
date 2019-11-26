@@ -1,5 +1,5 @@
 {
-   "$id" : "https://schemablocks.org/schemas/beacon-api/BeaconCnvRequest/v1.1.0",
+   "$id" : "https://beacon-project.io/schemas/beacon/BeaconCnvRequest/v1.1.0",
    "$schema" : "http://json-schema.org/draft-07/schema#",
    "description" : "CNV request against Beacon resources.  \n\nTODO: The documented queries will fail current tests due to the lack of the\n`referenceBases` parameter.\n",
    "examples" : [
@@ -97,7 +97,7 @@
       "referenceName" : {
          "allof" : [
             {
-               "$ref" : "https://schemablocks.org/schemas/beacon-api/v1.1.0/Chromosome.json"
+               "$ref" : "https://beacon-project.io/schemas/beacon/v1.1.0/Chromosome.json"
             },
             {
                "description" : "Chromosome as string\n",

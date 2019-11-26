@@ -1,5 +1,5 @@
 {
-   "$id" : "https://schemablocks.org/schemas/beacon-api/BeaconAlleleRequest/v1.1.0",
+   "$id" : "https://beacon-project.io/schemas/beacon/BeaconAlleleRequest/v1.1.0",
    "$schema" : "http://json-schema.org/draft-07/schema#",
    "description" : "Allele request as interpreted by the beacon.",
    "examples" : [
@@ -118,7 +118,7 @@
       "mateName" : {
          "allof" : [
             {
-               "$ref" : "https://schemablocks.org/schemas/beacon-api/v1.1.0/Chromosome.json"
+               "$ref" : "https://beacon-project.io/schemas/beacon/v1.1.0/Chromosome.json"
             },
             {
                "description" : "Second chromosome in fuion events, as string\n",
@@ -137,7 +137,7 @@
       "referenceName" : {
          "allof" : [
             {
-               "$ref" : "https://schemablocks.org/schemas/beacon-api/v1.1.0/Chromosome.json"
+               "$ref" : "https://beacon-project.io/schemas/beacon/v1.1.0/Chromosome.json"
             },
             {
                "description" : "Chromosome as string\n",

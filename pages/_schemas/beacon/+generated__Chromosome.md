@@ -1,7 +1,7 @@
 ---
 title: Chromosome
 layout: default
-permalink: "/schemas/beacon-api/Chromosome.html"
+permalink: "/schemas/beacon/Chromosome.html"
 sb_status: "implemented"
 excerpt_separator: <!--more-->
 categories:
@@ -9,7 +9,7 @@ categories:
   - queries
   - schemas
 tags:
-  - beacon-api
+  - beacon
   - beacon-query-types
   - code
   - implemented
@@ -19,7 +19,7 @@ tags:
 
 
 <div id="schema-header-title">
-  <h2>Chromosome <span id="schema-header-title-project">[beacon-api <a href="https://github.com/ga4gh-beacon/beacon-query-types" target="_BLANK">&nearr;</a>]</span> </h2>
+  <h2>Chromosome <span id="schema-header-title-project">[beacon <a href="https://github.com/ga4gh-beacon/beacon-query-types" target="_BLANK">&nearr;</a>]</span> </h2>
 </div>
 
 <table id="schema-header-table">

@@ -70,18 +70,19 @@ related_sites:
   'Beacon<span style="color: red; font-weight: 800;">+</span>': 'http://beacon.progenetix.org'
   'beacon-network.org': 'http://beacon-network.org'
   'GA4GH::SchemaBlocks': 'http://schemablocks.org'
-  'GA4GH::Discovery': 'http://ga4gh-discovery.github.io'
-  'GA4GH::CLP': 'http://ga4gh-cp.github.io'
-  'GA4GH::GKS': 'http://ga4gh-gks.github.io'
+#  'GA4GH::Discovery': 'http://ga4gh-discovery.github.io'
+#  'GA4GH::CLP': 'http://ga4gh-cp.github.io'
+#  'GA4GH::GKS': 'http://ga4gh-gks.github.io'
 
 github_projects:
-  'ELIXIR Beacon': 'http://github.com/ga4gh-beacon/'
+  'Beacon': 'http://github.com/ga4gh-beacon/'
   'SchemaBlocks': 'http://github.com/ga4gh-schemablocks/'
 
 # tag_cloud items
 
 cloud_tags:
   - admin
+  - beacon
   - code
   - contacts
   - CNV
@@ -101,7 +102,6 @@ cloud_tags:
   - VCF
   - versions
   - website
-  - beacon-api
 
 # additional Jekyll instructions
 
