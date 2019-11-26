@@ -5,17 +5,21 @@ permalink: "/schemas/beacon-api/Chromosome.html"
 sb_status: "implemented"
 excerpt_separator: <!--more-->
 categories:
-  - schemas
   - howto
+  - queries
+  - schemas
 tags:
-  - implemented
-  - beacon-query-types
   - beacon-api
+  - beacon-query-types
+  - code
+  - implemented
+  - queries
+  - specification
 ---
 
 
 <div id="schema-header-title">
-  <h2>Chromosome <span id="schema-header-title-project">beacon-api <a href="https://github.com/ga4gh-beacon/beacon-query-types" target="_BLANK">&nearr;</a></span> </h2>
+  <h2>Chromosome <span id="schema-header-title-project">[beacon-api <a href="https://github.com/ga4gh-beacon/beacon-query-types" target="_BLANK">&nearr;</a>]</span> </h2>
 </div>
 
 <table id="schema-header-table">
