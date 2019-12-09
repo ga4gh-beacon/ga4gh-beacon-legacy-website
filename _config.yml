@@ -67,10 +67,10 @@ tags-date-sorted:
 related_sites:
   'Beacon @ ELIXIR': 'http://www.elixir-europe.org/about-us/implementation-studies/beacons'
   GA4GH: 'http://ga4gh.org'
-  'Beacon<span style="color: red; font-weight: 800;">+</span>': 'http://beacon.progenetix.org'
+  'Beacon<span style="color: red; font-weight: 800;">+</span>': 'http://beacon.progenetix.org/ui/'
   'beacon-network.org': 'http://beacon-network.org'
   'GA4GH::SchemaBlocks': 'http://schemablocks.org'
-#  'GA4GH::Discovery': 'http://ga4gh-discovery.github.io'
+  'GA4GH::Discovery': 'http://ga4gh-discovery.github.io'
 #  'GA4GH::CLP': 'http://ga4gh-cp.github.io'
 #  'GA4GH::GKS': 'http://ga4gh-gks.github.io'
 
