@@ -25,15 +25,35 @@ targets.
 
 A - now possibly outdated - "scouting the scouts" document is available [here](https://docs.google.com/document/d/1Mpi0C3wtzcx33ZQwwZ2bI6GV6eTUd27dC6kAgHEqik0/edit#).
 
-----
-
 ### Driver Project Engagement
 
 #### Lead: Jordi Rambla
 
+---- 
+
+### Beacon Implementation Examples
+
+#### Members
+
+* Michael Baudis
+* Tony Brooks
+* Babita Singh
+
+---- 
+
+### Data Schemas
+
+#### Members
+
+* Michael Baudis
+* Tony Brooks
+* Babita Singh
+
 ----
 
 ### Beacon Compliance
+
+#### Lead: Johan Viklund
 
 The Compliance Team:
 
@@ -42,8 +62,6 @@ Beacon implementations in a version-specific manner
 * provides example datasets
 * develops software utilities to run & benchmark compliance tests in a backend 
 agnostic manner
-
-#### Lead: Johan Viklund
 
 #### Members
 
@@ -54,10 +72,21 @@ agnostic manner
 #### Links
 
 * pages tagged ["queries"](/tags/queries.html)
+* [_beacon-query-types_](https://github.com/ga4gh-beacon/beacon-query-types/) repository
 
 ----
 
 ### Beacon Security
+
+#### Lead: Dylan Spalding
+
+#### Members
+
+* Dylan Spalding
+* Stephanie Odette Mary Dyke
+* Tony Brooks
+* Teemu Kataja
+* Frederik Haziza
 
 ----
 
