@@ -2,6 +2,7 @@
 title: "Bo Gao"
 layout: default
 excerpt_separator: <!--more-->
+excerpt_link: https://info.baudisgroup.org/group/Bo_Gao/
 image_file: bgao.png
 category:
   - people
