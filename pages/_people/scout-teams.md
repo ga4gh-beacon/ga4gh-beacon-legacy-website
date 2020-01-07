@@ -35,6 +35,14 @@ A - now possibly outdated - "scouting the scouts" document is available [here](h
 
 ### Beacon Compliance
 
+The Compliance Team:
+
+* defines example queries and expected responses which should be handled by  
+Beacon implementations in a version-specific manner
+* provides example datasets
+* develops software utilities to run & benchmark compliance tests in a backend 
+agnostic manner
+
 #### Lead: Johan Viklund
 
 #### Members
@@ -42,6 +50,10 @@ A - now possibly outdated - "scouting the scouts" document is available [here](h
 * Johan Viklund
 * Michael Baudis
 * Malin Ahlberg
+
+#### Links
+
+* pages tagged ["queries"](/tags/queries.html)
 
 ----
 
