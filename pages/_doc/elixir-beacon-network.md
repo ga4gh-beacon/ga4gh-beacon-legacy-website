@@ -12,7 +12,7 @@ tags:
 
 ## {{ page.title }}
 
-<img style="float: right;" src="/assets/img/logo_beacon-network.png" />
+<img style="float: right; clear: none;" src="/assets/img/logo_beacon-network.png" />
 
 Beacon networks consist of registries of multiple Beacons, in different locations, which can be queried through a common intercace or gateway protocol.
 
