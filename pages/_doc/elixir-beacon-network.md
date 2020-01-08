@@ -9,7 +9,9 @@ category:
 tags:
   - network
 ---
-<a href="https://beacon-network.elixir-europe.org" target="_blank"><img style="float: right; clear: none;" src="/assets/img/logo_beacon-network.png" /></a><h2 style="display: block;">{{ page.title }}</h2>
+
+<div><a href="https://beacon-network.elixir-europe.org" target="_blank"><img style="float: right; clear: none;" src="/assets/img/logo_beacon-network.png" /></a></div>
+<h2 style="display: block;">{{ page.title }}</h2>
 
 Beacon networks consist of registries of multiple Beacons, in different locations, which can be queried through a common interface or gateway protocol.
 
