@@ -10,7 +10,8 @@ tags:
   - network
 ---
 
-<div><a href="https://beacon-network.elixir-europe.org" target="_blank"><img style="float: right; clear: none;" src="/assets/img/logo_beacon-network.png" /></a></div>
+<div>
+<a href="https://beacon-network.elixir-europe.org" target="_blank"><img style="float: right; clear: none;" src="/assets/img/logo_beacon-network.png" /></a>
 <h2 style="display: block;">{{ page.title }}</h2>
 
 Beacon networks consist of registries of multiple Beacons, in different locations, which can be queried through a common interface or gateway protocol.
@@ -22,6 +23,8 @@ The _ELIXIR Beacon Network_ is a collection of Beacons from ELIXIR nodes, which 
 An implementation of the ELIXIR Beacon Network has been launched in 2019 and is available [here](https://beacon-network.elixir-europe.org).
 
 For the future - and especially with view on the planned Beacon v2 extensions - we expect to expand the network inside but also beyond ELIXIR member organisations.
+
+</div>
 
 #### Contact
 
