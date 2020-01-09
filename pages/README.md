@@ -2,19 +2,17 @@
 
 => The easiest way to create a new post is to copy and modify an old one from the same category. <=
 
-In the Jekyll framework used for this site, new web pages are created by adding Markdown pages to this (i.e. `_posts`) directory.
+In the Jekyll framework used for this site, new web pages are created by adding Markdown pages to one of the directories here (i.e. `_people`, `_posts`).
 
 These pages have to fulfil 2 conditions:
 
 * they need a `YAML` front matter
-* their names start with the ISO8601 formated date of the post
+* if added to the `_posts` directory, the file names *must* start with the ISO8601 formated date of the post
   * the date can be any date, you want the post to be associated with (e.g. `1967-11-11`)
   * the date can be in the future, with posts then only being processed
     * when this date is reached, or
     * if the `future: true` flag is set in `_config.yml`
   * the leading date has to be followed by a dash `-` sign (e.g. `2018-10-19-news-weather-is-nice.md`)
-
-Posts can be arranged into sub-directories (e.g. `/_posts/news/2018-10-19-news-weather-is-nice.md`); this has no impact at all and can be used for keeping some order.
 
 ### Front Matter
 
