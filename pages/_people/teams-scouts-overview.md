@@ -64,15 +64,10 @@ Beacon implementations in a version-specific manner
 * develops software utilities to run & benchmark compliance tests in a backend 
 agnostic manner
 
-#### Members
-
-* Johan Viklund
-* Michael Baudis
-* Malin Ahlberg
-
 #### Links
 
-* pages tagged ["queries"](/tags/queries.html)
+* pages tagged ["compliance"](/tags/compliance.html)
+* [_beacon-api-tests_](https://github.com/NBISweden/beacon-api-tests) repository
 * [_beacon-query-types_](https://github.com/ga4gh-beacon/beacon-query-types/) repository
 
 ----
