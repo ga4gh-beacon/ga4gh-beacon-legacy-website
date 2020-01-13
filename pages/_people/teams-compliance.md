@@ -15,6 +15,7 @@ category: # please adjust
 tags: # please adjust - align with  "cloud_tags" in _config.yml
   - developers
   - compliance
+  - teams
 ---
 
 ## {{ page.title }}

@@ -13,6 +13,7 @@ tags:
   - queries
   - definitions
   - specification
+  - teams
 ---
 
 ## {{ page.title }}
