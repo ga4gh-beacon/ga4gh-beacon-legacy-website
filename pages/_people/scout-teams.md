@@ -4,7 +4,7 @@ date: 2020-01-07
 layout: default
 author: "@mbaudis"
 excerpt_separator: <!--more-->
-permalink: /beacon-scout-teams.html
+permalink: /teams-scouts-overview.html
 category:
   - people
   - news
@@ -51,7 +51,7 @@ A - now possibly outdated - "scouting the scouts" document is available [here](h
 
 ----
 
-### Beacon Compliance
+### Beacon Compliance [[➚](/teams/compliance.html)]
 
 #### Lead: Johan Viklund
 
