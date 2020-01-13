@@ -2,12 +2,13 @@
 title: 'Beacon Compliance Team Minutes 2020'
 date: 2020-01-13
 layout: default
-author: ["@mbaudis", @viklund"]
+author: ["@mbaudis", "@viklund"]
 permalink: /minutes/compliance-minutes-2020.html
 excerpt_separator: <!--more-->
 www_link: # a simple web address related to the post, e.g. https://www.ga4gh.org
 www_links_formatted:
-	- '<a href="https://github.com/NBISweden/beacon-api-tests">beacon-api-tests Repository</a>'
+  - '<a href="/teams/compliance.html">compliance team page</a>'
+  - '<a href="https://github.com/NBISweden/beacon-api-tests">beacon-api-tests Repository</a>'
 pdf_file_name: 
 category: # please adjust
   - minutes
