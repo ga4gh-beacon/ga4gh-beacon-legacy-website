@@ -11,7 +11,7 @@ tags:
 ---
 
 <div>
-<img style="float: right; clear: none;" src="/assets/img/logo_beacon-network.png" /></a>
+<img align="right" style="float: right; clear: none;" src="/assets/img/logo_beacon-network.png" />
 <h2 style="display: block;">{{ page.title }}</h2>
 
 Beacon networks consist of registries of multiple Beacons, in different locations, which can be queried through a common interface or gateway protocol.
