@@ -10,6 +10,7 @@ excerpt_separator: <!--more-->
 www_link:
 category:
   - specification
+  - news
 tags:
   - specification
   - development
