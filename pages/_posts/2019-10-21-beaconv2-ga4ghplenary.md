@@ -6,7 +6,7 @@ date: 2019-10-21
 excerpt_separator: <!--more-->
 www_links_formatted:
 category:
-  - roadmap
+  - specification
   - news
 tags:
   - specification
