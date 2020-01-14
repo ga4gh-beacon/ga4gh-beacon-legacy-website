@@ -41,10 +41,8 @@ nav_cat_blocks:
   github_projects: 'Github Projects,github_projects,show'
 
 General:
-  about: 'About...'
   news: 'News'
-  specification: Specification
-  roadmap: Roadmap
+  specification: 'Specification & Roadmap'
   network: 'Beacon Networks'
   events: Events
   howto: 'Examples, Guides & FAQ'

@@ -5,7 +5,7 @@ layout: default
 author: "@mbaudis"
 excerpt_separator: <!--more-->
 category:
-  - about
+  - index
 tags:
   - FAQ
 ---
