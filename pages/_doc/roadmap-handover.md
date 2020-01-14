@@ -7,10 +7,11 @@ permalink: /roadmap/handover.html
 excerpt_separator: <!--more-->
 www_link:
 category:
-  - roadmap
+  - specification
 tags:
   - specification
   - development
+  - roadmap
 ---
 
 ## {{ page.title }}

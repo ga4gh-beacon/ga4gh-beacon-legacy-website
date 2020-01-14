@@ -1,5 +1,5 @@
-label: 'ELIXIR Genome Beacons'
-tagline: 'A Driver Project of the Global Alliance for Genomics and Health'
+label: 'Genome Beacons'
+tagline: 'A Driver Project of the Global Alliance for Genomics and Health [GA4GH] supported by ELIXIR'
 description: |
   Beacon is an open standard for genomics data discovery, developed by members of the Global Alliance for Genomics & Health
 keywords: genomics, cloud, Beacon, DNA, sharing, ELIXIR, GA4GH
@@ -42,21 +42,20 @@ nav_cat_blocks:
 
 General:
   about: 'About...'
-  news: 'News & Press'
-  people: Contributors
-  events: Events
-  howto: 'Examples, Guides & FAQ'
+  news: 'News'
   specification: Specification
   roadmap: Roadmap
   network: 'Beacon Networks'
-  minutes: Meeting Minutes
+  events: Events
+  howto: 'Examples, Guides & FAQ'
+  people: 'Contributors & Teams'
   contact: Contacts
+  minutes: Meeting Minutes
 
 categories-date-sorted:
   - news
   - minutes
   - events
-  - roadmap
 
 tags-date-sorted:
   - releases
@@ -66,16 +65,17 @@ tags-date-sorted:
 
 related_sites:
   'Beacon @ ELIXIR': 'http://www.elixir-europe.org/about-us/implementation-studies/beacons'
+  'ELIXIR BeaconNetwork': 'https://beacon-network.elixir-europe.org'
   GA4GH: 'http://ga4gh.org'
-  'Beacon<span style="color: red; font-weight: 800;">+</span>': 'http://beacon.progenetix.org/ui/'
   'beacon-network.org': 'http://beacon-network.org'
+  'Beacon<span style="color: red; font-weight: 800;">+</span>': 'http://beacon.progenetix.org/ui/'
   'GA4GH::SchemaBlocks': 'http://schemablocks.org'
   'GA4GH::Discovery': 'http://ga4gh-discovery.github.io'
 #  'GA4GH::CLP': 'http://ga4gh-cp.github.io'
 #  'GA4GH::GKS': 'http://ga4gh-gks.github.io'
 
 github_projects:
-  'Beacon': 'http://github.com/ga4gh-beacon/'
+  'Beacon API and Tools': 'http://github.com/ga4gh-beacon/'
   'SchemaBlocks': 'http://github.com/ga4gh-schemablocks/'
 
 # tag_cloud items
@@ -99,6 +99,7 @@ cloud_tags:
   - proposal
   - queries
   - releases
+  - roadmap
   - specification
   - teams
   - VCF
