@@ -3,7 +3,7 @@ title: 'Beacon Structural Variants Team Minutes 2020'
 date: 2020-01-15
 layout: default
 author: ["@mbaudis", "@viklund"]
-permalink: /minutes/compliance-minutes-2020.html
+permalink: /minutes/structural-variants-minutes-2020.html
 excerpt_separator: <!--more-->
 www_link: # a simple web address related to the post, e.g. https://www.ga4gh.org
 www_links_formatted:
