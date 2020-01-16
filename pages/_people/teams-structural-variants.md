@@ -8,6 +8,7 @@ excerpt_separator: <!--more-->
 www_link: # a simple web address related to the post, e.g. https://www.ga4gh.org
 www_links_formatted:
   - '<a href="https://hcnv.github.io/doc/CNV-annotation-formats.html">CNV Annotation Formats</a> at ELIXIR hCNV'
+  - '<a href="/schemas/beacon/BeaconCnvRequest.html">BeaconCnvRequest prototype schema</a>'
   - '<a href="/minutes/structural-variants-minutes-2020.html">meeting minutes 2020</a>'
 pdf_file_name: 
 category: # please adjust
