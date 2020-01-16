@@ -16,6 +16,7 @@ tags: # please adjust - align with  "cloud_tags" in _config.yml
   - developers
   - CNV
   - teams
+  - SV
 ---
 
 ## {{ page.title }}
