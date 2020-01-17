@@ -4,8 +4,8 @@ layout: default																			# don't change
 date: 2020-01-16																		# optional
 excerpt_separator: <!--more-->											# don't change
 excerpt_link:																				# optional
-person_image_file: 																	# recommended
-person_github_id:																		# optional
+person_image_file: abrookes.png											# recommended
+person_github_id: antbro														# optional
 person_homepage: 																		# recommended
 person_email: ajb97@leicester.ac.uk									# recommended
 category:																						# edit
