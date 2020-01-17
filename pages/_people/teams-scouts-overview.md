@@ -1,5 +1,5 @@
 ---
-title: "Beacon v2 Scout Teams"
+title: "Teams: Beacon v2 Scouts Overview"
 date: 2020-01-07
 layout: default
 author: "@mbaudis"
@@ -83,6 +83,17 @@ agnostic manner
 * Tony Brooks
 * Teemu Kataja
 * Frederik Haziza
+
+----
+
+### Structural Variants Beacons [[➚]](/teams/structural-variants.html)
+
+#### Members
+
+* Babita Singh (chair)
+* David Salgado
+* Tony Brooks
+* Michael Baudis
 
 ----
 
