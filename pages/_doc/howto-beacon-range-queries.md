@@ -13,6 +13,8 @@ tags:
   - queries
   - definitions
   - FAQ
+  - CNV
+  - SV
 ---
 
 ## {{ page.title }}

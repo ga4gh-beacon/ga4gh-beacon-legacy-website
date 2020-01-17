@@ -132,6 +132,18 @@ dt { color: #444; font-weight: 700; }
 li { margin-top: 0px; margin-bottom: 2px; }
 
 img { max-width: 100%; }
+.image-right {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+.image-left {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
 
 .strong { color: #222; font-weight: 700; }
 .small { font-size: 11px; }

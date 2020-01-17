@@ -12,6 +12,8 @@ tags:
   - people
   - developers
   - .featured
+  - CNV
+  - SV
 ---
 
 {% for static_file in site.static_files %}
@@ -22,10 +24,10 @@ tags:
 
 ## {{page.title}}
 
-Co-chair GA4GH Discovery Work Stream (Beacon & SchemaBlocks)
-Professor of Bioinformatics  
-University of Zurich  
-Swiss Institute of Bioinformatics
+* Co-chair GA4GH Discovery Work Stream ([Beacon](http://beacon-project.io) & [SchemaBlocks](http://schemablocks.org))
+* Professor of Bioinformatics  
+* University of Zurich  
+* Swiss Institute of Bioinformatics
 
 <!--more-->
 

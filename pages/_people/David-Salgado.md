@@ -1,18 +1,20 @@
 ---
-title: "Ion Tichy, ST"															# required
+title: "David Salgado"															# required
 layout: default																			# don't change
-date: 1967-11-11																		# optional
+date: 2020-01-16																		# optional
 excerpt_separator: <!--more-->											# don't change
 excerpt_link:																				# optional
-person_image_file: 'Ion_Tichy.png'									# recommended
-person_github_id: lems_ion_tichy										# optional
-person_homepage: https://sww.arsu.arkturius					# recommended
-person_email: itichy@cc.arsu.arkturius							# recommended
+person_image_file: 																	# recommended
+person_github_id:																		# optional
+person_homepage: 																		# recommended
+person_email: david.salgado@univ-amu.fr							# recommended
 category:																						# edit
   - people
 tags:																								# edit
   - contacts
   - people
+  - CNV
+  - SV
 description: |																			# FYI
   * page title will be taken from `title` in the header
   * image thumbnail (80px width) will be inserted right of title if
@@ -34,12 +36,13 @@ description: |																			# FYI
 
 <!-- edit here for other content showing up on list page -->
 
-* Beacon Explorer  
-* Arkturius Space University  
+* Structural Variants scout team
+* Bioinformatics Research Engineer
+* Marseille Medical Genetics Bioinformatics platform manager
 
 <!--more--><!-- edit below for additional content -->
 
-Ion Tichy is a character in the works of Stanislaw Lem.
+
 
 <!-- auto generated links from header data -->
 

@@ -1,18 +1,20 @@
 ---
-title: "Ion Tichy, ST"															# required
+title: "Anthony J. Brookes"													# required
 layout: default																			# don't change
-date: 1967-11-11																		# optional
+date: 2020-01-16																		# optional
 excerpt_separator: <!--more-->											# don't change
 excerpt_link:																				# optional
-person_image_file: 'Ion_Tichy.png'									# recommended
-person_github_id: lems_ion_tichy										# optional
-person_homepage: https://sww.arsu.arkturius					# recommended
-person_email: itichy@cc.arsu.arkturius							# recommended
+person_image_file: 																	# recommended
+person_github_id:																		# optional
+person_homepage: 																		# recommended
+person_email: ajb97@leicester.ac.uk									# recommended
 category:																						# edit
   - people
+  - contact
 tags:																								# edit
   - contacts
   - people
+  - .featured
 description: |																			# FYI
   * page title will be taken from `title` in the header
   * image thumbnail (80px width) will be inserted right of title if
@@ -34,12 +36,12 @@ description: |																			# FYI
 
 <!-- edit here for other content showing up on list page -->
 
-* Beacon Explorer  
-* Arkturius Space University  
+* Department of Genetics
+* University of Leicester
+* Co-lead ELIXIR Beacon
 
 <!--more--><!-- edit below for additional content -->
 
-Ion Tichy is a character in the works of Stanislaw Lem.
 
 <!-- auto generated links from header data -->
 
