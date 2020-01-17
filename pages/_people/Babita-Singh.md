@@ -4,9 +4,9 @@ layout: default																			# don't change
 date: 2020-01-16																		# optional
 excerpt_separator: <!--more-->											# don't change
 excerpt_link:																				# optional
-person_image_file: 																	# recommended
+person_image_file: "IMG_0035.JPG"										# recommended
 person_github_id: babisingh													# optional
-person_homepage: 																		# recommended
+person_homepage:  																	# recommended
 person_email: babita.singh@crg.eu										# recommended
 category:																						# edit
   - people
