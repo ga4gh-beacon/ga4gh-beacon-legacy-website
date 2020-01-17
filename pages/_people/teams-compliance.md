@@ -1,5 +1,5 @@
 ---
-title: 'Beacon Compliance Team'
+title: 'Team: Beacon Compliance'
 date: 2020-01-13
 layout: default
 author: ["@mbaudis", "@viklund"]
