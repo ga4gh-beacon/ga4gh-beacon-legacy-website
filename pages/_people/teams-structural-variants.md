@@ -1,5 +1,5 @@
 ---
-title: 'Beacon Structural Variants Team'
+title: 'Teams: Beacon Structural Variants'
 date: 2020-01-15
 layout: default
 author: ["@mbaudis"]
