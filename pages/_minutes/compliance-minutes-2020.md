@@ -15,6 +15,7 @@ category: # please adjust
 tags: # please adjust - align with  "cloud_tags" in _confic.yml_
   - minutes
   - compliance
+  - v2
 ---
 
 ## {{ page.title }}

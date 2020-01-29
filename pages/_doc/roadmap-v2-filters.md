@@ -1,9 +1,8 @@
 ---
-title: 'Bio-metadata Query Support'
-date: 2018-10-18
+title: 'Beacon v2 Filters'
+date: 2020-01-29
 layout: default
 author: "@mbaudis"
-permalink: /roadmap/bioontologies.html
 excerpt_separator: <!--more-->
 www_link:
 category:
@@ -16,20 +15,26 @@ tags:
 
 ## {{ page.title }}
 
-Future Beacon API versions will support querying for additional, non-sequence related data types.
+An *v2* extension of the Beacon protocol will allow the query for additional
+data beyond genome variants, using a proposed `filters` extension. Such filters
+are thought to be prefixed attributes, where the (public or private) prefix
+becomes the basis of scoping the value to the correct database value.
 
 <!--more-->
 
-<figure style="display: block; float: right; width: 250px; margin-right: -40px; margin-top: -25px;">
-  <img src="https://schemablocks.org/assets/img/ga4gh-core-object-model.png" style="width: 250px;  " />
-  <figcaption style="font-size: 0.8em; color: #03c; background-color: #eee; padding: 5px;">
-Proposed basic objects and their relationships, derived from the GA4GH Metadata Schema with some placeholder attributes. Such a model can serve as the basis for consistently scoped Beacon queries, beyond variant detection.
-  </figcaption>
-</figure>
+##### Previous design evaluations [[➚](/roadmap/bioontologies.html)]
 
-One of the first implementations will be towards ontology term based phenotype and disease classifications, based on concepts from the `Biocharacteristic` and `OntologyTerm` objects from the GA4GH metadata model and its [__SchemaBlocks__](http://schemablocks.org/) descendant.
+An [earlier discussion](/roadmap/bioontologies.html) had proposed a scoped query
+object design, following the originally proposed GA4GH schema's [object model](https://schemablocks.org/standards/ga4gh-data-model.html). Its 
+implementation had been demonstrated through [Beacon<span style="color: red; font-weight: 800;">+</span>](http://beacon.progenetix.org/ui/), where it was used to limit
+responses to one or multiple ontology terms (e.g. `ncit:C9039`) against the
+`biosamples` collection, i.e. only `BeaconAlleleResponses` for matches against
+the `BeaconAlleleRequest` *and* the ontology term.
 
-Development of these query extensions will require a basic, but consistent, object model for scoping such queries.
+##### Current reasoning for `filters` implementation
+
+
+
 
 ### Ontology term based query example in cancer
 

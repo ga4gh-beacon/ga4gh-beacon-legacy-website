@@ -14,6 +14,7 @@ tags:
   - definitions
   - specification
   - teams
+  - v2
 ---
 
 ## {{ page.title }}

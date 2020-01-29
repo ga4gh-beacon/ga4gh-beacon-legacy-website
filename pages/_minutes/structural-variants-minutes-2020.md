@@ -13,9 +13,9 @@ category: # please adjust
   - minutes
 tags: # please adjust - align with  "cloud_tags" in _config.yml_
   - minutes
-  - compliance
   - SV
   - CNV
+  - v2
 ---
 
 ## {{ page.title }}
