@@ -11,6 +11,7 @@ tags:
   - specification
   - development
   - roadmap
+  - v2
 ---
 
 ## {{ page.title }}
@@ -31,35 +32,72 @@ responses to one or multiple ontology terms (e.g. `ncit:C9039`) against the
 `biosamples` collection, i.e. only `BeaconAlleleResponses` for matches against
 the `BeaconAlleleRequest` *and* the ontology term.
 
+
 ##### Current reasoning for `filters` implementation
 
+The `filters` concept put forward for Beacon v2 avoids the explicit scoping of
+filter parameters and leaves this open to interpretation by the different
+resources and their data models. However, this necessitates extensive
+documentation of proposed use cases, to leverage the power of federated Beacon
+queries.
 
+##### Examples for discussion
 
-
-### Ontology term based query example in cancer
-
-In a typical cancer resource scenario, diagnostic codes would be associated with a biosample from which the variants were generated. Disease descriptions and coding could there be annotated in a `biosamples` database collection, as part of a `biocharacteristics` array of disease or phenotype objects:
+The [Beacon<span style="color: red; font-weight: 800;">+</span>](http://beacon.progenetix.org/ui/)
+front-end of the [Progenetix](http://progenetix.org) cancer genomics resource
+has implemented a `filters` based query model, in which prefixed parameters
+are scoped to their database attributes based on a lookup stage. Excerpt from
+the configuration file:
 
 ```
-"biocharacteristics" : [
-  {
-    "description" : "cervix squamous carcinoma [cell line C-4-I]",
-    "type" : {
-      "id" : "ncit:C27676",
-      "label" : "Human papillomavirus-related cervical squamous cell carcinoma"
-    }
-  }
-]
-```
-... where the `type` attribute represents the default annotation for ontology terms (the use of an "id" and a "label" is SOP for such use cases).
-
-The simplest query for an exact match for this specific diagnosis could be formulated as:
-
-##### MongoDB example (i.e. the backend query)
-```
-db.biosamples.find( { "biocharacteristics.type.id" : "ncit:C27676" } )
-```
-##### (Generic) HTTP example
-```
-https://beacon-server.example.org/api/?collection=biosamples&qfield=biocharacteristics.type.id&qtext=ncit:C27676
+---
+description: |
+  This file defines the mappings of public or private prefixes to the attributes
+  in the Progenetix database schemas.
+  Filters are not specifically scoped to individual data collections. This is
+  either done separately in the `query_params.yaml` file, where only certain
+  query attributes are assigned to specified "scopes" (collections).
+  The alternative way is the construction of scoped queries instead of using
+  `filters`.
+  
+  Examples:
+    - `ncit:C9325`
+        * will translate to `biocharacteristics.type.id=ncit:C9325`
+        * `biocharacteristics.type.id` is an allowed parameter in queries
+        against biosamples and biosubsets; this should not be ambiguous
+        * however, when wanting to identify all samples, variants from patients
+        with the disease a filter query - even when the `individuals` collection
+        would be populated (not yet in Progenetix) - the unscoped query would
+        not identify e.g. control samples from the patients 
+parameters:
+  icdom:
+    parameter: 'biocharacteristics.type.id'
+    examples:
+      - 'icdom-81703'
+      - 'icdom-94403'
+  ncit:
+    parameter: 'biocharacteristics.type.id'
+    examples:
+      - 'ncit:C27676'
+      - 'ncit:C9325'
+  HPO:
+    parameter: 'biocharacteristics.type.id'
+    examples:
+      - 'HP:0012209'
+  pubmed:
+    parameter: 'external_references.type.id'
+    examples:
+      - 'pubmed:28966033'
+      - 'pubmed:9405679'
+  genomes:
+    parameter: 'counts.genomes'
+    remove_prefix: true
+    examples:
+      - 'genomes:>0'
+  biosampleid:
+    parameter: 'biosamples.id'
+    remove_prefix: true
+  callsetid:
+    parameter: 'callsets.id'
+    remove_prefix: true
 ```
