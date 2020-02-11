@@ -30,6 +30,7 @@ tags:					# edit
 
 * UKRI Innovation Fellow at Health Data Research UK
 * University of Leicester
+* lead ["Beacon Filters"](https://beacon-project.io/teams/filters.html) scout team
 
 <!--more--><!-- edit below for additional content -->
 
