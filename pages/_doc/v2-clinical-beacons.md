@@ -26,13 +26,15 @@ tags:
 In the original Beacon roadmap definitions, "clinical Beacon" (lower case)
 described a set of use cases instead of a specific [Beacon flavour](/roadmap/beacon-flavours.html):
 
+<!--more-->
+
 - any Beacon which contains non-aggregate data (variants and metadata)
 - has the potential of data exposure through standard security breaches
 - additional security risk through non-aggregate responses, where implemented
 
 However, "Clinical Beacons" can also be instances of "Evidence" or "Data"
 Beacons as described in the roadmap - that is, *any Beacon providing information
-about variants or about their instances, useful in a clinical context**.
+about variants or about their instances, useful in a clinical context*.
 
 The original Beacon protocol had only limited utility for medical practice
 or clinical use, mostly in confirming the (non-) existence of a particular
