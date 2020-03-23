@@ -1,5 +1,5 @@
 ---
-title: 'Beacon v2: Clinical Beacons'
+title: 'Clinical Beacons - towards v2'
 date: 2020-03-23
 layout: default
 authors: 
