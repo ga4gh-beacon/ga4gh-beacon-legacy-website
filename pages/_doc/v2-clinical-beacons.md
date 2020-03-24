@@ -17,6 +17,7 @@ tags:
   - filters
   - clinical
   - v2
+  - .featured
 ---
 
 ## {{ page.title }}
@@ -43,6 +44,13 @@ only permitted the query for single, sequence-specified genome variants and
 did not allow the addition of any additional information beyond the 
 qualification for the "exists?" query to the Beacon response.
 
+### Beacon v1.n - Query options
+
+While the Beacon v0.1 => v0.3 only allowed queries for precise (SNP, INDEL)
+genome variants, v0.4 => 1.n added options for structural variants and range
+queries. However, no options for biomedical or technical metadata queries had
+been included.
+
 ### Beacon v1.n - Data Delivery
 
 With version 1.0 of the Beacon API, the addition of the `handover` response
@@ -61,4 +69,22 @@ While the _handover_ concept is extremely versatile, it does not provide an
 alignment of response formats across Beacon instances. Therefore, the definition
 of "clinical response specifications" has become a part of the Beacon v2 
 roadmap, especially to provide response harmonization for federated queries.
+
+### Beacon v2 - Query Options Beyond Variants
+
+__TODO__
+
+* filters
+* named genome elements
+
+
+### Beacon v2 - Towards Rich Data Delivery
+
+__TODO__
+
+* handover
+* pre-defined data formats, derived from GA4GH standards and projects
+* "data + schema" for custom schemas
+* "evidence" type information
+
 
