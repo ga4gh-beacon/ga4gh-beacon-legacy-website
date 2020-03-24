@@ -25,15 +25,13 @@ tags:
 ### "Clinical Beacon" - Semantics & Logical Scope
 
 In the original Beacon roadmap definitions, "clinical Beacon" (lower case)
-described a set of use cases instead of a specific [Beacon flavour](/roadmap/beacon-flavours.html):
+described a set of use cases instead of a specific [Beacon flavour](/roadmap/beacon-flavours.html).
 
 <!--more-->
 
-- any Beacon which contains non-aggregate data (variants and metadata)
-- has the potential of data exposure through standard security breaches
-- additional security risk through non-aggregate responses, where implemented
-
-However, "Clinical Beacons" can also be instances of "Evidence" or "Data"
+Besides non-aggregate variant Beacons (where i.e. matched variant instances
+_in principle_ could be connected with the samples they were derived from), 
+"Clinical Beacons" can also be instances of "Evidence" or "Data"
 Beacons as described in the roadmap - that is, *any Beacon providing information
 about variants or about their instances, useful in a clinical context*.
 
