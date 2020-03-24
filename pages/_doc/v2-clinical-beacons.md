@@ -68,7 +68,7 @@ alignment of response formats across Beacon instances. Therefore, the definition
 of "clinical response specifications" has become a part of the Beacon v2 
 roadmap, especially to provide response harmonization for federated queries.
 
-### Beacon v2 - Query Options Beyond Variants
+### Beacon v2 - Query Options Beyond Variants [➚](https://github.com/ga4gh-beacon/specification-v2)
 
 __TODO__
 
@@ -76,7 +76,7 @@ __TODO__
 * named genome elements
 
 
-### Beacon v2 - Towards Rich Data Delivery
+### Beacon v2 - Towards Rich Data Delivery [➚](https://github.com/ga4gh-beacon/specification-v2-default-schemas)
 
 __TODO__
 
