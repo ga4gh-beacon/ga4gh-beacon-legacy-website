@@ -33,9 +33,9 @@ development by the GA4GH GKS workstream.
 
 ### Members
 
-* [Babita Singh](/people/Babita-Singh/) (chair)
-* David Salgado
-* [Tony Brooks](/people/Anthony-Brookes/)
+* [Babita Singh](https://beacon-project.io/people/Babita-Singh/) (chair)
+* [David Salgado](https://hcnv.github.io/people/David-Salgado/)
+* [Tony Brooks](https://beacon-project.io/people/Anthony-Brookes/)
 * [Michael Baudis](https://info.baudisgroup.org/group/Michael_Baudis/)
 * Diana Lemos (EBI-Ensembl)
 
