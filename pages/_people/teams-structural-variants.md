@@ -33,7 +33,7 @@ development by the GA4GH GKS workstream.
 
 ### Members
 
-* Babita Singh (chair)
+* [Babita Singh](https://beacon-project.io/people/Babita-Singh/) (chair)
 * David Salgado
 * [Tony Brooks](/people/Anthony-Brookes/)
 * [Michael Baudis](https://info.baudisgroup.org/group/Michael_Baudis/)
