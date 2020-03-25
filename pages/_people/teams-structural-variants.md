@@ -37,4 +37,5 @@ development by the GA4GH GKS workstream.
 * David Salgado
 * [Tony Brooks](/people/Anthony-Brookes/)
 * [Michael Baudis](https://info.baudisgroup.org/group/Michael_Baudis/)
+* Diana Lemos (EBI-Ensembl)
 
