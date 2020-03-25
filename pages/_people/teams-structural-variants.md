@@ -35,6 +35,6 @@ development by the GA4GH GKS workstream.
 
 * Babita Singh (chair)
 * David Salgado
-* Tony Brooks
+* [Tony Brooks](/people/Anthony-Brookes/)
 * [Michael Baudis](https://info.baudisgroup.org/group/Michael_Baudis/)
 
