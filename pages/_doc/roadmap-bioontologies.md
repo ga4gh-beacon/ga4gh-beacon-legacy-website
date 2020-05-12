@@ -58,3 +58,53 @@ db.biosamples.find( { "biocharacteristics.type.id" : "ncit:C27676" } )
 ```
 https://beacon-server.example.org/api/?collection=biosamples&qfield=biocharacteristics.type.id&qtext=ncit:C27676
 ```
+
+##### Example for backend implementation: Prefix definition
+
+The [Beacon<span style="color: red; font-weight: 800;">+</span>](http://beacon.progenetix.org/ui/)
+front-end of the [Progenetix](http://progenetix.org) cancer genomics resource
+has implemented a `filters` based query model, in which prefixed parameters
+are scoped to their database attributes based on a lookup stage.
+
+Excerpt from the `filter_mappings.yaml` configuration file:
+
+```
+---
+description: |
+  This file defines the mappings of public or private prefixes to the attributes
+  in the Progenetix database schemas.
+  Filters are not specifically scoped to individual data collections. This is
+  done separately in the `query_params.yaml` file, where only certain
+  query attributes are assigned to specified "scopes" (collections).
+  The alternative way is the construction of scoped queries instead of using
+  `filters`.
+
+  Examples:
+    - `NCIT:C9325`
+        * will translate to `biocharacteristics.type.id=ncit:C9325`
+        * `biocharacteristics.type.id` is an allowed parameter in queries
+        against biosamples
+        * however, when wanting to identify all samples, variants from patients
+        with the disease a filter query - even when the `individuals` collection
+        would be populated (not yet in Progenetix) - the unscoped query would
+        not identify e.g. control samples from the patients
+    - 'ageAtDiagnosis:<P21Y'
+        * a case of a private, quantitative filter where a quantitative value
+        here an ISO 8601 period) and comparator are used against a field
+        specified in the local implementation
+parameters:
+  NCIT:
+    parameter: 'biocharacteristics.type.id'
+    examples:
+      - 'NCIT:C27676'
+      - 'NCIT:C9325'
+  HPO:
+    parameter: 'biocharacteristics.type.id'
+    examples:
+      - 'HP:0012209'
+  PMID:
+    parameter: 'external_references.type.id'
+    examples:
+      - 'PMID:28966033'
+      - 'PMID:9405679'
+```
