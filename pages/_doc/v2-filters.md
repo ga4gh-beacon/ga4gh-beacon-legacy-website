@@ -122,13 +122,13 @@ An unordered unique value list containing all Filters and CustomFilters is
 returned from the `/filtering_terms` endpoint.  For each term, the following
 information is returned:
 
-* source name
+* `source` name
   - name of the bio-ontology or indication of custom provenance
   - optional
-* term id
+* term `id`
   - typically the prefixed ontology class identifier
   - required
-* term label
+* term `label`
   - ontology class label or custom filter descriptor
   - optional
 
