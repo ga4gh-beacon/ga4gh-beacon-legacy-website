@@ -33,7 +33,7 @@ The Beacon v2 API supports the discovery of genomics and clinical datasets, and
 includes a powerful feature to enable the “filtering” of beacon responses by
 biomedical properties (e.g. phenotypes) and procedural metadata.
 
-Filters belong to one of currently two primary super-classes:
+Filters belong to one of currently three super-classes:
 
 * `Filters` correspond to classes from bio-ontologies for biomedical data or
 procedural metadata that are contained in public repositories such as the
@@ -58,10 +58,10 @@ labelling and grouping CustomFilters. For example, related phenotype terms or
 experimental sets could be grouped into local “dictionaries”, which could be
 addressed through a local identifier.  The only requirement is that each custom
 filter term contains a unique identifier that can be used in Beacon requests.
-
-`FuzzyFilters` are implementations of classifiers which allow for some
+* `FuzzyFilters` are implementations of classifiers which allow for some
 alternatives in matching and mostly can be drop-ins where ontologies are
-incomplete, or to allow `OR`-style queries where such a mechanism doesn't exist.
+incomplete. Logically, through the potential matching of multiple values they
+provide a limited alternative mechanism to allow `OR`-style queries.
 
 ### Using filters in Beacon requests
 
@@ -109,10 +109,8 @@ prefix in dot-annotation, for example:
 
 #### Inferred logical operators between filters
 
-If filter scopes are declared, the logical `OR` operator is implied between
-filters of the **same scope**, and the logical `AND` operator implied between
-filters of **different scopes**.  The logical `AND` operator is also implied
-between **unscoped filters**, and between unscoped and scoped filters.
+Currently a the logical `AND` is implied between filters. A limited way of `OR`
+type queries can be provided through fuzzy `FuzzyFilters`.
 
 #### Listing all Filters and CustomFilters used in a Beacon
 
