@@ -38,15 +38,15 @@
          },
          {
             "description" : "Sabela de la Torre Pernas",
-            "id" : "__contributor_ORCID__"
+            "id" : "https://beacon-project.io/people/Sabela-de-la-Torre/"
          },
          {
-            "description" : "Sabela de la Torre Pernas",
-            "id" : "__contributor_ORCID__"
+            "description" : "Jordi Rambla De Argila",
+            "id" : "https://beacon-project.io/people/Jordi-Rambla/"
          },
          {
             "description" : "Michael Baudis",
-            "id" : "ORCID:0000-0002-9903-4248"
+            "id" : "orcid:0000-0002-9903-4248"
          }
       ],
       "provenance" : [

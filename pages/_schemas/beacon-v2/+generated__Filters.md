@@ -49,9 +49,9 @@ tags:
     <td>
       <ul>
 <li><a href="https://beacon-project.io/categories/people.html">ELIXIR Beacon team</a></li>
-<li>Sabela de la Torre Pernas (__contributor_ORCID__)</li>
-<li>Sabela de la Torre Pernas (__contributor_ORCID__)</li>
-<li>Michael Baudis (ORCID:0000-0002-9903-4248)</li>
+<li><a href="https://beacon-project.io/people/Sabela-de-la-Torre/">Sabela de la Torre Pernas</a></li>
+<li><a href="https://beacon-project.io/people/Jordi-Rambla/">Jordi Rambla De Argila</a></li>
+<li><a href="https://orcid.org/0000-0002-9903-4248">Michael Baudis</a></li>
       </ul>
     </td>
   </tr>
