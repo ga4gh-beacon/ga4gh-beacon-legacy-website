@@ -1,0 +1,56 @@
+{
+   "$id" : "https://beacon-project.io/schemas/beacon/IndividualDefault/2.0",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "description" : "Default schema for variant annotation\n",
+   "examples" : [],
+   "meta" : {
+      "contributors" : [
+         {
+            "description" : "ELIXIR Beacon team",
+            "id" : "https://beacon-project.io/categories/people.html"
+         },
+         {
+            "description" : "Sabela de la Torre Pernas",
+            "id" : "__contributor_ORCID__"
+         },
+         {
+            "description" : "Sabela de la Torre Pernas",
+            "id" : "__contributor_ORCID__"
+         },
+         {
+            "description" : "Michael Baudis",
+            "id" : "ORCID:0000-0002-9903-4248"
+         }
+      ],
+      "provenance" : [
+         {
+            "description" : "Beacon v2 draft schema",
+            "id" : "https://github.com/ga4gh-beacon/specification-v2"
+         }
+      ],
+      "sb_status" : "playground",
+      "used_by" : [
+         {
+            "description" : "Beacon, for Beacon v2 testing",
+            "id" : "https://github.com/ga4gh-beacon/specification-v2"
+         }
+      ]
+   },
+   "properties" : {
+      "value" : {
+         "$ref" : "https://raw.githubusercontent.com/ga4gh-beacon/specification-v2-default-schemas/master/default_schemas.yaml./Individual"
+      },
+      "version" : {
+         "description" : "Version of the schema\n",
+         "example" : "beacon-individual-v0.1",
+         "type" : "string"
+      }
+   },
+   "required" : [
+      "version",
+      "value"
+   ],
+   "title" : "IndividualDefault",
+   "version" : "2.0"
+}
+

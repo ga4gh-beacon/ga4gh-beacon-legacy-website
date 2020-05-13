@@ -1,0 +1,42 @@
+{
+   "$id" : "https://beacon-project.io/schemas/beacon/GenomicCNVResponse/2.0",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "description" : "Response of a genomic CNV query. Fields to be defined.\n",
+   "examples" : [],
+   "meta" : {
+      "contributors" : [
+         {
+            "description" : "ELIXIR Beacon team",
+            "id" : "https://beacon-project.io/categories/people.html"
+         },
+         {
+            "description" : "Sabela de la Torre Pernas",
+            "id" : "__contributor_ORCID__"
+         },
+         {
+            "description" : "Sabela de la Torre Pernas",
+            "id" : "__contributor_ORCID__"
+         },
+         {
+            "description" : "Michael Baudis",
+            "id" : "ORCID:0000-0002-9903-4248"
+         }
+      ],
+      "provenance" : [
+         {
+            "description" : "Beacon v2 draft schema",
+            "id" : "https://github.com/ga4gh-beacon/specification-v2"
+         }
+      ],
+      "sb_status" : "playground",
+      "used_by" : [
+         {
+            "description" : "Beacon, for Beacon v2 testing",
+            "id" : "https://github.com/ga4gh-beacon/specification-v2"
+         }
+      ]
+   },
+   "title" : "GenomicCNVResponse",
+   "version" : "2.0"
+}
+

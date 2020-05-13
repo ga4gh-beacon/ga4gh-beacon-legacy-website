@@ -1,0 +1,90 @@
+{
+   "$id" : "https://beacon-project.io/schemas/beacon-v2/GenomicVariantFields/2.0",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "description" : "All the required fields to query any kind of variant (e.g. SNP, DUP, \netc.).\n",
+   "examples" : [],
+   "meta" : {
+      "contributors" : [
+         {
+            "description" : "ELIXIR Beacon team",
+            "id" : "https://beacon-project.io/categories/people.html"
+         },
+         {
+            "description" : "Sabela de la Torre Pernas",
+            "id" : "__contributor_ORCID__"
+         },
+         {
+            "description" : "Sabela de la Torre Pernas",
+            "id" : "__contributor_ORCID__"
+         },
+         {
+            "description" : "Michael Baudis",
+            "id" : "ORCID:0000-0002-9903-4248"
+         }
+      ],
+      "provenance" : [
+         {
+            "description" : "Beacon v2 draft schema",
+            "id" : "https://github.com/ga4gh-beacon/specification-v2"
+         }
+      ],
+      "sb_status" : "playground",
+      "used_by" : [
+         {
+            "description" : "Beacon, for Beacon v2 testing",
+            "id" : "https://github.com/ga4gh-beacon/specification-v2"
+         }
+      ]
+   },
+   "properties" : {
+      "alternateBases" : {
+         "description" : "The bases that appear instead of the reference bases. Accepted \nvalues: [ACGTN]*. N is a wildcard, that denotes the position of any \nbase, and can be used as a standalone base of any type or within a \npartially known sequence. For example a sequence where the first and \nlast bases are known, but the middle portion can exhibit countless \nvariations of [ACGT], or the bases are unknown: ANNT the Ns can take \ntake any form of [ACGT], which makes both ACCT and ATGT (or any \nother combination) viable sequences.\nSymbolic ALT alleles (DEL, INS, DUP, INV, CNV, DUP:TANDEM, DEL:ME,\nINS:ME) will be represented in `variantType`.\nOptional: either `alternateBases` or `variantType` is required.\n",
+         "pattern" : "^([ACGTN]+)$",
+         "type" : "string"
+      },
+      "assemblyId" : {
+         "$ref" : "./Assembly"
+      },
+      "end" : {
+         "description" : "Precise or fuzzy end coordinate(s) (0-based, exclusive). See start. \nFor fuzzy matches, provide 2 values in the array (e.g. [111,222]).\n",
+         "items" : {
+            "format" : "int64",
+            "type" : "integer"
+         },
+         "type" : "array"
+      },
+      "mateName" : {
+         "$ref" : "./Chromosome"
+      },
+      "referenceBases" : {
+         "description" : "Reference bases for this variant (starting from `start`). \nAccepted values: [ACGTN]*. N is a wildcard, that denotes the \nposition of any base, and can be used as a standalone base of any \ntype or within a partially known sequence. For example a sequence \nwhere the first and last bases are known, but the middle portion can \nexhibit countless variations of [ACGT], or the bases are unknown: \nANNT the Ns can take take any form of [ACGT], which makes both ACCT \nand ATGT (or any other combination) viable sequences.\n",
+         "pattern" : "^([ACGTN]+)$",
+         "type" : "string"
+      },
+      "referenceName" : {
+         "$ref" : "./Chromosome"
+      },
+      "start" : {
+         "description" : "Precise or fuzzy start coordinate position(s), allele locus \n(0-based, inclusive).\n* start only:\n  - for single positions, e.g. the start of a specified sequence \n  alteration where the size is given through the specified \n  `alternateBases`\n  - typical use are queries for SNV and small InDels\n  - THIS IS NOT TRUE FOR RANGE QUERIES!!!! -> the use of \"start\" \n  without an \"end\" parameter requires the use of \"referenceBases\"\n* `start` and `end`:\n  - special use case for exactly determined structural changes\n* use 2 values for querying imprecise positions (e.g. identifying \nall structural variants starting anywhere between `start[0]` <-> \n`start[1]`, and ending anywhere between `end[0]` <-> `end[1]`)\n* IS THIS NECESSARY???? -> single or double sided precise matches \ncan be achieved by setting `start[0]` = `start[1]` XOR `end[0]` = \n`end[1]`\n",
+         "items" : {
+            "format" : "int64",
+            "type" : "integer"
+         },
+         "minimum" : "0",
+         "type" : "array"
+      },
+      "variantType" : {
+         "description" : "The `variantType` is used to denote e.g. structural variants.\nExamples:\n* DUP: duplication of sequence following `start`; not necessarily in\nsitu\n* DEL: deletion of sequence following `start`\n* BND: breakend, i.e. termination of the allele at position\n      `start` or in the `startMin` => `startMax` interval, or fusion\n      of the sequence to distant partner\nOptional: either `alternateBases` or `variantType` is required.\n",
+         "type" : "string"
+      }
+   },
+   "required" : [
+      "assemblyId",
+      "referenceName",
+      "start"
+   ],
+   "title" : "GenomicVariantFields",
+   "type" : "object",
+   "version" : "2.0"
+}
+

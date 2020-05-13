@@ -1,0 +1,70 @@
+{
+   "$id" : "https://beacon-project.io/schemas/beacon/GenomicRegionFields/2.0",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "description" : "Region request made against the Beacon. \n",
+   "examples" : [],
+   "meta" : {
+      "contributors" : [
+         {
+            "description" : "ELIXIR Beacon team",
+            "id" : "https://beacon-project.io/categories/people.html"
+         },
+         {
+            "description" : "Sabela de la Torre Pernas",
+            "id" : "__contributor_ORCID__"
+         },
+         {
+            "description" : "Sabela de la Torre Pernas",
+            "id" : "__contributor_ORCID__"
+         },
+         {
+            "description" : "Michael Baudis",
+            "id" : "ORCID:0000-0002-9903-4248"
+         }
+      ],
+      "provenance" : [
+         {
+            "description" : "Beacon v2 draft schema",
+            "id" : "https://github.com/ga4gh-beacon/specification-v2"
+         }
+      ],
+      "sb_status" : "playground",
+      "used_by" : [
+         {
+            "description" : "Beacon, for Beacon v2 testing",
+            "id" : "https://github.com/ga4gh-beacon/specification-v2"
+         }
+      ]
+   },
+   "properties" : {
+      "assemblyId" : {
+         "$ref" : "./Assembly"
+      },
+      "end" : {
+         "description" : "Precise `end` coordinate (0-based, exclusive). See `start`.\n",
+         "type" : "integer"
+      },
+      "referenceBases" : {
+         "$ref" : "./ReferenceBases"
+      },
+      "referenceName" : {
+         "$ref" : "./Chromosome"
+      },
+      "start" : {
+         "description" : "Precise `start` coordinate position, allele locus (0-based, \ninclusive).\n",
+         "format" : "int64",
+         "minimum" : "0",
+         "type" : "integer"
+      }
+   },
+   "required" : [
+      "assemblyId",
+      "referenceName",
+      "start",
+      "end"
+   ],
+   "title" : "GenomicRegionFields",
+   "type" : "object",
+   "version" : "2.0"
+}
+
