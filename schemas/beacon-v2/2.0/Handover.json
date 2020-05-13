@@ -1,0 +1,61 @@
+{
+   "$id" : "https://beacon-project.io/schemas/beacon-v2/Handover/2.0",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "examples" : [],
+   "meta" : {
+      "contributors" : [
+         {
+            "description" : "ELIXIR Beacon team",
+            "id" : "https://beacon-project.io/categories/people.html"
+         },
+         {
+            "description" : "Sabela de la Torre Pernas",
+            "id" : "https://beacon-project.io/people/Sabela-de-la-Torre/"
+         },
+         {
+            "description" : "Jordi Rambla De Argila",
+            "id" : "https://beacon-project.io/people/Jordi-Rambla/"
+         },
+         {
+            "description" : "Michael Baudis",
+            "id" : "orcid:0000-0002-9903-4248"
+         }
+      ],
+      "provenance" : [
+         {
+            "description" : "Beacon v2 draft schema",
+            "id" : "https://github.com/ga4gh-beacon/specification-v2"
+         }
+      ],
+      "sb_status" : "playground",
+      "used_by" : [
+         {
+            "description" : "Beacon, for Beacon v2 testing",
+            "id" : "https://github.com/ga4gh-beacon/specification-v2"
+         }
+      ]
+   },
+   "properties" : {
+      "handoverType" : {
+         "$ref" : "./HandoverType"
+      },
+      "note" : {
+         "description" : "An optional text including considerations on the handover link \nprovided.\n",
+         "example" : "This handover link provides access to a summarized VCF. To access \nthe VCF containing the details for each sample filling an \napplication is required. See Beacon contact information details.\n",
+         "type" : "string"
+      },
+      "url" : {
+         "description" : "URL endpoint to where the handover process could progress (in RFC \n3986 format).\n",
+         "example" : "\"https://api.mygenomeservice.org/handover/9dcc48d7-fc88-11e8-9110-b0c592dbf8c0/\"\n",
+         "type" : "string"
+      }
+   },
+   "required" : [
+      "handoverType",
+      "url"
+   ],
+   "title" : "Handover",
+   "type" : "object",
+   "version" : "2.0"
+}
+
