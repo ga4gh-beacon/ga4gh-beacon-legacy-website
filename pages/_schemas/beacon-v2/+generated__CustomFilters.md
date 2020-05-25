@@ -1,7 +1,7 @@
 ---
 title: CustomFilters
 layout: default
-date: 2020-05-13
+date: 2020-05-25
 permalink: "/schemas/beacon-v2/CustomFilters.html"
 sb_status: "playground"
 excerpt_separator: <!--more-->
@@ -56,7 +56,7 @@ tags:
     </td>
   </tr>
   <tr>
-    <th>Source (2.0)</th>
+    <th>Source (2.0.0-draft.1)</th>
     <td>
       <ul>
         <li><a href="current/CustomFilters.json" target="_BLANK">raw source [JSON]</a></li>

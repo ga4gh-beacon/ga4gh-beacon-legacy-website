@@ -1,7 +1,7 @@
 ---
 title: ReferenceBases
 layout: default
-date: 2020-05-13
+date: 2020-05-25
 permalink: "/schemas/beacon-v2/ReferenceBases.html"
 sb_status: "playground"
 excerpt_separator: <!--more-->
@@ -56,7 +56,7 @@ tags:
     </td>
   </tr>
   <tr>
-    <th>Source (2.0)</th>
+    <th>Source (2.0.0-draft.1)</th>
     <td>
       <ul>
         <li><a href="current/ReferenceBases.json" target="_BLANK">raw source [JSON]</a></li>
@@ -72,9 +72,15 @@ tags:
 
   
 __Type:__ string  
-__Pattern:__ ^([ACGT]+)$  
-__Description:__ Reference bases for this variant (starting from `start`). Accepted 
-values: [ACGT]*.
+__Pattern:__ ^([ACGTN]+)$  
+__Description:__ Reference bases for this variant (starting from `start`). 
+Accepted values: [ACGTN]*. N is a wildcard, that denotes the 
+position of any base, and can be used as a standalone base of any 
+type or within a partially known sequence. For example a sequence 
+where the first and last bases are known, but the middle portion can 
+exhibit countless variations of [ACGT], or the bases are unknown: 
+ANNT the Ns can take take any form of [ACGT], which makes both ACCT 
+and ATGT (or any other combination) viable sequences.
 <hr/>
 <div id="schema-footer">
 This schema representation is for information and testing purposes. The authorative 

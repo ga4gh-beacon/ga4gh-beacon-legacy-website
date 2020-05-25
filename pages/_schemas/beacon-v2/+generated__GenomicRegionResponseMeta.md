@@ -1,7 +1,7 @@
 ---
 title: GenomicRegionResponseMeta
 layout: default
-date: 2020-05-13
+date: 2020-05-14
 permalink: "/schemas/beacon-v2/GenomicRegionResponseMeta.html"
 sb_status: "playground"
 excerpt_separator: <!--more-->
