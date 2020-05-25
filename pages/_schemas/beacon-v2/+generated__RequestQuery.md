@@ -83,31 +83,31 @@ __Description:__ Description pending
   </tr>
   <tr>
     <th>biosample</th>
-    <td>./BiosampleFields</td>
+    <td>./BiosampleFields [<a href="./BiosampleFields.html" target="_BLANK">HTML</a>]</td>
   </tr>
   <tr>
     <th>customFilters</th>
-    <td>./CustomFilters</td>
+    <td>./CustomFilters [<a href="./CustomFilters.html" target="_BLANK">HTML</a>]</td>
   </tr>
   <tr>
     <th>datasets</th>
-    <td>./RequestDatasets</td>
+    <td>./RequestDatasets [<a href="./RequestDatasets.html" target="_BLANK">HTML</a>]</td>
   </tr>
   <tr>
     <th>filters</th>
-    <td>./Filters</td>
+    <td>./Filters [<a href="./Filters.html" target="_BLANK">HTML</a>]</td>
   </tr>
   <tr>
     <th>g_variant</th>
-    <td>./GenomicVariantFields</td>
+    <td>./GenomicVariantFields [<a href="./GenomicVariantFields.html" target="_BLANK">HTML</a>]</td>
   </tr>
   <tr>
     <th>individual</th>
-    <td>./IndividualFields</td>
+    <td>./IndividualFields [<a href="./IndividualFields.html" target="_BLANK">HTML</a>]</td>
   </tr>
   <tr>
     <th>pagination</th>
-    <td>./Pagination</td>
+    <td>./Pagination [<a href="./Pagination.html" target="_BLANK">HTML</a>]</td>
   </tr>
 
 </table>
@@ -115,49 +115,49 @@ __Description:__ Description pending
 
 #### biosample
 
-* type: ./BiosampleFields
+* type: ./BiosampleFields [<a href="./BiosampleFields.html" target="_BLANK">HTML</a>]
 
 
 
 
 #### customFilters
 
-* type: ./CustomFilters
+* type: ./CustomFilters [<a href="./CustomFilters.html" target="_BLANK">HTML</a>]
 
 
 
 
 #### datasets
 
-* type: ./RequestDatasets
+* type: ./RequestDatasets [<a href="./RequestDatasets.html" target="_BLANK">HTML</a>]
 
 
 
 
 #### filters
 
-* type: ./Filters
+* type: ./Filters [<a href="./Filters.html" target="_BLANK">HTML</a>]
 
 
 
 
 #### g_variant
 
-* type: ./GenomicVariantFields
+* type: ./GenomicVariantFields [<a href="./GenomicVariantFields.html" target="_BLANK">HTML</a>]
 
 
 
 
 #### individual
 
-* type: ./IndividualFields
+* type: ./IndividualFields [<a href="./IndividualFields.html" target="_BLANK">HTML</a>]
 
 
 
 
 #### pagination
 
-* type: ./Pagination
+* type: ./Pagination [<a href="./Pagination.html" target="_BLANK">HTML</a>]
 
 
 

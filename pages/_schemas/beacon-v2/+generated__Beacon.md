@@ -95,7 +95,7 @@ __Description:__ Metadata describing a beacon instance.
   </tr>
   <tr>
     <th>datasets</th>
-    <td>array of "./BeaconDataset"</td>
+    <td>array of "./BeaconDataset [<a href="./BeaconDataset.html" target="_BLANK">HTML</a>]"</td>
   </tr>
   <tr>
     <th>description</th>
@@ -119,11 +119,11 @@ __Description:__ Metadata describing a beacon instance.
   </tr>
   <tr>
     <th>organization</th>
-    <td>./BeaconOrganization</td>
+    <td>./BeaconOrganization [<a href="./BeaconOrganization.html" target="_BLANK">HTML</a>]</td>
   </tr>
   <tr>
     <th>sampleAlleleRequests</th>
-    <td>array of "./BeaconAlleleRequest"</td>
+    <td>array of "./BeaconAlleleRequest [<a href="./BeaconAlleleRequest.html" target="_BLANK">HTML</a>]"</td>
   </tr>
   <tr>
     <th>updateDateTime</th>
@@ -165,7 +165,7 @@ The time the beacon was created (ISO 8601 format).
 
 #### datasets
 
-* type: array of "./BeaconDataset"
+* type: array of "./BeaconDataset [<a href="./BeaconDataset.html" target="_BLANK">HTML</a>]"
 
 Dataset(s) served by the beacon.
 
@@ -213,14 +213,14 @@ Name of the beacon.
 
 #### organization
 
-* type: ./BeaconOrganization
+* type: ./BeaconOrganization [<a href="./BeaconOrganization.html" target="_BLANK">HTML</a>]
 
 
 
 
 #### sampleAlleleRequests
 
-* type: array of "./BeaconAlleleRequest"
+* type: array of "./BeaconAlleleRequest [<a href="./BeaconAlleleRequest.html" target="_BLANK">HTML</a>]"
 
 Examples of interesting queries, e.g. a few queries demonstrating different responses.
 

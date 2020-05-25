@@ -83,11 +83,11 @@ __Description:__ Description pending
   </tr>
   <tr>
     <th>beaconHandover</th>
-    <td>array of "./Handover"</td>
+    <td>array of "./Handover [<a href="./Handover.html" target="_BLANK">HTML</a>]"</td>
   </tr>
   <tr>
     <th>error</th>
-    <td>./BeaconError</td>
+    <td>./BeaconError [<a href="./BeaconError.html" target="_BLANK">HTML</a>]</td>
   </tr>
   <tr>
     <th>exists</th>
@@ -99,11 +99,11 @@ __Description:__ Description pending
   </tr>
   <tr>
     <th>results</th>
-    <td>array of "./VariantReponseResults"</td>
+    <td>array of "./VariantReponseResults [<a href="./VariantReponseResults.html" target="_BLANK">HTML</a>]"</td>
   </tr>
   <tr>
     <th>resultsHandover</th>
-    <td>array of "./Handover"</td>
+    <td>array of "./Handover [<a href="./Handover.html" target="_BLANK">HTML</a>]"</td>
   </tr>
 
 </table>
@@ -111,14 +111,14 @@ __Description:__ Description pending
 
 #### beaconHandover
 
-* type: array of "./Handover"
+* type: array of "./Handover [<a href="./Handover.html" target="_BLANK">HTML</a>]"
 
 
 
 
 #### error
 
-* type: ./BeaconError
+* type: ./BeaconError [<a href="./BeaconError.html" target="_BLANK">HTML</a>]
 
 
 
@@ -142,14 +142,14 @@ error, in which case `error` has to be non-null.
 
 #### results
 
-* type: array of "./VariantReponseResults"
+* type: array of "./VariantReponseResults [<a href="./VariantReponseResults.html" target="_BLANK">HTML</a>]"
 
 
 
 
 #### resultsHandover
 
-* type: array of "./Handover"
+* type: array of "./Handover [<a href="./Handover.html" target="_BLANK">HTML</a>]"
 
 
 

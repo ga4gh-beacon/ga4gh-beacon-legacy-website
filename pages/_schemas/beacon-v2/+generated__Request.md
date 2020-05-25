@@ -83,11 +83,11 @@ __Description:__ Search for a genomic region
   </tr>
   <tr>
     <th>meta</th>
-    <td>./RequestMeta</td>
+    <td>./RequestMeta [<a href="./RequestMeta.html" target="_BLANK">HTML</a>]</td>
   </tr>
   <tr>
     <th>query</th>
-    <td>./RequestQuery</td>
+    <td>./RequestQuery [<a href="./RequestQuery.html" target="_BLANK">HTML</a>]</td>
   </tr>
 
 </table>
@@ -95,14 +95,14 @@ __Description:__ Search for a genomic region
 
 #### meta
 
-* type: ./RequestMeta
+* type: ./RequestMeta [<a href="./RequestMeta.html" target="_BLANK">HTML</a>]
 
 
 
 
 #### query
 
-* type: ./RequestQuery
+* type: ./RequestQuery [<a href="./RequestQuery.html" target="_BLANK">HTML</a>]
 
 
 

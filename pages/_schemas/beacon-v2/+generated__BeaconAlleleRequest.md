@@ -84,7 +84,7 @@ against a sequence in a genome, and a range can be optionally specified.
   </tr>
   <tr>
     <th>alternateBases</th>
-    <td>./AlternateBases</td>
+    <td>./AlternateBases [<a href="./AlternateBases.html" target="_BLANK">HTML</a>]</td>
   </tr>
   <tr>
     <th>assemblyId</th>
@@ -112,15 +112,15 @@ against a sequence in a genome, and a range can be optionally specified.
   </tr>
   <tr>
     <th>mateName</th>
-    <td>./Chromosome</td>
+    <td>./Chromosome [<a href="./Chromosome.html" target="_BLANK">HTML</a>]</td>
   </tr>
   <tr>
     <th>referenceBases</th>
-    <td>./ReferenceBases</td>
+    <td>./ReferenceBases [<a href="./ReferenceBases.html" target="_BLANK">HTML</a>]</td>
   </tr>
   <tr>
     <th>referenceName</th>
-    <td>./Chromosome</td>
+    <td>./Chromosome [<a href="./Chromosome.html" target="_BLANK">HTML</a>]</td>
   </tr>
   <tr>
     <th>start</th>
@@ -144,7 +144,7 @@ against a sequence in a genome, and a range can be optionally specified.
 
 #### alternateBases
 
-* type: ./AlternateBases
+* type: ./AlternateBases [<a href="./AlternateBases.html" target="_BLANK">HTML</a>]
 
 
 
@@ -196,21 +196,21 @@ Indicator of whether responses for individual datasets (datasetAlleleResponses) 
 
 #### mateName
 
-* type: ./Chromosome
+* type: ./Chromosome [<a href="./Chromosome.html" target="_BLANK">HTML</a>]
 
 
 
 
 #### referenceBases
 
-* type: ./ReferenceBases
+* type: ./ReferenceBases [<a href="./ReferenceBases.html" target="_BLANK">HTML</a>]
 
 
 
 
 #### referenceName
 
-* type: ./Chromosome
+* type: ./Chromosome [<a href="./Chromosome.html" target="_BLANK">HTML</a>]
 
 
 

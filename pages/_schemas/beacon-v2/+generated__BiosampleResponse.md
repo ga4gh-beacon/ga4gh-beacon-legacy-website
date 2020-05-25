@@ -83,11 +83,11 @@ __Description:__ Response of a query over biosamples.
   </tr>
   <tr>
     <th>meta</th>
-    <td>./ResponseMeta</td>
+    <td>./ResponseMeta [<a href="./ResponseMeta.html" target="_BLANK">HTML</a>]</td>
   </tr>
   <tr>
     <th>response</th>
-    <td>./BiosampleResponseContent</td>
+    <td>./BiosampleResponseContent [<a href="./BiosampleResponseContent.html" target="_BLANK">HTML</a>]</td>
   </tr>
 
 </table>
@@ -95,14 +95,14 @@ __Description:__ Response of a query over biosamples.
 
 #### meta
 
-* type: ./ResponseMeta
+* type: ./ResponseMeta [<a href="./ResponseMeta.html" target="_BLANK">HTML</a>]
 
 
 
 
 #### response
 
-* type: ./BiosampleResponseContent
+* type: ./BiosampleResponseContent [<a href="./BiosampleResponseContent.html" target="_BLANK">HTML</a>]
 
 
 

@@ -83,11 +83,11 @@ __Description:__ Data use conditions ruling this dataset.
   </tr>
   <tr>
     <th>adamDataUse</th>
-    <td>https://raw.githubusercontent.com/ga4gh/ADA-M/v1.0.1/adam.yaml./Adam</td>
+    <td>https://raw.githubusercontent.com/ga4gh/ADA-M/v1.0.1/adam.yaml./Adam [<a href="https://raw.githubusercontent.com/ga4gh/ADA-M/adam.yaml./Adam.html" target="_BLANK">HTML</a>]</td>
   </tr>
   <tr>
     <th>consentCodeDataUse</th>
-    <td>https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/v1.1.0/consent_code.yaml./ConsentCodeDataUse</td>
+    <td>https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/v1.1.0/consent_code.yaml./ConsentCodeDataUse [<a href="https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/consent_code.yaml./ConsentCodeDataUse.html" target="_BLANK">HTML</a>]</td>
   </tr>
 
 </table>
@@ -95,14 +95,14 @@ __Description:__ Data use conditions ruling this dataset.
 
 #### adamDataUse
 
-* type: https://raw.githubusercontent.com/ga4gh/ADA-M/v1.0.1/adam.yaml./Adam
+* type: https://raw.githubusercontent.com/ga4gh/ADA-M/v1.0.1/adam.yaml./Adam [<a href="https://raw.githubusercontent.com/ga4gh/ADA-M/adam.yaml./Adam.html" target="_BLANK">HTML</a>]
 
 
 
 
 #### consentCodeDataUse
 
-* type: https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/v1.1.0/consent_code.yaml./ConsentCodeDataUse
+* type: https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/v1.1.0/consent_code.yaml./ConsentCodeDataUse [<a href="https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/consent_code.yaml./ConsentCodeDataUse.html" target="_BLANK">HTML</a>]
 
 
 

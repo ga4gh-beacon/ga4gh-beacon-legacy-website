@@ -91,11 +91,11 @@ __Description:__ Meta information about a genomic variant reponse.
   </tr>
   <tr>
     <th>receivedRequest</th>
-    <td>./Request</td>
+    <td>./Request [<a href="./Request.html" target="_BLANK">HTML</a>]</td>
   </tr>
   <tr>
     <th>returnedSchemas</th>
-    <td>./RequestedSchemas</td>
+    <td>./RequestedSchemas [<a href="./RequestedSchemas.html" target="_BLANK">HTML</a>]</td>
   </tr>
 
 </table>
@@ -118,14 +118,14 @@ Identifier of the beacon, as defined in `Beacon`.
 
 #### receivedRequest
 
-* type: ./Request
+* type: ./Request [<a href="./Request.html" target="_BLANK">HTML</a>]
 
 
 
 
 #### returnedSchemas
 
-* type: ./RequestedSchemas
+* type: ./RequestedSchemas [<a href="./RequestedSchemas.html" target="_BLANK">HTML</a>]
 
 
 

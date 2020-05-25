@@ -83,11 +83,11 @@ __Description:__ Response of a genomic variant query
   </tr>
   <tr>
     <th>meta</th>
-    <td>./ResponseMeta</td>
+    <td>./ResponseMeta [<a href="./ResponseMeta.html" target="_BLANK">HTML</a>]</td>
   </tr>
   <tr>
     <th>response</th>
-    <td>./GenomicVariantResponseContent</td>
+    <td>./GenomicVariantResponseContent [<a href="./GenomicVariantResponseContent.html" target="_BLANK">HTML</a>]</td>
   </tr>
 
 </table>
@@ -95,14 +95,14 @@ __Description:__ Response of a genomic variant query
 
 #### meta
 
-* type: ./ResponseMeta
+* type: ./ResponseMeta [<a href="./ResponseMeta.html" target="_BLANK">HTML</a>]
 
 
 
 
 #### response
 
-* type: ./GenomicVariantResponseContent
+* type: ./GenomicVariantResponseContent [<a href="./GenomicVariantResponseContent.html" target="_BLANK">HTML</a>]
 
 
 

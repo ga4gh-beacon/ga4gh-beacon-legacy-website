@@ -83,11 +83,11 @@ __Description:__ Response of a query over individuals.
   </tr>
   <tr>
     <th>meta</th>
-    <td>./ResponseMeta</td>
+    <td>./ResponseMeta [<a href="./ResponseMeta.html" target="_BLANK">HTML</a>]</td>
   </tr>
   <tr>
     <th>response</th>
-    <td>./IndividualResponseContent</td>
+    <td>./IndividualResponseContent [<a href="./IndividualResponseContent.html" target="_BLANK">HTML</a>]</td>
   </tr>
 
 </table>
@@ -95,14 +95,14 @@ __Description:__ Response of a query over individuals.
 
 #### meta
 
-* type: ./ResponseMeta
+* type: ./ResponseMeta [<a href="./ResponseMeta.html" target="_BLANK">HTML</a>]
 
 
 
 
 #### response
 
-* type: ./IndividualResponseContent
+* type: ./IndividualResponseContent [<a href="./IndividualResponseContent.html" target="_BLANK">HTML</a>]
 
 
 

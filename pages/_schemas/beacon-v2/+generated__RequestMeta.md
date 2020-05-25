@@ -87,7 +87,7 @@ __Description:__ Requested schemas and versions to be used in the response.
   </tr>
   <tr>
     <th>requestedSchemas</th>
-    <td>./RequestedSchemas</td>
+    <td>./RequestedSchemas [<a href="./RequestedSchemas.html" target="_BLANK">HTML</a>]</td>
   </tr>
 
 </table>
@@ -103,7 +103,7 @@ Schemas & versions default for this Beacon version will be used to format the re
 
 #### requestedSchemas
 
-* type: ./RequestedSchemas
+* type: ./RequestedSchemas [<a href="./RequestedSchemas.html" target="_BLANK">HTML</a>]
 
 
 
