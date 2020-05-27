@@ -16,7 +16,7 @@ permalink: /index.html
 {% endcomment %}
 
 
-## Beacon API Project website
+## Beacon API Project Information
 
 "Beacons" provide discovery services for genomic data in ELIXIR and the 
 [Beacon network](http://beacon-network.org), using the Beacon technology 
