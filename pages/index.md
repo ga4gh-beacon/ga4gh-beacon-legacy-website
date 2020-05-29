@@ -5,34 +5,33 @@ permalink: /index.html
 
 {% comment %}
 ################################################################################
-	
+
 	The template for the index page is thought to provide both the option for
 	custom content, as well as a mechanism for the automated adding of excerpt
 	page links for other pages labeled for the "index" category.
-	
+
 	Please add your content in Markdown or HTML below.
 
 ################################################################################
 {% endcomment %}
 
+##  _Beacon_ Protocol for Genomic Data Sharing
 
-## Beacon API Project website
-
-"Beacons" provide discovery services for genomic data in ELIXIR and the 
-[Beacon network](http://beacon-network.org), using the Beacon technology 
-developed for the __Global Alliance for Genomics and Health__ 
-([GA4GH](https://www.ga4gh.org/)).
-
-The _Beacon_ protocol defines an open standard for genomics data discovery, 
-developed by members of the 
-[Global Alliance for Genomics &amp; Health](http://genomicsandhealth.org).
-It provides a framework for public web services responding to queries against
-genomic data collections, for instance from population based or disease specific
-genome repositories.
+_Beacons_ provide discovery services for genomic data using the Beacon API
+developed as a key [driver project](https://www.ga4gh.org/howwework/driver-projects.html)
+of the __Global Alliance for Genomics and Health__
+([GA4GH](https://www.ga4gh.org/)). The _Beacon_ protocol itself defines an open
+standard for genomics data discovery. It provides a framework for public web services
+responding to queries against genomic data collections, for instance from population
+based or disease specific genome repositories.
 
 <!--more-->
 
-The Beacon protocol has been designed to be:
+<figure>
+<img src="/assets/img/Beacon-graphics-v0.3-960x240.png" alt="Original Beacon functionality"/>
+</figure>
+
+The original Beacon protocol had been designed to be:
 
 * **Simple:** focus on robustness and easy implementation
 * **Federated:** maintained by individual organizations and assembled into a network
@@ -40,31 +39,32 @@ The Beacon protocol has been designed to be:
 * **Aggregative:** provide a boolean (or quantitative) answer about the observation of a variant
 * **Privacy protecting:** queries do not return information about single individuals
 
+Sites offering _beacons_ can scale through aggregation [Beacon Networks](/categories/network.html),
+which distribute single genome queries among a potentially large number of international
+_beacons_ and assemble their responses.
+
+Since 2015 the development of the
+Beacon protocol has been led by [ELIXIR](https://elixir-europe.org) in collaboration with GA4GH and international participants. Recent versions of the _Beacon_ protocol have expanded the original concept by e.g.:
+
+* providing a framework for other types of genome variation data
+(i.e. [range queries and structural variants](/howto/range-queries.html)
+* allowing for data delivery using [_handover_](/roadmap/handover.html) protocol,
+e.g. to link with clinical information in protected environments and allow for data delivery and visualisation services
+
+### Beacon v2 - Towards Flexible Use and Clinical Applications
+
 <figure>
-<img src="/assets/img/beacon-discovery.png" alt="Beacon network"/>
+<img src="/assets/img/Beacon-graphics-v2-network-960x540.png" alt="Beacon v2 network"/>
 </figure>
 
-The initial version of the _Beacon_ protocol had been developed to test the 
-willingness and ability of international genome resources to share genomic data 
-in a highly simplified context. The service was designed to accept specific 
-queries in the form "Do you have any genomes with an 'A' at position 100735 on 
-chromosome 3" and responds with "Yes" or "No."
+As part of ELIXIR's [Beacon 2019-21 project](https://elixir-europe.org/about-us/commissioned-services/beacon-2019-21) work has started on a radically re-designed Beacon protocol, with the
+aim to provide a maximum of flexibility while closely adhering to data and security
+standards promoted by the international ressearch community and especially as part of
+projects in the GA44GH ecosystem. The ongoing development of the _Beacon v2_ protocol
+can be tracked using [this site](tags/v2.html) and especially the relevant
+[code repositories](https://github.com/ga4gh-beacon/) on Github.
 
-A site offering this service is called a _beacon_. Such sites can scale through 
-aggregation in the [Beacon Networks](/categories/network.html), which distribute
-single genome queries among a large number of international _beacons_ and
-assemble their responses.
-
-Recent and future versions of the _Beacon_ protocol expand the original concept
-by providing a framework for querying other types of genome variation data
-(i.e. [range queries and structural variants](/howto/range-queries.html) since 
-[v0.4](/specification/release-v0.4.html)) and also options for quantitative
-responses.
-
-Since 2016, the development of the _Beacon_ protocol has been provided through 
-the [_ELIXIR Beacon_ project](https://www.elixir-europe.org/about-us/implementation-studies/beacons),
-a [GA4GH driver project](https://www.ga4gh.org/howwework/driver-projects.html),
-with ongoing participation from the  [DNAstack](https://dnastack.com) team.
+&nbsp;
 
 ----
 
@@ -94,7 +94,7 @@ with ongoing participation from the  [DNAstack](https://dnastack.com) team.
 {%- endcomment -%}
 
 {% comment %}
-	Please keep this for an HTML break...	
+	Please keep this for an HTML break...
 {% endcomment %}
 
 {%- for post in cat_posts -%}
@@ -110,7 +110,7 @@ with ongoing participation from the  [DNAstack](https://dnastack.com) team.
 {%- endcomment -%}
 
 {%- for post in cat_posts -%}
-  {% unless post.tags contains '.prepend' or post.tags contains '.append' %} 
+  {% unless post.tags contains '.prepend' or post.tags contains '.append' %}
     {%- assign post_author = post.author | downcase -%}
     {%- assign excerpt_link = post.url | relative_url -%}
     {%- if post.excerpt_link contains '/' -%}
@@ -134,4 +134,3 @@ with ongoing participation from the  [DNAstack](https://dnastack.com) team.
 </div>
   {%- endif -%}
 {%- endfor -%}
-
