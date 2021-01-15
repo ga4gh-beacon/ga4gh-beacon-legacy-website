@@ -21,12 +21,12 @@ tags:
 
 ## {{ page.title }}
 
-Champion ELIXIR Beacon Driver project (API lead)  
-Center for Genome Regulation Barcelona  
-European Genome-Phenome Archive  
+* Champion ELIXIR Beacon Driver project (API lead)  
+* Center for Genome Regulation Barcelona  
+* European Genome-Phenome Archive  
 
 <!--more-->
 
-email [jordi.rambla@crg.eu](mailto:jordi.rambla@crg.eu)  
-web [CRG](https://www.crg.eu/en/programmes-groups/ega-team)  
-web [EGA](https://ega-archive.org/about/people)
+* email [jordi.rambla@crg.eu](mailto:jordi.rambla@crg.eu)  
+* web [CRG](https://www.crg.eu/en/programmes-groups/ega-team)  
+* web [EGA](https://ega-archive.org/about/people)
