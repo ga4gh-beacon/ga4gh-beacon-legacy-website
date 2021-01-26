@@ -2,7 +2,7 @@
 title: 'Teams: Beacon Structural Variants'
 date: 2020-01-15
 layout: default
-author: ["@mbaudis"]
+author: ["@mbaudis"]["@laurenfromont"] 
 permalink: /teams/structural-variants.html
 excerpt_separator: <!--more-->
 www_link: # a simple web address related to the post, e.g. https://www.ga4gh.org
