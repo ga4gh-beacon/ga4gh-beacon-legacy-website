@@ -27,12 +27,15 @@ with respect to their representation & query through current & future versions
 of the Beacon API. This scope intersects with work being pursued in the
 [ELIXIR h-CNV community](https://hcnv.github.io) and considers standards under
 development by the GA4GH GKS workstream.
+
+Every three weeks, SV scout members meet to document structural variants use cases and query examples. 
  
 <!--more-->
 
 ### Members
 
 * [Babita Singh](https://beacon-project.io/people/Babita-Singh/) (chair)
+* [Lauren Fromont] (https://beacon-project.io/people/lauren-fromont/) (co-chair)
 * [David Salgado](https://hcnv.github.io/people/David-Salgado/)
 * [Tony Brooks](https://beacon-project.io/people/Anthony-Brookes/)
 * [Michael Baudis](https://info.baudisgroup.org/group/Michael_Baudis/)
