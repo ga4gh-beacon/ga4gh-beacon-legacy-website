@@ -1,7 +1,7 @@
 ---
 title: "Lauren Fromont"
 layout: default
-image_file: "lfromont.jpg"
+image_file: "lfromont.png"
 excerpt_separator: <!--more-->
 category:
   - contact
@@ -27,4 +27,4 @@ tags:
 
 * email [lauren.fromont@crg.eu](mailto:lauren.fromont@crg.eu)  
 * web [CRG](https://www.crg.eu/en/programmes-groups/ega-team)  
-* web [EGA](https://ega-archive.org/about/people)
+* web [EGA](https://ega-archive.org/about/team)
