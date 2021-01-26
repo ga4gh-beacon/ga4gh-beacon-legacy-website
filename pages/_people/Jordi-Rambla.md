@@ -29,4 +29,4 @@ tags:
 
 * email [jordi.rambla@crg.eu](mailto:jordi.rambla@crg.eu)  
 * web [CRG](https://www.crg.eu/en/programmes-groups/ega-team)  
-* web [EGA](https://ega-archive.org/about/people)
+* web [EGA](https://ega-archive.org/about/team)
