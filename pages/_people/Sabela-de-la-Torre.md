@@ -26,5 +26,5 @@ European Genome-Phenome Archive
 
 email [sabela.delatorre@crg.eu](mailto:sabela.delatorre@crg.eu)  
 web [CRG](https://www.crg.eu/en/programmes-groups/ega-team)  
-web [EGA](https://ega-archive.org/about/people)
+web [EGA](https://ega-archive.org/about/team)
 
