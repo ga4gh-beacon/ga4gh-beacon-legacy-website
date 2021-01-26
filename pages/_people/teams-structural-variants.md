@@ -2,7 +2,7 @@
 title: 'Teams: Beacon Structural Variants'
 date: 2020-01-15
 layout: default
-author: ["@mbaudis"]["@laurenfromont"] 
+author: ["@mbaudis"]
 permalink: /teams/structural-variants.html
 excerpt_separator: <!--more-->
 www_link: # a simple web address related to the post, e.g. https://www.ga4gh.org
@@ -27,15 +27,15 @@ with respect to their representation & query through current & future versions
 of the Beacon API. This scope intersects with work being pursued in the
 [ELIXIR h-CNV community](https://hcnv.github.io) and considers standards under
 development by the GA4GH GKS workstream.
-
-Every three weeks, SV scout members meet to document structural variants use cases and query examples. 
  
 <!--more-->
+
+Every three weeks, SV scout members meet to document structural variants use cases and query examples. 
 
 ### Members
 
 * [Babita Singh](https://beacon-project.io/people/Babita-Singh/) (chair)
-* [Lauren Fromont] (https://beacon-project.io/people/lauren-fromont/) (co-chair)
+* [Lauren Fromont](https://beacon-project.io/people/lauren-fromont/) (co-chair)
 * [David Salgado](https://hcnv.github.io/people/David-Salgado/)
 * [Tony Brooks](https://beacon-project.io/people/Anthony-Brookes/)
 * [Michael Baudis](https://info.baudisgroup.org/group/Michael_Baudis/)
