@@ -1,6 +1,6 @@
 ---
 title: 'Beacon v2 Code Repositories'
-date: 2020-01-14
+date: 2021-02-22
 layout: default
 author:
   - "@mbaudis"
