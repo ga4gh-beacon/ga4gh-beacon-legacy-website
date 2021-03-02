@@ -31,6 +31,6 @@ Version 2, draft 2:
 * [Specification](https://github.com/ga4gh-beacon/specification-v2/releases/tag/draft.2)
 * [Default schema (code)](https://github.com/ga4gh-beacon/specification-v2-default-schemas/releases/tag/draft.2)
 
-The reference implementation is in progress: the version compliant with draft 1.5 is here [here](https://github.com/EGA-archive/beacon-2.x).
+The reference implementation is in progress: a version compliant with draft 1.5 can be found [here](https://github.com/EGA-archive/beacon-2.x).
 
 <!--more-->
