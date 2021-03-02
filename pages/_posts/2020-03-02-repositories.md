@@ -20,7 +20,7 @@ tags:
 
 Beacon is an ever changing product, and it’s a good thing! 
 Our partners in research and clinical settings are helping us improve version 2, who will soon be submitted for approval to GA4GH. 
-In the meantime, we have not had a chance to finalize the documentation. Here is a list of resources, with their corresponding versions, to help you navigate our documentation while we prepare a beautiful repository just for you.
+Here is a list of resources, with their corresponding versions, to help you navigate our documentation while we prepare a beautiful repository just for you.
 
 Version 2, draft 3:
 * Specification
