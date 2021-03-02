@@ -24,6 +24,7 @@ Here is a list of resources, with their corresponding versions, to help you navi
 
 Version 2, draft 3:
 * Specification
+* Default schema (code)
 * [Default schema (document)](https://docs.google.com/document/d/171u8B-DXX58MgkEIRtoiV9lX6kmezVTW/edit)
 
 Version 2, draft 2:
