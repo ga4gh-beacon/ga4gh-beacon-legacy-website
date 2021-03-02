@@ -1,5 +1,5 @@
 ---
-title: 'Beacon repositories'
+title: 'Beacon v2 repositories'
 date: 2021-03-02
 layout: default
 author:
