@@ -9,6 +9,7 @@ excerpt_separator: <!--more-->
 www_link:
 category:
   - news
+  - specification
 tags:
   - website
   - beacon
