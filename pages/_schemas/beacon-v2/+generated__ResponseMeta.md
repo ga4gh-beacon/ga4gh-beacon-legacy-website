@@ -26,7 +26,6 @@ tags:
 </tr>
 <tr><th>Provenance</th><td><ul>
 <li><a href="https://github.com/ga4gh-beacon/specification-v2">Beacon v2</a></li>
-<li><a href="https://github.com/progenetix/bycon/">Progenetix bycon project</a></li>
 </ul></td></tr>
 <tr><th>Used by</th><td><ul>
 <li><a href="https://github.com/progenetix/schemas/">Progenetix database schema (Beacon+ backend)</a></li>
