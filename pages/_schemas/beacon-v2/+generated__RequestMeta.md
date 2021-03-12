@@ -69,6 +69,11 @@ Schemas & versions default for this Beacon version will be used to
 format the response.
 
 
+##### `apiVersion` Value Example  
+
+```
+"v2.0"
+```
 
 #### requestedSchemas
 

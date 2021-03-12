@@ -75,6 +75,11 @@ An optional text including considerations on the handover link
 provided.
 
 
+##### `note` Value Example  
+
+```
+"This handover link provides access to a summarized VCF. To access \nthe VCF containing the details for each sample filling an \napplication is required. See Beacon contact information details.\n"
+```
 
 #### url
 
@@ -84,6 +89,11 @@ URL endpoint to where the handover process could progress (in RFC
 3986 format).
 
 
+##### `url` Value Example  
+
+```
+"\"https://api.mygenomeservice.org/handover/9dcc48d7-fc88-11e8-9110-b0c592dbf8c0/\"\n"
+```
 <div id="schema-footer">
 This schema representation is for information purposes. The authorative 
 version remains with the developing project (see "provenance").

@@ -78,6 +78,11 @@ __Description:__ Metadata describing a beacon instance.
 
 Alternative URL to the API, e.g. a restricted version of this beacon (RFC 3986 format).
 
+##### `alternativeUrl` Value Example  
+
+```
+"http://example.org/wiki/Main_Page"
+```
 
 #### apiVersion
 
@@ -85,6 +90,11 @@ Alternative URL to the API, e.g. a restricted version of this beacon (RFC 3986 f
 
 Version of the API provided by the beacon.
 
+##### `apiVersion` Value Example  
+
+```
+"v0.3"
+```
 
 #### createDateTime
 
@@ -93,6 +103,11 @@ Version of the API provided by the beacon.
 The time the beacon was created (ISO 8601 format).
 
 
+##### `createDateTime` Value Example  
+
+```
+"2012-07-19 or 2017-01-17T20:33:40Z"
+```
 
 #### datasets
 
@@ -117,6 +132,11 @@ Environment the service is running in. Use this to distinguish
 between production, development and testing/staging deployments.
 
 
+##### `environment` Value Example  
+
+```
+"dev"
+```
 
 #### id
 
@@ -125,6 +145,11 @@ between production, development and testing/staging deployments.
 Unique identifier of the beacon. Use reverse domain name notation.
 
 
+##### `id` Value Example  
+
+```
+"org.ga4gh.beacon"
+```
 
 #### info
 
@@ -133,6 +158,17 @@ Unique identifier of the beacon. Use reverse domain name notation.
 Additional unspecified metadata about the Beacon service.
 
 
+##### `info` Value Example  
+
+```
+{
+   "additionalInfoKey1" : "additionalInfoValue1",
+   "additionalInfoKey2" : [
+      "additionalInfoValue2",
+      "additionalInfoValue3"
+   ]
+}
+```
 
 #### name
 
@@ -156,6 +192,11 @@ Name of the beacon.
 The time the beacon was updated in (ISO 8601 format).
 
 
+##### `updateDateTime` Value Example  
+
+```
+"2012-07-19 or 2017-01-17T20:33:40Z"
+```
 
 #### version
 
@@ -164,6 +205,11 @@ The time the beacon was updated in (ISO 8601 format).
 Version of the beacon.
 
 
+##### `version` Value Example  
+
+```
+"v0.1"
+```
 
 #### welcomeUrl
 
@@ -172,6 +218,11 @@ Version of the beacon.
 URL to the welcome page for this beacon (RFC 3986 format).
 
 
+##### `welcomeUrl` Value Example  
+
+```
+"http://example.org/wiki/Main_Page"
+```
 <div id="schema-footer">
 This schema representation is for information purposes. The authorative 
 version remains with the developing project (see "provenance").

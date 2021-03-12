@@ -70,6 +70,11 @@ Size of the page.
 Use  `0` to return all the results or the maximum allowed by the Beacon, if there is any.
 
 
+##### `limit` Value Example  
+
+```
+10
+```
 
 #### skip
 
@@ -78,6 +83,11 @@ Use  `0` to return all the results or the maximum allowed by the Beacon, if ther
 Number of pages to skip.
 
 
+##### `skip` Value Example  
+
+```
+1
+```
 <div id="schema-footer">
 This schema representation is for information purposes. The authorative 
 version remains with the developing project (see "provenance").

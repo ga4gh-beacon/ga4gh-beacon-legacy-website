@@ -68,6 +68,11 @@ __Description:__ Entities can be filtered using this term.
 CURIE syntax.
 
 
+##### `id` Value Example  
+
+```
+"NCIT:C102872"
+```
 
 #### label
 
@@ -76,6 +81,11 @@ CURIE syntax.
 This would be the "preferred Label" in the case of an ontology term.
 
 
+##### `label` Value Example  
+
+```
+"Pharyngeal squamous cell carcinoma"
+```
 <div id="schema-footer">
 This schema representation is for information purposes. The authorative 
 version remains with the developing project (see "provenance").

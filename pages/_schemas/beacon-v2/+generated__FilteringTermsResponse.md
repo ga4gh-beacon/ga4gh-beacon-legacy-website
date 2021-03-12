@@ -69,6 +69,11 @@ __Description:__ Filtering terms available in this Beacon.
 Version of the API implemented by this Beacon.
 
 
+##### `apiVersion` Value Example  
+
+```
+"v2.0"
+```
 
 #### beaconId
 

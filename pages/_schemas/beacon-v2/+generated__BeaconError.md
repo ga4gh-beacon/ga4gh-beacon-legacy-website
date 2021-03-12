@@ -66,6 +66,11 @@ __Description:__ Beacon-specific error. This should be non-null in exceptional s
 
 
 
+##### `errorCode` Value Example  
+
+```
+0
+```
 
 #### errorMessage
 

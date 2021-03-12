@@ -123,6 +123,17 @@ Additional unspecified metadata about the dataset response or its
 content.
 
 
+##### `info` Value Example  
+
+```
+{
+   "additionalInfoKey1" : [
+      "additionalInfoValue1",
+      "additionalInfoValue2]"
+   ],
+   "additionalInfoKey2" : "additionalInfoValue3"
+}
+```
 
 #### note
 
