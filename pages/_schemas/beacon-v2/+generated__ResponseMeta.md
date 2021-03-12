@@ -16,7 +16,7 @@ tags:
 ---
 
 <div id="schema-header-title">
-  <h2>ResponseMeta <span id="schema-header-title-project">beacon-v2 <a href="https://github.com/ga4gh-beacon/specification-v2-blocks" target="_BLANK">&nearr;</a></span> </h2>
+  <h2><span id="schema-header-title-project">beacon-v2</span> ResponseMeta <a href="https://github.com/ga4gh-beacon/specification-v2-blocks" target="_BLANK">[ &nearr; ]</a></h2>
 </div>
 
 <table id="schema-header-table">
