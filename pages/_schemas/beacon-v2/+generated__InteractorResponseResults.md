@@ -12,6 +12,7 @@ tags:
   - community
   - schemas
   - specification
+  - v2
 ---
 
 <div id="schema-header-title">
