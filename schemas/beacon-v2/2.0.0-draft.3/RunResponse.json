@@ -1,0 +1,63 @@
+{
+   "$id" : "https://schemablocks.org/schemas/beacon-v2/RunResponse/2.0.0-draft.3",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "description" : "Response of a query over runs.\n",
+   "examples" : [],
+   "meta" : {
+      "contributors" : [
+         {
+            "id" : "https://beacon-project.io/categories/people.html",
+            "label" : "ELIXIR Beacon project team"
+         },
+         {
+            "id" : "github:@jrambla",
+            "label" : "Jordi Rambla"
+         },
+         {
+            "id" : "github:@sdelatorrep",
+            "label" : "Sabele de la Torre"
+         },
+         {
+            "id" : "github:@mamanambiya",
+            "label" : "Mamana Mbiyavanga"
+         },
+         {
+            "id" : "orcid:0000-0002-9903-4248",
+            "label" : "Michael Baudis"
+         }
+      ],
+      "provenance" : [
+         {
+            "id" : "https://github.com/ga4gh-beacon/specification-v2",
+            "label" : "Beacon v2"
+         },
+         {
+            "id" : "https://github.com/progenetix/bycon/",
+            "label" : "Progenetix `bycon` project"
+         }
+      ],
+      "sb_status" : "community",
+      "used_by" : [
+         {
+            "id" : "https://github.com/progenetix/schemas/",
+            "label" : "Progenetix database schema (Beacon+ backend)"
+         }
+      ]
+   },
+   "properties" : {
+      "meta" : {
+         "$ref" : "ResponseMeta"
+      },
+      "response" : {
+         "$ref" : "RunResponseContent"
+      }
+   },
+   "required" : [
+      "meta",
+      "response"
+   ],
+   "title" : "RunResponse",
+   "type" : "object",
+   "version" : "2.0.0-draft.3"
+}
+

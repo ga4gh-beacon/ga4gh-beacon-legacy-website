@@ -1,35 +1,35 @@
 ---
 title: RequestedSchemas
 layout: default
-date: 2020-05-25
 permalink: "/schemas/beacon-v2/RequestedSchemas.html"
-sb_status: "playground"
+sb_status: "community"
 excerpt_separator: <!--more-->
 category:
   - schemas
 tags:
+  - beacon
   - code
+  - community
+  - schemas
   - specification
-  - v2
-  - playground
-  - beacon-v2
 ---
 
 <div id="schema-header-title">
-  <h2>RequestedSchemas <span id="schema-header-title-project">[beacon-v2] <a href="https://github.com/ga4gh-beacon/specification-v2-test-schemas" target="_BLANK">&nearr;</a></span> </h2>
+  <h2>RequestedSchemas <span id="schema-header-title-project">beacon-v2 <a href="https://github.com/ga4gh-beacon/specification-v2-blocks" target="_BLANK">&nearr;</a></span> </h2>
 </div>
 
 <table id="schema-header-table">
   <tr>
-    <th>{S}[B] Status Level <a href="https://schemablocks.org/about/sb-status-levels.html">[i]</a></th>
-    <td><div id="schema-header-status">playground</div></td>
+    <th>{S}[B] Status <a href="https://schemablocks.org/about/sb-status-levels.html">[i]</a></th>
+    <td><div id="schema-header-status">community</div></td>
   </tr>
 
   <tr>
     <th>Provenance</th>
     <td>
       <ul>
-<li><a href="https://github.com/ga4gh-beacon/specification-v2">Beacon v2 draft schema</a></li>
+<li><a href="https://github.com/ga4gh-beacon/specification-v2"></a></li>
+<li><a href="https://github.com/progenetix/bycon/"></a></li>
       </ul>
     </td>
   </tr>
@@ -37,7 +37,7 @@ tags:
     <th>Used by</th>
     <td>
       <ul>
-<li><a href="https://github.com/ga4gh-beacon/specification-v2">Beacon, for Beacon v2 testing</a></li>
+<li><a href="https://github.com/progenetix/schemas/"></a></li>
       </ul>
     </td>
   </tr>
@@ -48,19 +48,20 @@ tags:
     <th>Contributors</th>
     <td>
       <ul>
-<li><a href="https://beacon-project.io/categories/people.html">ELIXIR Beacon team</a></li>
-<li><a href="https://beacon-project.io/people/Sabela-de-la-Torre/">Sabela de la Torre Pernas</a></li>
-<li><a href="https://beacon-project.io/people/Jordi-Rambla/">Jordi Rambla De Argila</a></li>
-<li><a href="https://orcid.org/0000-0002-9903-4248">Michael Baudis</a></li>
+<li><a href="https://beacon-project.io/categories/people.html"></a></li>
+<li><a href="https://github.com/jrambla"></a></li>
+<li><a href="https://github.com/sdelatorrep"></a></li>
+<li><a href="https://github.com/mamanambiya"></a></li>
+<li><a href="https://orcid.org/0000-0002-9903-4248"></a></li>
       </ul>
     </td>
   </tr>
   <tr>
-    <th>Source (2.0.0-draft.1)</th>
+    <th>Source (2.0.0-draft.3)</th>
     <td>
       <ul>
         <li><a href="current/RequestedSchemas.json" target="_BLANK">raw source [JSON]</a></li>
-        <li><a href="https://github.com/ga4gh-beacon/specification-v2-test-schemas/blob/master/schemas/RequestedSchemas.yaml" target="_BLANK">Github</a></li>
+        <li><a href="https://github.com/ga4gh-beacon/specification-v2-blocks/blob/master/schemas/RequestedSchemas.yaml" target="_BLANK">Github</a></li>
       </ul>
     </td>
   </tr>
@@ -82,56 +83,121 @@ __Description:__ Format of the responses and version of the Beacon handling this
     <th>Type</th>
   </tr>
   <tr>
+    <th>Analysis</th>
+    <td>string</td>
+  </tr>
+  <tr>
     <th>Biosample</th>
-    <td>array of "string"</td>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>Cohort</th>
+    <td>string</td>
   </tr>
   <tr>
     <th>Individual</th>
-    <td>array of "string"</td>
+    <td>string</td>
   </tr>
   <tr>
-    <th>Variant</th>
-    <td>array of "string"</td>
+    <th>Interactor</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>Run</th>
+    <td>string</td>
   </tr>
   <tr>
     <th>VariantAnnotation</th>
-    <td>array of "string"</td>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>VariantIdentification</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>VariantInSample</th>
+    <td>string</td>
+  </tr>
+  <tr>
+    <th>VariantInterpretation</th>
+    <td>string</td>
   </tr>
 
 </table>
 
 
+#### Analysis
+
+* type: string
+
+
+
+
 #### Biosample
 
-* type: array of "string"
+* type: string
+
+
+
+
+#### Cohort
+
+* type: string
 
 
 
 
 #### Individual
 
-* type: array of "string"
+* type: string
 
 
 
 
-#### Variant
+#### Interactor
 
-* type: array of "string"
+* type: string
+
+
+
+
+#### Run
+
+* type: string
 
 
 
 
 #### VariantAnnotation
 
-* type: array of "string"
+* type: string
 
 
 
-<hr/>
+
+#### VariantIdentification
+
+* type: string
+
+
+
+
+#### VariantInSample
+
+* type: string
+
+
+
+
+#### VariantInterpretation
+
+* type: string
+
+
+
 <div id="schema-footer">
-This schema representation is for information and testing purposes. The authorative 
-version remains with the main Beacon development project.
+This schema representation is for information purposes. The authorative 
+version remains with the developing project (see "provenance").
 </div>
 
 

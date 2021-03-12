@@ -1,35 +1,35 @@
 ---
 title: RequestQuery
 layout: default
-date: 2020-05-25
 permalink: "/schemas/beacon-v2/RequestQuery.html"
-sb_status: "playground"
+sb_status: "community"
 excerpt_separator: <!--more-->
 category:
   - schemas
 tags:
+  - beacon
   - code
+  - community
+  - schemas
   - specification
-  - v2
-  - playground
-  - beacon-v2
 ---
 
 <div id="schema-header-title">
-  <h2>RequestQuery <span id="schema-header-title-project">[beacon-v2] <a href="https://github.com/ga4gh-beacon/specification-v2-test-schemas" target="_BLANK">&nearr;</a></span> </h2>
+  <h2>RequestQuery <span id="schema-header-title-project">beacon-v2 <a href="https://github.com/ga4gh-beacon/specification-v2-blocks" target="_BLANK">&nearr;</a></span> </h2>
 </div>
 
 <table id="schema-header-table">
   <tr>
-    <th>{S}[B] Status Level <a href="https://schemablocks.org/about/sb-status-levels.html">[i]</a></th>
-    <td><div id="schema-header-status">playground</div></td>
+    <th>{S}[B] Status <a href="https://schemablocks.org/about/sb-status-levels.html">[i]</a></th>
+    <td><div id="schema-header-status">community</div></td>
   </tr>
 
   <tr>
     <th>Provenance</th>
     <td>
       <ul>
-<li><a href="https://github.com/ga4gh-beacon/specification-v2">Beacon v2 draft schema</a></li>
+<li><a href="https://github.com/ga4gh-beacon/specification-v2"></a></li>
+<li><a href="https://github.com/progenetix/bycon/"></a></li>
       </ul>
     </td>
   </tr>
@@ -37,7 +37,7 @@ tags:
     <th>Used by</th>
     <td>
       <ul>
-<li><a href="https://github.com/ga4gh-beacon/specification-v2">Beacon, for Beacon v2 testing</a></li>
+<li><a href="https://github.com/progenetix/schemas/"></a></li>
       </ul>
     </td>
   </tr>
@@ -48,19 +48,20 @@ tags:
     <th>Contributors</th>
     <td>
       <ul>
-<li><a href="https://beacon-project.io/categories/people.html">ELIXIR Beacon team</a></li>
-<li><a href="https://beacon-project.io/people/Sabela-de-la-Torre/">Sabela de la Torre Pernas</a></li>
-<li><a href="https://beacon-project.io/people/Jordi-Rambla/">Jordi Rambla De Argila</a></li>
-<li><a href="https://orcid.org/0000-0002-9903-4248">Michael Baudis</a></li>
+<li><a href="https://beacon-project.io/categories/people.html"></a></li>
+<li><a href="https://github.com/jrambla"></a></li>
+<li><a href="https://github.com/sdelatorrep"></a></li>
+<li><a href="https://github.com/mamanambiya"></a></li>
+<li><a href="https://orcid.org/0000-0002-9903-4248"></a></li>
       </ul>
     </td>
   </tr>
   <tr>
-    <th>Source (2.0.0-draft.1)</th>
+    <th>Source (2.0.0-draft.3)</th>
     <td>
       <ul>
         <li><a href="current/RequestQuery.json" target="_BLANK">raw source [JSON]</a></li>
-        <li><a href="https://github.com/ga4gh-beacon/specification-v2-test-schemas/blob/master/schemas/RequestQuery.yaml" target="_BLANK">Github</a></li>
+        <li><a href="https://github.com/ga4gh-beacon/specification-v2-blocks/blob/master/schemas/RequestQuery.yaml" target="_BLANK">Github</a></li>
       </ul>
     </td>
   </tr>
@@ -82,89 +83,154 @@ __Description:__ Description pending
     <th>Type</th>
   </tr>
   <tr>
+    <th>analysis</th>
+    <td>AnalysisFields</td>
+  </tr>
+  <tr>
     <th>biosample</th>
-    <td>./BiosampleFields [<a href="./BiosampleFields.html" target="_BLANK">HTML</a>]</td>
+    <td>BiosampleFields</td>
+  </tr>
+  <tr>
+    <th>cohort</th>
+    <td>CohortFields</td>
   </tr>
   <tr>
     <th>customFilters</th>
-    <td>./CustomFilters [<a href="./CustomFilters.html" target="_BLANK">HTML</a>]</td>
+    <td>CustomFilters</td>
   </tr>
   <tr>
     <th>datasets</th>
-    <td>./RequestDatasets [<a href="./RequestDatasets.html" target="_BLANK">HTML</a>]</td>
+    <td>RequestDatasets</td>
   </tr>
   <tr>
     <th>filters</th>
-    <td>./Filters [<a href="./Filters.html" target="_BLANK">HTML</a>]</td>
+    <td>Filters</td>
   </tr>
   <tr>
     <th>g_variant</th>
-    <td>./GenomicVariantFields [<a href="./GenomicVariantFields.html" target="_BLANK">HTML</a>]</td>
+    <td>GenomicVariantFields</td>
   </tr>
   <tr>
     <th>individual</th>
-    <td>./IndividualFields [<a href="./IndividualFields.html" target="_BLANK">HTML</a>]</td>
+    <td>IndividualFields</td>
+  </tr>
+  <tr>
+    <th>interactor</th>
+    <td>InteractorFields</td>
   </tr>
   <tr>
     <th>pagination</th>
-    <td>./Pagination [<a href="./Pagination.html" target="_BLANK">HTML</a>]</td>
+    <td>Pagination</td>
+  </tr>
+  <tr>
+    <th>run</th>
+    <td>RunFields</td>
+  </tr>
+  <tr>
+    <th>variant_in_sample</th>
+    <td>VariantInSampleFields</td>
+  </tr>
+  <tr>
+    <th>variant_interpretation</th>
+    <td>VariantInterpretationFields</td>
   </tr>
 
 </table>
 
 
+#### analysis
+
+* type: AnalysisFields
+
+
+
+
 #### biosample
 
-* type: ./BiosampleFields [<a href="./BiosampleFields.html" target="_BLANK">HTML</a>]
+* type: BiosampleFields
+
+
+
+
+#### cohort
+
+* type: CohortFields
 
 
 
 
 #### customFilters
 
-* type: ./CustomFilters [<a href="./CustomFilters.html" target="_BLANK">HTML</a>]
+* type: CustomFilters
 
 
 
 
 #### datasets
 
-* type: ./RequestDatasets [<a href="./RequestDatasets.html" target="_BLANK">HTML</a>]
+* type: RequestDatasets
 
 
 
 
 #### filters
 
-* type: ./Filters [<a href="./Filters.html" target="_BLANK">HTML</a>]
+* type: Filters
 
 
 
 
 #### g_variant
 
-* type: ./GenomicVariantFields [<a href="./GenomicVariantFields.html" target="_BLANK">HTML</a>]
+* type: GenomicVariantFields
 
 
 
 
 #### individual
 
-* type: ./IndividualFields [<a href="./IndividualFields.html" target="_BLANK">HTML</a>]
+* type: IndividualFields
+
+
+
+
+#### interactor
+
+* type: InteractorFields
 
 
 
 
 #### pagination
 
-* type: ./Pagination [<a href="./Pagination.html" target="_BLANK">HTML</a>]
+* type: Pagination
 
 
 
-<hr/>
+
+#### run
+
+* type: RunFields
+
+
+
+
+#### variant_in_sample
+
+* type: VariantInSampleFields
+
+
+
+
+#### variant_interpretation
+
+* type: VariantInterpretationFields
+
+
+
 <div id="schema-footer">
-This schema representation is for information and testing purposes. The authorative 
-version remains with the main Beacon development project.
+This schema representation is for information purposes. The authorative 
+version remains with the developing project (see "provenance").
 </div>
 
 

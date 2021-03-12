@@ -1,35 +1,35 @@
 ---
 title: IndividualResponseContent
 layout: default
-date: 2020-05-25
 permalink: "/schemas/beacon-v2/IndividualResponseContent.html"
-sb_status: "playground"
+sb_status: "community"
 excerpt_separator: <!--more-->
 category:
   - schemas
 tags:
+  - beacon
   - code
+  - community
+  - schemas
   - specification
-  - v2
-  - playground
-  - beacon-v2
 ---
 
 <div id="schema-header-title">
-  <h2>IndividualResponseContent <span id="schema-header-title-project">[beacon-v2] <a href="https://github.com/ga4gh-beacon/specification-v2-test-schemas" target="_BLANK">&nearr;</a></span> </h2>
+  <h2>IndividualResponseContent <span id="schema-header-title-project">beacon-v2 <a href="https://github.com/ga4gh-beacon/specification-v2-blocks" target="_BLANK">&nearr;</a></span> </h2>
 </div>
 
 <table id="schema-header-table">
   <tr>
-    <th>{S}[B] Status Level <a href="https://schemablocks.org/about/sb-status-levels.html">[i]</a></th>
-    <td><div id="schema-header-status">playground</div></td>
+    <th>{S}[B] Status <a href="https://schemablocks.org/about/sb-status-levels.html">[i]</a></th>
+    <td><div id="schema-header-status">community</div></td>
   </tr>
 
   <tr>
     <th>Provenance</th>
     <td>
       <ul>
-<li><a href="https://github.com/ga4gh-beacon/specification-v2">Beacon v2 draft schema</a></li>
+<li><a href="https://github.com/ga4gh-beacon/specification-v2"></a></li>
+<li><a href="https://github.com/progenetix/bycon/"></a></li>
       </ul>
     </td>
   </tr>
@@ -37,7 +37,7 @@ tags:
     <th>Used by</th>
     <td>
       <ul>
-<li><a href="https://github.com/ga4gh-beacon/specification-v2">Beacon, for Beacon v2 testing</a></li>
+<li><a href="https://github.com/progenetix/schemas/"></a></li>
       </ul>
     </td>
   </tr>
@@ -48,19 +48,20 @@ tags:
     <th>Contributors</th>
     <td>
       <ul>
-<li><a href="https://beacon-project.io/categories/people.html">ELIXIR Beacon team</a></li>
-<li><a href="https://beacon-project.io/people/Sabela-de-la-Torre/">Sabela de la Torre Pernas</a></li>
-<li><a href="https://beacon-project.io/people/Jordi-Rambla/">Jordi Rambla De Argila</a></li>
-<li><a href="https://orcid.org/0000-0002-9903-4248">Michael Baudis</a></li>
+<li><a href="https://beacon-project.io/categories/people.html"></a></li>
+<li><a href="https://github.com/jrambla"></a></li>
+<li><a href="https://github.com/sdelatorrep"></a></li>
+<li><a href="https://github.com/mamanambiya"></a></li>
+<li><a href="https://orcid.org/0000-0002-9903-4248"></a></li>
       </ul>
     </td>
   </tr>
   <tr>
-    <th>Source (2.0.0-draft.1)</th>
+    <th>Source (2.0.0-draft.3)</th>
     <td>
       <ul>
         <li><a href="current/IndividualResponseContent.json" target="_BLANK">raw source [JSON]</a></li>
-        <li><a href="https://github.com/ga4gh-beacon/specification-v2-test-schemas/blob/master/schemas/IndividualResponseContent.yaml" target="_BLANK">Github</a></li>
+        <li><a href="https://github.com/ga4gh-beacon/specification-v2-blocks/blob/master/schemas/IndividualResponseContent.yaml" target="_BLANK">Github</a></li>
       </ul>
     </td>
   </tr>
@@ -83,11 +84,11 @@ __Description:__ Description pending
   </tr>
   <tr>
     <th>beaconHandover</th>
-    <td>./Handover [<a href="./Handover.html" target="_BLANK">HTML</a>]</td>
+    <td>Handover</td>
   </tr>
   <tr>
     <th>error</th>
-    <td>./BeaconError [<a href="./BeaconError.html" target="_BLANK">HTML</a>]</td>
+    <td>BeaconError</td>
   </tr>
   <tr>
     <th>exists</th>
@@ -98,12 +99,16 @@ __Description:__ Description pending
     <td>object</td>
   </tr>
   <tr>
+    <th>numTotalResults</th>
+    <td>integer</td>
+  </tr>
+  <tr>
     <th>results</th>
-    <td>array of "./IndividualResponseResults [<a href="./IndividualResponseResults.html" target="_BLANK">HTML</a>]"</td>
+    <td>array of "./IndividualResponseResults"</td>
   </tr>
   <tr>
     <th>resultsHandover</th>
-    <td>./Handover [<a href="./Handover.html" target="_BLANK">HTML</a>]</td>
+    <td>Handover</td>
   </tr>
 
 </table>
@@ -111,14 +116,14 @@ __Description:__ Description pending
 
 #### beaconHandover
 
-* type: ./Handover [<a href="./Handover.html" target="_BLANK">HTML</a>]
+* type: Handover
 
 
 
 
 #### error
 
-* type: ./BeaconError [<a href="./BeaconError.html" target="_BLANK">HTML</a>]
+* type: BeaconError
 
 
 
@@ -140,23 +145,29 @@ error, in which case `error` has to be non-null.
 
 
 
+#### numTotalResults
+
+* type: integer
+
+
+
+
 #### results
 
-* type: array of "./IndividualResponseResults [<a href="./IndividualResponseResults.html" target="_BLANK">HTML</a>]"
+* type: array of "./IndividualResponseResults"
 
 
 
 
 #### resultsHandover
 
-* type: ./Handover [<a href="./Handover.html" target="_BLANK">HTML</a>]
+* type: Handover
 
 
 
-<hr/>
 <div id="schema-footer">
-This schema representation is for information and testing purposes. The authorative 
-version remains with the main Beacon development project.
+This schema representation is for information purposes. The authorative 
+version remains with the developing project (see "provenance").
 </div>
 
 
