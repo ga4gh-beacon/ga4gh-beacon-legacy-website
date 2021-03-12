@@ -32,3 +32,22 @@ ELIXIR colors:
 #catlinks {}
 
 #tagcloud {}
+
+#schema-header-title-project { color: #999; font-weight: 200; }
+#schema-header-title-project a:link { color: #999; font-weight: 200; }
+#schema-header-status { font-weight: 800; }
+#schema-header-table th, #schema-properties-table th { vertical-align: top; }
+#schema-header-table th:first-child, #schema-properties-table th:first-child { width: 180px }
+#schema-header-table ul { list-style: circle inside; margin-bottom: 0px; }
+#schema-footer {
+  color: #99f;
+  font-weight: 400;
+  display: block;
+  text-align:center;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: #ffffe0;
+  border-radius: 5px;
+  border: 1px solid #eeeed0;
+  font-size: 0.7em;
+}
