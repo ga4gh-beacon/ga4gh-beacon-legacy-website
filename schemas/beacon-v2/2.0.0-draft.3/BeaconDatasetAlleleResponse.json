@@ -53,7 +53,7 @@
       },
       "datasetHandover" : {
          "items" : {
-            "$ref" : "./Handover"
+            "$ref" : "Handover.yaml#/"
          },
          "type" : "array"
       },

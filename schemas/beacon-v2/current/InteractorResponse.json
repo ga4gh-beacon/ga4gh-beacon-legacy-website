@@ -46,10 +46,10 @@
    },
    "properties" : {
       "meta" : {
-         "$ref" : "ResponseMeta"
+         "$ref" : "ResponseMeta.yaml#/"
       },
       "response" : {
-         "$ref" : "InteractorResponseContent"
+         "$ref" : "InteractorResponseContent.yaml#/"
       }
    },
    "required" : [

@@ -56,32 +56,22 @@ __Description:__ Response of a genomic variant query
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>meta</th>
-    <td>ResponseMeta</td>
-  </tr>
-  <tr>
-    <th>response</th>
-    <td>GenomicVariantResponseContent</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>meta</th><td>ResponseMeta.yaml#/ [<a href="./ResponseMeta.html">HTML</a>]</td></tr>
+<tr><th>response</th><td>GenomicVariantResponseContent.yaml#/ [<a href="./GenomicVariantResponseContent.html">HTML</a>]</td></tr>
 </table>
 
 
 #### meta
 
-* type: ResponseMeta
+* type: ResponseMeta.yaml#/ [<a href="./ResponseMeta.html">HTML</a>]
 
 
 
 
 #### response
 
-* type: GenomicVariantResponseContent
+* type: GenomicVariantResponseContent.yaml#/ [<a href="./GenomicVariantResponseContent.html">HTML</a>]
 
 
 

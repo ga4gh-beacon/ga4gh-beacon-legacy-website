@@ -46,10 +46,10 @@
    },
    "properties" : {
       "adamDataUse" : {
-         "$ref" : "https://raw.githubusercontent.com/ga4gh/ADA-M/v1.0.1/adam.yamlAdam"
+         "$ref" : "https://raw.githubusercontent.com/ga4gh/ADA-M/v1.0.1/adam.yamlAdam.yaml#/"
       },
       "consentCodeDataUse" : {
-         "$ref" : "https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/v1.1.0/consent_code.yamlConsentCodeDataUse"
+         "$ref" : "https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/v1.1.0/consent_code.yamlConsentCodeDataUse.yaml#/"
       }
    },
    "required" : [

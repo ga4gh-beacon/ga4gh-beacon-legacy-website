@@ -56,7 +56,7 @@
       },
       "filteringTerms" : {
          "items" : {
-            "$ref" : "./FilteringTerm"
+            "$ref" : "FilteringTerm.yaml#/"
          },
          "type" : "array"
       }

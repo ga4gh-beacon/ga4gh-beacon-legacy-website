@@ -46,10 +46,10 @@
    },
    "oneOf" : [
       {
-         "$ref" : "https://raw.githubusercontent.com/ga4gh-beacon/specification-v2-default-schemas/draft.3/default_interactor_schema.yamlInteractor"
+         "$ref" : "https://raw.githubusercontent.com/ga4gh-beacon/specification-v2-default-schemas/draft.3/default_interactor_schema.yamlInteractor.yaml#/"
       },
       {
-         "$ref" : "AlternativeSchema"
+         "$ref" : "AlternativeSchema.yaml#/"
       }
    ],
    "title" : "InteractorResponseResults",

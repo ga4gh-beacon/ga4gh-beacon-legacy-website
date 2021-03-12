@@ -56,19 +56,9 @@ __Description:__ Fields to filter by run.
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>biosampleId</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>id</th>
-    <td>string</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>biosampleId</th><td>string</td></tr>
+<tr><th>id</th><td>string</td></tr>
 </table>
 
 

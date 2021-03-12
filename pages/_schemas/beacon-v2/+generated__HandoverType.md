@@ -57,19 +57,9 @@ __Description:__ Handover type, as an Ontology_term object with CURIE syntax for
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>id</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>label</th>
-    <td>string</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>id</th><td>string</td></tr>
+<tr><th>label</th><td>string</td></tr>
 </table>
 
 

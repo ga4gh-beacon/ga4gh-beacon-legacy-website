@@ -56,51 +56,17 @@ __Description:__ Response containing information about an allele in a particular
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>callCount</th>
-    <td>integer (int64)</td>
-  </tr>
-  <tr>
-    <th>datasetHandover</th>
-    <td>array of "./Handover"</td>
-  </tr>
-  <tr>
-    <th>datasetId</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>exists</th>
-    <td>boolean</td>
-  </tr>
-  <tr>
-    <th>externalUrl</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>frequency</th>
-    <td>number</td>
-  </tr>
-  <tr>
-    <th>info</th>
-    <td>object</td>
-  </tr>
-  <tr>
-    <th>note</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>sampleCount</th>
-    <td>integer (int64)</td>
-  </tr>
-  <tr>
-    <th>variantCount</th>
-    <td>integer (int64)</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>callCount</th><td>integer (int64)</td></tr>
+<tr><th>datasetHandover</th><td>array of "Handover.yaml#/ [<a href="./Handover.html">HTML</a>]"</td></tr>
+<tr><th>datasetId</th><td>string</td></tr>
+<tr><th>exists</th><td>boolean</td></tr>
+<tr><th>externalUrl</th><td>string</td></tr>
+<tr><th>frequency</th><td>number</td></tr>
+<tr><th>info</th><td>object</td></tr>
+<tr><th>note</th><td>string</td></tr>
+<tr><th>sampleCount</th><td>integer (int64)</td></tr>
+<tr><th>variantCount</th><td>integer (int64)</td></tr>
 </table>
 
 
@@ -115,7 +81,7 @@ included.
 
 #### datasetHandover
 
-* type: array of "./Handover"
+* type: array of "Handover.yaml#/ [<a href="./Handover.html">HTML</a>]"
 
 
 

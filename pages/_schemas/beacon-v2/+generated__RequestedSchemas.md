@@ -56,51 +56,17 @@ __Description:__ Format of the responses and version of the Beacon handling this
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>Analysis</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>Biosample</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>Cohort</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>Individual</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>Interactor</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>Run</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>VariantAnnotation</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>VariantIdentification</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>VariantInSample</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>VariantInterpretation</th>
-    <td>string</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>Analysis</th><td>string</td></tr>
+<tr><th>Biosample</th><td>string</td></tr>
+<tr><th>Cohort</th><td>string</td></tr>
+<tr><th>Individual</th><td>string</td></tr>
+<tr><th>Interactor</th><td>string</td></tr>
+<tr><th>Run</th><td>string</td></tr>
+<tr><th>VariantAnnotation</th><td>string</td></tr>
+<tr><th>VariantIdentification</th><td>string</td></tr>
+<tr><th>VariantInSample</th><td>string</td></tr>
+<tr><th>VariantInterpretation</th><td>string</td></tr>
 </table>
 
 

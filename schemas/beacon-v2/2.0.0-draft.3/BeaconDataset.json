@@ -62,7 +62,7 @@
          "type" : "string"
       },
       "dataUseConditions" : {
-         "$ref" : "DataUseConditions"
+         "$ref" : "DataUseConditions.yaml#/"
       },
       "description" : {
          "description" : "Description of the dataset.\n",

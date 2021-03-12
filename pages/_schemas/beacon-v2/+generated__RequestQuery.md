@@ -56,153 +56,110 @@ __Description:__ Description pending
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>analysis</th>
-    <td>AnalysisFields</td>
-  </tr>
-  <tr>
-    <th>biosample</th>
-    <td>BiosampleFields</td>
-  </tr>
-  <tr>
-    <th>cohort</th>
-    <td>CohortFields</td>
-  </tr>
-  <tr>
-    <th>customFilters</th>
-    <td>CustomFilters</td>
-  </tr>
-  <tr>
-    <th>datasets</th>
-    <td>RequestDatasets</td>
-  </tr>
-  <tr>
-    <th>filters</th>
-    <td>Filters</td>
-  </tr>
-  <tr>
-    <th>g_variant</th>
-    <td>GenomicVariantFields</td>
-  </tr>
-  <tr>
-    <th>individual</th>
-    <td>IndividualFields</td>
-  </tr>
-  <tr>
-    <th>interactor</th>
-    <td>InteractorFields</td>
-  </tr>
-  <tr>
-    <th>pagination</th>
-    <td>Pagination</td>
-  </tr>
-  <tr>
-    <th>run</th>
-    <td>RunFields</td>
-  </tr>
-  <tr>
-    <th>variant_in_sample</th>
-    <td>VariantInSampleFields</td>
-  </tr>
-  <tr>
-    <th>variant_interpretation</th>
-    <td>VariantInterpretationFields</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>analysis</th><td>AnalysisFields.yaml#/ [<a href="./AnalysisFields.html">HTML</a>]</td></tr>
+<tr><th>biosample</th><td>BiosampleFields.yaml#/ [<a href="./BiosampleFields.html">HTML</a>]</td></tr>
+<tr><th>cohort</th><td>CohortFields.yaml#/ [<a href="./CohortFields.html">HTML</a>]</td></tr>
+<tr><th>customFilters</th><td>CustomFilters.yaml#/ [<a href="./CustomFilters.html">HTML</a>]</td></tr>
+<tr><th>datasets</th><td>RequestDatasets.yaml#/ [<a href="./RequestDatasets.html">HTML</a>]</td></tr>
+<tr><th>filters</th><td>Filters.yaml#/ [<a href="./Filters.html">HTML</a>]</td></tr>
+<tr><th>g_variant</th><td>GenomicVariantFields.yaml#/ [<a href="./GenomicVariantFields.html">HTML</a>]</td></tr>
+<tr><th>individual</th><td>IndividualFields.yaml#/ [<a href="./IndividualFields.html">HTML</a>]</td></tr>
+<tr><th>interactor</th><td>InteractorFields.yaml#/ [<a href="./InteractorFields.html">HTML</a>]</td></tr>
+<tr><th>pagination</th><td>Pagination.yaml#/ [<a href="./Pagination.html">HTML</a>]</td></tr>
+<tr><th>run</th><td>RunFields.yaml#/ [<a href="./RunFields.html">HTML</a>]</td></tr>
+<tr><th>variant_in_sample</th><td>VariantInSampleFields.yaml#/ [<a href="./VariantInSampleFields.html">HTML</a>]</td></tr>
+<tr><th>variant_interpretation</th><td>VariantInterpretationFields.yaml#/ [<a href="./VariantInterpretationFields.html">HTML</a>]</td></tr>
 </table>
 
 
 #### analysis
 
-* type: AnalysisFields
+* type: AnalysisFields.yaml#/ [<a href="./AnalysisFields.html">HTML</a>]
 
 
 
 
 #### biosample
 
-* type: BiosampleFields
+* type: BiosampleFields.yaml#/ [<a href="./BiosampleFields.html">HTML</a>]
 
 
 
 
 #### cohort
 
-* type: CohortFields
+* type: CohortFields.yaml#/ [<a href="./CohortFields.html">HTML</a>]
 
 
 
 
 #### customFilters
 
-* type: CustomFilters
+* type: CustomFilters.yaml#/ [<a href="./CustomFilters.html">HTML</a>]
 
 
 
 
 #### datasets
 
-* type: RequestDatasets
+* type: RequestDatasets.yaml#/ [<a href="./RequestDatasets.html">HTML</a>]
 
 
 
 
 #### filters
 
-* type: Filters
+* type: Filters.yaml#/ [<a href="./Filters.html">HTML</a>]
 
 
 
 
 #### g_variant
 
-* type: GenomicVariantFields
+* type: GenomicVariantFields.yaml#/ [<a href="./GenomicVariantFields.html">HTML</a>]
 
 
 
 
 #### individual
 
-* type: IndividualFields
+* type: IndividualFields.yaml#/ [<a href="./IndividualFields.html">HTML</a>]
 
 
 
 
 #### interactor
 
-* type: InteractorFields
+* type: InteractorFields.yaml#/ [<a href="./InteractorFields.html">HTML</a>]
 
 
 
 
 #### pagination
 
-* type: Pagination
+* type: Pagination.yaml#/ [<a href="./Pagination.html">HTML</a>]
 
 
 
 
 #### run
 
-* type: RunFields
+* type: RunFields.yaml#/ [<a href="./RunFields.html">HTML</a>]
 
 
 
 
 #### variant_in_sample
 
-* type: VariantInSampleFields
+* type: VariantInSampleFields.yaml#/ [<a href="./VariantInSampleFields.html">HTML</a>]
 
 
 
 
 #### variant_interpretation
 
-* type: VariantInterpretationFields
+* type: VariantInterpretationFields.yaml#/ [<a href="./VariantInterpretationFields.html">HTML</a>]
 
 
 

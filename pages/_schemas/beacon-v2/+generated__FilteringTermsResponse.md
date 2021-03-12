@@ -56,23 +56,10 @@ __Description:__ Filtering terms available in this Beacon.
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>apiVersion</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>beaconId</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>filteringTerms</th>
-    <td>array of "./FilteringTerm"</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>apiVersion</th><td>string</td></tr>
+<tr><th>beaconId</th><td>string</td></tr>
+<tr><th>filteringTerms</th><td>array of "FilteringTerm.yaml#/ [<a href="./FilteringTerm.html">HTML</a>]"</td></tr>
 </table>
 
 
@@ -94,7 +81,7 @@ Identifier of the beacon, as defined in `Beacon`.
 
 #### filteringTerms
 
-* type: array of "./FilteringTerm"
+* type: array of "FilteringTerm.yaml#/ [<a href="./FilteringTerm.html">HTML</a>]"
 
 
 

@@ -46,10 +46,10 @@
    },
    "properties" : {
       "meta" : {
-         "$ref" : "RequestMeta"
+         "$ref" : "RequestMeta.yaml#/"
       },
       "query" : {
-         "$ref" : "RequestQuery"
+         "$ref" : "RequestQuery.yaml#/"
       }
    },
    "required" : [

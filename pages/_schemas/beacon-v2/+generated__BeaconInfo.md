@@ -56,63 +56,20 @@ __Description:__ Metadata describing a beacon instance.
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>alternativeUrl</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>apiVersion</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>createDateTime</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>datasets</th>
-    <td>array of "./BeaconDataset"</td>
-  </tr>
-  <tr>
-    <th>description</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>environment</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>id</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>info</th>
-    <td>object</td>
-  </tr>
-  <tr>
-    <th>name</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>organization</th>
-    <td>BeaconOrganization</td>
-  </tr>
-  <tr>
-    <th>updateDateTime</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>version</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>welcomeUrl</th>
-    <td>string</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>alternativeUrl</th><td>string</td></tr>
+<tr><th>apiVersion</th><td>string</td></tr>
+<tr><th>createDateTime</th><td>string</td></tr>
+<tr><th>datasets</th><td>array of "BeaconDataset.yaml#/ [<a href="./BeaconDataset.html">HTML</a>]"</td></tr>
+<tr><th>description</th><td>string</td></tr>
+<tr><th>environment</th><td>string</td></tr>
+<tr><th>id</th><td>string</td></tr>
+<tr><th>info</th><td>object</td></tr>
+<tr><th>name</th><td>string</td></tr>
+<tr><th>organization</th><td>BeaconOrganization.yaml#/ [<a href="./BeaconOrganization.html">HTML</a>]</td></tr>
+<tr><th>updateDateTime</th><td>string</td></tr>
+<tr><th>version</th><td>string</td></tr>
+<tr><th>welcomeUrl</th><td>string</td></tr>
 </table>
 
 
@@ -140,7 +97,7 @@ The time the beacon was created (ISO 8601 format).
 
 #### datasets
 
-* type: array of "./BeaconDataset"
+* type: array of "BeaconDataset.yaml#/ [<a href="./BeaconDataset.html">HTML</a>]"
 
 Dataset(s) served by the beacon.
 
@@ -188,7 +145,7 @@ Name of the beacon.
 
 #### organization
 
-* type: BeaconOrganization
+* type: BeaconOrganization.yaml#/ [<a href="./BeaconOrganization.html">HTML</a>]
 
 
 

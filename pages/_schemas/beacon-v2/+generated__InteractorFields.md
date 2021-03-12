@@ -56,19 +56,9 @@ __Description:__ Fields to filter by interactor.
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>id</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>individualId</th>
-    <td>string</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>id</th><td>string</td></tr>
+<tr><th>individualId</th><td>string</td></tr>
 </table>
 
 

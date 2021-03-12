@@ -56,19 +56,9 @@ __Description:__ Format of the response.
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>Dataset</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>Info</th>
-    <td>string</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>Dataset</th><td>string</td></tr>
+<tr><th>Info</th><td>string</td></tr>
 </table>
 
 

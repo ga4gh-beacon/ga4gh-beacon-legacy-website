@@ -55,19 +55,9 @@ __Description:__ Beacon-specific error. This should be non-null in exceptional s
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>errorCode</th>
-    <td>integer (int32)</td>
-  </tr>
-  <tr>
-    <th>errorMessage</th>
-    <td>string</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>errorCode</th><td>integer (int32)</td></tr>
+<tr><th>errorMessage</th><td>string</td></tr>
 </table>
 
 

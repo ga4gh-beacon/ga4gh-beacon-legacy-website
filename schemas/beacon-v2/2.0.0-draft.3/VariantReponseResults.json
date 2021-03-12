@@ -47,19 +47,19 @@
    "properties" : {
       "datasetAlleleRespones" : {
          "items" : {
-            "$ref" : "./BeaconDatasetAlleleResponse"
+            "$ref" : "BeaconDatasetAlleleResponse.yaml#/"
          },
          "type" : "array"
       },
       "variant" : {
-         "$ref" : "Variant"
+         "$ref" : "Variant.yaml#/"
       },
       "variantAnnotations" : {
-         "$ref" : "VariantAnnotation"
+         "$ref" : "VariantAnnotation.yaml#/"
       },
       "variantHandover" : {
          "items" : {
-            "$ref" : "./Handover"
+            "$ref" : "Handover.yaml#/"
          },
          "type" : "array"
       }

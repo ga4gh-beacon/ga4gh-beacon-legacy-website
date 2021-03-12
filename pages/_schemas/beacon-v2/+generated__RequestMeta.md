@@ -56,19 +56,9 @@ __Description:__ Requested schemas and versions to be used in the response.
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>apiVersion</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>requestedSchemas</th>
-    <td>RequestedSchemas</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>apiVersion</th><td>string</td></tr>
+<tr><th>requestedSchemas</th><td>RequestedSchemas.yaml#/ [<a href="./RequestedSchemas.html">HTML</a>]</td></tr>
 </table>
 
 
@@ -83,7 +73,7 @@ format the response.
 
 #### requestedSchemas
 
-* type: RequestedSchemas
+* type: RequestedSchemas.yaml#/ [<a href="./RequestedSchemas.html">HTML</a>]
 
 
 

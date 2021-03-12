@@ -46,10 +46,10 @@
    },
    "properties" : {
       "meta" : {
-         "$ref" : "ResponseMeta"
+         "$ref" : "ResponseMeta.yaml#/"
       },
       "response" : {
-         "$ref" : "RunResponseContent"
+         "$ref" : "RunResponseContent.yaml#/"
       }
    },
    "required" : [

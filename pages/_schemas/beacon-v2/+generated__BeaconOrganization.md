@@ -56,43 +56,15 @@ __Description:__ Organization owning the beacon.
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>address</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>contactUrl</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>description</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>id</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>info</th>
-    <td>object</td>
-  </tr>
-  <tr>
-    <th>logoUrl</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>name</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>welcomeUrl</th>
-    <td>string</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>address</th><td>string</td></tr>
+<tr><th>contactUrl</th><td>string</td></tr>
+<tr><th>description</th><td>string</td></tr>
+<tr><th>id</th><td>string</td></tr>
+<tr><th>info</th><td>object</td></tr>
+<tr><th>logoUrl</th><td>string</td></tr>
+<tr><th>name</th><td>string</td></tr>
+<tr><th>welcomeUrl</th><td>string</td></tr>
 </table>
 
 

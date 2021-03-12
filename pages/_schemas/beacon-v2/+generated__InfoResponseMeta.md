@@ -56,27 +56,11 @@ __Description:__ Meta information about the reponse.
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>apiVersion</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>beaconId</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>receivedRequest</th>
-    <td>InfoRequest</td>
-  </tr>
-  <tr>
-    <th>returnedSchemas</th>
-    <td>InfoRequestedSchemas</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>apiVersion</th><td>string</td></tr>
+<tr><th>beaconId</th><td>string</td></tr>
+<tr><th>receivedRequest</th><td>InfoRequest.yaml#/ [<a href="./InfoRequest.html">HTML</a>]</td></tr>
+<tr><th>returnedSchemas</th><td>InfoRequestedSchemas.yaml#/ [<a href="./InfoRequestedSchemas.html">HTML</a>]</td></tr>
 </table>
 
 
@@ -97,14 +81,14 @@ Identifier of the beacon, as defined in `Beacon`.
 
 #### receivedRequest
 
-* type: InfoRequest
+* type: InfoRequest.yaml#/ [<a href="./InfoRequest.html">HTML</a>]
 
 
 
 
 #### returnedSchemas
 
-* type: InfoRequestedSchemas
+* type: InfoRequestedSchemas.yaml#/ [<a href="./InfoRequestedSchemas.html">HTML</a>]
 
 
 

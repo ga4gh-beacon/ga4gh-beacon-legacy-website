@@ -56,19 +56,9 @@ __Description:__ Pagination to apply on the results.
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>limit</th>
-    <td>integer</td>
-  </tr>
-  <tr>
-    <th>skip</th>
-    <td>integer</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>limit</th><td>integer</td></tr>
+<tr><th>skip</th><td>integer</td></tr>
 </table>
 
 

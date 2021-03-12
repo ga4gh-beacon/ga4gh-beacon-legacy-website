@@ -56,29 +56,16 @@ __Description:__ Description pending
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>error</th>
-    <td>BeaconError</td>
-  </tr>
-  <tr>
-    <th>info</th>
-    <td>object</td>
-  </tr>
-  <tr>
-    <th>results</th>
-    <td>array of "./InfoResponseResults"</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>error</th><td>BeaconError.yaml#/ [<a href="./BeaconError.html">HTML</a>]</td></tr>
+<tr><th>info</th><td>object</td></tr>
+<tr><th>results</th><td>array of "InfoResponseResults.yaml#/ [<a href="./InfoResponseResults.html">HTML</a>]"</td></tr>
 </table>
 
 
 #### error
 
-* type: BeaconError
+* type: BeaconError.yaml#/ [<a href="./BeaconError.html">HTML</a>]
 
 
 
@@ -92,7 +79,7 @@ __Description:__ Description pending
 
 #### results
 
-* type: array of "./InfoResponseResults"
+* type: array of "InfoResponseResults.yaml#/ [<a href="./InfoResponseResults.html">HTML</a>]"
 
 
 

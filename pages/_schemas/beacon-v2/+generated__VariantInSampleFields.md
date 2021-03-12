@@ -56,23 +56,10 @@ __Description:__ Fields to filter by variant in sample.
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>analysisId</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>biosampleId</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>variantId</th>
-    <td>string</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>analysisId</th><td>string</td></tr>
+<tr><th>biosampleId</th><td>string</td></tr>
+<tr><th>variantId</th><td>string</td></tr>
 </table>
 
 

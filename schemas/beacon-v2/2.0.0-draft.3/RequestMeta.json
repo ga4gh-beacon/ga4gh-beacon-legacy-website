@@ -51,7 +51,7 @@
          "type" : "string"
       },
       "requestedSchemas" : {
-         "$ref" : "RequestedSchemas"
+         "$ref" : "RequestedSchemas.yaml#/"
       }
    },
    "title" : "RequestMeta",

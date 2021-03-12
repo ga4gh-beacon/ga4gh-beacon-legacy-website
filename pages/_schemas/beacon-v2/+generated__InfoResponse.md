@@ -56,25 +56,15 @@ __Description:__ Response of a query over Beacon info. Use `InfoResponseContent`
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>meta</th>
-    <td>InfoResponseMeta</td>
-  </tr>
-  <tr>
-    <th>response</th>
-    <td></td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>meta</th><td>InfoResponseMeta.yaml#/ [<a href="./InfoResponseMeta.html">HTML</a>]</td></tr>
+<tr><th>response</th><td></td></tr>
 </table>
 
 
 #### meta
 
-* type: InfoResponseMeta
+* type: InfoResponseMeta.yaml#/ [<a href="./InfoResponseMeta.html">HTML</a>]
 
 
 

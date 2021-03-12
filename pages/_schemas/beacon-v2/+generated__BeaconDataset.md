@@ -56,63 +56,20 @@ __Description:__ A dataset available in the beacon.
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>assemblyId</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>callCount</th>
-    <td>integer (int64)</td>
-  </tr>
-  <tr>
-    <th>createDateTime</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>dataUseConditions</th>
-    <td>DataUseConditions</td>
-  </tr>
-  <tr>
-    <th>description</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>externalUrl</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>id</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>info</th>
-    <td>object</td>
-  </tr>
-  <tr>
-    <th>name</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>sampleCount</th>
-    <td>integer (int64)</td>
-  </tr>
-  <tr>
-    <th>updateDateTime</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>variantCount</th>
-    <td>integer (int64)</td>
-  </tr>
-  <tr>
-    <th>version</th>
-    <td>string</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>assemblyId</th><td>string</td></tr>
+<tr><th>callCount</th><td>integer (int64)</td></tr>
+<tr><th>createDateTime</th><td>string</td></tr>
+<tr><th>dataUseConditions</th><td>DataUseConditions.yaml#/ [<a href="./DataUseConditions.html">HTML</a>]</td></tr>
+<tr><th>description</th><td>string</td></tr>
+<tr><th>externalUrl</th><td>string</td></tr>
+<tr><th>id</th><td>string</td></tr>
+<tr><th>info</th><td>object</td></tr>
+<tr><th>name</th><td>string</td></tr>
+<tr><th>sampleCount</th><td>integer (int64)</td></tr>
+<tr><th>updateDateTime</th><td>string</td></tr>
+<tr><th>variantCount</th><td>integer (int64)</td></tr>
+<tr><th>version</th><td>string</td></tr>
 </table>
 
 
@@ -142,7 +99,7 @@ The time the dataset was created (ISO 8601 format).
 
 #### dataUseConditions
 
-* type: DataUseConditions
+* type: DataUseConditions.yaml#/ [<a href="./DataUseConditions.html">HTML</a>]
 
 
 

@@ -56,52 +56,27 @@ __Description:__ Description pending
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>beaconHandover</th>
-    <td>Handover</td>
-  </tr>
-  <tr>
-    <th>error</th>
-    <td>BeaconError</td>
-  </tr>
-  <tr>
-    <th>exists</th>
-    <td>boolean</td>
-  </tr>
-  <tr>
-    <th>info</th>
-    <td>object</td>
-  </tr>
-  <tr>
-    <th>numTotalResults</th>
-    <td>integer</td>
-  </tr>
-  <tr>
-    <th>results</th>
-    <td>array of "./IndividualResponseResults"</td>
-  </tr>
-  <tr>
-    <th>resultsHandover</th>
-    <td>Handover</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>beaconHandover</th><td>Handover.yaml#/ [<a href="./Handover.html">HTML</a>]</td></tr>
+<tr><th>error</th><td>BeaconError.yaml#/ [<a href="./BeaconError.html">HTML</a>]</td></tr>
+<tr><th>exists</th><td>boolean</td></tr>
+<tr><th>info</th><td>object</td></tr>
+<tr><th>numTotalResults</th><td>integer</td></tr>
+<tr><th>results</th><td>array of "IndividualResponseResults.yaml#/ [<a href="./IndividualResponseResults.html">HTML</a>]"</td></tr>
+<tr><th>resultsHandover</th><td>Handover.yaml#/ [<a href="./Handover.html">HTML</a>]</td></tr>
 </table>
 
 
 #### beaconHandover
 
-* type: Handover
+* type: Handover.yaml#/ [<a href="./Handover.html">HTML</a>]
 
 
 
 
 #### error
 
-* type: BeaconError
+* type: BeaconError.yaml#/ [<a href="./BeaconError.html">HTML</a>]
 
 
 
@@ -132,14 +107,14 @@ error, in which case `error` has to be non-null.
 
 #### results
 
-* type: array of "./IndividualResponseResults"
+* type: array of "IndividualResponseResults.yaml#/ [<a href="./IndividualResponseResults.html">HTML</a>]"
 
 
 
 
 #### resultsHandover
 
-* type: Handover
+* type: Handover.yaml#/ [<a href="./Handover.html">HTML</a>]
 
 
 

@@ -47,12 +47,12 @@
    "properties" : {
       "beaconHandover" : {
          "items" : {
-            "$ref" : "./Handover"
+            "$ref" : "Handover.yaml#/"
          },
          "type" : "array"
       },
       "error" : {
-         "$ref" : "BeaconError"
+         "$ref" : "BeaconError.yaml#/"
       },
       "exists" : {
          "description" : "Indicator of whether any variant in sample was observed in any of the\ndatasets queried. This should be non-null, unless there was an\nerror, in which case `error` has to be non-null.\n",
@@ -67,13 +67,13 @@
       },
       "results" : {
          "items" : {
-            "$ref" : "./VariantInSampleResponseResults"
+            "$ref" : "VariantInSampleResponseResults.yaml#/"
          },
          "type" : "array"
       },
       "resultsHandover" : {
          "items" : {
-            "$ref" : "./Handover"
+            "$ref" : "Handover.yaml#/"
          },
          "type" : "array"
       }

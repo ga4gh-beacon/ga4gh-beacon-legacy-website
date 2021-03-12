@@ -46,43 +46,43 @@
    },
    "properties" : {
       "analysis" : {
-         "$ref" : "AnalysisFields"
+         "$ref" : "AnalysisFields.yaml#/"
       },
       "biosample" : {
-         "$ref" : "BiosampleFields"
+         "$ref" : "BiosampleFields.yaml#/"
       },
       "cohort" : {
-         "$ref" : "CohortFields"
+         "$ref" : "CohortFields.yaml#/"
       },
       "customFilters" : {
-         "$ref" : "CustomFilters"
+         "$ref" : "CustomFilters.yaml#/"
       },
       "datasets" : {
-         "$ref" : "RequestDatasets"
+         "$ref" : "RequestDatasets.yaml#/"
       },
       "filters" : {
-         "$ref" : "Filters"
+         "$ref" : "Filters.yaml#/"
       },
       "g_variant" : {
-         "$ref" : "GenomicVariantFields"
+         "$ref" : "GenomicVariantFields.yaml#/"
       },
       "individual" : {
-         "$ref" : "IndividualFields"
+         "$ref" : "IndividualFields.yaml#/"
       },
       "interactor" : {
-         "$ref" : "InteractorFields"
+         "$ref" : "InteractorFields.yaml#/"
       },
       "pagination" : {
-         "$ref" : "Pagination"
+         "$ref" : "Pagination.yaml#/"
       },
       "run" : {
-         "$ref" : "RunFields"
+         "$ref" : "RunFields.yaml#/"
       },
       "variant_in_sample" : {
-         "$ref" : "VariantInSampleFields"
+         "$ref" : "VariantInSampleFields.yaml#/"
       },
       "variant_interpretation" : {
-         "$ref" : "VariantInterpretationFields"
+         "$ref" : "VariantInterpretationFields.yaml#/"
       }
    },
    "title" : "RequestQuery",

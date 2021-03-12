@@ -45,7 +45,7 @@
    },
    "properties" : {
       "handoverType" : {
-         "$ref" : "HandoverType"
+         "$ref" : "HandoverType.yaml#/"
       },
       "note" : {
          "description" : "An optional text including considerations on the handover link \nprovided.\n",

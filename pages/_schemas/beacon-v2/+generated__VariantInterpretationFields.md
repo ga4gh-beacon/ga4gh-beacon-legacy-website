@@ -56,19 +56,9 @@ __Description:__ Fields to filter by variant interpetation.
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>datasetId</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>variantId</th>
-    <td>string</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>datasetId</th><td>string</td></tr>
+<tr><th>variantId</th><td>string</td></tr>
 </table>
 
 

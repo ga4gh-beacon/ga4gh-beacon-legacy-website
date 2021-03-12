@@ -56,32 +56,22 @@ __Description:__ Response of a query over runs.
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>meta</th>
-    <td>ResponseMeta</td>
-  </tr>
-  <tr>
-    <th>response</th>
-    <td>RunResponseContent</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>meta</th><td>ResponseMeta.yaml#/ [<a href="./ResponseMeta.html">HTML</a>]</td></tr>
+<tr><th>response</th><td>RunResponseContent.yaml#/ [<a href="./RunResponseContent.html">HTML</a>]</td></tr>
 </table>
 
 
 #### meta
 
-* type: ResponseMeta
+* type: ResponseMeta.yaml#/ [<a href="./ResponseMeta.html">HTML</a>]
 
 
 
 
 #### response
 
-* type: RunResponseContent
+* type: RunResponseContent.yaml#/ [<a href="./RunResponseContent.html">HTML</a>]
 
 
 

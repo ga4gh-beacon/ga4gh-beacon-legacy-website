@@ -46,10 +46,10 @@
    },
    "oneOf" : [
       {
-         "$ref" : "https://raw.githubusercontent.com/ga4gh-beacon/specification-v2-default-schemas/draft.3/default_cohort_schema.yamlCohort"
+         "$ref" : "https://raw.githubusercontent.com/ga4gh-beacon/specification-v2-default-schemas/draft.3/default_cohort_schema.yamlCohort.yaml#/"
       },
       {
-         "$ref" : "AlternativeSchema"
+         "$ref" : "AlternativeSchema.yaml#/"
       }
    ],
    "title" : "CohortResponseResults",

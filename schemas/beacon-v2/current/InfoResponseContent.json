@@ -46,14 +46,14 @@
    },
    "properties" : {
       "error" : {
-         "$ref" : "BeaconError"
+         "$ref" : "BeaconError.yaml#/"
       },
       "info" : {
          "type" : "object"
       },
       "results" : {
          "items" : {
-            "$ref" : "./InfoResponseResults"
+            "$ref" : "InfoResponseResults.yaml#/"
          },
          "type" : "array"
       }

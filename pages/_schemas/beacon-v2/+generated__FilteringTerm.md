@@ -56,19 +56,9 @@ __Description:__ Entities can be filtered using this term.
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>id</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>label</th>
-    <td>string</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>id</th><td>string</td></tr>
+<tr><th>label</th><td>string</td></tr>
 </table>
 
 

@@ -54,10 +54,10 @@
          "type" : "string"
       },
       "receivedRequest" : {
-         "$ref" : "InfoRequest"
+         "$ref" : "InfoRequest.yaml#/"
       },
       "returnedSchemas" : {
-         "$ref" : "InfoRequestedSchemas"
+         "$ref" : "InfoRequestedSchemas.yaml#/"
       }
    },
    "title" : "InfoResponseMeta",

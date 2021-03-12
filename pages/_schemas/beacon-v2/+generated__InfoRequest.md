@@ -56,21 +56,14 @@ __Description:__ Request parameters for information endpoints.
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>meta</th>
-    <td>InfoRequestMeta</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>meta</th><td>InfoRequestMeta.yaml#/ [<a href="./InfoRequestMeta.html">HTML</a>]</td></tr>
 </table>
 
 
 #### meta
 
-* type: InfoRequestMeta
+* type: InfoRequestMeta.yaml#/ [<a href="./InfoRequestMeta.html">HTML</a>]
 
 
 

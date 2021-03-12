@@ -46,7 +46,7 @@
    },
    "properties" : {
       "meta" : {
-         "$ref" : "InfoRequestMeta"
+         "$ref" : "InfoRequestMeta.yaml#/"
       }
    },
    "required" : [

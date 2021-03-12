@@ -56,32 +56,22 @@ __Description:__ Data use conditions ruling this dataset.
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>adamDataUse</th>
-    <td>https://raw.githubusercontent.com/ga4gh/ADA-M/v1.0.1/adam.yamlAdam [<a href="https://raw.githubusercontent.com/ga4gh/ADA-M/v1.0.1/adam.yamlAdam">LINK</a>]</td>
-  </tr>
-  <tr>
-    <th>consentCodeDataUse</th>
-    <td>https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/v1.1.0/consent_code.yamlConsentCodeDataUse [<a href="https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/v1.1.0/consent_code.yamlConsentCodeDataUse">LINK</a>]</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>adamDataUse</th><td>https://raw.githubusercontent.com/ga4gh/ADA-M/v1.0.1/adam.yamlAdam.yaml#/ [<a href="https://raw.githubusercontent.com/ga4gh/ADA-M/v1.0.1/adam.yamlAdam.yaml">LINK</a>]</td></tr>
+<tr><th>consentCodeDataUse</th><td>https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/v1.1.0/consent_code.yamlConsentCodeDataUse.yaml#/ [<a href="https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/v1.1.0/consent_code.yamlConsentCodeDataUse.yaml">LINK</a>]</td></tr>
 </table>
 
 
 #### adamDataUse
 
-* type: https://raw.githubusercontent.com/ga4gh/ADA-M/v1.0.1/adam.yamlAdam [<a href="https://raw.githubusercontent.com/ga4gh/ADA-M/v1.0.1/adam.yamlAdam">LINK</a>]
+* type: https://raw.githubusercontent.com/ga4gh/ADA-M/v1.0.1/adam.yamlAdam.yaml#/ [<a href="https://raw.githubusercontent.com/ga4gh/ADA-M/v1.0.1/adam.yamlAdam.yaml">LINK</a>]
 
 
 
 
 #### consentCodeDataUse
 
-* type: https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/v1.1.0/consent_code.yamlConsentCodeDataUse [<a href="https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/v1.1.0/consent_code.yamlConsentCodeDataUse">LINK</a>]
+* type: https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/v1.1.0/consent_code.yamlConsentCodeDataUse.yaml#/ [<a href="https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/v1.1.0/consent_code.yamlConsentCodeDataUse.yaml">LINK</a>]
 
 
 

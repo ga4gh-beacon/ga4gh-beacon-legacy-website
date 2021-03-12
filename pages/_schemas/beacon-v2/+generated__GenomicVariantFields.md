@@ -57,60 +57,29 @@ etc.).
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>alternateBases</th>
-    <td>AlternateBases</td>
-  </tr>
-  <tr>
-    <th>assemblyId</th>
-    <td>Assembly</td>
-  </tr>
-  <tr>
-    <th>end</th>
-    <td>array of "integer"</td>
-  </tr>
-  <tr>
-    <th>id</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>mateName</th>
-    <td>Chromosome</td>
-  </tr>
-  <tr>
-    <th>referenceBases</th>
-    <td>ReferenceBases</td>
-  </tr>
-  <tr>
-    <th>referenceName</th>
-    <td>Chromosome</td>
-  </tr>
-  <tr>
-    <th>start</th>
-    <td>array of "integer"</td>
-  </tr>
-  <tr>
-    <th>variantType</th>
-    <td>string</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>alternateBases</th><td>AlternateBases.yaml#/ [<a href="./AlternateBases.html">HTML</a>]</td></tr>
+<tr><th>assemblyId</th><td>Assembly.yaml#/ [<a href="./Assembly.html">HTML</a>]</td></tr>
+<tr><th>end</th><td>array of "integer"</td></tr>
+<tr><th>id</th><td>string</td></tr>
+<tr><th>mateName</th><td>Chromosome.yaml#/ [<a href="./Chromosome.html">HTML</a>]</td></tr>
+<tr><th>referenceBases</th><td>ReferenceBases.yaml#/ [<a href="./ReferenceBases.html">HTML</a>]</td></tr>
+<tr><th>referenceName</th><td>Chromosome.yaml#/ [<a href="./Chromosome.html">HTML</a>]</td></tr>
+<tr><th>start</th><td>array of "integer"</td></tr>
+<tr><th>variantType</th><td>string</td></tr>
 </table>
 
 
 #### alternateBases
 
-* type: AlternateBases
+* type: AlternateBases.yaml#/ [<a href="./AlternateBases.html">HTML</a>]
 
 
 
 
 #### assemblyId
 
-* type: Assembly
+* type: Assembly.yaml#/ [<a href="./Assembly.html">HTML</a>]
 
 
 
@@ -135,21 +104,21 @@ Id of the variant to display.
 
 #### mateName
 
-* type: Chromosome
+* type: Chromosome.yaml#/ [<a href="./Chromosome.html">HTML</a>]
 
 
 
 
 #### referenceBases
 
-* type: ReferenceBases
+* type: ReferenceBases.yaml#/ [<a href="./ReferenceBases.html">HTML</a>]
 
 
 
 
 #### referenceName
 
-* type: Chromosome
+* type: Chromosome.yaml#/ [<a href="./Chromosome.html">HTML</a>]
 
 
 

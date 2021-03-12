@@ -54,29 +54,16 @@ __Type:__ object
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>handoverType</th>
-    <td>HandoverType</td>
-  </tr>
-  <tr>
-    <th>note</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>url</th>
-    <td>string</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>handoverType</th><td>HandoverType.yaml#/ [<a href="./HandoverType.html">HTML</a>]</td></tr>
+<tr><th>note</th><td>string</td></tr>
+<tr><th>url</th><td>string</td></tr>
 </table>
 
 
 #### handoverType
 
-* type: HandoverType
+* type: HandoverType.yaml#/ [<a href="./HandoverType.html">HTML</a>]
 
 
 

@@ -55,54 +55,38 @@ __Description:__ Description pending
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>datasetAlleleRespones</th>
-    <td>array of "./BeaconDatasetAlleleResponse"</td>
-  </tr>
-  <tr>
-    <th>variant</th>
-    <td>Variant</td>
-  </tr>
-  <tr>
-    <th>variantAnnotations</th>
-    <td>VariantAnnotation</td>
-  </tr>
-  <tr>
-    <th>variantHandover</th>
-    <td>array of "./Handover"</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>datasetAlleleRespones</th><td>array of "BeaconDatasetAlleleResponse.yaml#/ [<a href="./BeaconDatasetAlleleResponse.html">HTML</a>]"</td></tr>
+<tr><th>variant</th><td>Variant.yaml#/ [<a href="./Variant.html">HTML</a>]</td></tr>
+<tr><th>variantAnnotations</th><td>VariantAnnotation.yaml#/ [<a href="./VariantAnnotation.html">HTML</a>]</td></tr>
+<tr><th>variantHandover</th><td>array of "Handover.yaml#/ [<a href="./Handover.html">HTML</a>]"</td></tr>
 </table>
 
 
 #### datasetAlleleRespones
 
-* type: array of "./BeaconDatasetAlleleResponse"
+* type: array of "BeaconDatasetAlleleResponse.yaml#/ [<a href="./BeaconDatasetAlleleResponse.html">HTML</a>]"
 
 
 
 
 #### variant
 
-* type: Variant
+* type: Variant.yaml#/ [<a href="./Variant.html">HTML</a>]
 
 
 
 
 #### variantAnnotations
 
-* type: VariantAnnotation
+* type: VariantAnnotation.yaml#/ [<a href="./VariantAnnotation.html">HTML</a>]
 
 
 
 
 #### variantHandover
 
-* type: array of "./Handover"
+* type: array of "Handover.yaml#/ [<a href="./Handover.html">HTML</a>]"
 
 
 

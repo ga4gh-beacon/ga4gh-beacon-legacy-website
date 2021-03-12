@@ -46,7 +46,7 @@
    },
    "properties" : {
       "meta" : {
-         "$ref" : "InfoResponseMeta"
+         "$ref" : "InfoResponseMeta.yaml#/"
       },
       "response" : {
          "oneOf" : [

@@ -56,32 +56,22 @@ __Description:__ Search for a genomic region
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>meta</th>
-    <td>RequestMeta</td>
-  </tr>
-  <tr>
-    <th>query</th>
-    <td>RequestQuery</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>meta</th><td>RequestMeta.yaml#/ [<a href="./RequestMeta.html">HTML</a>]</td></tr>
+<tr><th>query</th><td>RequestQuery.yaml#/ [<a href="./RequestQuery.html">HTML</a>]</td></tr>
 </table>
 
 
 #### meta
 
-* type: RequestMeta
+* type: RequestMeta.yaml#/ [<a href="./RequestMeta.html">HTML</a>]
 
 
 
 
 #### query
 
-* type: RequestQuery
+* type: RequestQuery.yaml#/ [<a href="./RequestQuery.html">HTML</a>]
 
 
 

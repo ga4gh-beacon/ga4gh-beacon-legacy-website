@@ -46,10 +46,10 @@
    },
    "oneOf" : [
       {
-         "$ref" : "BeaconInfo"
+         "$ref" : "BeaconInfo.yaml#/"
       },
       {
-         "$ref" : "AlternativeSchema"
+         "$ref" : "AlternativeSchema.yaml#/"
       }
    ],
    "title" : "InfoResponseResults",

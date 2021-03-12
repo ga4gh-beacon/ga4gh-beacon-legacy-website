@@ -46,10 +46,10 @@
    },
    "properties" : {
       "beaconHandover" : {
-         "$ref" : "Handover"
+         "$ref" : "Handover.yaml#/"
       },
       "error" : {
-         "$ref" : "BeaconError"
+         "$ref" : "BeaconError.yaml#/"
       },
       "exists" : {
          "description" : "Indicator of whether any individual was observed in any of the\ndatasets queried. This should be non-null, unless there was an\nerror, in which case `error` has to be non-null.\n",
@@ -64,12 +64,12 @@
       },
       "results" : {
          "items" : {
-            "$ref" : "./IndividualResponseResults"
+            "$ref" : "IndividualResponseResults.yaml#/"
          },
          "type" : "array"
       },
       "resultsHandover" : {
-         "$ref" : "Handover"
+         "$ref" : "Handover.yaml#/"
       }
    },
    "required" : [

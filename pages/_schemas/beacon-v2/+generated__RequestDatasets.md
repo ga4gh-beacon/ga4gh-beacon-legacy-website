@@ -55,19 +55,9 @@ __Description:__ Identifiers of datasets, as defined in `BeaconDataset`. If this
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>datasetIds</th>
-    <td>array of "string"</td>
-  </tr>
-  <tr>
-    <th>includeDatasetResponses</th>
-    <td>string</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>datasetIds</th><td>array of "string"</td></tr>
+<tr><th>includeDatasetResponses</th><td>string</td></tr>
 </table>
 
 
