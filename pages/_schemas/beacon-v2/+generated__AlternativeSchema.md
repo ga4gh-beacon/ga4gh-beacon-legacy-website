@@ -4,14 +4,13 @@ layout: default
 permalink: "/schemas/beacon-v2/AlternativeSchema.html"
 sb_status: "community"
 excerpt_separator: <!--more-->
-category:
-  - schemas
+categories:
+  - specification
 tags:
   - beacon
-  - code
+  - beacon-v2
   - community
   - schemas
-  - specification
   - v2
 ---
 
@@ -51,9 +50,6 @@ tags:
   
 __Type:__ object  
 __Description:__ Alternative schema for describing this object.
-<div id="schema-footer">
-This schema representation is for information purposes. The authorative 
-version remains with the developing project (see "provenance").
-</div>
+<div id="schema-footer"> This schema representation is for information purposes. The authorative  version remains with the developing project (see "provenance"). </div>
 
 

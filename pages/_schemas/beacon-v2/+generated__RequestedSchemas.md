@@ -4,14 +4,13 @@ layout: default
 permalink: "/schemas/beacon-v2/RequestedSchemas.html"
 sb_status: "community"
 excerpt_separator: <!--more-->
-category:
-  - schemas
+categories:
+  - specification
 tags:
   - beacon
-  - code
+  - beacon-v2
   - community
   - schemas
-  - specification
   - v2
 ---
 
@@ -188,9 +187,6 @@ __Description:__ Format of the responses and version of the Beacon handling this
 ```
 "beacon-variant-interpretation-draft-2"
 ```
-<div id="schema-footer">
-This schema representation is for information purposes. The authorative 
-version remains with the developing project (see "provenance").
-</div>
+<div id="schema-footer"> This schema representation is for information purposes. The authorative  version remains with the developing project (see "provenance"). </div>
 
 

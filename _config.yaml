@@ -71,8 +71,6 @@ related_sites:
   'Beacon<span style="color: red; font-weight: 800;">+</span>': 'http://beacon.progenetix.org/ui/'
   'GA4GH::SchemaBlocks': 'http://schemablocks.org'
   'GA4GH::Discovery': 'http://ga4gh-discovery.github.io'
-#  'GA4GH::CLP': 'http://ga4gh-cp.github.io'
-#  'GA4GH::GKS': 'http://ga4gh-gks.github.io'
 
 github_projects:
   'Beacon API and Tools': 'http://github.com/ga4gh-beacon/'
@@ -88,7 +86,6 @@ cloud_tags:
   - compliance
   - contacts
   - CNV
-  - definitions
   - developers
   - development
   - EB
@@ -103,6 +100,7 @@ cloud_tags:
   - releases
   - roadmap
   - specification
+  - schemas
   - SV
   - teams
   - v2
@@ -115,5 +113,5 @@ cloud_tags:
 plugins:
  - jekyll-seo-tag
 type: website
-navigation_max_items: 4 # number of shown links in current category
-emptyArray: []          # dummy element for array initialisation
+navigation_max_items: 4     # number of shown links in current category
+emptyArray: []              # dummy element for array initialisation

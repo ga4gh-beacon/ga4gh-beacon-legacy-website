@@ -4,14 +4,13 @@ layout: default
 permalink: "/schemas/beacon-v2/InfoRequestMeta.html"
 sb_status: "community"
 excerpt_separator: <!--more-->
-category:
-  - schemas
+categories:
+  - specification
 tags:
   - beacon
-  - code
+  - beacon-v2
   - community
   - schemas
-  - specification
   - v2
 ---
 
@@ -81,9 +80,6 @@ format the response.
 
 
 
-<div id="schema-footer">
-This schema representation is for information purposes. The authorative 
-version remains with the developing project (see "provenance").
-</div>
+<div id="schema-footer"> This schema representation is for information purposes. The authorative  version remains with the developing project (see "provenance"). </div>
 
 

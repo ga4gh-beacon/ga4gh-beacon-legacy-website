@@ -4,14 +4,13 @@ layout: default
 permalink: "/schemas/beacon-v2/ReferenceBases.html"
 sb_status: "community"
 excerpt_separator: <!--more-->
-category:
-  - schemas
+categories:
+  - specification
 tags:
   - beacon
-  - code
+  - beacon-v2
   - community
   - schemas
-  - specification
   - v2
 ---
 
@@ -59,9 +58,6 @@ where the first and last bases are known, but the middle portion can
 exhibit countless variations of [ACGT], or the bases are unknown: 
 ANNT the Ns can take take any form of [ACGT], which makes both ACCT 
 and ATGT (or any other combination) viable sequences.
-<div id="schema-footer">
-This schema representation is for information purposes. The authorative 
-version remains with the developing project (see "provenance").
-</div>
+<div id="schema-footer"> This schema representation is for information purposes. The authorative  version remains with the developing project (see "provenance"). </div>
 
 
