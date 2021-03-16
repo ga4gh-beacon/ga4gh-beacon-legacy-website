@@ -34,7 +34,7 @@ my @cat_blocks  =   qw(General Products);
 
 my $here_path   =   File::Basename::dirname( eval { ( caller() )[1] } );
 my $base_path   =   $here_path.'/..';
-our $config     =   LoadFile($base_path.'/_config.yml') or die "¡No _config.yml file in this path!";
+our $config     =   LoadFile($base_path.'/_config.yaml') or die "¡No _config.yaml file in this path!";
 
 print $base_path."\n";
 
