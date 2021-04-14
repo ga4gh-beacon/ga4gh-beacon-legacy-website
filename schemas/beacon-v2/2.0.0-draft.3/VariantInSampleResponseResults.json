@@ -42,7 +42,7 @@
    },
    "oneOf" : [
       {
-         "$ref" : "https://raw.githubusercontent.com/ga4gh-beacon/specification-v2-default-schemas/draft.3/default_variant_in_sample_schema.yamlVariantInSample.yaml#/"
+         "$ref" : "https://raw.githubusercontent.com/ga4gh-beacon/specification-v2-default-schemas/draft.3/default_variant_in_sample_schema.yaml#/components/schemas/VariantInSample"
       },
       {
          "$ref" : "AlternativeSchema.yaml#/"

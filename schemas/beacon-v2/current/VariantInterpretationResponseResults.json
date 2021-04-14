@@ -42,7 +42,7 @@
    },
    "oneOf" : [
       {
-         "$ref" : "https://raw.githubusercontent.com/ga4gh-beacon/specification-v2-default-schemas/draft.3/default_variant_interpretation_schema.yamlVariantInterpretation.yaml#/"
+         "$ref" : "https://raw.githubusercontent.com/ga4gh-beacon/specification-v2-default-schemas/draft.3/default_variant_interpretation_schema.yaml#/components/schemas/VariantInterpretation"
       },
       {
          "$ref" : "AlternativeSchema.yaml#/"
