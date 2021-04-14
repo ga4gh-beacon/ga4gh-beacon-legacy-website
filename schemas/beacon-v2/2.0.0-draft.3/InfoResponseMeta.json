@@ -1,7 +1,7 @@
 {
    "$id" : "https://schemablocks.org/schemas/beacon-v2/InfoResponseMeta/2.0.0-draft.3",
    "$schema" : "http://json-schema.org/draft-07/schema#",
-   "description" : "Meta information about the reponse.\n",
+   "description" : "Meta information about the response.\n",
    "examples" : [],
    "meta" : {
       "contributors" : [

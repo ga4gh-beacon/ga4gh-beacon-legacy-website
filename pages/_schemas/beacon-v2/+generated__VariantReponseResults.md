@@ -48,7 +48,7 @@ tags:
 <div id="schema-attributes-title"><h3>Attributes</h3></div>
 
   
-__Description:__ Description pending
+__Description:__ TBD
 
 ### Properties
 

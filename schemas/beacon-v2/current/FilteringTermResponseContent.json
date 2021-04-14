@@ -1,7 +1,7 @@
 {
-   "$id" : "https://schemablocks.org/schemas/beacon-v2/DatasetResponseContent/2.0.0-draft.3",
+   "$id" : "https://schemablocks.org/schemas/beacon-v2/FilteringTermResponseContent/2.0.0-draft.3",
    "$schema" : "http://json-schema.org/draft-07/schema#",
-   "description" : "TBD\n",
+   "description" : "Filtering terms available in this Beacon.\n",
    "examples" : [],
    "meta" : {
       "contributors" : [
@@ -53,7 +53,7 @@
       },
       "results" : {
          "items" : {
-            "$ref" : "BeaconDataset.yaml#/"
+            "$ref" : "FilteringTerm.yaml#/"
          },
          "type" : "array"
       }
@@ -61,7 +61,7 @@
    "required" : [
       "results"
    ],
-   "title" : "DatasetResponseContent",
+   "title" : "FilteringTermResponseContent",
    "type" : "object",
    "version" : "2.0.0-draft.3"
 }

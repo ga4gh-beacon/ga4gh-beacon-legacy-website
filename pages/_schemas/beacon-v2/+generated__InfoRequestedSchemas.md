@@ -56,6 +56,7 @@ __Description:__ Format of the response.
 <table id="schema-properties-table">
 <tr><th>Property</th><th>Type</th></tr>
 <tr><th>Dataset</th><td>string</td></tr>
+<tr><th>FilterTerm</th><td>string</td></tr>
 <tr><th>Info</th><td>string</td></tr>
 </table>
 
@@ -70,6 +71,18 @@ __Description:__ Format of the response.
 
 ```
 "beacon-dataset-v2.0.0-draft.3"
+```
+
+#### FilterTerm
+
+* type: string
+
+
+
+##### `FilterTerm` Value Example  
+
+```
+"beacon-filtering-term-v2.0.0-draft.3"
 ```
 
 #### Info

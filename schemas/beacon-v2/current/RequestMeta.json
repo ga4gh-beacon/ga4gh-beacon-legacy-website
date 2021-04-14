@@ -42,7 +42,7 @@
    },
    "properties" : {
       "apiVersion" : {
-         "description" : "Schemas & versions default for this Beacon version will be used to \nformat the response.\n",
+         "description" : "Schemas & versions default for this Beacon version will be used to\nformat the response.\n",
          "example" : "v2.0",
          "type" : "string"
       },

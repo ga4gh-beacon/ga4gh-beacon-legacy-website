@@ -69,7 +69,7 @@
          "type" : "string"
       },
       "environment" : {
-         "description" : "Environment the service is running in. Use this to distinguish \nbetween production, development and testing/staging deployments.\n",
+         "description" : "Environment the service is running in. Use this to distinguish\nbetween production, development and testing/staging deployments.\n",
          "enum" : [
             "prod",
             "test",

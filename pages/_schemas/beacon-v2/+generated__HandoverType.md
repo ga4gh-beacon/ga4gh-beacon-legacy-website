@@ -49,8 +49,8 @@ tags:
 
   
 __Type:__ object  
-__Description:__ Handover type, as an Ontology_term object with CURIE syntax for the 
-`id` value. 
+__Description:__ Handover type, as an Ontology_term object with CURIE syntax for the
+`id` value.
 
 ### Properties
 

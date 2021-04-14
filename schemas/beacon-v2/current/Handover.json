@@ -44,12 +44,12 @@
          "$ref" : "HandoverType.yaml#/"
       },
       "note" : {
-         "description" : "An optional text including considerations on the handover link \nprovided.\n",
-         "example" : "This handover link provides access to a summarized VCF. To access \nthe VCF containing the details for each sample filling an \napplication is required. See Beacon contact information details.\n",
+         "description" : "An optional text including considerations on the handover link\nprovided.\n",
+         "example" : "This handover link provides access to a summarized VCF. To access\nthe VCF containing the details for each sample filling an\napplication is required. See Beacon contact information details.\n",
          "type" : "string"
       },
       "url" : {
-         "description" : "URL endpoint to where the handover process could progress (in RFC \n3986 format).\n",
+         "description" : "URL endpoint to where the handover process could progress (in RFC\n3986 format).\n",
          "example" : "\"https://api.mygenomeservice.org/handover/9dcc48d7-fc88-11e8-9110-b0c592dbf8c0/\"\n",
          "type" : "string"
       }

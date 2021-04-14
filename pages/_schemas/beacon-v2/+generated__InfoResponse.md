@@ -49,7 +49,12 @@ tags:
 
   
 __Type:__ object  
-__Description:__ Response of a query over Beacon info. Use `InfoResponseContent` when querying the Beacon info endpoints, and `DatasetResponseContent` when querying the datasets endpoint.
+__Description:__ Response of a query over Beacon info. 
+
+Use `InfoResponseContent` when querying the Beacon info endpoints, 
+`DatasetResponseContent` when querying the datasets endpoint, and 
+`FilteringTermResponseContent` when querying the filtering terms 
+endpoint.
 
 ### Properties
 

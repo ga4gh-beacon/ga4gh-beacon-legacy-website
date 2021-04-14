@@ -127,7 +127,7 @@ Description of the beacon.
 
 * type: string
 
-Environment the service is running in. Use this to distinguish 
+Environment the service is running in. Use this to distinguish
 between production, development and testing/staging deployments.
 
 

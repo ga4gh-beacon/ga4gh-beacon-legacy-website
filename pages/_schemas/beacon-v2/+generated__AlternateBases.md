@@ -49,20 +49,18 @@ tags:
 
   
 __Type:__ string  
-__Pattern:__ ^([ACGTN]+)$  
-__Description:__ The bases that appear instead of the reference bases. Accepted 
-values: [ACGTN]*. N is a wildcard, that denotes the position of any 
-base, and can be used as a standalone base of any type or within a 
-partially known sequence. For example a sequence where the first and 
-last bases are known, but the middle portion can exhibit countless 
-variations of [ACGT], or the bases are unknown: ANNT the Ns can take 
-take any form of [ACGT], which makes both ACCT and ATGT (or any 
-other combination) viable sequences.
-
-Categorical variant queries, e.g. such *not* being represented through 
-sequence & position,  make use of the `variantType` parameter.
-
-Optional: either `alternateBases` or `variantType` is required.
+__Pattern:__ ^([ACGTN]*)$  
+__Description:__ Alternate bases for this variant (starting from `start`).
+* Accepted values: [ACGTN]*.
+* N is a wildcard, that denotes the position of any base, and can be
+used as a standalone base of any type or within a partially known
+sequence. As example, a query of `ANNT` the Ns can take take any form of
+[ACGT] and will match `ANNT`, `ACNT`, `ACCT`, `ACGT` ... and so forth.
+* an *empty value* is used in the case of deletions with the maximally
+trimmed, deleted sequence being indicated in `ReferenceBases`
+* Categorical variant queries, e.g. such *not* being represented through
+sequence & position, make use of the `variantType` parameter.
+* either `alternateBases` or `variantType` is required.
 <div id="schema-footer"> This schema representation is for information purposes. The authorative  version remains with the developing project (see "provenance"). </div>
 
 

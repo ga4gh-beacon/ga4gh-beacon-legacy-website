@@ -42,7 +42,7 @@
    },
    "properties" : {
       "callCount" : {
-         "description" : "Total number of calls in the dataset. Missing calls are not \nincluded.\n",
+         "description" : "Total number of calls in the dataset. Missing calls are not\nincluded.\n",
          "format" : "int64",
          "minimum" : "0",
          "type" : "integer"
@@ -54,7 +54,7 @@
          "type" : "array"
       },
       "datasetId" : {
-         "description" : "not provided\n",
+         "description" : "`id` of the dataset.\n",
          "type" : "string"
       },
       "exists" : {
@@ -72,7 +72,7 @@
          "type" : "number"
       },
       "info" : {
-         "description" : "Additional unspecified metadata about the dataset response or its \ncontent.\n",
+         "description" : "Additional unspecified metadata about the dataset response or its\ncontent.\n",
          "example" : {
             "additionalInfoKey1" : [
                "additionalInfoValue1",
@@ -87,13 +87,13 @@
          "type" : "string"
       },
       "sampleCount" : {
-         "description" : "Number of samples in the dataset where the requested allele is \nfound.\n",
+         "description" : "Number of samples in the dataset where the requested allele is\nfound.\n",
          "format" : "int64",
          "minimum" : "0",
          "type" : "integer"
       },
       "variantCount" : {
-         "description" : "Number of times the requested allele has been observed in the \ndataset.\n",
+         "description" : "Number of times the requested allele has been observed in the\ndataset.\n",
          "format" : "int64",
          "minimum" : "0",
          "type" : "integer"

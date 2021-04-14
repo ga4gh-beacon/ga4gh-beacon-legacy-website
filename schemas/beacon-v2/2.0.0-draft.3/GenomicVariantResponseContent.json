@@ -1,7 +1,7 @@
 {
    "$id" : "https://schemablocks.org/schemas/beacon-v2/GenomicVariantResponseContent/2.0.0-draft.3",
    "$schema" : "http://json-schema.org/draft-07/schema#",
-   "description" : "Description pending\n",
+   "description" : "TBD\n",
    "examples" : [],
    "meta" : {
       "contributors" : [

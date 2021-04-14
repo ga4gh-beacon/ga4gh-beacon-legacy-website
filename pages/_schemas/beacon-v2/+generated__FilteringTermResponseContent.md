@@ -1,7 +1,7 @@
 ---
-title: Pagination
+title: FilteringTermResponseContent
 layout: default
-permalink: "/schemas/beacon-v2/Pagination.html"
+permalink: "/schemas/beacon-v2/FilteringTermResponseContent.html"
 sb_status: "community"
 excerpt_separator: <!--more-->
 categories:
@@ -15,7 +15,7 @@ tags:
 ---
 
 <div id="schema-header-title">
-  <h2><span id="schema-header-title-project">beacon-v2</span> Pagination <a href="https://github.com/ga4gh-beacon/specification-v2-blocks" target="_BLANK">[ &nearr; ]</a></h2>
+  <h2><span id="schema-header-title-project">beacon-v2</span> FilteringTermResponseContent <a href="https://github.com/ga4gh-beacon/specification-v2-blocks" target="_BLANK">[ &nearr; ]</a></h2>
 </div>
 
 <table id="schema-header-table">
@@ -40,8 +40,8 @@ tags:
 <li><a href="https://orcid.org/0000-0002-9903-4248">Michael Baudis</a></li>
 </ul></td></tr>
 <tr><th>Source (2.0.0-draft.3)</th><td><ul>
-<li><a href="current/Pagination.json" target="_BLANK">raw source [JSON]</a></li>
-<li><a href="https://github.com/ga4gh-beacon/specification-v2-blocks/blob/master/schemas/Pagination.yaml" target="_BLANK">Github</a></li>
+<li><a href="current/FilteringTermResponseContent.json" target="_BLANK">raw source [JSON]</a></li>
+<li><a href="https://github.com/ga4gh-beacon/specification-v2-blocks/blob/master/schemas/FilteringTermResponseContent.yaml" target="_BLANK">Github</a></li>
 </ul></td></tr>
 </table>
 
@@ -49,44 +49,46 @@ tags:
 
   
 __Type:__ object  
-__Description:__ Pagination to apply on the results.
+__Description:__ Filtering terms available in this Beacon.
 
 ### Properties
 
 <table id="schema-properties-table">
 <tr><th>Property</th><th>Type</th></tr>
-<tr><th>limit</th><td>integer</td></tr>
-<tr><th>skip</th><td>integer</td></tr>
+<tr><th>error</th><td>BeaconError.yaml#/ [<a href="./BeaconError.html">HTML</a>]</td></tr>
+<tr><th>info</th><td>object</td></tr>
+<tr><th>numTotalResults</th><td>integer</td></tr>
+<tr><th>results</th><td>array of "FilteringTerm.yaml#/ [<a href="./FilteringTerm.html">HTML</a>]"</td></tr>
 </table>
 
 
-#### limit
+#### error
+
+* type: BeaconError.yaml#/ [<a href="./BeaconError.html">HTML</a>]
+
+
+
+
+#### info
+
+* type: object
+
+
+
+
+#### numTotalResults
 
 * type: integer
 
-Size of the page.
-
-Use  `0` to return all the results or the maximum allowed by the Beacon, if there is any.
 
 
-##### `limit` Value Example  
 
-```
-10
-```
+#### results
 
-#### skip
-
-* type: integer
-
-Number of pages to skip.
+* type: array of "FilteringTerm.yaml#/ [<a href="./FilteringTerm.html">HTML</a>]"
 
 
-##### `skip` Value Example  
 
-```
-1
-```
 <div id="schema-footer"> This schema representation is for information purposes. The authorative  version remains with the developing project (see "provenance"). </div>
 
 

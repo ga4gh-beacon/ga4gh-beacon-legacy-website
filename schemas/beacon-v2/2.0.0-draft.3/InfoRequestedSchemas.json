@@ -45,6 +45,10 @@
          "example" : "beacon-dataset-v2.0.0-draft.3",
          "type" : "string"
       },
+      "FilterTerm" : {
+         "example" : "beacon-filtering-term-v2.0.0-draft.3",
+         "type" : "string"
+      },
       "Info" : {
          "example" : "beacon-info-v2.0.0-draft.3",
          "type" : "string"

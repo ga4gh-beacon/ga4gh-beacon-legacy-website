@@ -49,7 +49,7 @@ tags:
 
   
 __Type:__ object  
-__Description:__ Meta information about the reponse.
+__Description:__ Meta information about the response.
 
 ### Properties
 

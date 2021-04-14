@@ -64,7 +64,7 @@ __Description:__ Requested schemas and versions to be used in the response.
 
 * type: string
 
-Schemas & versions default for this Beacon version will be used to 
+Schemas & versions default for this Beacon version will be used to
 format the response.
 
 

@@ -70,21 +70,21 @@ __Type:__ object
 
 * type: string
 
-An optional text including considerations on the handover link 
+An optional text including considerations on the handover link
 provided.
 
 
 ##### `note` Value Example  
 
 ```
-"This handover link provides access to a summarized VCF. To access \nthe VCF containing the details for each sample filling an \napplication is required. See Beacon contact information details.\n"
+"This handover link provides access to a summarized VCF. To access\nthe VCF containing the details for each sample filling an\napplication is required. See Beacon contact information details.\n"
 ```
 
 #### url
 
 * type: string
 
-URL endpoint to where the handover process could progress (in RFC 
+URL endpoint to where the handover process could progress (in RFC
 3986 format).
 
 

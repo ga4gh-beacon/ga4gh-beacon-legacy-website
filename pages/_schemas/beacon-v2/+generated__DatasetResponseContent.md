@@ -49,7 +49,7 @@ tags:
 
   
 __Type:__ object  
-__Description:__ Description pending
+__Description:__ TBD
 
 ### Properties
 
@@ -57,6 +57,7 @@ __Description:__ Description pending
 <tr><th>Property</th><th>Type</th></tr>
 <tr><th>error</th><td>BeaconError.yaml#/ [<a href="./BeaconError.html">HTML</a>]</td></tr>
 <tr><th>info</th><td>object</td></tr>
+<tr><th>numTotalResults</th><td>integer</td></tr>
 <tr><th>results</th><td>array of "BeaconDataset.yaml#/ [<a href="./BeaconDataset.html">HTML</a>]"</td></tr>
 </table>
 
@@ -71,6 +72,13 @@ __Description:__ Description pending
 #### info
 
 * type: object
+
+
+
+
+#### numTotalResults
+
+* type: integer
 
 
 
