@@ -36,5 +36,5 @@ Version 2 of the protocol is slated to provide fundamental changes, towards a In
 
 * [Beacon Website](http://beacon-project.io)
 * [SchemaBlocks {S}[B]](https://schemablocks.org)
-* [Beacon+ in progenetix-next](https://progenetix.org/beacon-plus/search)
+* [Beacon+ in progenetix-next](https://progenetix.org/beaconplus-instances/beaconplus/)
 * [Bycon Project](https://github.com/progenetix/bycon)
