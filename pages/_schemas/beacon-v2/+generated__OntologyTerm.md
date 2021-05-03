@@ -1,13 +1,12 @@
 ---
-title: FilteringTermsResponse
+title: OntologyTerm
 layout: default
-permalink: "/schemas/beacon-v2/FilteringTermsResponse.html"
+permalink: "/schemas/beacon-v2/OntologyTerm.html"
 sb_status: "community"
 excerpt_separator: <!--more-->
 categories:
   - specification
 tags:
-  - beacon
   - beacon-v2
   - community
   - schemas
@@ -15,7 +14,7 @@ tags:
 ---
 
 <div id="schema-header-title">
-  <h2><span id="schema-header-title-project">beacon-v2</span> FilteringTermsResponse <a href="https://github.com/ga4gh-beacon/specification-v2-blocks" target="_BLANK">[ &nearr; ]</a></h2>
+  <h2><span id="schema-header-title-project">beacon-v2</span> OntologyTerm <a href="https://github.com/ga4gh-beacon/specification-v2-blocks" target="_BLANK">[ &nearr; ]</a></h2>
 </div>
 
 <table id="schema-header-table">
@@ -40,51 +39,34 @@ tags:
 <li><a href="https://orcid.org/0000-0002-9903-4248">Michael Baudis</a></li>
 </ul></td></tr>
 <tr><th>Source (2.0.0-draft.3)</th><td><ul>
-<li><a href="current/FilteringTermsResponse.json" target="_BLANK">raw source [JSON]</a></li>
-<li><a href="https://github.com/ga4gh-beacon/specification-v2-blocks/blob/master/schemas/FilteringTermsResponse.yaml" target="_BLANK">Github</a></li>
+<li><a href="current/OntologyTerm.json" target="_BLANK">raw source [JSON]</a></li>
+<li><a href="https://github.com/ga4gh-beacon/specification-v2-blocks/blob/master/schemas/OntologyTerm.yaml" target="_BLANK">Github</a></li>
 </ul></td></tr>
 </table>
 
 <div id="schema-attributes-title"><h3>Attributes</h3></div>
 
   
-__Type:__ object  
-__Description:__ Filtering terms available in this Beacon.
-
+__Type:__ object
 ### Properties
 
 <table id="schema-properties-table">
 <tr><th>Property</th><th>Type</th></tr>
-<tr><th>apiVersion</th><td>string</td></tr>
-<tr><th>beaconId</th><td>string</td></tr>
-<tr><th>filteringTerms</th><td>array of "FilteringTerm.yaml#/ [<a href="./FilteringTerm.html">HTML</a>]"</td></tr>
+<tr><th>id</th><td>string</td></tr>
+<tr><th>label</th><td>string</td></tr>
 </table>
 
 
-#### apiVersion
+#### id
 
 * type: string
 
-Version of the API implemented by this Beacon.
 
 
-##### `apiVersion` Value Example  
 
-```
-"v2.0"
-```
-
-#### beaconId
+#### label
 
 * type: string
-
-Identifier of the beacon, as defined in `Beacon`.
-
-
-
-#### filteringTerms
-
-* type: array of "FilteringTerm.yaml#/ [<a href="./FilteringTerm.html">HTML</a>]"
 
 
 

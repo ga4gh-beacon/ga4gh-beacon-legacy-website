@@ -7,7 +7,6 @@ excerpt_separator: <!--more-->
 categories:
   - specification
 tags:
-  - beacon
   - beacon-v2
   - community
   - schemas

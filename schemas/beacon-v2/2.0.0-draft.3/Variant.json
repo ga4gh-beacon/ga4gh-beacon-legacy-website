@@ -1,6 +1,14 @@
 {
    "$id" : "https://schemablocks.org/schemas/beacon-v2/Variant/2.0.0-draft.3",
    "$schema" : "http://json-schema.org/draft-07/schema#",
+   "anyOf" : [
+      {
+         "$ref" : "https://raw.githubusercontent.com/ga4gh-beacon/specification-v2-default-schemas/draft.3/default_variant_identification_schema.yaml#/components/schemas/VariantIdentification"
+      },
+      {
+         "$ref" : "#/components/schemas/AlternativeSchema"
+      }
+   ],
    "description" : "Variant description using either the default or an alternative schema.\n",
    "examples" : [],
    "meta" : {
@@ -40,14 +48,6 @@
          }
       ]
    },
-   "oneOf" : [
-      {
-         "$ref" : "https://raw.githubusercontent.com/ga4gh-beacon/specification-v2-default-schemas/draft.3/default_variant_identification_schema.yaml#/components/schemas/VariantIdentification"
-      },
-      {
-         "$ref" : "AlternativeSchema.yaml#/"
-      }
-   ],
    "title" : "Variant",
    "type" : "object",
    "version" : "2.0.0-draft.3"

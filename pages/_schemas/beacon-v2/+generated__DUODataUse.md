@@ -1,7 +1,7 @@
 ---
-title: Chromosome
+title: DUODataUse
 layout: default
-permalink: "/schemas/beacon-v2/Chromosome.html"
+permalink: "/schemas/beacon-v2/DUODataUse.html"
 sb_status: "community"
 excerpt_separator: <!--more-->
 categories:
@@ -14,7 +14,7 @@ tags:
 ---
 
 <div id="schema-header-title">
-  <h2><span id="schema-header-title-project">beacon-v2</span> Chromosome <a href="https://github.com/ga4gh-beacon/specification-v2-blocks" target="_BLANK">[ &nearr; ]</a></h2>
+  <h2><span id="schema-header-title-project">beacon-v2</span> DUODataUse <a href="https://github.com/ga4gh-beacon/specification-v2-blocks" target="_BLANK">[ &nearr; ]</a></h2>
 </div>
 
 <table id="schema-header-table">
@@ -39,16 +39,13 @@ tags:
 <li><a href="https://orcid.org/0000-0002-9903-4248">Michael Baudis</a></li>
 </ul></td></tr>
 <tr><th>Source (2.0.0-draft.3)</th><td><ul>
-<li><a href="current/Chromosome.json" target="_BLANK">raw source [JSON]</a></li>
-<li><a href="https://github.com/ga4gh-beacon/specification-v2-blocks/blob/master/schemas/Chromosome.yaml" target="_BLANK">Github</a></li>
+<li><a href="current/DUODataUse.json" target="_BLANK">raw source [JSON]</a></li>
+<li><a href="https://github.com/ga4gh-beacon/specification-v2-blocks/blob/master/schemas/DUODataUse.yaml" target="_BLANK">Github</a></li>
 </ul></td></tr>
 </table>
 
 <div id="schema-attributes-title"><h3>Attributes</h3></div>
 
-  
-__Type:__ string  
-__Description:__ Reference name (chromosome). Accepting values 1-22, X, Y, MT.
 <div id="schema-footer"> This schema representation is for information purposes. The authorative  version remains with the developing project (see "provenance"). </div>
 
 

@@ -1,7 +1,6 @@
 {
-   "$id" : "https://schemablocks.org/schemas/beacon-v2/FilteringTermsResponse/2.0.0-draft.3",
+   "$id" : "https://schemablocks.org/schemas/beacon-v2/OntologyTerm/2.0.0-draft.3",
    "$schema" : "http://json-schema.org/draft-07/schema#",
-   "description" : "Filtering terms available in this Beacon.\n",
    "examples" : [],
    "meta" : {
       "contributors" : [
@@ -41,28 +40,17 @@
       ]
    },
    "properties" : {
-      "apiVersion" : {
-         "description" : "Version of the API implemented by this Beacon.\n",
-         "example" : "v2.0",
+      "id" : {
          "type" : "string"
       },
-      "beaconId" : {
-         "description" : "Identifier of the beacon, as defined in `Beacon`.\n",
+      "label" : {
          "type" : "string"
-      },
-      "filteringTerms" : {
-         "items" : {
-            "$ref" : "FilteringTerm.yaml#/"
-         },
-         "type" : "array"
       }
    },
    "required" : [
-      "beaconId",
-      "apiVersion",
-      "filteringTerms"
+      "id"
    ],
-   "title" : "FilteringTermsResponse",
+   "title" : "OntologyTerm",
    "type" : "object",
    "version" : "2.0.0-draft.3"
 }
