@@ -10,7 +10,7 @@ The website is built from this repository using the Github-provided support for 
 
 Apart from special setup and modification procedures (adding collation pages for new categories or tags; layout modifications), most site management consists of adding Markdown pages to the `_posts` directory - see below.
 
-Note: One can easily test the site locally using the instructions provided [here](https://info.baudisgroup.org/howto/jekyllinstructions/). These can also be used to move the site project to a local built system with transfer of the generated pages to a standard webserver, independent of Github (see e.g. [info.baudisgroup.org](http://info.baudisgroup.org)).
+Note: One can easily test the site locally using the instructions provided [here](https://info.baudisgroup.org/howto/jekyllinstructions/). These can also be used to move the site project to a local built system with transfer of the generated pages to a standard webserver, independent of Github.
 
 ### Managing posts
 
