@@ -1,20 +1,17 @@
 ---
-title: 'Beacon v2 default schema'
+title: "Beacon v2 Default schema" 
 date: 2021-05-21
 layout: default
-authors: 
-  - "@laurenfromont"
+author: "@laurenfromont"
 excerpt_separator: <!--more-->
-categories:
-  - specification
+category:
+  - howto
 tags:
-  - specification
-  - development
-  - v2
+  - FAQ
   - .featured
 ---
 
-## {{ page.title }}
+## {{page.title}}
 
 ### Draft 4
 
@@ -26,7 +23,7 @@ This document is the default schema for Beacon version 2. As this product has no
 
 A common source of a set of variants, either a from a knowledgebase (“variant-level”) or from a set of individuals (“case-level” ).
 
-|Field|Type|Description|Examples
+|Field|Type|Description|Examples|
 |---|---|---|---|
 |`datasetId`|alphanumeric value (internal unique identifier)|Dataset reference ID|
 
