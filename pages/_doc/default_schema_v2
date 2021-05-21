@@ -1,13 +1,10 @@
 ---
-title: 'Default schema - v2'
+title: 'Beacon v2 default schema'
 date: 2021-05-21
 layout: default
 authors: 
   - "@laurenfromont"
-#  - please add more, as quoted GH handle or just name
-permalink: /v2/default_schema_v2.html
 excerpt_separator: <!--more-->
-www_link: /roadmap/default_schema_v2.html
 categories:
   - specification
 tags:
@@ -32,5 +29,6 @@ A common source of a set of variants, either a from a knowledgebase (“variant-
 |Field|Type|Description|Examples
 |---|---|---|---|
 |`datasetId`|alphanumeric value (internal unique identifier)|Dataset reference ID|
+
 
 
