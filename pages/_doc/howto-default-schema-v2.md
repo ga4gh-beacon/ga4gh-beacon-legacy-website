@@ -19,6 +19,17 @@ This document is the default schema for Beacon version 2. As this product has no
 
 <!--more-->
 
-xxx
+#### Logical model
+
+under construction
+
+#### Datasets
+
+A common source of a set of variants, either a from a knowledgebase (“variant-level”) or from a set of individuals (“case-level” )
+
+| Field | Type | Definition | Examples | 
+|:-----:|:----:|:----------:|:--------:|
+|`datasetId`|alphanumeric value (internal unique identifier)|Dataset reference ID | - | 
+|`datasetSource`|alphanumeric value|Reference to dataset source|“DECIPHER”, “DisGenNET”| 7577120 |    
 
 
