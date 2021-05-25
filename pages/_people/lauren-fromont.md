@@ -20,6 +20,7 @@ tags:
 
 ## {{ page.title }}
 
+* Beacon API project manager
 * Center for Genome Regulation Barcelona  
 * European Genome-Phenome Archive  
 
