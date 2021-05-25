@@ -20,7 +20,7 @@ tags:
   - events
 ---
 
-<h2>{{page.title}}</h2>
+## {{page.title}}
 
 The Zurich meeting is intended to align the current development version of the Beacon API and the Beacon+ driver, and to improve the documentation structure of the Beacon project.
 
