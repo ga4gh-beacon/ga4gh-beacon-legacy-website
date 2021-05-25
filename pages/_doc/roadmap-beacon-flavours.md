@@ -8,7 +8,6 @@ excerpt_separator: <!--more-->
 www_link:
 category:
   - roadmap
-  - specification
 tags:
   - specification
   - development
