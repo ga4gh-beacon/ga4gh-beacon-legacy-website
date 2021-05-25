@@ -8,22 +8,6 @@
          {
             "id" : "https://beacon-project.io/categories/people.html",
             "label" : "ELIXIR Beacon project team"
-         },
-         {
-            "id" : "github:@jrambla",
-            "label" : "Jordi Rambla"
-         },
-         {
-            "id" : "github:@sdelatorrep",
-            "label" : "Sabele de la Torre"
-         },
-         {
-            "id" : "github:@mamanambiya",
-            "label" : "Mamana Mbiyavanga"
-         },
-         {
-            "id" : "orcid:0000-0002-9903-4248",
-            "label" : "Michael Baudis"
          }
       ],
       "provenance" : [
@@ -32,13 +16,8 @@
             "label" : "Beacon v2"
          }
       ],
-      "sb_status" : "community",
-      "used_by" : [
-         {
-            "id" : "https://github.com/progenetix/schemas/",
-            "label" : "Progenetix database schema (Beacon+ backend)"
-         }
-      ]
+      "sb_status" : "proposed",
+      "used_by" : null
    },
    "properties" : {
       "alternateBases" : {
@@ -81,6 +60,18 @@
          "maxItems" : "2",
          "minItems" : "1",
          "type" : "array"
+      },
+      "variantMaxLength" : {
+         "description" : "Maximum length in bases of a genomic variant. This is an optional parameter without prescribed use. While a length is commonly available for structural variants such as copy number variations, it is recommended that length based queries should also be supported for variants with indicated referenceBases and alternateBases, to enable length-specific wildcard queries.\n",
+         "format" : "int64",
+         "minimum" : "1",
+         "type" : "integer"
+      },
+      "variantMinLength" : {
+         "description" : "Minimum length in bases of a genomic variant. This is an optional parameter without prescribed use. While a length is commonly available for structural variants such as copy number variations, it is recommended that length based queries should also be supported for variants with indicated referenceBases and alternateBases, to enable length-specific wildcard queries.\n",
+         "format" : "int64",
+         "minimum" : "0",
+         "type" : "integer"
       },
       "variantType" : {
          "description" : "The `variantType` is used to query variants which are not defined\nthrough a sequenc of one or more bases using the `alternateBases`\nparameter. Examples here are e.g. structural variants:\n* DUP\n  - increased allelic count of material from the genomic region\n  between `start` and `end` positions\n  - no assumption about the placement of the additional sequences is\n  being made (i.e. no _in situ_ requirement as tandem duplications)\n* DEL: deletion of sequence following `start`\n* BND: breakend, i.e. termination of the allele at position\n      `start` or in the `startMin` => `startMax` interval, or fusion\n      of the sequence to distant partner\nEither `alternateBases` or `variantType` is required, with the\nexception of range queries (single `start` and `end` parameters).\n",
