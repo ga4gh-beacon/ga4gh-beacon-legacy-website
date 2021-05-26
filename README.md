@@ -1,5 +1,7 @@
 ## ELIXIR Beacon Project website
 
+[![Join the chat at https://gitter.im/ga4gh-beacon/documentation](https://badges.gitter.im/ga4gh-beacon/documentation.svg)](https://gitter.im/ga4gh-beacon/documentation?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 The main information site for the ELIXIR Beacon Project - i.e. the formatted content of this repository - can be accessed as [Beacon website](http://beacon-project.io/).
 
 For more information about the project you may also consult the corresponding [ELIXIR website](https://www.elixir-europe.org/about-us/implementation-studies/beacons).
