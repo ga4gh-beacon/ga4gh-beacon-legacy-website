@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Beacon Workshop at ELIXIR AllHands
+date: 2021-06-08
 author: "@mbaudis"
 www_link: "https://docs.google.com/document/d/1ISClkkZZXM0SV1oKLrYrerXoSZ2ydf_tAH_wCc0tlE4/edit#"
 category:
