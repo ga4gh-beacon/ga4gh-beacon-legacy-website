@@ -17,8 +17,6 @@ tags: # please adjust - align with  "cloud_tags" in _config.yml_
 
 ## {{ page.title }}
 
-<!--more-->
-
 The Genomic Variants Team evaluates "structural" types of genomic variants
 with respect to their representation & query through current & future versions
 of the Beacon API. This scope intersects with work being pursued in the
@@ -27,7 +25,7 @@ development by the GA4GH GKS workstream.
  
 <!--more-->
 
-Every three weeks, SV scout members meet to document genomic variants use cases and query examples. 
+Every three weeks, GV scout members meet to document genomic variants use cases and query examples. 
 
 ### Members
 
