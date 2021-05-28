@@ -39,16 +39,28 @@ collections:
 
 nav_cat_blocks:
   General: 'General,categories,hide'
+  follow_beacon: 'Beacon project,follow_beacon,show'
   related_sites: 'Related Sites,related_sites,show'
   github_projects: 'Github Projects,github_projects,show'
 
 General:
 #  news: 'News'
   role: 'Beacon explained'
+#  specification: 'Specification & Roadmap'
+#  network: 'Beacon Networks'
+#  events: 'News and Events'
+  howto: 'Examples, Guides & FAQ'
+#  people: 'Contributors & Teams'
+#  contact: Contacts
+#  minutes: Beacon working groups
+  
+follow_beacon:
+#  news: 'News'
+#  role: 'Beacon explained'
   specification: 'Specification & Roadmap'
 #  network: 'Beacon Networks'
   events: 'News and Events'
-  howto: 'Examples, Guides & FAQ'
+#  howto: 'Examples, Guides & FAQ'
   people: 'Contributors & Teams'
 #  contact: Contacts
   minutes: Beacon working groups
