@@ -7,7 +7,6 @@ permalink: /minutes/genomic-variants-minutes.html
 excerpt_separator: <!--more-->
 www_link: # a simple web address related to the post, e.g. https://www.ga4gh.org
 www_links_formatted:
-  - '<a href="/teams/structural-variants.html">SV team page</a>'
 pdf_file_name: 
 category: # please adjust
   - minutes
