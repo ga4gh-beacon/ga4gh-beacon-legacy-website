@@ -39,7 +39,7 @@ collections:
 
 nav_cat_blocks:
   General: 'General,categories,hide'
-  follow_beacon: 'Beacon project,follow_beacon,show'
+  follow_beacon: 'Beacon project,follow_beacon,categories,show'
   related_sites: 'Related Sites,related_sites,show'
   github_projects: 'Github Projects,github_projects,show'
 
