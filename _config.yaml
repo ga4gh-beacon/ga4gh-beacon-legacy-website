@@ -44,26 +44,19 @@ nav_cat_blocks:
   github_projects: 'Github Projects,github_projects,show'
 
 General:
-#  news: 'News'
   role: 'Beacon explained'
-#  specification: 'Specification & Roadmap'
-#  network: 'Beacon Networks'
-#  events: 'News and Events'
-  howto: 'Examples, Guides & FAQ'
-#  people: 'Contributors & Teams'
-#  contact: Contacts
-#  minutes: Beacon working groups
-  
-follow_beacon:
-#  news: 'News'
-#  role: 'Beacon explained'
   specification: 'Specification & Roadmap'
 #  network: 'Beacon Networks'
   events: 'News and Events'
-#  howto: 'Examples, Guides & FAQ'
+  howto: 'Examples, Guides & FAQ'
   people: 'Contributors & Teams'
-#  contact: Contacts
   minutes: Beacon working groups
+  
+#follow_beacon:
+#  specification: 'Specification & Roadmap'
+#  events: 'News and Events'
+#  people: 'Contributors & Teams'
+#  minutes: Beacon working groups
 
 categories-date-sorted:
   - news
