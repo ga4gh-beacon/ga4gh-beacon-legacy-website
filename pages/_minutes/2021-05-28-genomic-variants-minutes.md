@@ -2,8 +2,8 @@
 title: 'Beacon Genomic Variants Team Minutes 2020'
 date: 2021-05-28
 layout: default
-author: ["@mbaudis"]["@laurenfromont"]
-permalink: /minutes/genomic-variants-minutes.html
+author: ["@laurenfromont"]
+permalink: /minutes/2021-05-28-genomic-variants-minutes.html
 excerpt_separator: <!--more-->
 www_link: # a simple web address related to the post, e.g. https://www.ga4gh.org
 www_links_formatted:
