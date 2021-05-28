@@ -1,5 +1,5 @@
 ---
-title: 'Beacon Genomic Variants Team Minutes 2020'
+title: 'Beacon Genomic Variants Team'
 date: 2021-05-28
 layout: default
 author: ["@laurenfromont"]
