@@ -43,18 +43,18 @@ nav_cat_blocks:
   github_projects: 'Github Projects,github_projects,show'
 
 General:
-  news: 'News'
+#  news: 'News'
+  role: 'Beacon explained'
   specification: 'Specification & Roadmap'
-  network: 'Beacon Networks'
-  events: Events
+#  network: 'Beacon Networks'
+  events: 'News and Events'
   howto: 'Examples, Guides & FAQ'
   people: 'Contributors & Teams'
-  contact: Contacts
-  minutes: Meeting Minutes
+#  contact: Contacts
+  working groups: Beacon working groups
 
 categories-date-sorted:
   - news
-  - minutes
   - events
 
 tags-date-sorted:
@@ -80,33 +80,33 @@ github_projects:
 
 cloud_tags:
   - admin
-  - beacon
+#  - beacon
   - clinical
   - code
-  - compliance
+#  - compliance
   - contacts
-  - CNV
-  - developers
+#  - CNV
+#  - developers
   - development
-  - EB
+#  - EB
   - events
   - filters
   - FAQ
   - minutes
   - network
   - press
-  - proposal
-  - queries
+#  - proposal
+#  - queries
   - releases
-  - roadmap
+#  - roadmap
   - specification
   - schemas
-  - SV
-  - teams
+#  - SV
+#  - teams
   - v2
-  - VCF
-  - versions
-  - website
+#  - VCF
+#  - versions
+#  - website
 
 # additional Jekyll instructions
 
