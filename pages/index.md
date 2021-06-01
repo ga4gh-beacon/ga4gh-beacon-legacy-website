@@ -20,31 +20,36 @@ permalink: /index.html
 
 <!--more-->
 
-Personalized medicine allows combining clinical–pathological parameters with genomic profiling in order to create innovative diagnostic, prognostic and therapeutic strategies. Some medical fields (e.g., haematology, oncology, cardiovascular diseases) have been transformed by genome characterization. Development of infrastructures that can support collection and use of genomic information in the health-care community represents a research priority. However, for many institutions or even at the national level, this line of research is slowed down by difficulties in finding suitable data. In this context, it is instrumental to develop tools that allow for the discovery of genomic and health data, while ensuring maximum anonymisation and security. Beacon API enables the search for structural variants (e.g. deletions and duplications), and has been extended its functionalities to allow the discovery of information about individuals, biosamples, diseases, in addition to genomic variants. It is an extremely useful tool to boost personalized medicine advances in hospitals and research institutions.
+A Beacon is a simple genomics variant discovery tool by aggregating worldwide genomics dataset under one umbrella. The Beacon Project is developed under an initiative by Global Alliance for Genomics and Health (GA4GH) for the federated discovery of genomic data in biomedical research and clinical applications. One of the main bottlenecks in human genomics research is lack of data. Genomics data is identifiable and therefore needs to be protected, however, due to lack of data security infrastructure and good health data practices, it forces clinicians and researchers to not share their data at all, this further slows down the progress in research. In the time of personalised medicines, inclusive diagnostics, prognostic and therapeutic strategies, we simply cannot afford to keep the data locked in. The Beacon API aims to solve this problem through enabling the search of genomic variants and associated information without jeopardising the privacy of the dataset. This way, any hospital or research entity can choose to 'beaconize' their omics dataset without compromising the privacy or the ownership of the dataset. Therefore, helping the worldwide community of researchers and assisting science through the power of data.
+
+<figure>
+<img src="/assets/img/Beaconizing_hospitals_Webpage.png" alt="Beacon hospitals"/>
+</figure>
+###### Figure 1. A schematic representation of how Beacon works. (A) Beacon API implementation and (B) A Beacon query and aggregated response
 
 ##  What is Beacon?
 
 Beacon is an API (sometimes extended with a [user interface](https://beacon-giab-test.ega-archive.org)) that allows for data discovery of genomic and phenoclinic data.
 
-Originally, the Beacon protocol (versions 0 and 1) allowed researchers to get information about the presence/absence of a given, specific, genomic mutation in a set of data, from patients of a given disease or from the population in general (Figure 1). Examples can be found in the [ELIXIR Beacon network page](https://beacon-network.elixir-europe.org). 
+Originally, the Beacon protocol (versions 0 and 1) allowed researchers to get information about the presence/absence of a given, specific, genomic mutation in a set of data, from patients of a given disease or from the population in general (Figure 2). Examples can be found in the [ELIXIR Beacon network page](https://beacon-network.elixir-europe.org). 
 
 <figure>
 <img src="/assets/img/Beacon-v1.png" alt="Beacon v1"/>
 </figure>
-###### Figure 1. Schematic example of a Beacon query (up to version 1)
+###### Figure 2. Schematic example of a Beacon query (up to version 1)
 
 
 The version 2 of the Beacon protocol, to be submitted in the Fall 2021, is under development. It will include:
-More informative queries, like filtering by gender or age;
-An option to trigger the next step in the data access process, e.g. who to contact or which are the data use conditions;
-An option to jump to another system where the data could be accessed, e.g. if the Beacon is internal to a hospital, to provide the Id of the EHR of the patients having the mutation of interest;
-Annotations about the variants found, among which the expert/clinician conclusion about the pathogenicity of a given mutation in a given individual or its role in producing a given phenotype;
-Information about cohorts.
+* More informative queries, like filtering by gender or age;
+* An option to trigger the next step in the data access process, e.g. who to contact or which are the data use conditions;
+* An option to jump to another system where the data could be accessed, e.g. if the Beacon is for internal use of the hospital, to provide the Id of the EHR of the patients having the mutation of interest;
+* Annotations about the variants found, among which the expert/clinician conclusion about the pathogenicity of a given mutation in a given individual or its role in producing a given phenotype;
+* Information about cohorts.
 
 <figure>
 <img src="/assets/img/Beacon-graphics-v2-network-960x540.png" alt="Beacon v2 Network Specification"/>
 </figure>
-###### Figure 2. Schematic example of a Beacon query (version 2)
+###### Figure 3. Schematic example of a Beacon query (version 2)
 
 ## Which data is required?
 
@@ -62,7 +67,7 @@ According to the clinical genomics requirements, the Beacon protocol has evolved
 *Beacon v2 logical model under development*
 
 The model above includes the following entities:
-* Dataset: groups variants or individuals (subjects) that have something in common. The relationship could be as weak as they are in the same repository or as strong as that they belong to the same study population.
+* Dataset: groups variants or individuals (subjects) that have something in common. The relationship could be as weak as they are in the same repository or as strong as they belong to the same study population.
 * Cohorts: a set of characteristics describing a cohort, that is defined as a set of individuals that can belong to one or more Datasets
 Variant: represents a unique genomic alteration using details such as its position in a genome and sequence alterations or its type, the transcriptional consequences, etc.
 * Individual: describes individuals that are stored in the repository, including some clinical information like diseases, treatments, phenotypic features.
