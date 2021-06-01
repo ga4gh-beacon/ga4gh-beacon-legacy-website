@@ -28,7 +28,7 @@ Beacon is an API (sometimes extended with a [user interface](https://beacon-giab
 
 Originally, the Beacon protocol (versions 0 and 1) allowed researchers to get information about the presence/absence of a given, specific, genomic mutation in a set of data, from patients of a given disease or from the population in general (Figure 1). Examples can be found in the [ELIXIR Beacon network page](https://beacon-network.elixir-europe.org). 
 
-Schematic example of a Beacon query (up to version 1)
+__Schematic example of a Beacon query (up to version 1)__
 <figure>
 <img src="/assets/img/Beacon-v1.png" alt="Beacon v1"/>
 </figure>
@@ -40,7 +40,7 @@ An option to jump to another system where the data could be accessed, e.g. if th
 Annotations about the variants found, among which the expert/clinician conclusion about the pathogenicity of a given mutation in a given individual or its role in producing a given phenotype;
 Information about cohorts.
 
-Schematic example of a Beacon query (version 2)
+__Schematic example of a Beacon query (version 2)__
 <figure>
 <img src="/assets/img/Beacon-graphics-v2-network-960x540.png" alt="Beacon v2 Network Specification"/>
 </figure>
@@ -58,8 +58,7 @@ Both scenarios share common information and complement each other, as it is nece
 According to the clinical genomics requirements, the Beacon protocol has evolved to cover the different entities and details arising from them. The model is now in its draft 4. Check out the [readthedocs](https://beacon-schema-2.readthedocs.io/en/latest/) for Beacon v2 default schema.
 
 
-*Figure 3 under development*
-Figure 3. Beacon v2 logical model
+*Beacon v2 logical model under development*
 
 The model above includes the following entities:
 * Dataset: groups variants or individuals (subjects) that have something in common. The relationship could be as weak as they are in the same repository or as strong as that they belong to the same study population.
