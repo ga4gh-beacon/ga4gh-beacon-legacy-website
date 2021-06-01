@@ -15,7 +15,7 @@ permalink: /index.html
 ################################################################################
 {% endcomment %}
 
-## Table of contents
+# GA4GH Beacon project
 {:.no_toc}
 
 ----
