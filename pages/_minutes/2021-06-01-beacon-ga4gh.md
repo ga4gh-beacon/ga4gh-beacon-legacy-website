@@ -1,6 +1,6 @@
 ---
 title: 'GA4GH Beacon API — Discovery work stream'
-date: 2021-05-28
+date: 2021-06-01
 layout: default
 author: ["@laurenfromont"]
 permalink: /minutes/2021-ga4gh-beacon-minutes.html
