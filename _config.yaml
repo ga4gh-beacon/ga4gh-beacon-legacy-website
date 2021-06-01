@@ -39,7 +39,7 @@ collections:
 
 nav_cat_blocks:
   General: 'General,categories,hide'
-#  follow_beacon: 'Beacon project,follow_beacon,categories,show'
+  useful_links: 'Useful links,useful_links,show'
   related_sites: 'Related Sites,related_sites,show'
   github_projects: 'Github Projects,github_projects,show'
 
@@ -52,12 +52,6 @@ General:
   people: 'Contributors & Teams'
   minutes: Beacon working groups
   
-#follow_beacon:
-#  specification: 'Specification & Roadmap'
-#  events: 'News and Events'
-#  people: 'Contributors & Teams'
-#  minutes: Beacon working groups
-
 categories-date-sorted:
   - news
   - events
@@ -67,6 +61,9 @@ tags-date-sorted:
   - press
   - versions
   - events
+
+useful_links:
+  'Default schema': 'https://beacon-schema-2.readthedocs.io/en/latest/'
 
 related_sites:
   'ELIXIR BeaconNetwork': 'https://beacon-network.elixir-europe.org'
