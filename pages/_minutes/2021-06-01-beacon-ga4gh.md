@@ -17,7 +17,7 @@ tags: # please adjust - align with  "cloud_tags" in _config.yml_
 
 ## {{ page.title }}
 
-These are the minutes for the Beacon API Sub Group of the GA4GH Discovery Work Stream. For further information, please visit the GA4GH Work Stream page. 
+These are the minutes for the Beacon API Sub Group of the GA4GH Discovery Work Stream. For further information, please visit the [GA4GH Work Stream page](https://www.ga4gh.org/how-we-work/workstreams/). 
 This call happens every second Tuesday of the month.
 
  
