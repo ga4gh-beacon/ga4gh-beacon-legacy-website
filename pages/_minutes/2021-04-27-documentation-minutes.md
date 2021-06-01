@@ -1,5 +1,5 @@
 ---
-title: 'Beacon Documentation Scout Minutes 2021'
+title: 'Beacon Documentation Team'
 date: 2021-04-27
 layout: default
 author: ["@laurenfromont"]
