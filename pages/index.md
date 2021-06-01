@@ -33,6 +33,7 @@ A Beacon is a simple genomics variant discovery tool by aggregating worldwide ge
 <img src="/assets/img/Beaconizing_hospitals_Webpage.png" alt="Beacon hospitals"/>
 </figure>
 ###### Figure 1. A schematic representation of how Beacon works. (A) Beacon API implementation and (B) A Beacon query and aggregated response
+{:.no_toc}
 
 ##  What is Beacon?
 
@@ -44,7 +45,7 @@ Originally, the Beacon protocol (versions 0 and 1) allowed researchers to get in
 <img src="/assets/img/Beacon-v1.png" alt="Beacon v1"/>
 </figure>
 ###### Figure 2. Schematic example of a Beacon query (up to version 1)
-
+{:.no_toc}
 
 The version 2 of the Beacon protocol, to be submitted in the Fall 2021, is under development. It will include:
 * More informative queries, like filtering by gender or age;
@@ -57,6 +58,7 @@ The version 2 of the Beacon protocol, to be submitted in the Fall 2021, is under
 <img src="/assets/img/Beacon-graphics-v2-network-960x540.png" alt="Beacon v2 Network Specification"/>
 </figure>
 ###### Figure 3. Schematic example of a Beacon query (version 2)
+{:.no_toc}
 
 ## Which data is required?
 
