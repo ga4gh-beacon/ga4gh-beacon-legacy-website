@@ -15,54 +15,84 @@ permalink: /index.html
 ################################################################################
 {% endcomment %}
 
-##  _Beacon_ Protocol for Genomic Data Sharing
 
-_Beacons_ provide discovery services for genomic data using the Beacon API
-developed as a key [driver project](https://www.ga4gh.org/howwework/driver-projects.html)
-of the __Global Alliance for Genomics and Health__
-([GA4GH](https://www.ga4gh.org/)). The _Beacon_ protocol itself defines an open
-standard for genomics data discovery. It provides a framework for public web services
-responding to queries against genomic data collections, for instance from population
-based or disease specific genome repositories.
+##  Why a Beacon?
 
 <!--more-->
 
-<figure>
-<img src="/assets/img/Beacon-graphics-v0.3-960x240.png" alt="Original Beacon functionality"/>
-</figure>
+Personalized medicine allows combining clinical–pathological parameters with genomic profiling in order to create innovative diagnostic, prognostic and therapeutic strategies. Some medical fields (e.g., haematology, oncology, cardiovascular diseases) have been transformed by genome characterization. Development of infrastructures that can support collection and use of genomic information in the health-care community represents a research priority. However, for many institutions or even at the national level, this line of research is slowed down by difficulties in finding suitable data. In this context, it is instrumental to develop tools that allow for the discovery of genomic and health data, while ensuring maximum anonymisation and security. Beacon API enables the search for structural variants (e.g. deletions and duplications), and has been extended its functionalities to allow the discovery of information about individuals, biosamples, diseases, in addition to genomic variants. It is an extremely useful tool to boost personalized medicine advances in hospitals and research institutions.
 
-The original Beacon protocol had been designed to be:
+##  What is Beacon?
 
-* **Simple:** focus on robustness and easy implementation
-* **Federated:** maintained by individual organizations and assembled into a network
-* **General-purpose:** used to report on any variant collection
-* **Aggregative:** provide a boolean (or quantitative) answer about the observation of a variant
-* **Privacy protecting:** queries do not return information about single individuals
+Beacon is an API (sometimes extended with a [user interface](https://beacon-giab-test.ega-archive.org)) that allows for data discovery of genomic and phenoclinic data.
 
-Sites offering _beacons_ can scale through aggregation [Beacon Networks](/categories/network.html),
-which distribute single genome queries among a potentially large number of international
-_beacons_ and assemble their responses.
-
-Since 2015 the development of the
-Beacon protocol has been led by [ELIXIR](https://elixir-europe.org) in collaboration with GA4GH and international participants. Recent versions of the _Beacon_ protocol have expanded the original concept by e.g.:
-
-* providing a framework for other types of genome variation data
-(i.e. [range queries and structural variants](/howto/range-queries.html)
-* allowing for data delivery using [_handover_](/roadmap/handover.html) protocol,
-e.g. to link with clinical information in protected environments and allow for data delivery and visualisation services
-
-### Beacon v2 - Towards Flexible Use and Clinical Applications
+Originally, the Beacon protocol (versions 0 and 1) allowed researchers to get information about the presence/absence of a given, specific, genomic mutation in a set of data, from patients of a given disease or from the population in general (Figure 1). Examples can be found in the [ELIXIR Beacon network page](https://beacon-network.elixir-europe.org). 
 
 <figure>
-<img src="/assets/img/Beacon-graphics-v2-network-960x540.png" alt="Beacon v2 network"/>
+<img src="/assets/img/Beacon-v1.png" alt="Beacon v1"/>
 </figure>
+Figure 1. Schematic example of a Beacon query (up to version 1)
 
-As part of ELIXIR's [Beacon 2019-21 project](https://elixir-europe.org/about-us/commissioned-services/beacon-2019-21) work has started on a radically re-designed Beacon protocol, with the
-aim to provide a maximum of flexibility while closely adhering to data and security
-standards promoted by the international ressearch community and especially as part of
-projects in the GA44GH ecosystem. The ongoing development of the _Beacon v2_ protocol
-can be tracked using [this site](tags/v2.html) and especially the relevant
-[code repositories](https://github.com/ga4gh-beacon/) on Github.
+The version 2 of the Beacon protocol, to be submitted in the Fall 2021, is under development. It will include:
+More informative queries, like filtering by gender or age;
+An option to trigger the next step in the data access process, e.g. who to contact or which are the data use conditions;
+An option to jump to another system where the data could be accessed, e.g. if the Beacon is internal to a hospital, to provide the Id of the EHR of the patients having the mutation of interest;
+Annotations about the variants found, among which the expert/clinician conclusion about the pathogenicity of a given mutation in a given individual or its role in producing a given phenotype;
+Information about cohorts.
+
+<figure>
+<img src="/assets/img/Beacon-graphics-v2-network-960x540.png" alt="Beacon v2 Network Specification"/>
+</figure>
+Figure 2. Schematic example of a Beacon query (version 2)
+
+## Which data is required?
+
+Clinical geneticists describe two scenarios for data use:
+
+* *Variant information*: focuses on knowledge about a given mutation, the phenotypes it has been related to in the population, and its pathogenicity. It can be summarized as “community knowledge”.
+* *Case level information*: focuses on what has been observed in specific individuals, family relationships and the observed phenotypes. It can be summarized as “specific cases”.
+
+Both scenarios share common information and complement each other, as it is necessary to compare specific cases against the accumulated knowledge to confirm or challenge a potential diagnosis. Beacon v2 results of a deeper analysis of such scenarios, allowing a new draft of the model (i.e. a schema or data model) that could host both entities and data involved in the clinical genetics diagnose domain. 
+
+## Beacon v2 scope
+According to the clinical genomics requirements, the Beacon protocol has evolved to cover the different entities and details arising from them. The model is now in its draft 4. Check out the [readthedocs](https://beacon-schema-2.readthedocs.io/en/latest/) for Beacon v2 default schema.
+
+
+*Figure 3 under development*
+Figure 3. Beacon v2 logical model
+
+The model above includes the following entities:
+* Dataset: groups variants or individuals (subjects) that have something in common. The relationship could be as weak as they are in the same repository or as strong as that they belong to the same study population.
+* Cohorts: a set of characteristics describing a cohort, that is defined as a set of individuals that can belong to one or more Datasets
+Variant: represents a unique genomic alteration using details such as its position in a genome and sequence alterations or its type, the transcriptional consequences, etc.
+* Individual: describes individuals that are stored in the repository, including some clinical information like diseases, treatments, phenotypic features.
+* Interactor: this is an organism/agent whose data is collected in association with a subject, but that it is not sequenced itself, e.g. the host of a pathogen.
+* Biosample: describes samples taken from individuals, including details of procedures, dates and times.
+* Experiment: includes details on the procedure used for sequencing a biosample.
+* Analyses: contains details on the bioinformatic procedures for identifying variants in the results of a Run
+* Variant in Sample: describes how a variant is observed in a given sample (or individual by abstraction) and if it is considered more or less relevant in diagnosis of a case.
+* Variant Interpretation: includes annotations about the common understanding of the effect of a given variant in a given phenotype
+* The model above represents an entity logical model and it is not an example of a database implementation for Beacon v2. The relationships in the model are the ones that would be used in the Beacon response. Different physical implementations will be compatible with this Beacon v2 entity logical model. 
+
+## Acknowledgements: Beacon partners
+The GA4GH Beacon group started a set of meetings and interviews with GA4GH Driver Projects and with ELIXIR partners in order to determine the scope of the next generation Beacon. The goal was to be useful without breaking the simplicity that made Beacon version 1 successful.
+Interviews were conducted with the following GA4GH Driver Projects:
+* Autism Speaks
+* BRCA Exchange
+* CanDIG
+* EGA, ENA, EVA
+* EuCanCancer
+* European Joint Programme - Rare Diseases
+* H3Africa
+* GEM Japan
+* Genomics England
+* Matchmaker Exchange
+* SVIP /SPHN
+* VICC
+
+Some ELIXIR partners were also interviewed, i.e. Café Variome, FPS, RD-Connect, CINECA, and Disgenet.
+Among ELIXIR Spain TransBioNet and Bioinformatics in Barcelona members, a set of Catalan hospitals (e.g. Hospital Clinic) are exploring how to use Beacons inside their genomic diagnose teams and how to share the diagnoses between hospitals. 
+
 
 &nbsp;
 
