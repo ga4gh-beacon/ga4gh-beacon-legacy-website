@@ -1,6 +1,6 @@
 ---
 title: 'Beacon API Technical Team'
-date: 2021-06-01
+date: 2021-05-30
 layout: default
 author: ["@laurenfromont"]
 permalink: /minutes/2021-beacon-api-minutes.html
