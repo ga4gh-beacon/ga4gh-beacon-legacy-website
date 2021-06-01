@@ -15,6 +15,13 @@ permalink: /index.html
 ################################################################################
 {% endcomment %}
 
+## Table of contents
+{:.no_toc}
+
+----
+1. TOC
+{:toc}
+----
 
 ##  Why a Beacon?
 
