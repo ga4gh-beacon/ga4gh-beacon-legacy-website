@@ -28,7 +28,7 @@ permalink: /index.html
 <!--more-->
 
 <figure>
-<img src="/assets/img/Beaconizing_hospitals_Webpage.png" alt="Beacon hospitals"/>
+<img src="/assets/img/Beaconizing_hospitals_Webpage.png" alt="Beaconize hospitals"/>
 </figure>
 ###### Figure 1. A schematic representation of how Beacon works. (A) Beacon API implementation and (B) A Beacon query and aggregated response
 {:.no_toc}
