@@ -27,13 +27,13 @@ permalink: /index.html
 
 <!--more-->
 
-A Beacon is a simple genomics variant discovery tool by aggregating worldwide genomics dataset under one umbrella. The Beacon Project is developed under an initiative by Global Alliance for Genomics and Health (GA4GH) for the federated discovery of genomic data in biomedical research and clinical applications. One of the main bottlenecks in human genomics research is lack of data. Genomics data is identifiable and therefore needs to be protected, however, due to lack of data security infrastructure and good health data practices, it forces clinicians and researchers to not share their data at all, this further slows down the progress in research. In the time of personalised medicines, inclusive diagnostics, prognostic and therapeutic strategies, we simply cannot afford to keep the data locked in. The Beacon API aims to solve this problem through enabling the search of genomic variants and associated information without jeopardising the privacy of the dataset. This way, any hospital or research entity can choose to 'beaconize' their omics dataset without compromising the privacy or the ownership of the dataset. Therefore, helping the worldwide community of researchers and assisting science through the power of data.
-
 <figure>
 <img src="/assets/img/Beaconizing_hospitals_Webpage.png" alt="Beacon hospitals"/>
 </figure>
 ###### Figure 1. A schematic representation of how Beacon works. (A) Beacon API implementation and (B) A Beacon query and aggregated response
 {:.no_toc}
+
+A Beacon is a simple genomics variant discovery tool by aggregating worldwide genomics dataset under one umbrella. The Beacon Project is developed under an initiative by Global Alliance for Genomics and Health (GA4GH) for the federated discovery of genomic data in biomedical research and clinical applications. One of the main bottlenecks in human genomics research is lack of data. Genomics data is identifiable and therefore needs to be protected, however, due to lack of data security infrastructure and good health data practices, it forces clinicians and researchers to not share their data at all, this further slows down the progress in research. In the time of personalised medicines, inclusive diagnostics, prognostic and therapeutic strategies, we simply cannot afford to keep the data locked in. The Beacon API aims to solve this problem through enabling the search of genomic variants and associated information without jeopardising the privacy of the dataset. This way, any hospital or research entity can choose to 'beaconize' their omics dataset without compromising the privacy or the ownership of the dataset. Therefore, helping the worldwide community of researchers and assisting science through the power of data.
 
 ##  What is Beacon?
 
