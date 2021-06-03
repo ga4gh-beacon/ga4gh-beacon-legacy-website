@@ -1,9 +1,9 @@
 ---
 layout: default
+image_file: "banner-all-hands.jpg"
 title: Beacon Workshop at ELIXIR AllHands
 date: 2021-06-08
 author: "@mbaudis"
-www_link: "https://docs.google.com/document/d/1ISClkkZZXM0SV1oKLrYrerXoSZ2ydf_tAH_wCc0tlE4/edit#"
 category:
   - events
 tags:
@@ -26,3 +26,5 @@ During this workshop we will discuss:
 5) an extended and improved ELIXIR Beacon Network service.
 
 As a result this workshop will describe how Beacons that are integrated in the ELIXIR Beacon Network Infrastructure can further the contribution and implementation of GA4GH standards, and empower nodes to be part of the federated sensitive human data infrastructure.
+
+Agenda [here](https://docs.google.com/document/d/1ISClkkZZXM0SV1oKLrYrerXoSZ2ydf_tAH_wCc0tlE4/edit#)
