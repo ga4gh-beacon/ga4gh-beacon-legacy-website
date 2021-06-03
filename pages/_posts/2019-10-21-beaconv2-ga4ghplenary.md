@@ -1,5 +1,5 @@
 ---
-title: 'GA4GH Plenary 2021 — Beacon v2.0: Towards a modular Beacon protocol empowering clinical use'
+title: 'GA4GH 2019 — Beacon v2: Towards a modular Beacon protocol empowering clinical use'
 layout: default
 author: 
   - "@mbaudis"
