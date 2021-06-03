@@ -7,8 +7,7 @@ excerpt_link: https://info.baudisgroup.org/presentations/2020-09-30-Michael-Baud
 authors:
   - '@mbaudis'
 category:
-  - presentations
-  - news
+  - events
 tags:
   - poster
   - presentation
