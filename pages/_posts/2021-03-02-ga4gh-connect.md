@@ -20,10 +20,10 @@ pdf_file_type:
 ## {{page.title}}
 #### [GA4GH Connect 2020](https://broadinstitute.swoogo.com/ga4gh-connect-2021/?i=sNK7RoeeqhyJE1ueSnn5lz4F9RRfnnIU)
 #### Michael Baudis
+##### Beacon v2 Structural Variants [[slides]](/assets/pdf/2021-03-02___Michael-Baudis__Beacon-structural-variants-queries.pdf)
+
 #### Lauren Fromont
 #### Jordi Rambla
-
-##### Beacon v2 Structural Variants [[slides]](/assets/pdf/2021-03-02___Michael-Baudis__Beacon-structural-variants-queries.pdf)
 ##### Beacon v2 Cohort model [[slides]](https://drive.google.com/file/d/1rjpWt_yqNBq-S8ul4blN-onsY1rWHNOh/view?usp=sharing)
 
 <!--more-->
