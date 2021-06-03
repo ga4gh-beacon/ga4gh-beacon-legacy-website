@@ -1,13 +1,12 @@
 ---
-title: 'Beacon v2.0 - Towards a modular Beacon protocol empowering clinical use'
+title: 'GA4GH Plenary 2021 — Beacon v2.0: Towards a modular Beacon protocol empowering clinical use'
 layout: default
 author: "@mbaudis"
 date: 2019-10-21
 excerpt_separator: <!--more-->
 www_links_formatted:
 category:
-  - specification
-  - news
+  - events
 tags:
   - specification
   - development
