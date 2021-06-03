@@ -18,7 +18,7 @@ pdf_file_type:
 ---
 
 ## {{page.title}}
-#### [GA4GH Connect 2020](https://broadinstitute.swoogo.com/ga4gh-connect-2021/?i=sNK7RoeeqhyJE1ueSnn5lz4F9RRfnnIU)
+#### [GA4GH Connect 2021](https://broadinstitute.swoogo.com/ga4gh-connect-2021/?i=sNK7RoeeqhyJE1ueSnn5lz4F9RRfnnIU)
 #### Michael Baudis
 ##### Beacon v2 Structural Variants [[slides]](/assets/pdf/2021-03-02___Michael-Baudis__Beacon-structural-variants-queries.pdf)
 
