@@ -22,8 +22,7 @@ pdf_file_type:
 #### Michael Baudis
 ##### Beacon v2 Structural Variants [[slides]](/assets/pdf/2021-03-02___Michael-Baudis__Beacon-structural-variants-queries.pdf)
 
-#### Lauren Fromont
-#### Jordi Rambla
+#### Lauren Fromont & Jordi Rambla
 ##### Beacon v2 Cohort model [[slides]](https://drive.google.com/file/d/1rjpWt_yqNBq-S8ul4blN-onsY1rWHNOh/view?usp=sharing)
 
 <!--more-->
