@@ -5,9 +5,9 @@ layout: default
 authors: 
   - "@mbaudis"
 #  - please add more, as quoted GH handle or just name
-permalink: /v2/clinical-beacons.html
+permalink: /beaconv2/clinical-beacons.html
 excerpt_separator: <!--more-->
-www_link: /roadmap/beacon-flavours.html
+www_link: /beaconv2/beacon-flavours.html
 categories:
   - beaconv2
 tags:
