@@ -9,7 +9,7 @@ permalink: /v2/clinical-beacons.html
 excerpt_separator: <!--more-->
 www_link: /roadmap/beacon-flavours.html
 categories:
-  - specification
+  - beaconv2
 tags:
   - specification
   - development
@@ -17,7 +17,6 @@ tags:
   - filters
   - clinical
   - v2
-  - .featured
 ---
 
 ## {{ page.title }}
