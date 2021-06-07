@@ -7,7 +7,7 @@ permalink: /roadmap/beacon-flavours.html
 excerpt_separator: <!--more-->
 www_link:
 category:
-  - roadmap
+  - beaconv2
 tags:
   - specification
   - development
