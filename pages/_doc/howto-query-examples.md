@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 permalink: /howto/query-examples.html
 www_link: 
 category:
-  - howto
+  - beaconv1
 tags:
   - queries
   - definitions
