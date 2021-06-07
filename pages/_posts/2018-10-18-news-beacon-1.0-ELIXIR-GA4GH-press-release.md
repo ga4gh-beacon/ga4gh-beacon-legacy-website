@@ -5,7 +5,7 @@ author: "@mbaudis"
 excerpt_separator: <!--more-->
 www_link: https://www.elixir-europe.org/news/beacon-API-release
 category:
-  - news
+  - beaconv1
 tags:
   - press
 ---
