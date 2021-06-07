@@ -8,6 +8,7 @@ permalink: /howto/range-queries.html
 www_link: 
 category:
   - beaconv2
+  - howto
 tags:
   - queries
   - definitions
