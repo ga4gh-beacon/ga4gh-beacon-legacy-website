@@ -7,7 +7,7 @@ www_links_formatted:
   - <a href="https://www.nature.com/articles/s41587-019-0046-x">Beacon publication at Nature Biotechnology</a>
   - <a href="https://www.ga4gh.org/news/extensions-to-the-ga4gh-beacon-api-will-enable-a-more-powerful-community-resource/">GA4GH Press Release</a>
 category:
-  - news
+  - beaconv1
 tags:
   - press
   - article
