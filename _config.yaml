@@ -48,9 +48,9 @@ General:
   specification: 'Specification & Roadmap'
 #  network: 'Beacon Networks'
   howto: 'Examples, Guides & FAQ'
-  beaconv2: 'Beacon v2 news'
+  beaconv2: 'Beacon v2 updates'
   beaconv1: 'Beacon v1 archive'
-  people: 'Contributors & Teams'
+  people: 'Contributors'
   minutes: Beacon working groups
   events: 'Beacon Events'
 
