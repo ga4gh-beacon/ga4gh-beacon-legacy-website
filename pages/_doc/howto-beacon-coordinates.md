@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 www_link: 
 category:
   - howto
-  - specification
+  - beaconv2
 tags:
   - queries
   - definitions
