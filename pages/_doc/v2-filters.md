@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 www_link:
 permalink: /v2/filters.html
 category:
-  - specification
+  - beaconv2
 tags:
   - specification
   - development
