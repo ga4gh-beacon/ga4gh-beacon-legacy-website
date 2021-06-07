@@ -7,7 +7,7 @@ permalink: /roadmap/bioontologies.html
 excerpt_separator: <!--more-->
 www_link:
 category:
-  - specification
+  - beaconv2
 tags:
   - specification
   - development
