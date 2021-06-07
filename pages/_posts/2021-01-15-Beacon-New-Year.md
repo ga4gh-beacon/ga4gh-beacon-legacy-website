@@ -9,7 +9,7 @@ permalink: /happy-2021.html
 excerpt_separator: <!--more-->
 www_link:
 category:
-  - news
+  - beaconv2
 tags:
   - website
 ---
