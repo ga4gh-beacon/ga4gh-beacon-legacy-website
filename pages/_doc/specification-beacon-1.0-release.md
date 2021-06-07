@@ -7,8 +7,7 @@ permalink: /specification/release-v1.0.html
 excerpt_separator: <!--more-->
 www_link: https://github.com/ga4gh-beacon/specification/releases/tag/v1.0.0
 category:
-  - news
-  - specification
+  - beaconv1
 tags:
   - releases
   - versions
