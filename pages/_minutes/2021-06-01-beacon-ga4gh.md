@@ -1,5 +1,5 @@
 ---
-title: 'GA4GH Beacon API — Discovery work stream'
+title: 'Beacon  GA4GH API — Discovery work stream'
 date: 2021-06-01
 layout: default
 author: ["@laurenfromont"]
