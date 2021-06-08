@@ -4,7 +4,7 @@ date: 2018-10-17
 layout: default
 author: "@mbaudis"
 excerpt_separator: <!--more-->
-permalink: /howto/range-queries.html
+permalink: /beaconv1/range-queries.html
 www_link: 
 category:
   - beaconv1
