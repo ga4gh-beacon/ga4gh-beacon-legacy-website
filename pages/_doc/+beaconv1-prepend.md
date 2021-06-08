@@ -1,6 +1,6 @@
 ---
 category:
-  - beaconv2
+  - beaconv1
 tags:
   - .prepend
 ---
