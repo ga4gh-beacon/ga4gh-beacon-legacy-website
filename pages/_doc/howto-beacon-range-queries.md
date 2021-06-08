@@ -7,8 +7,7 @@ excerpt_separator: <!--more-->
 permalink: /howto/range-queries.html
 www_link: 
 category:
-  - beaconv2
-  - howto
+  - beaconv1
 tags:
   - queries
   - definitions
