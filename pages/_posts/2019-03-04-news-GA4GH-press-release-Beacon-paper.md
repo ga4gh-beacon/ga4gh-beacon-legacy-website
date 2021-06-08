@@ -11,6 +11,7 @@ category:
 tags:
   - press
   - article
+  - .featured
 ---
 
 ## {{ page.title }}
