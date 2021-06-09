@@ -13,7 +13,9 @@ layout: default
 		<a href="{{this_category}}-alpha-sorted-reverse.html">[Z&nbsp;&rarr;&nbsp;A]</a>
 	</div>
 	<div id="listpage_headline">
-		<h2 class="page_title">{{ this_pagetitle }}</h2>
+  {% unless site.categories-no-title contains this_category %}
+    <h2 class="page_title">{{ this_pagetitle }}</h2>
+  {% endunless %}  
 	</div>
 </div>
 

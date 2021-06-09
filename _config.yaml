@@ -60,6 +60,10 @@ categories-date-sorted:
   - beaconv1
   - events
 
+categories-no-title:
+  - beaconv2
+  - beaconv1
+
 tags-date-sorted:
   - releases
   - press
