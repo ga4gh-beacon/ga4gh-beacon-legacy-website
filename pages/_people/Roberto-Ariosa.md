@@ -1,7 +1,7 @@
 ---
 title: "Roberto Ariosa Hernandez"
 layout: default
-image_file: "rariosa.jpg"
+image_file: "rariosa.png"
 excerpt_separator: <!--more-->
 categories:
   - people
