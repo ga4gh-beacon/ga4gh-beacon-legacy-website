@@ -47,12 +47,13 @@ General:
   role: 'Beacon explained'
   specification: 'Specification & Roadmap'
 #  network: 'Beacon Networks'
-  howto: 'Examples, Guides & FAQ'
+#  howto: 'Examples, Guides & FAQ'
   beaconv2: 'Beacon v2 updates'
   beaconv1: 'Beacon v1 archive'
   people: 'Contributors'
   minutes: Beacon working groups
   events: 'Beacon Events'
+  faq: 'FAQ'
 
   
 categories-date-sorted:
