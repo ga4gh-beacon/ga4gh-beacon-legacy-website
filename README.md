@@ -90,9 +90,9 @@ With the attributes:
   * well, tags; pages will then be listed on the collections linked from the corresponding tag cloud value
   * CAVE: landing pages for non-existing tags have to be added first to `/tags/` (just copy & re-name directory there)
 
-#### Useful links from Progenetics site template
+#### Useful links from the Progenetics site template
 
-[Add and edit pages](https://info.progenetix.org/progenetix-site-template/howto/add-pages/)
-[Directories and files](https://info.progenetix.org/progenetix-site-template/howto/templatefiles/)
-[Header for webpages](https://info.progenetix.org/progenetix-site-template/howto/yamlheader/)
-[Local Jekyll-based website generation](https://info.progenetix.org/progenetix-site-template/howto/jekyllinstallation/)
+* [Add and edit pages](https://info.progenetix.org/progenetix-site-template/howto/add-pages/)
+* [Directories and files](https://info.progenetix.org/progenetix-site-template/howto/templatefiles/)
+* [Header for webpages](https://info.progenetix.org/progenetix-site-template/howto/yamlheader/)
+* [Local Jekyll-based website generation](https://info.progenetix.org/progenetix-site-template/howto/jekyllinstallation/)
