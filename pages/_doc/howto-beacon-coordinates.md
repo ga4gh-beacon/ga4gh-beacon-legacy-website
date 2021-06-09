@@ -6,7 +6,6 @@ author: "@mbaudis"
 excerpt_separator: <!--more-->
 www_link: 
 category:
-  - howto
   - beaconv2
 tags:
   - queries
