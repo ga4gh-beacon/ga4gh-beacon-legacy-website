@@ -10,7 +10,7 @@ tags:
 The GA4GH Beacon specification is composed by two parts:
 
 * the Beacon Framework
-* the Beacon Models
+* the Beacon Model
 
 The Beacon [**Framework**](https://github.com/ga4gh-beacon/beacon-framework-v2) is the part that describes the overall structure of the API requests, responses, parameters, teh common components, etc. It may also be simply referred as the Framework.
 
