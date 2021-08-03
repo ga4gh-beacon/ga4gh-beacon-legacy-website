@@ -20,5 +20,9 @@ The Framework could be considered the *syntax* and the Model as the *semantics*.
 
 Here is a explanatory video on Beacon framework and model, mostly aimed at implementers. [Link to video from 01/07/2021](https://vimeo.com/577530572.)
 
+<figure>
+<img src="/assets/img/beacon_role.png" alt="Beacon role"/>
+</figure>
+
 If you are a **Beacon user** you might be more interested in the Beacon model. You can also consult the [user journey]() section. 
 If you are a **Beacon (future) implementer** then you will be more interested in the Beacon framework. Make sure you take a look at the *read me* sections in both Github repos: [Framework](https://github.com/ga4gh-beacon/beacon-framework-v2) and [Model](https://github.com/ga4gh-beacon/beacon-v2-Models#readme), as well as the [steps to deploy a Beacon]().
