@@ -23,7 +23,7 @@ Here is a explanatory video on Beacon framework and model, mostly aimed at imple
 ## Your role
 
 <figure>
-<img src="/assets/img/beacon_role.png" alt="Beacon role"/>
+<img src="/assets/img/beacon_role_small.png" alt="Beacon role"/>
 </figure>
 
 If you are a **Beacon user** you might be more interested in the Beacon model. You can also consult the [user journey]() section. 
