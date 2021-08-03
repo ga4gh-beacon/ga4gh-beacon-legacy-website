@@ -20,6 +20,8 @@ The Framework could be considered the *syntax* and the Model as the *semantics*.
 
 Here is a explanatory video on Beacon framework and model, mostly aimed at implementers. [Link to video from 01/07/2021](https://vimeo.com/577530572.)
 
+## Your role
+
 <figure>
 <img src="/assets/img/beacon_role.png" alt="Beacon role"/>
 </figure>
