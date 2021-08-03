@@ -74,6 +74,7 @@ useful_links:
   'Default schema': 'https://beacon-schema-2.readthedocs.io/en/latest/'
 
 related_sites:
+  'Beacon v2 service registry': https://ga4gh-approval-service-registry.ega-archive.org
   'ELIXIR BeaconNetwork': 'https://beacon-network.elixir-europe.org'
   'Beacon @ ELIXIR': 'http://www.elixir-europe.org/about-us/implementation-studies/beacons'
   GA4GH: 'http://ga4gh.org'
