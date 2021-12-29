@@ -88,6 +88,40 @@ Variant: represents a unique genomic alteration using details such as its positi
 * Variant Interpretation: includes annotations about the common understanding of the effect of a given variant in a given phenotype
 * The model above represents an entity logical model and it is not an example of a database implementation for Beacon v2. The relationships in the model are the ones that would be used in the Beacon response. Different physical implementations will be compatible with this Beacon v2 entity logical model. 
 
+## Beacon v2 security
+
+An implementation of a Beacon must implement the Global Alliance for Genomics and Health ([GA4GH](https://www.ga4gh.org)) Beacon standard. The V2 standard is currently (January 2022) undertaking the GA4GH approval process, which means it must be approved by both the Regulatory and Ethics, and Data Security foundational workstreams.
+
+### What are the general security principles for Beacon?
+The Beacon uses a 3-tiered access model - anonymous, registered, and controlled access (see the [EGA security webpage](https://ega-archive.org/files/European_Genome_phenome_Archive_Security_Overview.pdf) for extenisve information). A Beacon that supports anonymous access responds to queries irrespective of the source of the query. For a Beacon to respond to a query at the registered tier, the user must identify themselves to the Beacon, for example by using an ELIXIR identity. For a Beacon to respond to a controlled access query, the user must have applied for, and been granted access to, the Beacon (or data derived from one or more individuals within the Beacon) before sending the query. Note that a Beacon may contain datasets (or collections of individuals) whose data is only accessible at specified tiers within the Beacon. This tiered access model allows the owner or controller of a Beacon to determine which responses are returned to whom depending on the query and the user who is making the request, for example to ensure the response respects the consent under which the data were collected. The ELIXIR Beacon network supports Beacons which respond at different tiers, for example only Beacons which have a response to anonymous queries need respond to an anonymous request. As part of the ELIXIR 2019-21 Beacon Network Implementation Study deliverable [D3.3](https://docs.google.com/document/d/1q7XuUB-Z4A_DogWT1AVrvkp_qHWWtbbICxokHup_tts/edit) a document has been written to describe security best practice for users interested in deploying or running a Beacon or users who govern data hosted within a Beacon, and the requirements for adding the Beacon to the ELIXIR Beacon network. As the Beacon standard extends in V2 towards supporting phenotype and range queries, the tiered access model becomes more important to ensure the Beacon response is appropriate to the underlying data.
+
+### How is security actually implemented when I deploy a Beacon?
+Security attributes are part of the Beacon v2 [Framework](https://github.com/ga4gh-beacon/beacon-framework-v2). The file `/configuration/beaconConfiguration.json` defines the schema of the Json file that includes core aspects of a Beacon instance configuration: the third section defines the security:
+
+**securityAttributes**: Configuration of the security aspects of the Beacon. By default, a Beacon that does not declare the configuration settings would return `boolean' (true/false) responses, and only if the user is authenticated and explicitly authorized to access the Beacon resources. Although this is the safest set of settings, it is not recommended unless the Beacon shares very sensitive information. Non sensitive Beacons should preferably opt for a `record` and `PUBLIC` combination.
+* **defaultGranularity:** Default granularity of the responses. Some responses could return higher detail, but this would be the granularity by default.
+
+  Granularity|Description
+  -----------|-----------
+  `boolean`|returns 'true/false' responses.
+  `count`|adds the total number of positive results found.
+  `aggregated`|returns summary, aggregated or distribution like responses per collection. 
+  `record`|returns details for every row. 
+
+  For those cases where a Beacon prefers to return records with less, not all, attributes, different strategies have been considered, e.g.: keep non-mandatory attributes empty, or Beacon to provide a minimal record definition, but these strategies still need to be tested in real world cases and hence no design decision has been taken yet.
+  
+* **securityLevels:** All access levels supported by the Beacon. Any combination is valid, as every option would apply to different parts of the Beacon. Available options are:
+  
+  security level | description
+  ---------------|------------
+  PUBLIC|Any anonymous user can read the data
+  REGISTERED|Only known users can read the data
+  CONTROLLED|Only specificly granted users can read the data
+
+### How do I test a Beacon without having to go through complex security matters (yet)?
+
+As a Beacon is designed to support data discoverability of controlled access datasets, it is recommended that synthetic or artificial data is used for testing and initial deployment of Beacon instances. The use of synthetic data for testing is important in that it ensures that the full functionality of a Beacon can be tested and / or demonstrated without risk of exposing data from individuals. In addition to testing or demonstrating a deployment, synthetic data should be used for development, for example adding new features. Additionally, these data can also be used to demonstrate the access levels and data governance procedures for loading data to a Beacon to build trust with data controllers or data access committees who may be considering loading data to a Beacon. An example dataset that contains chromosome specific vcf files is hosted at EGA under dataset accession EGAD00001006673. While this dataset requires a user to log in to get access, the EGA test user can access this dataset.
+
 ## Acknowledgements: Beacon partners
 The GA4GH Beacon group started a set of meetings and interviews with GA4GH Driver Projects and with ELIXIR partners in order to determine the scope of the next generation Beacon. The goal was to be useful without breaking the simplicity that made Beacon version 1 successful.
 Interviews were conducted with the following GA4GH Driver Projects:
