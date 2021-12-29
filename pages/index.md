@@ -98,7 +98,7 @@ The Beacon uses a 3-tiered access model - anonymous, registered, and controlled 
 ### How is security actually implemented when I deploy a Beacon?
 Security attributes are part of the Beacon v2 [Framework](https://github.com/ga4gh-beacon/beacon-framework-v2). The file `/configuration/beaconConfiguration.json` defines the schema of the Json file that includes core aspects of a Beacon instance configuration: the third section defines the security:
 
-**securityAttributes**: Configuration of the security aspects of the Beacon. By default, a Beacon that does not declare the configuration settings would return `boolean' (true/false) responses, and only if the user is authenticated and explicitly authorized to access the Beacon resources. Although this is the safest set of settings, it is not recommended unless the Beacon shares very sensitive information. Non sensitive Beacons should preferably opt for a `record` and `PUBLIC` combination.
+**securityAttributes**: Configuration of the security aspects of the Beacon. By default, a Beacon that does not declare the configuration settings would return `boolean` (true/false) responses, and only if the user is authenticated and explicitly authorized to access the Beacon resources. Although this is the safest set of settings, it is not recommended unless the Beacon shares very sensitive information. Non sensitive Beacons should preferably opt for a `record` and `PUBLIC` combination.
 * **defaultGranularity:** Default granularity of the responses. Some responses could return higher detail, but this would be the granularity by default.
 
   Granularity|Description
