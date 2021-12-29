@@ -98,8 +98,9 @@ The Beacon uses a 3-tiered access model - anonymous, registered, and controlled 
 ### How is security actually implemented when I deploy a Beacon?
 Security attributes are part of the Beacon v2 [Framework](https://github.com/ga4gh-beacon/beacon-framework-v2). The file `/configuration/beaconConfiguration.json` defines the schema of the Json file that includes core aspects of a Beacon instance configuration: the third section defines the security:
 
-**securityAttributes**: Configuration of the security aspects of the Beacon. By default, a Beacon that does not declare the configuration settings would return `boolean` (true/false) responses, and only if the user is authenticated and explicitly authorized to access the Beacon resources. Although this is the safest set of settings, it is not recommended unless the Beacon shares very sensitive information. Non sensitive Beacons should preferably opt for a `record` and `PUBLIC` combination.
-* **defaultGranularity:** Default granularity of the responses. Some responses could return higher detail, but this would be the granularity by default.
+**securityAttributes**: Configuration of the security aspects of the Beacon. By default, a Beacon that does not declare the configuration settings would return `boolean` (true/false) responses, and only if the user is authenticated and explicitly authorized to access the Beacon resources. While this is the safest set of settings, it is also not informative, therefore not recommended *unless* the Beacon shares very sensitive information. Non-sensitive Beacons preferably opt for a `record` and `PUBLIC` combination.
+
+* **defaultGranularity:** Level of detail provided by the responses. Some responses could return higher detail, but this would be the granularity by default.
 
   Granularity|Description
   -----------|-----------
@@ -108,9 +109,9 @@ Security attributes are part of the Beacon v2 [Framework](https://github.com/ga4
   `aggregated`|returns summary, aggregated or distribution like responses per collection. 
   `record`|returns details for every row. 
 
-  For those cases where a Beacon prefers to return records with less, not all, attributes, different strategies have been considered, e.g.: keep non-mandatory attributes empty, or Beacon to provide a minimal record definition, but these strategies still need to be tested in real world cases and hence no design decision has been taken yet.
+  For cases where a Beacon prefers to return records with less attributes, different strategies have been considered, e.g.: keep non-mandatory attributes empty, or Beacon to provide a minimal record definition, but these strategies still need to be tested in real world cases and hence no design decision has been taken yet.
   
-* **securityLevels:** All access levels supported by the Beacon. Any combination is valid, as every option would apply to different parts of the Beacon. Available options are:
+* **securityLevels:** Access levels supported by the Beacon. Any combination is valid, as every option would apply to different parts of the Beacon. Available options are:
   
   security level | description
   ---------------|------------
