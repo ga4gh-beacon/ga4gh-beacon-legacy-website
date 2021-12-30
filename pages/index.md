@@ -78,7 +78,7 @@ The Framework repo includes the elements that are common to all Beacons:
 
 ### The Beacon v2 [Model](https://github.com/ga4gh-beacon/beacon-v2-Models)
 
-Following clinical genomics requirements, the Beacon protocol has evolved to cover the different entities and details arising from them. Check out the [readthedocs](https://beacon-schema-2.readthedocs.io/en/latest/) for Beacon v2 Model's default schema.
+The Model is the Semantics of Beacon v2. It covers the different entities and details arising from clinical requirements. Check out the [readthedocs](https://beacon-schema-2.readthedocs.io/en/latest/) for Beacon v2 Model's default schema.
 
 <figure>
 <img src="/assets/img/beacon-v2-model-logical.png" alt="Beacon v2 model"/>
