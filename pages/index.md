@@ -67,13 +67,16 @@ Clinical geneticists describe two scenarios for data use:
 * *Variant information*: focuses on knowledge about a given mutation, the phenotypes it has been related to in the population, and its pathogenicity. It can be summarized as “community knowledge”.
 * *Case level information*: focuses on what has been observed in specific individuals, family relationships and the observed phenotypes. It can be summarized as “specific cases”.
 
-Both scenarios share common information and complement each other, as it is necessary to compare specific cases against the accumulated knowledge to confirm or challenge a potential diagnosis. Beacon v2 results of a deeper analysis of such scenarios, allowing a new draft of the model (i.e. a schema or data model) that could host both entities and data involved in the clinical genetics diagnose domain. 
+Both scenarios share common information and complement each other, as it is necessary to compare specific cases against the accumulated knowledge to confirm or challenge a potential diagnosis. Beacon v2 results of a deeper analysis of such scenarios, allowing a new Model that could host both entities and data involved in the clinical genetics diagnose domain.
 
 ## Beacon v2 scope
-According to the clinical genomics requirements, the Beacon protocol has evolved to cover the different entities and details arising from them. The model is now in its draft 4. Check out the [readthedocs](https://beacon-schema-2.readthedocs.io/en/latest/) for Beacon v2 default schema.
+According to the clinical genomics requirements, the Beacon protocol has evolved to cover the different entities and details arising from them. Check out the [readthedocs](https://beacon-schema-2.readthedocs.io/en/latest/) for Beacon v2 default schema.
 
-
-*Beacon v2 logical model under development*
+<figure>
+<img src="/assets/img/beacon-v2-model-logical.png" alt="Beacon v2 model"/>
+</figure>
+###### Figure 2. Schematic representation of the Beacon v2 logical Model
+{:.no_toc}
 
 The model above includes the following entities:
 * Dataset: groups variants or individuals (subjects) that have something in common. The relationship could be as weak as they are in the same repository or as strong as they belong to the same study population.
