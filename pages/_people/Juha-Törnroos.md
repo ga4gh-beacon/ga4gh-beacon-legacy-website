@@ -14,7 +14,6 @@ tags:
   - contacts
   - people
   - developers
-  - .featured
 description: |
   * page title will be taken from `title` in the header
   * image thumbnail (80px width) will be inserted right of title if
