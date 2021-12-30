@@ -47,7 +47,7 @@ Originally, the Beacon protocol (versions 0 and 1) allowed researchers to get in
 ###### Figure 2. Schematic example of a Beacon query (up to version 1)
 {:.no_toc}
 
-The version 2 of the Beacon protocol, to be submitted in the Fall 2021, is under development. It will include:
+The version 2 (v2) of the Beacon protocol, to be submitted in the Fall 2021, is under development. It will include:
 * More informative queries, like filtering by gender or age;
 * An option to trigger the next step in the data access process, e.g. who to contact or which are the data use conditions;
 * An option to jump to another system where the data could be accessed, e.g. if the Beacon is for internal use of the hospital, to provide the Id of the EHR of the patients having the mutation of interest;
@@ -60,17 +60,25 @@ The version 2 of the Beacon protocol, to be submitted in the Fall 2021, is under
 ###### Figure 3. Schematic example of a Beacon query (version 2)
 {:.no_toc}
 
-## Which data is required?
-
-Clinical geneticists describe two scenarios for data use:
-
-* *Variant information*: focuses on knowledge about a given mutation, the phenotypes it has been related to in the population, and its pathogenicity. It can be summarized as “community knowledge”.
-* *Case level information*: focuses on what has been observed in specific individuals, family relationships and the observed phenotypes. It can be summarized as “specific cases”.
-
-Both scenarios share common information and complement each other, as it is necessary to compare specific cases against the accumulated knowledge to confirm or challenge a potential diagnosis. Beacon v2 results of a deeper analysis of such scenarios, allowing a new Model that could host both entities and data involved in the clinical genetics diagnose domain.
 
 ## Beacon v2 scope
-According to the clinical genomics requirements, the Beacon protocol has evolved to cover the different entities and details arising from them. Check out the [readthedocs](https://beacon-schema-2.readthedocs.io/en/latest/) for Beacon v2 default schema.
+The Beacon v2 is a two-legged concept, with the following documents covering essential aspects of the specification:
+* The Beacon [Framework](https://github.com/ga4gh-beacon/beacon-framework-v2) is the part that describes the overall structure of the API requests, responses, parameters, the common components, etc. It is mostly relevant for developers.
+ The Beacon [Model](https://github.com/ga4gh-beacon/beacon-v2-Models) describe the set of concepts included in Beacon V2, like individual or biosample, and also the relationships between them. The Model has been developed for biomedical stakeholders. Please refer to the [Readme](https://github.com/ga4gh-beacon/beacon-v2-Models#readme) for more details and useful definitions.  
+
+### The Beacon v2 Framwork
+
+If Beacon v2 were a language, the Framework would be the Syntax. It is the structure upon which the whole API is built. Handling the Framework to deploy your own Beacon requires experience with APIs. 
+
+The Framework repo includes the elements that are common to all Beacons:
+* The *configuration files*
+* The *Json schemas* for the requests, the responses, and its respective sections
+* The files of every *Beacon root*
+* *Examples* for all the abovementioned elements (using a fake and simple Model)
+
+### The Beacon v2 Model
+
+Following clinical genomics requirements, the Beacon protocol has evolved to cover the different entities and details arising from them. Check out the [readthedocs](https://beacon-schema-2.readthedocs.io/en/latest/) for Beacon v2 Model's default schema.
 
 <figure>
 <img src="/assets/img/beacon-v2-model-logical.png" alt="Beacon v2 model"/>
@@ -78,18 +86,19 @@ According to the clinical genomics requirements, the Beacon protocol has evolved
 ###### Figure 2. Schematic representation of the Beacon v2 logical Model
 {:.no_toc}
 
-The model above includes the following entities:
-* Dataset: groups variants or individuals (subjects) that have something in common. The relationship could be as weak as they are in the same repository or as strong as they belong to the same study population.
-* Cohorts: a set of characteristics describing a cohort, that is defined as a set of individuals that can belong to one or more Datasets
-Variant: represents a unique genomic alteration using details such as its position in a genome and sequence alterations or its type, the transcriptional consequences, etc.
-* Individual: describes individuals that are stored in the repository, including some clinical information like diseases, treatments, phenotypic features.
-* Interactor: this is an organism/agent whose data is collected in association with a subject, but that it is not sequenced itself, e.g. the host of a pathogen.
-* Biosample: describes samples taken from individuals, including details of procedures, dates and times.
-* Experiment: includes details on the procedure used for sequencing a biosample.
-* Analyses: contains details on the bioinformatic procedures for identifying variants in the results of a Run
-* Variant in Sample: describes how a variant is observed in a given sample (or individual by abstraction) and if it is considered more or less relevant in diagnosis of a case.
-* Variant Interpretation: includes annotations about the common understanding of the effect of a given variant in a given phenotype
-* The model above represents an entity logical model and it is not an example of a database implementation for Beacon v2. The relationships in the model are the ones that would be used in the Beacon response. Different physical implementations will be compatible with this Beacon v2 entity logical model. 
+The following entities are defined as follows (the links lead to the field descriptions):
+* **Collections**: groupings of variants or individuals that share something in common: e.g., who belong to the same repository ([datasets](https://beacon-schema-2.readthedocs.io/en/latest/schemas-md/datasets_defaultSchema/)) or study population ([cohorts](https://beacon-schema-2.readthedocs.io/en/latest/schemas-md/cohorts_defaultSchema/)).
+* [**Genomic variations**](https://beacon-schema-2.readthedocs.io/en/latest/schemas-md/genomicVariations_defaultSchema/): unique genomic alterations, e.g., position in a genome, sequence alterations, type, etc.
+* [**Individuals**](https://beacon-schema-2.readthedocs.io/en/latest/schemas-md/individuals_defaultSchema/): either patients or healthy controls whose details (including phenotypic and clinical) are stored in the repository.
+* [**Biosamples**](https://beacon-schema-2.readthedocs.io/en/latest/schemas-md/biosamples_defaultSchema/): samples taken from individuals, including details of procedures, dates and times.
+* **Analyses & Runs**: details on (a) procedures used for sequencing a biosample ([runs](https://beacon-schema-2.readthedocs.io/en/latest/schemas-md/runs_defaultSchema/)), and (b) bioinformatic procedures to identify variants ([analyses](https://beacon-schema-2.readthedocs.io/en/latest/schemas-md/analyses_defaultSchema/))
+
+### I want to deploy a Beacon: how does this affect me?
+If you do not have extensive experience in developement and APIs, you might want to deploy a **Beacon Instance**. A Beacon instance is just an implementation of a Beacon Model that follows the rules stated by the Beacon Framework.
+
+Then, you do not need to clone the Framework repo, you only need to copy (or clone) the Beacon Model and modify it to your specific instance. You will find plenty of references to the Framework in the Model copy, and you will use the Json schemas in the Framework to validate that both the structure of your requests and responses are compliant with the Beacon Framework. The Beacon [verifier tool](https://github.com/ga4gh-beacon/beacon-verifier) would help in such validation.
+
+This said, there are several solutions for Beacon implementation, which will depend on many factors, such as your current solution for data maganement, your IT resources, time, etc. Please contact [Lauren Fromont](https://beacon-project.io/people/Lauren-Fromont/), who will put you in touch with our Beacon Dev team. 
 
 ## Beacon v2 security
 
