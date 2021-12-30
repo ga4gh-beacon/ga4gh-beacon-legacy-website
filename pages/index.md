@@ -64,9 +64,9 @@ The version 2 (v2) of the Beacon protocol, to be submitted in the Fall 2021, is 
 ## Beacon v2 scope
 The Beacon v2 is a two-legged concept, with the following documents covering essential aspects of the specification:
 * The Beacon [Framework](https://github.com/ga4gh-beacon/beacon-framework-v2) is the part that describes the overall structure of the API requests, responses, parameters, the common components, etc. It is mostly relevant for developers.
- The Beacon [Model](https://github.com/ga4gh-beacon/beacon-v2-Models) describe the set of concepts included in Beacon V2, like individual or biosample, and also the relationships between them. The Model has been developed for biomedical stakeholders. Please refer to the [Readme](https://github.com/ga4gh-beacon/beacon-v2-Models#readme) for more details and useful definitions.  
+* The Beacon [Model](https://github.com/ga4gh-beacon/beacon-v2-Models) describe the set of concepts included in Beacon V2, like individual or biosample, and also the relationships between them. The Model has been developed for biomedical stakeholders. Please refer to the [Readme](https://github.com/ga4gh-beacon/beacon-v2-Models#readme) for more details and useful definitions.  
 
-### The Beacon v2 Framwork
+### The Beacon v2 [Framework](https://github.com/ga4gh-beacon/beacon-framework-v2)
 
 If Beacon v2 were a language, the Framework would be the Syntax. It is the structure upon which the whole API is built. Handling the Framework to deploy your own Beacon requires experience with APIs. 
 
@@ -76,7 +76,7 @@ The Framework repo includes the elements that are common to all Beacons:
 * The files of every *Beacon root*
 * *Examples* for all the abovementioned elements (using a fake and simple Model)
 
-### The Beacon v2 Model
+### The Beacon v2 [Model](https://github.com/ga4gh-beacon/beacon-v2-Models)
 
 Following clinical genomics requirements, the Beacon protocol has evolved to cover the different entities and details arising from them. Check out the [readthedocs](https://beacon-schema-2.readthedocs.io/en/latest/) for Beacon v2 Model's default schema.
 
