@@ -44,7 +44,7 @@ nav_cat_blocks:
   github_projects: 'Github Projects,github_projects,show'
 
 General:
-  role: 'Beacon explained'
+#  role: 'Beacon explained'
   specification: 'Specification & Roadmap'
 #  network: 'Beacon Networks'
   beaconv2: 'Beacon v2 updates'
