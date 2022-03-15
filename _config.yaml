@@ -71,7 +71,7 @@ tags-date-sorted:
   - events
 
 useful_links:
-  'Default schema': 'https://beacon-schema-2.readthedocs.io/en/latest/'
+  'Default schema': 'https://docs.genomebeacons.org'
 
 related_sites:
   'Beacon v2 service registry': https://ga4gh-approval-service-registry.ega-archive.org
