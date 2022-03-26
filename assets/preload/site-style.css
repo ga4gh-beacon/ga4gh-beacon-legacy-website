@@ -5,7 +5,7 @@ ELIXIR colors:
 **/
 
 :root {
-  --site-color: #023453;
+  --site-color: #076d63;
 }
 
 #headband { background-color: var(--site-color) }
