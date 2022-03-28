@@ -8,7 +8,10 @@ ELIXIR colors:
   --site-color: #076d63;
 }
 
-#headband { background-color: var(--site-color) }
+#headband {
+  background-color: #029485;
+  height: 48px;
+}
 
 #logo_topleft {
   float: left;
