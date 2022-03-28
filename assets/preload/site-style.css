@@ -11,13 +11,14 @@ ELIXIR colors:
 #headband {
   background-color: #029485;
   height: 48px;
+  box-shadow: 0 0 .2rem rgba(0,0,0,.1),0 .2rem .4rem rgba(0,0,0,.2)
 }
 
 #logo_topleft {
   float: left;
   margin-top: 4px;
   margin-left: 8px;
-  width: 16px;
+  width: 32px;
 }
 
 #logo_topright {
