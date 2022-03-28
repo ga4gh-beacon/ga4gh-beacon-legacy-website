@@ -27,9 +27,9 @@ collections:
   people:
     output: true
     permalink: /people/:path/
-  schemas:
-    output: true
-    permalink: /schemas/:path/
+  # schemas:
+  #   output: true
+  #   permalink: /schemas/:path/
   minutes:
     output: true
     permalink: /minutes/:path/
