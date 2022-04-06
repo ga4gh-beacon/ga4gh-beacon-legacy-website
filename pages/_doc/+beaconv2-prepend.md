@@ -7,7 +7,7 @@ tags:
 
 ## Beacon v2 Resources
 
-These are the official repository for version 2 of the specification:
+These are the official links to version 2 of the specification:
 
 * [Beacon V2 Specification](https://github.com/ga4gh-beacon/beacon-v2)
 * [Beacon V2 Documentation](http://docs.genomebeacons.org)
