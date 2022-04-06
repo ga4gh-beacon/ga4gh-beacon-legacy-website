@@ -5,12 +5,12 @@ tags:
   - .prepend
 ---
 
-## Beacon v2 code repositories
+## Beacon v2 Resources
 
-These are the official repositories for version 2 of the specification and the Reference Implementation:
+These are the official repository for version 2 of the specification:
 
-* [Beacon Framework](https://github.com/ga4gh-beacon/beacon-framework-v2)
-* [Beacon Model](https://github.com/ga4gh-beacon/beacon-v2-Models)
+* [Beacon V2 Specification](https://github.com/ga4gh-beacon/beacon-v2)
+* [Beacon V2 Documentation](http://docs.genomebeacons.org)
 
 
 ## Beacon v2 news
