@@ -1,6 +1,6 @@
 ---
 title: '[H—>O] Beacon Handover for Data Delivery'
-date: 2018-10-18
+date: 2022-04-06 # 2018-10-18
 layout: default
 author: "@mbaudis"
 permalink: /roadmap/handover.html
@@ -73,7 +73,7 @@ Handover:
     A handover is a typed link for attaching actionable links to results,
     non purely informational, requests. The goal of the handovers is to list the
     different actions available, e.g.: a link to a request access page, or to a
-    temporarily saved detailed response, which can include a temporary token.'
+    temporarily saved detailed response, which can include a temporary token.
   required:
     - handoverType
     - url
