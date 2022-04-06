@@ -14,6 +14,7 @@ tags:
 
 ### Beacon implementations: Beaconize your genomics data
 #### Hosts: Lauren Fromont & Jordi Rambla
+#### Amsterdam, 7th June 2022 [Link to webpage](https://elixir-europe.org/events/elixir-all-hands-2022)
 
 One of the main bottlenecks in human genomics research is the lack of tools for federated discovery of identifiable genomics data that requires tight privacy controls. This problem needs even more attention since  genomics data sees an ever greater application in clinical settings, such as for medical diagnostic or prognostic purposes,  in rare diseases or cancer. Currently, most of the molecular analyses  generated in hospitals are not utilised for further research due to lack of proper tools for an interoperable and ethical sharing of the data. The Beacon project (ELIXIR, see also the Global Alliance in Health and Genomics for the standard) aims to alleviate the problem of genomics data sharing through enabling the search of genomic variants and associated information without jeopardising the privacy of the dataset. This way, any hospital or research entity can choose to 'beaconize' their dataset without compromising its privacy or ownership.
 
