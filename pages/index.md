@@ -47,8 +47,8 @@ Originally, the Beacon protocol (versions 0 and 1) allowed researchers to get in
 ###### Figure 2. Schematic example of a Beacon query (up to version 1)
 {:.no_toc}
 
-The version 2 (v2) of the Beacon protocol, to be submitted in the Spring 2022, is under development. It will include:
-* More informative queries, like filtering by gender or age;
+The version 2 (v2) of the Beacon protocol has been accepted as GA4GH standard in Spring 2022. It includes, among other changes:
+* Query options for biological or technical "meta"data using _fiters_ defined through CURIEs (e.g. phenotypes, disease codes, sex or age);
 * An option to trigger the next step in the data access process, e.g. who to contact or which are the data use conditions;
 * An option to jump to another system where the data could be accessed, e.g. if the Beacon is for internal use of the hospital, to provide the Id of the EHR of the patients having the mutation of interest;
 * Annotations about the variants found, among which the expert/clinician conclusion about the pathogenicity of a given mutation in a given individual or its role in producing a given phenotype;
@@ -62,7 +62,9 @@ The version 2 (v2) of the Beacon protocol, to be submitted in the Spring 2022, i
 
 
 ## Beacon v2 scope
-The Beacon v2 is a two-legged concept, with the following documents covering essential aspects of the specification:
+
+The Beacon v2 is based on a two-part concept, with the following documents covering essential aspects of the specification:
+
 * The Beacon [Framework](https://github.com/ga4gh-beacon/beacon-v2/tree/main/framework) is the part that describes the overall structure of the API requests, responses, parameters, the common components, etc. It is mostly relevant for developers.
 * The Beacon [Model](https://github.com/ga4gh-beacon/beacon-v2/tree/main/models) describe the set of concepts included in Beacon V2, like individual or biosample, and also the relationships between them. The Model has been developed for biomedical stakeholders.
 
