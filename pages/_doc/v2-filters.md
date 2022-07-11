@@ -43,7 +43,7 @@ identified using the full bio-ontology term/class identifier as CURIE, e.g.
   - Human Phenotype Ontology (HPO)
     * `HP:0100526`: Neoplasm of the lung
   - Phenotypic Qualities Ontology (PATO)
-    * `PATO:0020000`: female genetic sex
+    * `PATO:0020002`: female genetic sex
   - National Cancer Institute Thesaurus (NCIT)
     * `NCIT:C8430`: Ovarian Papillary Tumor
     * `NCIT:C48724`: T2 Stage Finding
