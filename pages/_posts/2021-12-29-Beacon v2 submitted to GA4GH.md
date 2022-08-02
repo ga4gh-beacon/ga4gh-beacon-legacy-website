@@ -6,7 +6,6 @@ author: "@laurenfromont"
 category:
   - beaconv2
 tags:
-  - specification
   - v2
 ---
 
