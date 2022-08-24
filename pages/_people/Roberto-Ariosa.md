@@ -18,13 +18,4 @@ tags:
 
 ## {{ page.title }}
 
-Developer in ELIXIR Beacon Project  
-Center for Genome Regulation Barcelona  
-European Genome-Phenome Archive  
-
-<!--more-->
-
-email [roberto.ariosa@crg.eu](mailto:roberto.ariosa@crg.eu)
-web [CRG](https://www.crg.eu/en/programmes-groups/ega-team)  
-web [EGA](https://ega-archive.org/about/team)
-
+Former developer in ELIXIR Beacon Project  
