@@ -30,4 +30,4 @@ B2RI follows the **Beacon v2 specification**, which since April 2022 defines an 
 This toolkit will facilitate the "beaconization" of data as implementing a [Beacon v2 API](https://beacon-project.io/) can be challenging for centers that may not have allocated resources for this purpose.
 
 Links:
-- [Beacon publication at *Bioinformatics*](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btac568/6671215?redirectedFrom=fulltext)
+- [Beacon publication in *Bioinformatics*](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btac568/6671215?redirectedFrom=fulltext)
