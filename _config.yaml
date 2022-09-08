@@ -49,7 +49,7 @@ General:
 #  network: 'Beacon Networks'
   beaconv2: 'Beacon v2 updates'
   beaconv1: 'Beacon v1 archive'
-  people: 'Contributors'
+  people: 'People'
   minutes: Beacon working groups
   events: 'Beacon Events'
   howto: 'FAQ'
