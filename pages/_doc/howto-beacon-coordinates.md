@@ -10,7 +10,6 @@ category:
 tags:
   - queries
   - definitions
-  - FAQ
 ---
 
 ## {{ page.title }}
