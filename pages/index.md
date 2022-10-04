@@ -33,13 +33,13 @@ permalink: /index.html
 ###### Figure 1. A schematic representation of how Beacon works. (A) Beacon API implementation and (B) A Beacon query and aggregated response
 {:.no_toc}
 
-A Beacon is a simple genomics variant discovery tool by aggregating worldwide genomics dataset under one umbrella. The Beacon Project is developed under an initiative by Global Alliance for Genomics and Health (GA4GH) for the federated discovery of genomic data in biomedical research and clinical applications. One of the main bottlenecks in human genomics research is lack of data. Genomics data is identifiable and therefore needs to be protected, however, due to lack of data security infrastructure and good health data practices, it forces clinicians and researchers to not share their data at all. This further slows down the progress in research. In the time of personalised medicines, inclusive diagnostics, prognostic and therapeutic strategies, we simply cannot afford to keep the data locked in. The Beacon API aims to solve this problem through enabling the search of genomic variants and associated information without jeopardising the privacy of the dataset. This way, any hospital or research entity can choose to 'beaconize' their omics dataset without compromising the privacy or the ownership of the dataset, thus helping the worldwide community of researchers and assisting science through the power of data.
+A Beacon is a simple genomics variant discovery tool by aggregating worldwide genomics dataset under one umbrella. The Beacon Project is developed under a Global Alliance for Genomics and Health (GA4GH) Iniciative for the federated discovery of genomic data in biomedical research and clinical applications. One of the main bottlenecks in human genomics research is lack of data. Genomics data are identifiable and therefore need to be protected. However, due to lack of data security infrastructure and good health data practices, clinicians and researchers are inclined to not share their data at all. This further slows down the progress in research. In order to promote personalised medicine, inclusive diagnostics, prognostic and therapeutic strategies, we cannot afford to keep the data locked in. The Beacon API aims to solve this problem by enabling the search of genomic variants and associated information without jeopardising the privacy of the dataset. This way, any hospital or research entity can choose to 'beaconize' their omics dataset without compromising the privacy or the ownership of the dataset, thus helping the worldwide community of researchers and assisting science through the power of data.
 
 ##  What is Beacon?
 
 Beacon is an API (sometimes extended with a [user interface](https://beacon-giab-test.ega-archive.org)) that allows for data discovery of genomic and phenoclinic data.
 
-Originally, the Beacon protocol (versions 0 and 1) allowed researchers to get information about the presence/absence of a given, specific, genomic mutation in a set of data, from patients of a given disease or from the population in general (Figure 2). Examples can be found in the [ELIXIR Beacon network page](https://beacon-network.elixir-europe.org). 
+Originally, the Beacon protocol (versions 0 and 1) allowed researchers to get information about the presence/absence of a given, specific, genomic mutation in a set of data, from patients of a given disease or the population in general (Figure 2). Examples can be found in the [ELIXIR Beacon network page](https://beacon-network.elixir-europe.org). 
 
 <figure>
 <img src="/assets/img/Beacon-v1.png" alt="Beacon v1"/>
@@ -48,10 +48,10 @@ Originally, the Beacon protocol (versions 0 and 1) allowed researchers to get in
 {:.no_toc}
 
 The version 2 (v2) of the Beacon protocol has been accepted as GA4GH standard in Spring 2022. It includes, among other changes:
-* Query options for biological or technical "meta"data using _fiters_ defined through CURIEs (e.g. phenotypes, disease codes, sex or age);
-* An option to trigger the next step in the data access process, e.g. who to contact or which are the data use conditions;
-* An option to jump to another system where the data could be accessed, e.g. if the Beacon is for internal use of the hospital, to provide the Id of the EHR of the patients having the mutation of interest;
-* Annotations about the variants found, among which the expert/clinician conclusion about the pathogenicity of a given mutation in a given individual or its role in producing a given phenotype;
+* Query options for biological or technical "meta"data using _fiters_ defined through CURIEs (e.g. phenotypes, disease codes, sex or age).
+* An option to trigger the next step in the data access process (e.g. who to contact or which are the data use conditions).
+* An option to jump to another system where the data could be accessed (e.g. if the Beacon is for internal use of the hospital, to provide the Id of the EHR of the patients having the mutation of interest).
+* Annotations about the variants found, among which the expert/clinician conclusion about the pathogenicity of a given mutation in a given individual or its role in producing a given phenotype.
 * Information about cohorts.
 
 <figure>
@@ -143,13 +143,13 @@ As a Beacon is designed to support data discoverability of controlled access dat
 ### Beacon partners
 In 2020, the GA4GH Beacon group started a set of meetings and interviews with GA4GH Driver Projects and with ELIXIR partners in order to determine the scope of the next generation Beacon. The goal was to be useful without breaking the simplicity that made Beacon version 1 successful.
 Interviews were conducted with the following GA4GH Driver Projects:
-* Autism Speaks
-* BRCA Exchange
-* CanDIG
+* [Autism Speaks](https://www.autismspeaks.org/)
+* [BRCA Exchange](https://brcaexchange.org/)
+* [CanDIG](https://www.distributedgenomics.ca/)
 * EGA, ENA, EVA
-* EuCanCancer
-* European Joint Programme - Rare Diseases
-* H3Africa
+* [EuCanCancer](https://eucancan.com/)
+* [European Joint Programme - Rare Diseases](https://www.ejprarediseases.org/)
+* [H3Africa](https://h3africa.org/)
 * GEM Japan
 * Genomics England
 * Matchmaker Exchange
