@@ -48,11 +48,11 @@ Originally, the Beacon protocol (versions 0 and 1) allowed researchers to get in
 {:.no_toc}
 
 The version 2 (v2) of the Beacon protocol has been accepted as GA4GH standard in Spring 2022. It includes, among other changes:
-* Query options for biological or technical "meta"data using _fiters_ defined through CURIEs (e.g. phenotypes, disease codes, sex or age).
-* An option to trigger the next step in the data access process (e.g. who to contact or which are the data use conditions).
-* An option to jump to another system where the data could be accessed (e.g. if the Beacon is for internal use of the hospital, to provide the Id of the EHR of the patients having the mutation of interest).
-* Annotations about the variants found, among which the expert/clinician conclusion about the pathogenicity of a given mutation in a given individual or its role in producing a given phenotype.
-* Information about cohorts.
+* Query options for biological or technical "meta"data using **fiters** defined through CURIEs (e.g. phenotypes, disease codes, sex or age).
+* An option to trigger the next step in the **data access** process (e.g. who to contact or which are the data use conditions).
+* An option to **jump to another system** where the data could be accessed (e.g. if the Beacon is for internal use of the hospital, to provide the Id of the EHR of the patients having the mutation of interest).
+* **Annotations** about the variants found, among which the expert/clinician conclusion about the pathogenicity of a given mutation in a given individual or its role in producing a given phenotype.
+* Information about **cohorts**.
 
 <figure>
 <img src="/assets/img/Beacon-graphics-v2-network-960x540.png" alt="Beacon v2 Network Specification"/>
@@ -106,7 +106,7 @@ This said, there are several solutions for Beacon implementation, which will dep
 
 ## Beacon v2 security
 
-An implementation of a Beacon must implement the Global Alliance for Genomics and Health ([GA4GH](https://www.ga4gh.org)) Beacon standard. The V2 standard is currently (January 2022) undertaking the GA4GH approval process, which means it must be approved by both the Regulatory and Ethics, and Data Security foundational workstreams.
+An implementation of a Beacon must implement the Global Alliance for Genomics and Health ([GA4GH](https://www.ga4gh.org)) Beacon standard. The V2 standard has been approved by both the Regulatory and Ethics, and Data Security foundational workstreams.
 
 ### What are the general security principles for Beacon?
 The Beacon uses a [3-tiered access model - anonymous, registered, and controlled access](http://docs.genomebeacons.org/security/). A Beacon that supports anonymous access responds to queries irrespective of the source of the query. For a Beacon to respond to a query at the registered tier, the user must identify themselves to the Beacon, for example by using an ELIXIR identity. For a Beacon to respond to a controlled access query, the user must have applied for, and been granted access to, the Beacon (or data derived from one or more individuals within the Beacon) before sending the query. Note that a Beacon may contain datasets (or collections of individuals) whose data is only accessible at specified tiers within the Beacon. This tiered access model allows the owner or controller of a Beacon to determine which responses are returned to whom depending on the query and the user who is making the request, for example to ensure the response respects the consent under which the data were collected. The ELIXIR Beacon network supports Beacons which respond at different tiers, for example only Beacons which have a response to anonymous queries need respond to an anonymous request. As part of the ELIXIR 2019-21 Beacon Network Implementation Study deliverable [D3.3](https://docs.google.com/document/d/1q7XuUB-Z4A_DogWT1AVrvkp_qHWWtbbICxokHup_tts/edit) a document has been written to describe security best practice for users interested in deploying or running a Beacon or users who govern data hosted within a Beacon, and the requirements for adding the Beacon to the ELIXIR Beacon network. As the Beacon standard extends in V2 towards supporting phenotype and range queries, the tiered access model becomes more important to ensure the Beacon response is appropriate to the underlying data.
