@@ -19,17 +19,14 @@ tags: # please adjust - align with  "cloud_tags" in _config.yml_
 
 These are the minutes for the Beacon API Sub Group of the GA4GH Discovery Work Stream. For further information, please visit the [GA4GH Work Stream page](https://www.ga4gh.org/how-we-work/workstreams/). 
 This call happens every second Tuesday of the month.
-
  
 <!--more-->
-
-This call happens every second Tuesday of the month.
 
 ### Coordinators
 
 * [Jordi Rambla](https://beacon-project.io/people/Jordi-Rambla/) (chair)
-* [Lauren Fromont](https://beacon-project.io/people/lauren-fromont/) (coordinator)
+* [Lauren Fromont](https://beacon-project.io/people/Lauren-Fromont/) (coordinator)
 
 ### GA4GH Beacon API TC
 
-* [Meeting minutes](https://docs.google.com/document/d/1XsbYhhUy8bOAB-qXzWCreH9c5nmM2ROM9TXtukH4NoA/edit?usp=sharing)
+* [Meeting minutes](https://docs.google.com/document/d/1tHCUhzR-OuzNelgOH2cTlWJ0LjDSkpz99sQAMRlrTSE/edit)
