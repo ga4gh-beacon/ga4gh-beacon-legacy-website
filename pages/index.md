@@ -48,7 +48,7 @@ Originally, the Beacon protocol (versions 0 and 1) allowed researchers to get in
 {:.no_toc}
 
 The version 2 (v2) of the Beacon protocol has been accepted as GA4GH standard in Spring 2022. It includes, among other changes:
-* Query options for biological or technical "meta"data using **fiters** defined through CURIEs (e.g. phenotypes, disease codes, sex or age).
+* Query options for biological or technical "meta"data using [**filters**](http://docs.genomebeacons.org/filters/) defined through CURIEs (e.g. phenotypes, disease codes, sex or age).
 * An option to trigger the next step in the **data access** process (e.g. who to contact or which are the data use conditions).
 * An option to **jump to another system** where the data could be accessed (e.g. if the Beacon is for internal use of the hospital, to provide the Id of the EHR of the patients having the mutation of interest).
 * **Annotations** about the variants found, among which the expert/clinician conclusion about the pathogenicity of a given mutation in a given individual or its role in producing a given phenotype.
@@ -63,39 +63,34 @@ The version 2 (v2) of the Beacon protocol has been accepted as GA4GH standard in
 
 ## Beacon v2 scope
 
-The Beacon v2 is based on a two-part concept, with the following documents covering essential aspects of the specification:
+The Beacon v2 is based on a two-part concept, with the [following documents](http://docs.genomebeacons.org/framework/) covering essential aspects of the specification:
 
-* The Beacon [Framework](https://github.com/ga4gh-beacon/beacon-v2/tree/main/framework) is the part that describes the overall structure of the API requests, responses, parameters, the common components, etc. It is mostly relevant for developers.
-* The Beacon [Model](https://github.com/ga4gh-beacon/beacon-v2/tree/main/models) describe the set of concepts included in Beacon V2, like individual or biosample, and also the relationships between them. The Model has been developed for biomedical stakeholders.
+* The Beacon [Framework](https://github.com/ga4gh-beacon/beacon-v2/tree/main/framework).
+* The Beacon [Model](https://github.com/ga4gh-beacon/beacon-v2/tree/main/models).
 
 In principle, this concept allows for different Models (in other domains outside of the Beacon v2 realm, e.g. “Imaging Beacon”) to be built using the same Framework. However, in the current context of Beacon v2, we consider the two elements interdependent and likely to be updated together for subsequent major versions (e.g. from v2 to v3).
 
 ### The Beacon v2 [Framework](https://github.com/ga4gh-beacon/beacon-v2/tree/main/framework)
 
-If Beacon v2 were a language, the Framework would be the Syntax. It is the structure upon which the whole API is built. Handling the Framework to deploy your own Beacon requires experience with APIs. 
+If Beacon v2 were a language, the Framework would be the Syntax. It is the structure upon which the whole API is built. Handling the Framework to deploy your own Beacon requires experience with APIs. The Framework is mostly relevant for developers.
 
 The Framework repo includes the elements that are common to all Beacons:
-* The *configuration files*
-* The *JSON schemas* for the requests, the responses, and its respective sections
-* The files of every *Beacon root*
-* *Examples* for all the abovementioned elements (using a mock and simple Model)
+* The *configuration files*.
+* The *JSON schemas* for the requests, the responses, and its respective sections.
+* The files of every *Beacon root*.
+* *Examples* for all the abovementioned elements (using a mock and simple Model).
 
 ### The Beacon v2 [Model](https://github.com/ga4gh-beacon/beacon-v2/tree/main/models)
 
-The Model is the Semantics of Beacon v2. It covers the different entities and details arising from clinical requirements. Check out the [Documentation](http://docs.genomebeacons.org/models/) for Beacon v2 Model's default schema.
+The Model is the Semantics of Beacon v2. It covers the different entities and details arising from clinical requirements. The Model has been developed for biomedical stakeholders. Check out the [Documentation](http://docs.genomebeacons.org/models/) for Beacon v2 Model's default schema.
 
 <figure>
-<img src="/assets/img/beacon-v2-model-logical.png" alt="Beacon v2 model"/>
+<img src="/assets/img/schemadim.png" alt="Beacon v2 model"/>
 </figure>
 ###### Figure 2. Schematic representation of the Beacon v2 logical Model
 {:.no_toc}
 
-The following entities are defined as follows (the links lead to the field descriptions):
-* **Collections**: groupings of variants or individuals that share something in common: e.g., who belong to the same repository ([datasets](http://docs.genomebeacons.org/schemas-md/datasets_defaultSchema/)) or study population ([cohorts](http://docs.genomebeacons.org/schemas-md/cohorts_defaultSchema/)).
-* [**Genomic variations**](http://docs.genomebeacons.org/schemas-md/genomicVariations_defaultSchema/): unique genomic alterations, e.g., position in a genome, sequence alterations, type, etc.
-* [**Individuals**](http://docs.genomebeacons.org/schemas-md/individuals_defaultSchema/): either patients or healthy controls whose details (including phenotypic and clinical) are stored in the repository.
-* [**Biosamples**](http://docs.genomebeacons.org/schemas-md/biosamples_defaultSchema/): samples taken from individuals, including details of procedures, dates and times.
-* **Analyses & Runs**: details on (a) procedures used for sequencing a biosample ([runs](http://docs.genomebeacons.org/schemas-md/runs_defaultSchema/)), and (b) bioinformatic procedures to identify variants ([analyses](http://docs.genomebeacons.org/schemas-md/analyses_defaultSchema/))
+You can find out more information about [Datasets](http://docs.genomebeacons.org/schemas-md/datasets_defaultSchema/), [Cohorts](http://docs.genomebeacons.org/schemas-md/cohorts_defaultSchema/), [Genomic variations](http://docs.genomebeacons.org/schemas-md/genomicVariations_defaultSchema/), [Individuals](http://docs.genomebeacons.org/schemas-md/individuals_defaultSchema/), [Biosamples](http://docs.genomebeacons.org/schemas-md/biosamples_defaultSchema/), [Analyses](http://docs.genomebeacons.org/schemas-md/analyses_defaultSchema/) and [Runs](http://docs.genomebeacons.org/schemas-md/runs_defaultSchema/) on the Beacon Documentation website.
 
 ### I want to deploy a Beacon: how does this affect me?
 If you do not have extensive experience in developement and APIs, you might want to deploy a **Beacon Instance**. A Beacon instance is just an implementation of a Beacon Model that follows the rules stated by the Beacon Framework.
