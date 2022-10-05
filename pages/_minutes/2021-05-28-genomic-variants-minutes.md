@@ -30,11 +30,6 @@ Every three weeks, GV scout members meet to document genomic variants use cases 
 ### Members
 
 * [Babita Singh](https://beacon-project.io/people/Babita-Singh/) (chair)
-* [Lauren Fromont](https://beacon-project.io/people/lauren-fromont/) (co-chair)
-* [David Salgado](https://hcnv.github.io/people/David-Salgado/)
-* [Tony Brooks](https://beacon-project.io/people/Anthony-Brookes/)
-* [Michael Baudis](https://info.baudisgroup.org/group/Michael_Baudis/)
-* Diana Lemos (EBI-Ensembl)
 
 ### Genomic Variants TC
 
