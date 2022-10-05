@@ -37,4 +37,4 @@ end: 6
 0 1 2 3 4 5 6 7 8
 ```
 
-A detailed documentation of the standard can be found on the [SchemaBlocks site](https://schemablocks.org/standards/genome-coordinates.html).
+A detailed documentation of the standard can be found on the [SchemaBlocks site](https://schemablocks.org/standards-recommendations/).
