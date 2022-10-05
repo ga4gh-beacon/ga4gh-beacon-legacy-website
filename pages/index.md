@@ -92,10 +92,8 @@ The Model is the Semantics of Beacon v2. It covers the different entities and de
 
 You can find out more information about [Datasets](http://docs.genomebeacons.org/schemas-md/datasets_defaultSchema/), [Cohorts](http://docs.genomebeacons.org/schemas-md/cohorts_defaultSchema/), [Genomic variations](http://docs.genomebeacons.org/schemas-md/genomicVariations_defaultSchema/), [Individuals](http://docs.genomebeacons.org/schemas-md/individuals_defaultSchema/), [Biosamples](http://docs.genomebeacons.org/schemas-md/biosamples_defaultSchema/), [Analyses](http://docs.genomebeacons.org/schemas-md/analyses_defaultSchema/) and [Runs](http://docs.genomebeacons.org/schemas-md/runs_defaultSchema/) on the Beacon Documentation website.
 
-### I want to deploy a Beacon: how does this affect me?
+### I want to [deploy a Beacon](http://docs.genomebeacons.org/framework/#introduction): how does this affect me?
 If you do not have extensive experience in developement and APIs, you might want to deploy a **Beacon Instance**. A Beacon instance is just an implementation of a Beacon Model that follows the rules stated by the Beacon Framework.
-
-Then, you do not need to clone the Framework repo, you only need to copy (or clone) the Beacon Model and modify it to your specific instance. You will find plenty of references to the Framework in the Model copy, and you will use the JSON schemas in the Framework to validate that both the structure of your requests and responses are compliant with the Beacon Framework. The Beacon [verifier tool](https://github.com/ga4gh-beacon/beacon-verifier) would help in such validation.
 
 This said, there are several solutions for Beacon implementation, which will depend on many factors, such as your current solution for data maganement, your IT resources, time, etc. Please contact [Lauren Fromont](https://beacon-project.io/people/Lauren-Fromont/), who will put you in touch with our Beacon Dev team. 
 
