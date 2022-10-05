@@ -7,7 +7,7 @@ authors:
 #  - please add more, as quoted GH handle or just name
 permalink: /beaconv2/clinical-beacons.html
 excerpt_separator: <!--more-->
-www_link: http://docs.genomebeacons.org/beacon-flavours/
+www_link: http://docs.genomebeacons.org/beacon-flavours/ 
 categories:
   - beaconv2
 tags:
