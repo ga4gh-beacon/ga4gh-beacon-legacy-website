@@ -65,8 +65,8 @@ The version 2 (v2) of the Beacon protocol has been accepted as GA4GH standard in
 
 The Beacon v2 is based on a two-part concept, with the [following documents](http://docs.genomebeacons.org/framework/) covering essential aspects of the specification:
 
-* The Beacon [Framework](https://github.com/ga4gh-beacon/beacon-v2/tree/main/framework).
-* The Beacon [Model](https://github.com/ga4gh-beacon/beacon-v2/tree/main/models).
+* The Beacon [Framework](http://docs.genomebeacons.org/framework/).
+* The Beacon [Model](http://docs.genomebeacons.org/models/).
 
 In principle, this concept allows for different Models (in other domains outside of the Beacon v2 realm, e.g. “Imaging Beacon”) to be built using the same Framework. However, in the current context of Beacon v2, we consider the two elements interdependent and likely to be updated together for subsequent major versions (e.g. from v2 to v3).
 
@@ -102,31 +102,19 @@ This said, there are several solutions for Beacon implementation, which will dep
 An implementation of a Beacon must implement the Global Alliance for Genomics and Health ([GA4GH](https://www.ga4gh.org)) Beacon standard. The V2 standard has been approved by both the Regulatory and Ethics, and Data Security foundational workstreams.
 
 ### What are the general security principles for Beacon?
-The Beacon uses a [3-tiered access model - anonymous, registered, and controlled access](http://docs.genomebeacons.org/security/). A Beacon that supports anonymous access responds to queries irrespective of the source of the query. For a Beacon to respond to a query at the registered tier, the user must identify themselves to the Beacon, for example by using an ELIXIR identity. For a Beacon to respond to a controlled access query, the user must have applied for, and been granted access to, the Beacon (or data derived from one or more individuals within the Beacon) before sending the query. Note that a Beacon may contain datasets (or collections of individuals) whose data is only accessible at specified tiers within the Beacon. This tiered access model allows the owner or controller of a Beacon to determine which responses are returned to whom depending on the query and the user who is making the request, for example to ensure the response respects the consent under which the data were collected. The ELIXIR Beacon network supports Beacons which respond at different tiers, for example only Beacons which have a response to anonymous queries need respond to an anonymous request. As part of the ELIXIR 2019-21 Beacon Network Implementation Study deliverable [D3.3](https://docs.google.com/document/d/1q7XuUB-Z4A_DogWT1AVrvkp_qHWWtbbICxokHup_tts/edit) a document has been written to describe security best practice for users interested in deploying or running a Beacon or users who govern data hosted within a Beacon, and the requirements for adding the Beacon to the ELIXIR Beacon network. As the Beacon standard extends in V2 towards supporting phenotype and range queries, the tiered access model becomes more important to ensure the Beacon response is appropriate to the underlying data.
+The Beacon uses a [3-tiered access model - anonymous, registered, and controlled access](http://docs.genomebeacons.org/security/):
+* A Beacon that supports anonymous access responds to queries irrespective of the source of the query.
+* For a Beacon to respond to a query at the registered tier, the user must identify themselves to the Beacon, for example by using an ELIXIR identity.
+* For a Beacon to respond to a controlled access query, the user must have applied for, and been granted access to, the Beacon (or data derived from one or more individuals within the Beacon) before sending the query. 
+
+Note that a Beacon may contain datasets (or collections of individuals) whose data is only accessible at specified tiers within the Beacon. This tiered access model allows the owner or controller of a Beacon to determine which responses are returned to whom depending on the query and the user who is making the request, for example to ensure the response respects the consent under which the data were collected. The ELIXIR Beacon network supports Beacons which respond at different tiers, for example only Beacons which have a response to anonymous queries need respond to an anonymous request. 
+
+As part of the ELIXIR 2019-21 Beacon Network Implementation Study deliverable [D3.3](https://docs.google.com/document/d/1q7XuUB-Z4A_DogWT1AVrvkp_qHWWtbbICxokHup_tts/edit) a document has been written to describe security best practice for users interested in deploying or running a Beacon or users who govern data hosted within a Beacon, and the requirements for adding the Beacon to the ELIXIR Beacon network. As the Beacon standard extends in V2 towards supporting phenotype and range queries, the tiered access model becomes more important to ensure the Beacon response is appropriate to the underlying data.
 
 ### How is security actually implemented when I deploy a Beacon?
-Security attributes are part of the Beacon v2 [Framework](https://github.com/ga4gh-beacon/beacon-v2/tree/main/framework). The file [`beaconConfiguration.json`](https://github.com/ga4gh-beacon/beacon-v2/blob/main/framework/json/configuration/beaconConfigurationSchema.json) defines the schema of the JSON file that includes core aspects of a Beacon instance configuration: the third section defines the security:
+Security attributes are part of the Beacon v2 [Framework](https://github.com/ga4gh-beacon/beacon-v2/tree/main/framework). The file [`beaconConfiguration.json`](https://github.com/ga4gh-beacon/beacon-v2/blob/main/framework/json/configuration/beaconConfigurationSchema.json) defines the schema of the JSON file that includes core aspects of a Beacon instance configuration. Its third section, called **securityAttributes**, defines the security.
 
-**securityAttributes**: Configuration of the security aspects of the Beacon. By default, a Beacon that does not declare the configuration settings would return `boolean` (true/false) responses, and only if the user is authenticated and explicitly authorized to access the Beacon resources. While this is the safest set of settings, it is also not informative, therefore not recommended *unless* the Beacon shares very sensitive information. Non-sensitive Beacons preferably opt for a `record` and `PUBLIC` combination.
-
-* **defaultGranularity:** Level of detail provided by the responses. Some responses could return higher detail, but this would be the granularity by default.
-
-  Granularity|Description
-  -----------|-----------
-  `boolean`|returns 'true/false' responses.
-  `count`|adds the total number of positive results found.
-  `aggregated`|returns summary, aggregated or distribution like responses per collection. 
-  `record`|returns details for every row. 
-
-  For cases where a Beacon prefers to return records with less attributes, different strategies have been considered, e.g.: keep non-mandatory attributes empty, or Beacon to provide a minimal record definition, but these strategies still need to be tested in real world cases and hence no design decision has been taken yet.
-  
-* **securityLevels:** Access levels supported by the Beacon. Any combination is valid, as every option would apply to different parts of the Beacon. Available options are:
-  
-  security level | description
-  ---------------|------------
-  PUBLIC|Any anonymous user can read the data
-  REGISTERED|Only known users can read the data
-  CONTROLLED|Only specificly granted users can read the data
+Check out the **securityAttributes** section on the [Beacon Documentation website](http://docs.genomebeacons.org/framework/#the-beacon-configuration-file).
 
 ### How do I test a Beacon without having to go through complex security matters (yet)?
 
