@@ -127,13 +127,13 @@ Interviews were conducted with the following GA4GH Driver Projects:
 * [Autism Speaks](https://www.autismspeaks.org/)
 * [BRCA Exchange](https://brcaexchange.org/)
 * [CanDIG](https://www.distributedgenomics.ca/)
-* EGA, ENA, EVA
+* [European Genome-phenome Archive](https://ega-archive.org/), [European Nucleotide Archive](https://www.ebi.ac.uk/ena/browser/home), [European Vegetation Archive](http://euroveg.org/eva-database)
 * [EuCanCancer](https://eucancan.com/)
 * [European Joint Programme - Rare Diseases](https://www.ejprarediseases.org/)
 * [H3Africa](https://h3africa.org/)
-* GEM Japan
-* Genomics England
-* Matchmaker Exchange
+* [GEM Japan](https://www.amed.go.jp/en/aboutus/collaboration/ga4gh_gem_japan.html)
+* [Genomics England](https://www.genomicsengland.co.uk/)
+* [Matchmaker Exchange](https://www.matchmakerexchange.org/)
 * SVIP /SPHN
 * VICC
 
