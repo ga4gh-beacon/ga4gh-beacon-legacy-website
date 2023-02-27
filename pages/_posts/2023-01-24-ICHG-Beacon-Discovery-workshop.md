@@ -1,5 +1,5 @@
 ---
-title: 'Beacon v2 at the International Congress of Human Genetics with a hands-on session on Discovery'
+title: 'Beacon v2 at the International Congress of Human Genetics with hands-on sessions on Discovery'
 date: 2023-01-24
 layout: default
 author: 
@@ -15,9 +15,9 @@ tags:
   - events
 ---
 
-# Beacon v2 will be at the International Congress of Human Genetics (ICHG) with a hands-on session on Discovery
+# Beacon v2 will be at the International Congress of Human Genetics (ICHG) with hands-on sessions on Discovery
 
-The Hands-on workshop “How to make sensitive data discoverable” will take place on February the 26th, in the framework of the [International Congress of Human Genetics (ICHG)](https://www.ichg2023.com/), that is being held in Cape Town from February 22 – 26.
+These Hands-on workshops will take place on February the 26th and 27th, in the framework of the [International Congress of Human Genetics (ICHG)](https://www.ichg2023.com/), that is being held in Cape Town from February 22 – 26.
 
 <figure>
 <img src="/assets/img/Discovery-Workshop_Federated-data analyses_ICHG.jfif" style="width: 520px;" />
@@ -25,7 +25,7 @@ The Hands-on workshop “How to make sensitive data discoverable” will take pl
 
 <!--more-->
 
-The hands-on training course aims to provide knowledge about what is Beacon, how was it developed and which are the three different scenarios that can be faced by an institution that wants to deploy a Beacon. 
+The training courses aim to provide knowledge about what is Beacon, how was it developed and which are the three different scenarios that can be faced by an institution that wants to deploy a Beacon. 
 
 ## 26th February: "How to make sensitive data discoverable", hosted by the CINECA project
 This training course will take place within the framework of the ["Federated data analysis workshop"](https://www.cineca-project.eu/news-events-all/federated-data-analysis-workshop), organised by the CINECA project.
