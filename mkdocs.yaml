@@ -52,9 +52,9 @@ markdown_extensions:
 nav:
     - Introduction: /
     - News: news
-    - People: people
-    - Beacon Security: security
     - FAQ: FAQ
+    - Publications: publications
+    - People: people
     - Protocols & Minutes: minutes
     - External Links:
         - Beacon API Documentation &#8599;: http://docs.genomebeacons.org

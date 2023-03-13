@@ -3,14 +3,18 @@
 This website provides some general information about the GA4GH Beacon protocol. Please visit [docs.geneomebeacons.org](http://docs.genomebeacons.org)
 for technical and implementation details.
 
-##  Why a Beacon?
+##  Why Beacon?
 
 ![Beaconize hospitals](/img/Beaconizing_hospitals_Webpage.png)
 ###### A schematic representation of how Beacon works. (A) Beacon API implementation and (B) A Beacon query and aggregated response
 
-One of the main bottlenecks in human genomics research is lack of data. A Beacon is a genomics discovery which allows to aggregate worldwide genomics dataset under one umbrella. The Beacon Project is developed under a Global Alliance for Genomics and Health (GA4GH) Iniciative for the federated discovery of genomic data in biomedical research and clinical applications. 
+One of the main bottlenecks in human genomics research is lack of data. A Beacon is a genomics discovery tool which allows to aggregate worldwide genomics dataset through a shared query protocol. 
 
-Genomics data are identifiable and therefore need to be protected. However, due to lack of data security infrastructure and good health data practices, clinicians and researchers are inclined to not share their data at all. This further slows down the progress in research. In order to promote personalised medicine, inclusive diagnostics, prognostic and therapeutic strategies, we cannot afford to keep the data locked in. The Beacon API aims to solve this problem by enabling the search of genomic variants and associated information without jeopardising the privacy of the dataset. This way, any hospital or research entity can choose to 'beaconize' their omics dataset without compromising the privacy or the ownership of the dataset, thus helping the worldwide community of researchers and assisting science through the power of data.
+Genomics data _in principle_ may allow the re-dentification of individuals in genomics data repositories which leads to a generally high level of protective measure being applied to such data. However, with the right choice of data sharing protocols, data security infrastructure and good health data practices, the sharing and discovery of genomics and related data can be possible and enable valuable insights into disease related as well as prognostic and lifestyle related  genomic variations. 
+
+In order to promote personalised medicine, inclusive diagnostics, prognostic and therapeutic strategies, we cannot afford to keep the data completely "locked in". The Beacon API aims to solve this problem by enabling the search of genomic variants and associated information without jeopardising the privacy of the dataset. Any hospital or research entity can choose to 'beaconize' their omics dataset without compromising the privacy or the ownership of the dataset, thus helping the worldwide community of researchers and assisting science through the power of data.
+
+The Beacon Project is developed under a Global Alliance for Genomics and Health (GA4GH) Iniciative for the federated discovery of genomic data in biomedical research and clinical applications. 
 
 ##  What is Beacon?
 
@@ -18,8 +22,14 @@ The Beacon protocol defines the programming interface ("API") for implementing i
 
 Originally, the Beacon protocol (versions 0 and 1) was limited to information about the presence/absence of a given, specific, genomic mutation in a set of data, from patients of a given disease or the population in general (Figure 2). Examples can be found in the [ELIXIR Beacon network page](https://beacon-network.elixir-europe.org). 
 
-![Beacon v1 principle](/img/Beacon-v1.png)
-###### Schematic example of a Beacon query (up to version 1)
+![Beacon v1 principle](/img/Beacon-v1.png){: style="display: block; margin: auto; width: 500px"}
+###### Schematic example of "classical" Beacon query (up to version 1)
+
+!!! Warn "Move to Beacon v2"
+
+    With the release of Beacon v2 implementations of v1 and earlier are not longer supported.
+    Deployers of Beacon instances or networks are advised to migrate to v2 of the
+    standard. The functionality of Beacon v1 [can be easily implemented in v2](http://docs.genomebeacons.org/FAQ/#v1-emulation). 
 
 The version 2 (v2) of the Beacon protocol has been accepted as GA4GH standard in Spring 2022. It includes, among other changes:
 
@@ -29,13 +39,15 @@ The version 2 (v2) of the Beacon protocol has been accepted as GA4GH standard in
 * **Annotations** about the variants found, among which the expert/clinician conclusion about the pathogenicity of a given mutation in a given individual or its role in producing a given phenotype.
 * Information about **cohorts**.
 
+
+
 ![Beacon v2 Network Specification](/img/Beacon-graphics-v2-network-960x540.png)
 ###### Schematic example of a Beacon query
 
 
-## Beacon v2 scope
+## Beacon v2 technology
 
-The Beacon v2 is based on a two-part concept, with the [following documents](http://docs.genomebeacons.org/framework/) covering essential aspects of the specification:
+The Beacon v2 is based on a two-part concept:
 
 * The Beacon [Framework](http://docs.genomebeacons.org/framework/).
 * The Beacon [Model](http://docs.genomebeacons.org/models/).

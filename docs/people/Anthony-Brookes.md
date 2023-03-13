@@ -8,6 +8,8 @@ person_email: ajb97@leicester.ac.uk
 is_contact: true
 ---
 
+![](/img/people/abrookes.png){: style="float: right; width: 120px; margin-top: -70px;"}
+
 * Department of Genetics
 * University of Leicester
 * Co-lead ELIXIR Beacon

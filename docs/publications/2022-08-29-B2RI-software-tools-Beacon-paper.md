@@ -1,5 +1,5 @@
 ---
-title: 'Beacon publication in Bioinformatics'
+title: 'Beacon reference implementtaion in Bioinformatics'
 date: 2022-08-29
 template: post.html
 author: 
@@ -21,5 +21,6 @@ B2RI follows the **Beacon v2 specification**, which since April 2022 defines an 
 
 This toolkit will facilitate the "beaconization" of data as implementing a [Beacon v2 API](https://beacon-project.io/) can be challenging for centers that may not have allocated resources for this purpose.
 
-Links:
+#### Links:
+
 - [Beacon publication in *Bioinformatics*](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btac568/6671215?redirectedFrom=fulltext)

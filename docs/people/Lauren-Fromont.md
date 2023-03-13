@@ -6,6 +6,8 @@ date: 2020-01-01
 is_contact: true
 ---
 
+![](/img/people/lfromont.png){: style="float: right; width: 120px; margin-top: -70px;"}
+
 * Beacon API project manager
 * Center for Genome Regulation Barcelona  
 * European Genome-Phenome Archive  
