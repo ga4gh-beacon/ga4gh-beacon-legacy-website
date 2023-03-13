@@ -1,0 +1,86 @@
+site_name: Beacon v2 Project Website
+site_description: 'Website for Beacon v2'
+site_author: 'Michael Baudis, Laureen Fromont & Beacon Developers'
+copyright: '&copy; Copyright 2021-2023, Beacon v2 Documentation Contributors'
+repo_name: 'ga4gh-beacon.github.io'
+repo_url: https://github.com/ga4gh-beacon/ga4gh-beacon.github.io
+edit_uri: edit/main/docs/
+
+repo_icon: " [:fontawesome-brands-github:](https://github.com/ga4gh-beacon/ga4gh-beacon.github.io/tree/main/docs)"
+extra_css: [css/theme_overrides.css]
+
+plugins:
+  - search
+  - macros
+  - mermaid2
+
+markdown_extensions:
+    - toc:
+        toc_depth: 2-3
+        permalink: true
+    - admonition
+    - attr_list
+    - footnotes
+    - md_in_html
+    - pymdownx.critic
+    - pymdownx.caret
+    - pymdownx.details
+    - pymdownx.keys
+    - pymdownx.mark
+    - pymdownx.tilde
+    - pymdownx.saneheaders
+    - pymdownx.superfences
+    - pymdownx.magiclink:
+        hide_protocol: true
+    - pymdownx.tabbed:
+        alternate_style: true
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - tables
+    - mdx_gh_links:
+        user: ga4gh-beacon
+        repo: beacon-v2
+    - pymdownx.emoji:
+          emoji_index: !!python/name:materialx.emoji.twemoji
+          emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.superfences:
+        custom_fences:
+            - name: mermaid
+              class: mermaid
+              format: !!python/name:mermaid2.fence_mermaid   
+
+nav:
+    - Introduction: /
+    - News: news
+    - People: people
+    - FAQ: FAQ
+    - External Links:
+        - Beacon Documentation &#8599;: http://docs.genomebeacons.org
+        - Github Repositories &#8599;: https://github.com/ga4gh-beacon/
+
+theme:
+    name: material
+    palette:
+        primary: teal
+    logo: img/GA-logo.png
+    favicon: img/ga4gh_circle.ico
+    icon:
+        repo: fontawesome/brands/github-alt 
+    features:
+        - content.tabs.link
+        - search.highlight
+        - search.share
+        - navigation.instant
+        - navigation.tracking
+        - navigation.sections
+        - toc.integrate
+
+# Options
+extra:
+  social:
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/genomebeacons
+    - icon: fontawesome/brands/github 
+      link: https://github.com/ga4gh-beacon
+
+# https://pypi.org/project/mkdocs-with-pdf/ for more PDF configuration ...
