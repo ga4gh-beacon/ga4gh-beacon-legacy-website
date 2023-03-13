@@ -1,0 +1,40 @@
+{
+   "$id" : "https://schemablocks.org/schemas/beacon-v2/DataUseConditions/2.0.0-draft.3",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "description" : "Data use conditions ruling this dataset.\n",
+   "examples" : [],
+   "meta" : {
+      "contributors" : [
+         {
+            "id" : "https://beacon-project.io/categories/people.html",
+            "label" : "ELIXIR Beacon project team"
+         }
+      ],
+      "provenance" : [
+         {
+            "id" : "https://github.com/ga4gh-beacon/specification-v2",
+            "label" : "Beacon v2"
+         }
+      ],
+      "sb_status" : "proposed",
+      "used_by" : null
+   },
+   "properties" : {
+      "adamDataUse" : {
+         "$ref" : "https://raw.githubusercontent.com/ga4gh/ADA-M/v1.0.1/adam.yaml#/components/schemas/Adam"
+      },
+      "consentCodeDataUse" : {
+         "$ref" : "https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/v1.1.0/consent_code.yaml#/components/schemas/ConsentCodeDataUse"
+      },
+      "duoDataUse" : {
+         "items" : {
+            "$ref" : "DUODataUse.yaml#/"
+         },
+         "type" : "array"
+      }
+   },
+   "title" : "DataUseConditions",
+   "type" : "object",
+   "version" : "2.0.0-draft.3"
+}
+

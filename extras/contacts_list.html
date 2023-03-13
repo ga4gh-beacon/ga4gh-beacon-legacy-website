@@ -15,7 +15,7 @@
     {% endif %}
   {% endfor %}
 
-<h2 class="contacts_section">Contacts</h2>
+<h2 class="contacts_section">Project Leads and Contacts</h2>
 
   {% for page in contacts_pages %}
     {% if page.meta.is_contact %}
@@ -23,7 +23,7 @@
     {% endif %}
   {% endfor %}
 
-<h2>Group Members</h2>
+<h2>Project Members</h2>
 
   {% for page in (contacts_pages|sort(attribute="meta.date") | reverse ) %}
     {% if not page.meta.is_contact %}
@@ -33,7 +33,7 @@
     {% endif %}
   {% endfor %}
 
-<h2>Alumni and Former Visitors</h2>
+<h2>Alumni and Former Contributors</h2>
 
   {% for page in (contacts_pages|sort(attribute="meta.date") | reverse ) %}
     {% if page.meta.is_gone %}

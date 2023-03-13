@@ -1,0 +1,34 @@
+{
+   "$id" : "https://schemablocks.org/schemas/beacon-v2/RunResponseResults/2.0.0-draft.3",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "anyOf" : [
+      {
+         "$ref" : "https://raw.githubusercontent.com/ga4gh-beacon/specification-v2-default-schemas/draft.3/default_run_schema.yaml#/components/schemas/Run"
+      },
+      {
+         "$ref" : "#/components/schemas/AlternativeSchema"
+      }
+   ],
+   "description" : "Default schema for describing runs.\n",
+   "examples" : [],
+   "meta" : {
+      "contributors" : [
+         {
+            "id" : "https://beacon-project.io/categories/people.html",
+            "label" : "ELIXIR Beacon project team"
+         }
+      ],
+      "provenance" : [
+         {
+            "id" : "https://github.com/ga4gh-beacon/specification-v2",
+            "label" : "Beacon v2"
+         }
+      ],
+      "sb_status" : "proposed",
+      "used_by" : null
+   },
+   "title" : "RunResponseResults",
+   "type" : "object",
+   "version" : "2.0.0-draft.3"
+}
+

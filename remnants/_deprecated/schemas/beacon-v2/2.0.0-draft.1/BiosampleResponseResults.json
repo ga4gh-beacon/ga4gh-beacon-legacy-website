@@ -1,0 +1,57 @@
+{
+   "$id" : "https://beacon-project.io/schemas/beacon-v2/BiosampleResponseResults/2.0.0-draft.1",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "description" : "Default schema for describing biosamples.\n",
+   "examples" : [],
+   "meta" : {
+      "contributors" : [
+         {
+            "description" : "ELIXIR Beacon team",
+            "id" : "https://beacon-project.io/categories/people.html"
+         },
+         {
+            "description" : "Sabela de la Torre Pernas",
+            "id" : "https://beacon-project.io/people/Sabela-de-la-Torre/"
+         },
+         {
+            "description" : "Jordi Rambla De Argila",
+            "id" : "https://beacon-project.io/people/Jordi-Rambla/"
+         },
+         {
+            "description" : "Michael Baudis",
+            "id" : "orcid:0000-0002-9903-4248"
+         }
+      ],
+      "provenance" : [
+         {
+            "description" : "Beacon v2 draft schema",
+            "id" : "https://github.com/ga4gh-beacon/specification-v2"
+         }
+      ],
+      "sb_status" : "playground",
+      "used_by" : [
+         {
+            "description" : "Beacon, for Beacon v2 testing",
+            "id" : "https://github.com/ga4gh-beacon/specification-v2"
+         }
+      ]
+   },
+   "properties" : {
+      "alternativeSchemas" : {
+         "description" : "Other schemas to represent biosample data. It can be empty.\n",
+         "items" : {
+            "$ref" : "./ResponseBasicStructure"
+         },
+         "type" : "array"
+      },
+      "defaultSchema" : {
+         "$ref" : "./BiosampleDefault"
+      }
+   },
+   "required" : [
+      "defaultSchema"
+   ],
+   "title" : "BiosampleResponseResults",
+   "version" : "2.0.0-draft.1"
+}
+

@@ -1,0 +1,39 @@
+{
+   "$id" : "https://schemablocks.org/schemas/beacon-v2/BeaconError/2.0.0-draft.3",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "description" : "Beacon-specific error. This should be non-null in exceptional situations only, in which case `exists` has to be null.",
+   "examples" : [],
+   "meta" : {
+      "contributors" : [
+         {
+            "id" : "https://beacon-project.io/categories/people.html",
+            "label" : "ELIXIR Beacon project team"
+         }
+      ],
+      "provenance" : [
+         {
+            "id" : "https://github.com/ga4gh-beacon/specification-v2",
+            "label" : "Beacon v2"
+         }
+      ],
+      "sb_status" : "proposed",
+      "used_by" : null
+   },
+   "properties" : {
+      "errorCode" : {
+         "example" : "same as HTTP status code",
+         "format" : "int32",
+         "type" : "integer"
+      },
+      "errorMessage" : {
+         "type" : "string"
+      }
+   },
+   "required" : [
+      "errorCode"
+   ],
+   "title" : "BeaconError",
+   "type" : "object",
+   "version" : "2.0.0-draft.3"
+}
+

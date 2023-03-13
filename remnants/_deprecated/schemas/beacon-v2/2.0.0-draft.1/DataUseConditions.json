@@ -1,0 +1,55 @@
+{
+   "$id" : "https://beacon-project.io/schemas/beacon-v2/DataUseConditions/2.0.0-draft.1",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "description" : "Data use conditions ruling this dataset.\n",
+   "examples" : [],
+   "meta" : {
+      "contributors" : [
+         {
+            "description" : "ELIXIR Beacon team",
+            "id" : "https://beacon-project.io/categories/people.html"
+         },
+         {
+            "description" : "Sabela de la Torre Pernas",
+            "id" : "https://beacon-project.io/people/Sabela-de-la-Torre/"
+         },
+         {
+            "description" : "Jordi Rambla De Argila",
+            "id" : "https://beacon-project.io/people/Jordi-Rambla/"
+         },
+         {
+            "description" : "Michael Baudis",
+            "id" : "orcid:0000-0002-9903-4248"
+         }
+      ],
+      "provenance" : [
+         {
+            "description" : "Beacon v2 draft schema",
+            "id" : "https://github.com/ga4gh-beacon/specification-v2"
+         }
+      ],
+      "sb_status" : "playground",
+      "used_by" : [
+         {
+            "description" : "Beacon, for Beacon v2 testing",
+            "id" : "https://github.com/ga4gh-beacon/specification-v2"
+         }
+      ]
+   },
+   "properties" : {
+      "adamDataUse" : {
+         "$ref" : "https://raw.githubusercontent.com/ga4gh/ADA-M/v1.0.1/adam.yaml./Adam"
+      },
+      "consentCodeDataUse" : {
+         "$ref" : "https://raw.githubusercontent.com/ga4gh/ga4gh-consent-policy/v1.1.0/consent_code.yaml./ConsentCodeDataUse"
+      }
+   },
+   "required" : [
+      "consentCodeDataUse",
+      "adamDataUse"
+   ],
+   "title" : "DataUseConditions",
+   "type" : "object",
+   "version" : "2.0.0-draft.1"
+}
+

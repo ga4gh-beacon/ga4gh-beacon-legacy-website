@@ -1,6 +1,6 @@
 # GA4GH Beacon project
 
-This website provides some general information about the GA4GH Beacon protocol. Please visit [docs.geneomebeacons.org](http://docs.geneomebeacons.org)
+This website provides some general information about the GA4GH Beacon protocol. Please visit [docs.geneomebeacons.org](http://docs.genomebeacons.org)
 for technical and implementation details.
 
 ##  Why a Beacon?
@@ -30,7 +30,7 @@ The version 2 (v2) of the Beacon protocol has been accepted as GA4GH standard in
 * Information about **cohorts**.
 
 ![Beacon v2 Network Specification](/img/Beacon-graphics-v2-network-960x540.png)
-###### Figure 3. Schematic example of a Beacon query (version 2)
+###### Schematic example of a Beacon query
 
 
 ## Beacon v2 scope
@@ -99,5 +99,3 @@ The "early implementers" actively participated in refining the Framework as they
 * [Cafe Variome](https://beaconv2.cafevariome.org/form)
 * Fundación Progreso y Salud's [Beacon v2 API](https://csvs-beacon.clinbioinfosspa.es/csvs/ga4ghbeacon/v2/api/)
 * CNAG's [Beacon v2 API](https://playground.rd-connect.eu/beacon2/api)
-
-&nbsp;

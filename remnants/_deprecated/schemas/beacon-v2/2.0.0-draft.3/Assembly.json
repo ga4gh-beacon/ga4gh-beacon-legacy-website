@@ -1,0 +1,27 @@
+{
+   "$id" : "https://schemablocks.org/schemas/beacon-v2/Assembly/2.0.0-draft.3",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "description" : "Assembly identifier (GRC notation, e.g. GRCh37).\n",
+   "example" : "GRCh38",
+   "examples" : [],
+   "meta" : {
+      "contributors" : [
+         {
+            "id" : "https://beacon-project.io/categories/people.html",
+            "label" : "ELIXIR Beacon project team"
+         }
+      ],
+      "provenance" : [
+         {
+            "id" : "https://github.com/ga4gh-beacon/specification-v2",
+            "label" : "Beacon v2"
+         }
+      ],
+      "sb_status" : "proposed",
+      "used_by" : null
+   },
+   "title" : "Assembly",
+   "type" : "string",
+   "version" : "2.0.0-draft.3"
+}
+

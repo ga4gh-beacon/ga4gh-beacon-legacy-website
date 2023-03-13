@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+<script type="application/ld+json">
+   {
+    "@context": "http://schema.org/",
+    "@type": "Event",
+    "name": "{{ page.title }}",
+    "startDate": "{{ page.start_date | date_to_xmlschema }}",
+    "endDate": "{{ page.end_date | date_to_xmlschema }}",
+    "description": {{ content | jsonify }},
+       "location": {
+       "@type": "Place",
+       "name": "{{ page.venue }}",
+       "address": {
+        "@type": "PostalAddress",
+          "streetAddress": "{{ page.street }}",
+          "addressLocality": "{{ page.city }}",
+          "addressCountry": "{{ page.country }}",
+          "postalCode": "{{ page.postcode }}"
+        }
+      },
+    "url": "{{ site.url }}{{page.url}}",
+    "eventType": "{{ page.event_type }}"
+  }
+</script>
+
+{{ content }}
+
+<hr />
+
+{%- if page.start_date != nil and page.start_date != nil -%}
+<h4>When?</h4>
+<div style="padding-left: 12px;">
+  {{ page.start_date | date: "%e"}} - {{ page.end_date | date: "%e %B %Y"}}
+</div>
+{%- elsif page.start_date != nil -%}
+<h4>When?</h4>
+<div style="padding-left: 12px;">
+  {{ page.start_date | date: "%e %B %Y"}}
+</div>
+{%- endif -%}
+
+{%- comment -%}
+  First capture the location fields into one variable (location_array).
+  But before that prepend the City w/ the code (sorry U.K.). Done w/ "join" to
+  avoid whitespace if missing entry.
+{%- endcomment -%}
+
+{%- capture city_code -%}{{ page.postcode }}::{{ page.city }}{%- endcapture -%}
+{%- assign city_code = city_code | split: "::" | join: " " -%}
+
+{%- capture location_array -%}
+{{ page.venue }}::{{ page.street }}::{{ city_code }}::{{ page.country }}
+{%- endcapture -%}
+{%- assign location_array = location_array | split: "::" -%}
+
+{% if location_array.size > 0 %}
+<h4>Where?</h4>
+<div class="address" style="padding-left: 12px;">
+  {%- for item in location_array -%}
+    {% if item != "" %}
+      <div>{{ item }}</div>
+    {%- endif -%}
+  {%- endfor -%}
+</div>
+{%- endif -%}

@@ -1,0 +1,42 @@
+{
+   "$id" : "https://schemablocks.org/schemas/beacon-v2/Pagination/2.0.0-draft.3",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "description" : "Pagination to apply on the results.\n",
+   "examples" : [],
+   "meta" : {
+      "contributors" : [
+         {
+            "id" : "https://beacon-project.io/categories/people.html",
+            "label" : "ELIXIR Beacon project team"
+         }
+      ],
+      "provenance" : [
+         {
+            "id" : "https://github.com/ga4gh-beacon/specification-v2",
+            "label" : "Beacon v2"
+         }
+      ],
+      "sb_status" : "proposed",
+      "used_by" : null
+   },
+   "properties" : {
+      "limit" : {
+         "default" : "10",
+         "description" : "Size of the page.\n\nUse  `0` to return all the results or the maximum allowed by the Beacon, if there is any.\n",
+         "example" : "10",
+         "minimum" : "0",
+         "type" : "integer"
+      },
+      "skip" : {
+         "default" : "0",
+         "description" : "Number of pages to skip.\n",
+         "example" : "1",
+         "minimum" : "0",
+         "type" : "integer"
+      }
+   },
+   "title" : "Pagination",
+   "type" : "object",
+   "version" : "2.0.0-draft.3"
+}
+

@@ -1,0 +1,29 @@
+{
+   "$id" : "https://beacon-project.io/schemas/beacon-compliance/CnvMatchTest/v1.1.0",
+   "description" : "Example query values for matching CNVs of a focal deletion of the CDKN1A\nlocus on chromosome 9p\n",
+   "examples" : [],
+   "properties" : {
+      "testResponses" : {
+         "testError" : {
+            "message" : "¡CnvMatchTest failed!"
+         },
+         "testOK" : {
+            "expectedCode" : "200",
+            "expectedVariantCount" : "1",
+            "message" : "Test passed - CNV "
+         }
+      },
+      "testValues" : {
+         "assemblyId" : "GRCh38",
+         "endMax" : "26000000",
+         "endMin" : "21967753",
+         "referenceName" : "9",
+         "startMax" : "21975098",
+         "startMin" : "18000000",
+         "variantType" : "DEL"
+      }
+   },
+   "title" : "CnvMatchTest",
+   "type" : "object"
+}
+

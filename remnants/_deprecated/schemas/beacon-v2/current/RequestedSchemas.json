@@ -1,0 +1,68 @@
+{
+   "$id" : "https://schemablocks.org/schemas/beacon-v2/RequestedSchemas/2.0.0-draft.3",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "description" : "Format of the responses and version of the Beacon handling this request.\n",
+   "examples" : [],
+   "meta" : {
+      "contributors" : [
+         {
+            "id" : "https://beacon-project.io/categories/people.html",
+            "label" : "ELIXIR Beacon project team"
+         }
+      ],
+      "provenance" : [
+         {
+            "id" : "https://github.com/ga4gh-beacon/specification-v2",
+            "label" : "Beacon v2"
+         }
+      ],
+      "sb_status" : "proposed",
+      "used_by" : null
+   },
+   "properties" : {
+      "Analysis" : {
+         "example" : "beacon-analysis-draft-2",
+         "type" : "string"
+      },
+      "Biosample" : {
+         "example" : "ga4gh-schemablocks-biosample-v0.1",
+         "type" : "string"
+      },
+      "Cohort" : {
+         "example" : "beacon-cohort-draft-3",
+         "type" : "string"
+      },
+      "Individual" : {
+         "example" : "ga4gh-phenopacket-individual-v0.1",
+         "type" : "string"
+      },
+      "Interactor" : {
+         "example" : "beacon-interactor-draft-2",
+         "type" : "string"
+      },
+      "Run" : {
+         "example" : "beacon-run-draft-3",
+         "type" : "string"
+      },
+      "VariantAnnotation" : {
+         "example" : "beacon-variant-annotation-draft-2",
+         "type" : "string"
+      },
+      "VariantIdentification" : {
+         "example" : "ga4gh-variant-representation-v0.1",
+         "type" : "string"
+      },
+      "VariantInSample" : {
+         "example" : "beacon-variant-in-sample-draft-3",
+         "type" : "string"
+      },
+      "VariantInterpretation" : {
+         "example" : "beacon-variant-interpretation-draft-2",
+         "type" : "string"
+      }
+   },
+   "title" : "RequestedSchemas",
+   "type" : "object",
+   "version" : "2.0.0-draft.3"
+}
+

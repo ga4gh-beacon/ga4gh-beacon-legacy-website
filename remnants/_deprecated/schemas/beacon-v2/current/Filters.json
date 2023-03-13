@@ -1,0 +1,30 @@
+{
+   "$id" : "https://schemablocks.org/schemas/beacon-v2/Filters/2.0.0-draft.3",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "description" : "Ontology based filters. CURIE syntax is encouraged to be used.\n",
+   "example" : "BTO:0000199",
+   "examples" : [],
+   "items" : {
+      "type" : "string"
+   },
+   "meta" : {
+      "contributors" : [
+         {
+            "id" : "https://beacon-project.io/categories/people.html",
+            "label" : "ELIXIR Beacon project team"
+         }
+      ],
+      "provenance" : [
+         {
+            "id" : "https://github.com/ga4gh-beacon/specification-v2",
+            "label" : "Beacon v2"
+         }
+      ],
+      "sb_status" : "proposed",
+      "used_by" : null
+   },
+   "title" : "Filters",
+   "type" : "array",
+   "version" : "2.0.0-draft.3"
+}
+

@@ -1,0 +1,36 @@
+{
+   "$id" : "https://schemablocks.org/schemas/beacon-v2/InfoRequestMeta/2.0.0-draft.3",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "description" : "Requested schemas and versions to be used in the response.\n",
+   "examples" : [],
+   "meta" : {
+      "contributors" : [
+         {
+            "id" : "https://beacon-project.io/categories/people.html",
+            "label" : "ELIXIR Beacon project team"
+         }
+      ],
+      "provenance" : [
+         {
+            "id" : "https://github.com/ga4gh-beacon/specification-v2",
+            "label" : "Beacon v2"
+         }
+      ],
+      "sb_status" : "proposed",
+      "used_by" : null
+   },
+   "properties" : {
+      "apiVersion" : {
+         "description" : "Schemas & versions default for this Beacon version will be used to\nformat the response.\n",
+         "example" : "v2.0",
+         "type" : "string"
+      },
+      "requestedSchemas" : {
+         "$ref" : "InfoRequestedSchemas.yaml#/"
+      }
+   },
+   "title" : "InfoRequestMeta",
+   "type" : "object",
+   "version" : "2.0.0-draft.3"
+}
+

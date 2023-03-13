@@ -1,0 +1,67 @@
+{
+   "$id" : "https://schemablocks.org/schemas/beacon-v2/RequestQuery/2.0.0-draft.3",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "description" : "TBD\n",
+   "examples" : [],
+   "meta" : {
+      "contributors" : [
+         {
+            "id" : "https://beacon-project.io/categories/people.html",
+            "label" : "ELIXIR Beacon project team"
+         }
+      ],
+      "provenance" : [
+         {
+            "id" : "https://github.com/ga4gh-beacon/specification-v2",
+            "label" : "Beacon v2"
+         }
+      ],
+      "sb_status" : "proposed",
+      "used_by" : null
+   },
+   "properties" : {
+      "analysis" : {
+         "$ref" : "AnalysisFields.yaml#/"
+      },
+      "biosample" : {
+         "$ref" : "BiosampleFields.yaml#/"
+      },
+      "cohort" : {
+         "$ref" : "CohortFields.yaml#/"
+      },
+      "customFilters" : {
+         "$ref" : "CustomFilters.yaml#/"
+      },
+      "datasets" : {
+         "$ref" : "RequestDatasets.yaml#/"
+      },
+      "filters" : {
+         "$ref" : "Filters.yaml#/"
+      },
+      "g_variant" : {
+         "$ref" : "GenomicVariantFields.yaml#/"
+      },
+      "individual" : {
+         "$ref" : "IndividualFields.yaml#/"
+      },
+      "interactor" : {
+         "$ref" : "InteractorFields.yaml#/"
+      },
+      "pagination" : {
+         "$ref" : "Pagination.yaml#/"
+      },
+      "run" : {
+         "$ref" : "RunFields.yaml#/"
+      },
+      "variant_in_sample" : {
+         "$ref" : "VariantInSampleFields.yaml#/"
+      },
+      "variant_interpretation" : {
+         "$ref" : "VariantInterpretationFields.yaml#/"
+      }
+   },
+   "title" : "RequestQuery",
+   "type" : "object",
+   "version" : "2.0.0-draft.3"
+}
+

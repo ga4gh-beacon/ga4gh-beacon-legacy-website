@@ -1,0 +1,48 @@
+{
+   "$id" : "https://schemablocks.org/schemas/beacon-v2/InfoResponse/2.0.0-draft.3",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "description" : "Response of a query over Beacon info. \n\nUse `InfoResponseContent` when querying the Beacon info endpoints, \n`DatasetResponseContent` when querying the datasets endpoint, and \n`FilteringTermResponseContent` when querying the filtering terms \nendpoint.\n",
+   "examples" : [],
+   "meta" : {
+      "contributors" : [
+         {
+            "id" : "https://beacon-project.io/categories/people.html",
+            "label" : "ELIXIR Beacon project team"
+         }
+      ],
+      "provenance" : [
+         {
+            "id" : "https://github.com/ga4gh-beacon/specification-v2",
+            "label" : "Beacon v2"
+         }
+      ],
+      "sb_status" : "proposed",
+      "used_by" : null
+   },
+   "properties" : {
+      "meta" : {
+         "$ref" : "InfoResponseMeta.yaml#/"
+      },
+      "response" : {
+         "oneOf" : [
+            {
+               "$ref" : "#/components/schemas/InfoResponseContent"
+            },
+            {
+               "$ref" : "#/components/schemas/DatasetResponseContent"
+            },
+            {
+               "$ref" : "#/components/schemas/FilteringTermResponseContent"
+            }
+         ]
+      }
+   },
+   "required" : [
+      "meta",
+      "response"
+   ],
+   "title" : "InfoResponse",
+   "type" : "object",
+   "version" : "2.0.0-draft.3"
+}
+

@@ -1,0 +1,57 @@
+/**
+ELIXIR colors:
+ * orange: #F47D1F
+ * dark blue: #023453
+**/
+
+:root {
+  --site-color: #076d63;
+}
+
+#headband {
+  background-color: #029485;
+  height: 48px;
+  box-shadow: 0 0 .2rem rgba(0,0,0,.1),0 .2rem .4rem rgba(0,0,0,.2)
+}
+
+#logo_topleft {
+  float: left;
+  margin-top: 8px;
+  margin-left: 8px;
+  width: 24px;
+}
+
+#logo_topright {
+  float: right;
+  margin-top: 4px;
+  margin-right: 12px;
+  width: 48px; 
+}
+
+
+#sitelogo {}
+
+#outlinks {}
+
+#catlinks {}
+
+#tagcloud {}
+
+#schema-header-title-project { color: #999; font-weight: 200; }
+#schema-header-title-project a:link { color: #999; font-weight: 200; }
+#schema-header-status { font-weight: 800; }
+#schema-header-table th, #schema-properties-table th { vertical-align: top; }
+#schema-header-table th:first-child, #schema-properties-table th:first-child { width: 180px }
+#schema-header-table ul { list-style: circle inside; margin-bottom: 0px; }
+#schema-footer {
+  color: #99f;
+  font-weight: 400;
+  display: block;
+  text-align:center;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: #ffffe0;
+  border-radius: 5px;
+  border: 1px solid #eeeed0;
+  font-size: 0.7em;
+}

@@ -1,0 +1,45 @@
+{
+   "$id" : "https://schemablocks.org/schemas/beacon-v2/RequestDatasets/2.0.0-draft.3",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "description" : "Identifiers of datasets, as defined in `BeaconDataset`. If this field is null/not specified, all datasets should be queried.",
+   "examples" : [],
+   "meta" : {
+      "contributors" : [
+         {
+            "id" : "https://beacon-project.io/categories/people.html",
+            "label" : "ELIXIR Beacon project team"
+         }
+      ],
+      "provenance" : [
+         {
+            "id" : "https://github.com/ga4gh-beacon/specification-v2",
+            "label" : "Beacon v2"
+         }
+      ],
+      "sb_status" : "proposed",
+      "used_by" : null
+   },
+   "properties" : {
+      "datasetIds" : {
+         "description" : "List of dataset Ids to be searched.\n",
+         "items" : {
+            "type" : "string"
+         },
+         "type" : "array"
+      },
+      "includeDatasetResponses" : {
+         "description" : "Indicator of whether responses for individual datasets (`DatasetAlleleResponses`) should be included in the response (`BeaconAlleleResponse`) to this request or not. If null (not specified), the default value of NONE is assumed.",
+         "enum" : [
+            "ALL",
+            "HIT",
+            "MISS",
+            "NONE"
+         ],
+         "type" : "string"
+      }
+   },
+   "title" : "RequestDatasets",
+   "type" : "object",
+   "version" : "2.0.0-draft.3"
+}
+
