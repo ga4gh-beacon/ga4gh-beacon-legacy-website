@@ -4,13 +4,7 @@ title: "The Beacon: a data discovery solution in genomics and health"
 description: Beacon v2 Webinar at CINECA
 date: 2021-12-30
 author: "@laurenfromont"
-category:
-  - events
-tags:
-  - events
-  - news
 ---
-
 
 #### Presenter: Lauren Fromont
 
