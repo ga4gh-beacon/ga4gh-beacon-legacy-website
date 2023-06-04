@@ -1,7 +1,10 @@
 # GA4GH Beacon project
 
-This website provides some general information about the GA4GH Beacon protocol. Please visit [docs.geneomebeacons.org](http://docs.genomebeacons.org)
-for technical and implementation details.
+This website provides some general information about the GA4GH Beacon protocol.
+
+!!! note "Technical Documentation"
+
+    Please visit [docs.geneomebeacons.org](http://docs.genomebeacons.org) for technical and implementation details.
 
 ##  Why Beacon?
 
