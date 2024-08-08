@@ -15,7 +15,7 @@
     ##### last change 2023-03-13 by Michael Baudis [:fontawesome-brands-github:](https://github.com/mbaudis)
 
 
-??? faq "How do I emulate Beacon v1 while supporting the v2 protocol?<a id="v1-emulation"> </a>" 
+??? question "How do I emulate Beacon v1 while supporting the v2 protocol?<a id="v1-emulation"> </a>" 
 
     The [Beacon Framework](/framework) describes the overall structure of the API
     requests, responses, parameters etc. One can implement e.g. a Boolean beacon (_cf._ the
@@ -111,7 +111,7 @@
 
     As a Beacon is designed to support data discoverability of controlled access datasets, it is recommended that synthetic or artificial data is used for testing and initial deployment of Beacon instances. The use of synthetic data for testing is important in that it ensures that the full functionality of a Beacon can be tested and / or demonstrated without risk of exposing data from individuals. In addition to testing or demonstrating a deployment, synthetic data should be used for development, for example adding new features. Additionally, these data can also be used to demonstrate the access levels and data governance procedures for loading data to a Beacon to build trust with data controllers or data access committees who may be considering loading data to a Beacon. An example dataset that contains chromosome specific vcf files is hosted at EGA under dataset accession EGAD00001006673. While this dataset requires a user to log in to get access, the EGA test user can access this dataset.
 
-??? faq "What types of genomic variants are supported in Beacon queries?"
+??? question "What types of genomic variants are supported in Beacon queries?"
 
     Beacon v2.0 does not provide a mechanism to detect what types of genomic variant
     queries are supported by a given instance.
@@ -132,7 +132,7 @@
     ###### last change 2022-12-14 @mbaudis
 
 
-??? faq "How can I add e.g. an age limit to a query for a disease?"
+??? question "How can I add e.g. an age limit to a query for a disease?"
 
     Ages are queried as [ISO8601 durations](https://genomestandards.org/standards/dates-times/#durations)
     such as `P65Y` (_i.e._ 65 years) with a comparator (`=`, `<=`, `>` ...). However,
@@ -150,7 +150,7 @@
 
     ###### last change 2023-05-31 by @mbaudis
 
-??? faq "How can I handle haplotype queries & representation in Beacon v2?<a id="haplotypes"> </a>"
+??? question "How can I handle haplotype queries & representation in Beacon v2?<a id="haplotypes"> </a>"
 
     #### Queries
 
@@ -178,7 +178,7 @@
     representations and will be adopted by Beacon v2.n after reaching a release state.
 
 
-??? faq "Does the Beacon protocol support Boolean expressions?<a id="boolean-logic"> </a>"
+??? question "Does the Beacon protocol support Boolean expressions?<a id="boolean-logic"> </a>"
 
     No (...but). Beacon queries as of v2 always assume a logical **AND** between query parameters
     and individual filters, _i.e._ all conditions have to be met. There is currently
