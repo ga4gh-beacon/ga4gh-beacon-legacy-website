@@ -132,7 +132,7 @@
     ###### last change 2022-12-14 @mbaudis
 
 
-?? faq "How can I add e.g. an age limit to a query for a disease?"
+??? faq "How can I add e.g. an age limit to a query for a disease?"
 
     Ages are queried as [ISO8601 durations](https://genomestandards.org/standards/dates-times/#durations)
     such as `P65Y` (_i.e._ 65 years) with a comparator (`=`, `<=`, `>` ...). However,
