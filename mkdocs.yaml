@@ -1,12 +1,12 @@
 # ------------------------ Navigation Menu ----------------------------------- #
 
 nav:
-    - Introduction: /
-    - News: news
-    - FAQ: FAQ
-    - Publications: publications
-    - People: people
-    - Protocols & Minutes: minutes
+    - Introduction: https://genomebeacons.org
+    - News: https://genomebeacons.org/news
+    - FAQ: https://genomebeacons.org/FAQ
+    - Publications: https://genomebeacons.org/publications
+    - People: https://genomebeacons.org/people
+    - Protocols & Minutes: https://genomebeacons.org/minutes
     - External Links:
         - Beacon API Documentation &#8599;: http://docs.genomebeacons.org
         - Github Repositories &#8599;: https://github.com/ga4gh-beacon/
