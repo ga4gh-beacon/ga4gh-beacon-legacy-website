@@ -17,7 +17,7 @@ Every three weeks, GV scout members meet to document genomic variants use cases 
 
 ### Members
 
-* [Babita Singh](https://beacon-project.io/people/Babita-Singh/) (chair)
+* [Babita Singh](https://genomebeacons.org/people/Babita-Singh/) (chair)
 
 ### Genomic Variants TC
 

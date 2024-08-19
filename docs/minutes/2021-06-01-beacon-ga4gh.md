@@ -12,9 +12,9 @@ This call happens every second Tuesday of the month.
 
 ### Coordinators
 
-* [Michael Baudis](https://beacon-project.io/people/Michael-Baudis/) (Discovery co-chair)
-* [Jordi Rambla](https://beacon-project.io/people/Jordi-Rambla/) (chair)
-* [Lauren Fromont](https://beacon-project.io/people/Lauren-Fromont/) (coordinator)
+* [Michael Baudis](https://genomebeacons.org/people/Michael-Baudis/) (Discovery co-chair)
+* [Jordi Rambla](https://genomebeacons.org/people/Jordi-Rambla/) (chair)
+* [Lauren Fromont](https://genomebeacons.org/people/Lauren-Fromont/) (coordinator)
 
 ### GA4GH Beacon API TC
 
